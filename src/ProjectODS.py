@@ -74,8 +74,12 @@ def getLLMPrediction(key1, key2, llmMatchedFilePath):
     promptsPath = configODS.get('promptsPath') + promptsPath
     cache = cachedLLMPredictions.get(promptsPath)
     if not cache: 
-        cachedLLMPredictions[promptsPath] = utils.importFromJson(llmMatchedFilePath)
-        cache = cachedLLMPredictions.get(promptsPath)
+        if os.path.exists(llmMatchedFilePath):
+            cachedLLMPredictions[promptsPath] = utils.importFromJson(llmMatchedFilePath)
+            cache = cachedLLMPredictions.get(promptsPath)
+        else:
+            cachedLLMPredictions[promptsPath] = {}
+            cache = cachedLLMPredictions.get(promptsPath)
     promptKey = key1 + ';' + key2
     yesOrNo = cache.get(promptKey)
     if yesOrNo != None:
@@ -250,12 +254,16 @@ def main():
             if os.path.isdir(configODS.get('promptsPath') + '/' + dir_path):
                 for file_path in tqdm(os.listdir(configODS.get('promptsPath') + dir_path), desc=f'matching {dir_path}'):
                     if file_path.endswith('.json'):
-                        llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path + '/' + file_path
                         bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path
                         if not os.path.exists(bipartiteMatchingPath):
                             os.mkdir(bipartiteMatchingPath + '/')
                         bipartiteMatchingPath += '/' + file_path
-                        llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
+                        llmMatchedFilePath = configODS.get('llmMatchedPath') + dir_path + '/' 
+                        print(llmMatchedFilePath)
+                        if not os.path.exists(llmMatchedFilePath):
+                            os.mkdir(llmMatchedFilePath)
+                        llmMatchedFilePath += file_path
+                        #llmMatchedClasses = utils.importFromJson(llmMatchedFilePath)
 
                         verticesL = set()
                         verticesR = set()

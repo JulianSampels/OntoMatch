@@ -1,5 +1,7 @@
 
-from transformers import T5Tokenizer, T5ForConditionalGeneration
+#from transformers import T5Tokenizer, T5ForConditionalGeneration
+
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 
 class LLM():
@@ -8,19 +10,19 @@ class LLM():
     Note: those codes and results do not subject to the evaluation of the project, namely grading.
     """
 
-    def __init__(self, model_id="google/flan-t5-xl"):
+    def __init__(self, model_id="mistralai/Mistral-7B-v0.1"):
 
         self.model_id = model_id
         self.model, self.tokenizer = self.get_model(model_id)
 
-    def get_model(self, model_id="google/flan-t5-xl"):
+    def get_model(self, model_id="mistralai/Mistral-7B-v0.1"):
 
         """Get the model and tokenizer for the given model_id.
         """
         
-        tokenizer = T5Tokenizer.from_pretrained(model_id)
+        tokenizer = AutoTokenizer.from_pretrained(model_id)
 
-        model = T5ForConditionalGeneration.from_pretrained(model_id, 
+        model = AutoModelForCausalLM.from_pretrained(model_id, 
                                                     device_map="auto", 
                                                     load_in_8bit=False, 
                                                     torch_dtype=torch.float16)
