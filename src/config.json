@@ -29,6 +29,20 @@
                 "accronym_resolution": 1
             }
         },
+    "ontofarm": {
+            "ontologies_folder" : "../data/ontofarm/ontologies",
+            "alignments_folder" : "../data/ontofarm/alignments",
+    
+            "fine_tuned_path" : "./store/conference_MLM_pretrained/",
+            "pair_tuned_path" : "./store/conference_pair_trained/",
+            
+            "parsing_parameters": {
+                "use_label" : 1,
+                "autocorrect": 1,
+                "synonym_extension": 0,
+                "accronym_resolution": 1
+            }
+        },
     "anatomy": {
         "ontologies_folder" : "./Documents/datasets/anatomy/ontologies",
         "alignments_folder" : "./Documents/datasets/anatomy/alignments",

@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+         xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+         xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+         xmlns:alext='http://exmo.inrialpes.fr/align/ext/1.0/'
+         xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>**</type>
+  <alext:method>fr.inrialpes.exmo.align.impl.method.MyMethod</alext:method>
+  <alext:time>485</alext:time>
+  <onto1>
+    <Ontology rdf:about="http://dbpedia.org/ontology/">
+      <location>file:dbpedia_2016-10.owl</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto1>
+  <onto2>
+    <Ontology rdf:about="http://sigkdd">
+      <location>file:sigkdd.owl</location>
+      <formalism>
+        <Formalism align:name="OWL2.0" align:uri="http://www.w3.org/2002/07/owl#"/>
+      </formalism>
+    </Ontology>
+  </onto2>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/Agent'/>
+      <entity2 rdf:resource='http://sigkdd#ACM_SiGKDD'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/Award'/>
+      <entity2 rdf:resource='http://sigkdd#Award'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/Agent'/>
+      <entity2 rdf:resource='http://sigkdd#Committee'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/WrittenWork'/>
+      <entity2 rdf:resource='http://sigkdd#Document'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/Person'/>
+      <entity2 rdf:resource='http://sigkdd#Person'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/Place'/>
+      <entity2 rdf:resource='http://sigkdd#Place'/>
+      <relation>=</relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/Hotel'/>
+      <entity2 rdf:resource='http://sigkdd#Hotel'/>
+      <relation>=</relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/Agent'/>
+      <entity2 rdf:resource='http://sigkdd#Sponzor'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/award'/>
+      <entity2 rdf:resource='http://sigkdd#award'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/endDateTime'/>
+      <entity2 rdf:resource='http://sigkdd#End_of_conference'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/startDateTime'/>
+      <entity2 rdf:resource='http://sigkdd#Start_of_conference'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/name'/>
+      <entity2 rdf:resource='http://sigkdd#Name'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/reignName'/>
+      <entity2 rdf:resource='http://sigkdd#Name'/>
+      <relation>&lt;</relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/name'/>
+      <entity2 rdf:resource='http://sigkdd#Name_of_conference'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/name'/>
+      <entity2 rdf:resource='http://sigkdd#Name_of_sponsor'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource='http://dbpedia.org/ontology/price'/>
+      <entity2 rdf:resource='http://sigkdd#Price'/>
+      <relation>></relation>
+    </Cell>
+  </map>
+</Alignment>
+</rdf:RDF>

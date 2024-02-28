@@ -124,7 +124,7 @@ def main():
             "debug_files_path": "./debug"}
         
         #load ontologies
-        name = "conference"
+        name = "ontofarm"
         from transformers import AutoTokenizer
         Globals.tokenizer = AutoTokenizer.from_pretrained(config["General"]["model"])
         t = Track(name, config, metrics_config=metrics_config)
@@ -346,7 +346,7 @@ def main():
                         os.mkdir(rdfPath + '/')
                     rdfPath += '/' + file_path.replace('.json', '') + '.rdf'
                     bipartiteMatchedClasses = utils.importFromJson(bipartiteMatchingPath)
-                    t = [('http://' + key1, 'http://' + key2, '=', 1.0) for key1, key2 in bipartiteMatchedClasses]
+                    t = [('http://' + key1.split('#')[0] + '.org/ontology/' + key1.split('#')[1], 'http://' + key2, '=', 1.0) for key1, key2 in bipartiteMatchedClasses]
                     serialize_mapping_to_file(rdfPath, t)
                     print('exported ' + rdfPath)
 

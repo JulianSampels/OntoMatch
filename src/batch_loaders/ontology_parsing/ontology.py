@@ -263,8 +263,10 @@ class Ontology():
                 domain_name = self.parse_concept(_domain)
                 for _range in [r for union in object_property.range for r in self.get_subjects(union)]:
                     range_name = self.parse_concept(_range)
-                    
-                    self.object_prop_map[domain_name].append((object_property_name, range_name))
+                    if self.object_prop_map.get(domain_name):
+                        self.object_prop_map[domain_name].append((object_property_name, range_name))
+                    else:
+                        self.object_prop_map[domain_name] = [(object_property_name, range_name)]
 
 
 

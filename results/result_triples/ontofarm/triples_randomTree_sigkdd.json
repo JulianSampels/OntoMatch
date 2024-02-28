@@ -1,0 +1,1645 @@
+{
+	"sigkdd#Hotel": [
+		[
+			"Hotel",
+			"is parent of",
+			"Place"
+		],
+		[
+			"Place",
+			"is child of",
+			"Hotel"
+		],
+		[
+			"Place",
+			"is child of",
+			"Main office"
+		],
+		[
+			"Main office",
+			"is parent of",
+			"Place"
+		]
+	],
+	"sigkdd#Place": [
+		[
+			"Place",
+			"is child of",
+			"Main office"
+		],
+		[
+			"Place",
+			"is child of",
+			"Conference hall"
+		],
+		[
+			"Conference hall",
+			"is parent of",
+			"Place"
+		],
+		[
+			"Main office",
+			"is parent of",
+			"Place"
+		]
+	],
+	"sigkdd#Abstract": [
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Paper",
+			"submit until",
+			"Deadline Paper Submission"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Deadline Paper Submission",
+			"is parent of",
+			"Deadline"
+		]
+	],
+	"sigkdd#Document": [
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Document",
+			"submit until",
+			"Deadline"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Abstract Submission"
+		],
+		[
+			"Deadline",
+			"designed by",
+			"ACM SIGKDD"
+		],
+		[
+			"Deadline Abstract Submission",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"ACM SIGKDD",
+			"search",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"searched by",
+			"ACM SIGKDD"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Bronze Supporter"
+		]
+	],
+	"sigkdd#Deadline_Abstract_Submission": [
+		[
+			"Deadline Abstract Submission",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Abstract Submission"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Author notification"
+		],
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
+		]
+	],
+	"sigkdd#Best_Applications_Paper_Award": [
+		[
+			"Best Applications Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Award",
+			"is child of",
+			"Best Applications Paper Award"
+		],
+		[
+			"Award",
+			"awarded by",
+			"Organizator"
+		],
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"General Chair"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"pay",
+			"Registration fee"
+		],
+		[
+			"General Chair",
+			"is parent of",
+			"Organizator"
+		]
+	],
+	"sigkdd#Award": [
+		[
+			"Award",
+			"awarded by",
+			"Organizator"
+		],
+		[
+			"Award",
+			"is child of",
+			"Best Research Paper Award"
+		],
+		[
+			"Best Research Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"General Chair"
+		],
+		[
+			"Person",
+			"can stay in",
+			"Place"
+		],
+		[
+			"Person",
+			"is child of",
+			"Listener"
+		],
+		[
+			"General Chair",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Listener",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Place",
+			"is child of",
+			"Hotel"
+		],
+		[
+			"Place",
+			"is child of",
+			"Conference hall"
+		]
+	],
+	"sigkdd#Deadline_Paper_Submission": [
+		[
+			"Deadline Paper Submission",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Paper Submission"
+		],
+		[
+			"Deadline",
+			"designed by",
+			"ACM SIGKDD"
+		],
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Deadline": [
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Paper Submission"
+		],
+		[
+			"Deadline",
+			"designed by",
+			"ACM SIGKDD"
+		],
+		[
+			"Deadline Paper Submission",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"ACM SIGKDD",
+			"design",
+			"Deadline"
+		],
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Deadline_Author_notification": [
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Deadline",
+			"designed by",
+			"ACM SIGKDD"
+		],
+		[
+			"ACM SIGKDD",
+			"design",
+			"Deadline"
+		],
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Webmaster": [
+		[
+			"Webmaster",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"General Chair"
+		],
+		[
+			"Person",
+			"can stay in",
+			"Place"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"General Chair",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Place",
+			"is child of",
+			"Main office"
+		],
+		[
+			"Place",
+			"is child of",
+			"Conference hall"
+		]
+	],
+	"sigkdd#Organizator": [
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Webmaster"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"is child of",
+			"Speaker"
+		],
+		[
+			"Webmaster",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Speaker",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Speaker",
+			"is child of",
+			"Invited Speaker"
+		],
+		[
+			"Invited Speaker",
+			"is parent of",
+			"Speaker"
+		]
+	],
+	"sigkdd#Author_of_paper_student": [
+		[
+			"Author of paper student",
+			"is parent of",
+			"Author"
+		],
+		[
+			"Author",
+			"notification until",
+			"Deadline Author notification"
+		],
+		[
+			"Author",
+			"is child of",
+			"Author of paper"
+		],
+		[
+			"Author of paper",
+			"is parent of",
+			"Author"
+		],
+		[
+			"Author of paper",
+			"award",
+			"Best Applications Paper Award"
+		],
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Best Applications Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Abstract Submission"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Author notification"
+		]
+	],
+	"sigkdd#Best_Student_Paper_Award": [
+		[
+			"Best Student Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Award",
+			"awarded by",
+			"Organizator"
+		],
+		[
+			"Award",
+			"is child of",
+			"Best Research Paper Award"
+		],
+		[
+			"Best Research Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Organizing Committee member"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"is child of",
+			"Speaker"
+		],
+		[
+			"Organizing Committee member",
+			"is parent of",
+			"Organizator"
+		]
+	],
+	"sigkdd#Author": [
+		[
+			"Author",
+			"is parent of",
+			"Speaker"
+		],
+		[
+			"Author",
+			"notification until",
+			"Deadline Author notification"
+		],
+		[
+			"Speaker",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Person",
+			"is child of",
+			"Listener"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Paper Submission"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Author notification"
+		],
+		[
+			"Listener",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Deadline Paper Submission",
+			"is parent of",
+			"Deadline"
+		]
+	],
+	"sigkdd#ACM_SIGKDD": [
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"ACM SIGKDD",
+			"search",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Platinum Supporter"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Gold Supporter"
+		],
+		[
+			"Platinum Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Gold Supporter",
+			"is parent of",
+			"Sponzor"
+		]
+	],
+	"sigkdd#Conference": [
+		[
+			"Conference",
+			"holded by",
+			"ACM SIGKDD"
+		],
+		[
+			"ACM SIGKDD",
+			"hold",
+			"Conference"
+		],
+		[
+			"ACM SIGKDD",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Sponzor": [
+		[
+			"Sponzor",
+			"is child of",
+			"Platinum Supporter"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Gold Supporter"
+		],
+		[
+			"Platinum Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Gold Supporter",
+			"is parent of",
+			"Sponzor"
+		]
+	],
+	"sigkdd#Exhibitor": [
+		[
+			"Exhibitor",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"pay",
+			"Sponzor fee"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Silver Supporter"
+		],
+		[
+			"Silver Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		]
+	],
+	"sigkdd#Registration_SIGMOD_Member": [
+		[
+			"Registration SIGMOD Member",
+			"is parent of",
+			"Registration fee"
+		],
+		[
+			"Registration fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Registration fee",
+			"payed by",
+			"Person"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		],
+		[
+			"Person",
+			"can stay in",
+			"Place"
+		],
+		[
+			"Person",
+			"can stay in",
+			"Hotel"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Place",
+			"is child of",
+			"Hotel"
+		],
+		[
+			"Place",
+			"is child of",
+			"Conference hall"
+		],
+		[
+			"Hotel",
+			"is parent of",
+			"Place"
+		]
+	],
+	"sigkdd#Registration_fee": [
+		[
+			"Registration fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Registration fee",
+			"payed by",
+			"Person"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		]
+	],
+	"sigkdd#Person": [
+		[
+			"Person",
+			"is child of",
+			"Organizator"
+		],
+		[
+			"Person",
+			"is child of",
+			"Speaker"
+		],
+		[
+			"Speaker",
+			"is child of",
+			"Author"
+		],
+		[
+			"Speaker",
+			"presentation",
+			"Document"
+		],
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Organizing Committee member"
+		],
+		[
+			"Author",
+			"submit",
+			"Paper"
+		],
+		[
+			"Author",
+			"is child of",
+			"Author of paper student"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Organizing Committee member",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Author of paper student",
+			"award",
+			"Best Student Paper Award"
+		],
+		[
+			"Paper",
+			"submit until",
+			"Deadline Paper Submission"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Abstract",
+			"submit until",
+			"Deadline Abstract Submission"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		]
+	],
+	"sigkdd#Bronze_Supporter": [
+		[
+			"Bronze Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Best Student Paper Supporter"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Gold Supporter"
+		],
+		[
+			"Best Student Paper Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Gold Supporter",
+			"is parent of",
+			"Sponzor"
+		]
+	],
+	"sigkdd#Committee": [
+		[
+			"Committee",
+			"is child of",
+			"Best Paper Awards Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Organizing Committee"
+		],
+		[
+			"Organizing Committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Best Paper Awards Committee",
+			"is parent of",
+			"Committee"
+		]
+	],
+	"sigkdd#Platinum_Supporter": [
+		[
+			"Platinum Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Gold Supporter"
+		],
+		[
+			"Sponzor",
+			"pay",
+			"Sponzor fee"
+		],
+		[
+			"Gold Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		]
+	],
+	"sigkdd#Conference_hall": [
+		[
+			"Conference hall",
+			"is parent of",
+			"Place"
+		],
+		[
+			"Place",
+			"is child of",
+			"Main office"
+		],
+		[
+			"Place",
+			"is child of",
+			"Conference hall"
+		],
+		[
+			"Main office",
+			"is parent of",
+			"Place"
+		]
+	],
+	"sigkdd#Best_Paper_Awards_Committee": [
+		[
+			"Best Paper Awards Committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Best Paper Awards Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Program Committee"
+		],
+		[
+			"Program Committee",
+			"is parent of",
+			"Committee"
+		]
+	],
+	"sigkdd#Program_Chair": [
+		[
+			"Program Chair",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Organizing Committee member"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Webmaster"
+		],
+		[
+			"Webmaster",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Organizing Committee member",
+			"is parent of",
+			"Organizator"
+		]
+	],
+	"sigkdd#Main_office": [
+		[
+			"Main office",
+			"is parent of",
+			"Place"
+		],
+		[
+			"Place",
+			"is child of",
+			"Main office"
+		],
+		[
+			"Place",
+			"is child of",
+			"Conference hall"
+		],
+		[
+			"Conference hall",
+			"is parent of",
+			"Place"
+		]
+	],
+	"sigkdd#Registration_Non-Member": [
+		[
+			"Registration Non-Member",
+			"is parent of",
+			"Registration fee"
+		],
+		[
+			"Registration fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		]
+	],
+	"sigkdd#Fee": [
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Registration fee",
+			"is child of",
+			"Registration SIGKDD Member"
+		],
+		[
+			"Registration fee",
+			"is child of",
+			"Registration Non-Member"
+		],
+		[
+			"Registration SIGKDD Member",
+			"is parent of",
+			"Registration fee"
+		],
+		[
+			"Registration Non-Member",
+			"is parent of",
+			"Registration fee"
+		]
+	],
+	"sigkdd#Review": [
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"submit until",
+			"Deadline Paper Submission"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Deadline Paper Submission",
+			"is parent of",
+			"Deadline"
+		]
+	],
+	"sigkdd#Sponzor_fee": [
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		],
+		[
+			"Registration fee",
+			"is parent of",
+			"Fee"
+		]
+	],
+	"sigkdd#Registration_SIGKDD_Member": [
+		[
+			"Registration SIGKDD Member",
+			"is parent of",
+			"Registration fee"
+		],
+		[
+			"Registration fee",
+			"payed by",
+			"Person"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Program_Committee": [
+		[
+			"Program Committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Best Paper Awards Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Organizing Committee"
+		],
+		[
+			"Best Paper Awards Committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Organizing Committee",
+			"is parent of",
+			"Committee"
+		]
+	],
+	"sigkdd#General_Chair": [
+		[
+			"General Chair",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Organizing Committee member"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"General Chair"
+		],
+		[
+			"Organizing Committee member",
+			"is parent of",
+			"Organizator"
+		]
+	],
+	"sigkdd#Speaker": [
+		[
+			"Speaker",
+			"is child of",
+			"Author"
+		],
+		[
+			"Speaker",
+			"is child of",
+			"Invited Speaker"
+		],
+		[
+			"Invited Speaker",
+			"is parent of",
+			"Speaker"
+		],
+		[
+			"Author",
+			"is parent of",
+			"Speaker"
+		],
+		[
+			"Author",
+			"is child of",
+			"Author of paper student"
+		],
+		[
+			"Author of paper student",
+			"is parent of",
+			"Author"
+		],
+		[
+			"Author of paper student",
+			"award",
+			"Best Student Paper Award"
+		],
+		[
+			"Best Student Paper Award",
+			"is parent of",
+			"Award"
+		]
+	],
+	"sigkdd#Gold_Supporter": [
+		[
+			"Gold Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Bronze Supporter"
+		],
+		[
+			"Sponzor",
+			"pay",
+			"Sponzor fee"
+		],
+		[
+			"Bronze Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		]
+	],
+	"sigkdd#Registration_Student": [
+		[
+			"Registration Student",
+			"is parent of",
+			"Registration fee"
+		],
+		[
+			"Registration fee",
+			"payed by",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"Speaker"
+		],
+		[
+			"Person",
+			"pay",
+			"Registration fee"
+		],
+		[
+			"Speaker",
+			"is parent of",
+			"Person"
+		]
+	],
+	"sigkdd#Organizing_Committee": [
+		[
+			"Organizing Committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Best Paper Awards Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Organizing Committee"
+		],
+		[
+			"Best Paper Awards Committee",
+			"is parent of",
+			"Committee"
+		]
+	],
+	"sigkdd#Listener": [
+		[
+			"Listener",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Program_Committee_member": [
+		[
+			"Program Committee member",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"Organizator"
+		],
+		[
+			"Person",
+			"is child of",
+			"Speaker"
+		],
+		[
+			"Speaker",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Speaker",
+			"presentation",
+			"Document"
+		]
+	],
+	"sigkdd#Invited_Speaker": [
+		[
+			"Invited Speaker",
+			"is parent of",
+			"Speaker"
+		],
+		[
+			"Speaker",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Speaker",
+			"is child of",
+			"Author"
+		],
+		[
+			"Person",
+			"can stay in",
+			"Hotel"
+		],
+		[
+			"Person",
+			"pay",
+			"Registration fee"
+		],
+		[
+			"Author",
+			"notification until",
+			"Deadline Author notification"
+		],
+		[
+			"Registration fee",
+			"is child of",
+			"Registration SIGKDD Member"
+		],
+		[
+			"Registration fee",
+			"is child of",
+			"Registration SIGMOD Member"
+		],
+		[
+			"Hotel",
+			"is parent of",
+			"Place"
+		],
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
+		]
+	],
+	"sigkdd#Best_Research_Paper_Award": [
+		[
+			"Best Research Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Award",
+			"is child of",
+			"Best Applications Paper Award"
+		],
+		[
+			"Award",
+			"awarded by",
+			"Organizator"
+		],
+		[
+			"Best Applications Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Organizator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"sigkdd#Best_Student_Paper_Supporter": [
+		[
+			"Best Student Paper Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Best Student Paper Supporter"
+		],
+		[
+			"Sponzor",
+			"pay",
+			"Sponzor fee"
+		],
+		[
+			"Sponzor fee",
+			"is parent of",
+			"Fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Sponzor fee"
+		],
+		[
+			"Fee",
+			"is child of",
+			"Registration fee"
+		]
+	],
+	"sigkdd#Paper": [
+		[
+			"Paper",
+			"submit until",
+			"Deadline Paper Submission"
+		],
+		[
+			"Deadline Paper Submission",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Abstract Submission"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Paper Submission"
+		],
+		[
+			"Deadline Abstract Submission",
+			"is parent of",
+			"Deadline"
+		]
+	],
+	"sigkdd#Silver_Supporter": [
+		[
+			"Silver Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Exhibitor"
+		],
+		[
+			"Sponzor",
+			"is child of",
+			"Platinum Supporter"
+		],
+		[
+			"Platinum Supporter",
+			"is parent of",
+			"Sponzor"
+		],
+		[
+			"Exhibitor",
+			"is parent of",
+			"Sponzor"
+		]
+	],
+	"sigkdd#Organizing_Committee_member": [
+		[
+			"Organizing Committee member",
+			"is parent of",
+			"Organizator"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Organizing Committee member"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Webmaster"
+		],
+		[
+			"Webmaster",
+			"is parent of",
+			"Organizator"
+		]
+	],
+	"sigkdd#Author_of_paper": [
+		[
+			"Author of paper",
+			"award",
+			"Best Research Paper Award"
+		],
+		[
+			"Author of paper",
+			"is parent of",
+			"Author"
+		],
+		[
+			"Author",
+			"is parent of",
+			"Speaker"
+		],
+		[
+			"Author",
+			"notification until",
+			"Deadline Author notification"
+		],
+		[
+			"Best Research Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Speaker",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Deadline Author notification",
+			"is parent of",
+			"Deadline"
+		],
+		[
+			"Award",
+			"is child of",
+			"Best Applications Paper Award"
+		],
+		[
+			"Award",
+			"awarded by",
+			"Organizator"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Deadline",
+			"is child of",
+			"Deadline Abstract Submission"
+		],
+		[
+			"Deadline",
+			"designed by",
+			"ACM SIGKDD"
+		],
+		[
+			"Best Applications Paper Award",
+			"is parent of",
+			"Award"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Program Committee member"
+		],
+		[
+			"Organizator",
+			"is child of",
+			"Program Chair"
+		]
+	]
+}

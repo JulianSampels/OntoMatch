@@ -1,0 +1,3253 @@
+{
+	"ekaw#Event": [
+		[
+			"Event",
+			"hasEvent",
+			"Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Workshop"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Session"
+		],
+		[
+			"Session",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Session",
+			"is child of",
+			"Poster Session"
+		],
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Poster Session",
+			"is parent of",
+			"Session"
+		]
+	],
+	"ekaw#Person": [
+		[
+			"Person",
+			"is child of",
+			"Paper Author"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		],
+		[
+			"Paper Author",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Social Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Trip"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Workshop"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Conference"
+		],
+		[
+			"Conference Trip",
+			"is parent of",
+			"Social Event"
+		],
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Conference",
+			"is parent of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Accepted_Paper": [
+		[
+			"Accepted Paper",
+			"is parent of",
+			"Evaluated Paper"
+		],
+		[
+			"Accepted Paper",
+			"hasReview",
+			"Positive Review"
+		],
+		[
+			"Evaluated Paper",
+			"is child of",
+			"Rejected Paper"
+		],
+		[
+			"Evaluated Paper",
+			"is parent of",
+			"Assigned Paper"
+		],
+		[
+			"Positive Review",
+			"is parent of",
+			"Review"
+		],
+		[
+			"Assigned Paper",
+			"is child of",
+			"Evaluated Paper"
+		],
+		[
+			"Assigned Paper",
+			"is parent of",
+			"Submitted Paper"
+		],
+		[
+			"Rejected Paper",
+			"is parent of",
+			"Evaluated Paper"
+		],
+		[
+			"Review",
+			"is child of",
+			"Neutral Review"
+		],
+		[
+			"Review",
+			"is child of",
+			"Positive Review"
+		],
+		[
+			"Submitted Paper",
+			"is child of",
+			"Assigned Paper"
+		],
+		[
+			"Submitted Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Neutral Review",
+			"is parent of",
+			"Review"
+		]
+	],
+	"ekaw#Rejected_Paper": [
+		[
+			"Rejected Paper",
+			"is parent of",
+			"Evaluated Paper"
+		],
+		[
+			"Evaluated Paper",
+			"is child of",
+			"Accepted Paper"
+		],
+		[
+			"Evaluated Paper",
+			"is child of",
+			"Rejected Paper"
+		],
+		[
+			"Accepted Paper",
+			"is parent of",
+			"Evaluated Paper"
+		],
+		[
+			"Accepted Paper",
+			"hasReview",
+			"Positive Review"
+		],
+		[
+			"Positive Review",
+			"is parent of",
+			"Review"
+		]
+	],
+	"ekaw#Evaluated_Paper": [
+		[
+			"Evaluated Paper",
+			"is parent of",
+			"Assigned Paper"
+		],
+		[
+			"Assigned Paper",
+			"hasReviewer",
+			"Thing"
+		],
+		[
+			"Assigned Paper",
+			"is child of",
+			"Evaluated Paper"
+		]
+	],
+	"ekaw#Camera_Ready_Paper": [
+		[
+			"Camera Ready Paper",
+			"writtenBy",
+			"Conference Participant"
+		],
+		[
+			"Camera Ready Paper",
+			"updatedVersionOf",
+			"Accepted Paper"
+		],
+		[
+			"Accepted Paper",
+			"is parent of",
+			"Evaluated Paper"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Demo Chair"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Presenter"
+		],
+		[
+			"Evaluated Paper",
+			"is parent of",
+			"Assigned Paper"
+		],
+		[
+			"Demo Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Presenter",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Assigned Paper",
+			"hasReviewer",
+			"Thing"
+		],
+		[
+			"Assigned Paper",
+			"is child of",
+			"Evaluated Paper"
+		]
+	],
+	"ekaw#Positive_Review": [
+		[
+			"Positive Review",
+			"is parent of",
+			"Review"
+		],
+		[
+			"Review",
+			"is child of",
+			"Neutral Review"
+		],
+		[
+			"Review",
+			"reviewOfPaper",
+			"Paper"
+		],
+		[
+			"Neutral Review",
+			"is parent of",
+			"Review"
+		],
+		[
+			"Paper",
+			"hasReviewer",
+			"Possible Reviewer"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Document",
+			"writtenBy",
+			"Person"
+		],
+		[
+			"Possible Reviewer",
+			"is child of",
+			"PC Member"
+		]
+	],
+	"ekaw#Workshop_Paper": [
+		[
+			"Workshop Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Conference Paper"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Industrial Paper"
+		],
+		[
+			"Conference Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Industrial Paper",
+			"is parent of",
+			"Paper"
+		]
+	],
+	"ekaw#Industrial_Paper": [
+		[
+			"Industrial Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Multi-author Volume"
+		],
+		[
+			"Document",
+			"writtenBy",
+			"Person"
+		],
+		[
+			"Multi-author Volume",
+			"is child of",
+			"Proceedings"
+		],
+		[
+			"Person",
+			"authorOf",
+			"Document"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		]
+	],
+	"ekaw#Paper": [
+		[
+			"Paper",
+			"is child of",
+			"Conference Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Web Site"
+		],
+		[
+			"Document",
+			"is child of",
+			"Flyer"
+		],
+		[
+			"Conference Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Flyer",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Web Site",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Event",
+			"heldIn",
+			"Location"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Conference_Paper": [
+		[
+			"Conference Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Poster Paper"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Demo Paper"
+		],
+		[
+			"Poster Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Demo Paper",
+			"is parent of",
+			"Paper"
+		]
+	],
+	"ekaw#Industrial_Session": [
+		[
+			"Industrial Session",
+			"is parent of",
+			"Conference Session"
+		],
+		[
+			"Conference Session",
+			"is child of",
+			"Industrial Session"
+		],
+		[
+			"Conference Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Session",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Session",
+			"is child of",
+			"Workshop Session"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Track"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Session"
+		],
+		[
+			"Workshop Session",
+			"is parent of",
+			"Session"
+		]
+	],
+	"ekaw#Conference_Session": [
+		[
+			"Conference Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Session",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Session",
+			"partOfEvent",
+			"Workshop"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Workshop"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"eventOnList",
+			"Web Site"
+		]
+	],
+	"ekaw#Regular_Session": [
+		[
+			"Regular Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Session",
+			"is child of",
+			"Workshop Session"
+		],
+		[
+			"Session",
+			"partOfEvent",
+			"Conference"
+		],
+		[
+			"Workshop Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Conference",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Session"
+		]
+	],
+	"ekaw#Poster_Session": [
+		[
+			"Poster Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Session",
+			"partOfEvent",
+			"Track"
+		],
+		[
+			"Session",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Workshop"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Track"
+		],
+		[
+			"Track",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Demo_Session": [
+		[
+			"Demo Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Session",
+			"hasEvent",
+			"Individual Presentation"
+		],
+		[
+			"Session",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Individual Presentation"
+		],
+		[
+			"Individual Presentation",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Individual Presentation",
+			"presentationOfPaper",
+			"Paper"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Paper",
+			"hasReview",
+			"Review"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Session": [
+		[
+			"Session",
+			"partOfEvent",
+			"Conference"
+		],
+		[
+			"Session",
+			"partOfEvent",
+			"Workshop"
+		],
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Conference",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Event",
+			"coversTopic",
+			"Research Topic"
+		]
+	],
+	"ekaw#Abstract": [
+		[
+			"Abstract",
+			"is child of",
+			"Tutorial Abstract"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Web Site"
+		],
+		[
+			"Document",
+			"hasUpdatedVersion",
+			"Document"
+		],
+		[
+			"Tutorial Abstract",
+			"is parent of",
+			"Abstract"
+		],
+		[
+			"Web Site",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Document": [
+		[
+			"Document",
+			"is child of",
+			"Web Site"
+		],
+		[
+			"Document",
+			"hasUpdatedVersion",
+			"Document"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Paper_Author": [
+		[
+			"Paper Author",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"authorOf",
+			"Document"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		],
+		[
+			"Event",
+			"heldIn",
+			"Location"
+		],
+		[
+			"Event",
+			"coversTopic",
+			"Research Topic"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"hasUpdatedVersion",
+			"Document"
+		],
+		[
+			"Location",
+			"locationOf",
+			"Event"
+		],
+		[
+			"Research Topic",
+			"topicCoveredBy",
+			"Event"
+		],
+		[
+			"Research Topic",
+			"topicCoveredBy",
+			"Paper"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Conference_Trip": [
+		[
+			"Conference Trip",
+			"is parent of",
+			"Social Event"
+		],
+		[
+			"Social Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Event",
+			"eventOnList",
+			"Web Site"
+		],
+		[
+			"Event",
+			"coversTopic",
+			"Research Topic"
+		],
+		[
+			"Research Topic",
+			"topicCoveredBy",
+			"Event"
+		],
+		[
+			"Research Topic",
+			"topicCoveredBy",
+			"Paper"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Social_Event": [
+		[
+			"Social Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Banquet"
+		],
+		[
+			"Event",
+			"organisedBy",
+			"Person"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Conference Banquet",
+			"is parent of",
+			"Social Event"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Individual Presentation"
+		],
+		[
+			"Person",
+			"authorOf",
+			"Document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Conference Participant"
+		],
+		[
+			"Individual Presentation",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Individual Presentation",
+			"presentationOfPaper",
+			"Abstract"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Demo Chair"
+		],
+		[
+			"Document",
+			"is child of",
+			"Multi-author Volume"
+		],
+		[
+			"Document",
+			"updatedVersionOf",
+			"Document"
+		]
+	],
+	"ekaw#Tutorial_Abstract": [
+		[
+			"Tutorial Abstract",
+			"is parent of",
+			"Abstract"
+		],
+		[
+			"Abstract",
+			"is child of",
+			"Invited Talk Abstract"
+		],
+		[
+			"Abstract",
+			"paperPresentedAs",
+			"Individual Presentation"
+		],
+		[
+			"Invited Talk Abstract",
+			"is parent of",
+			"Abstract"
+		],
+		[
+			"Individual Presentation",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Individual Presentation",
+			"is child of",
+			"Tutorial"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Track"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Tutorial",
+			"is parent of",
+			"Individual Presentation"
+		]
+	],
+	"ekaw#Conference_Participant": [
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"Student"
+		],
+		[
+			"Person",
+			"is child of",
+			"Agency Staff Member"
+		],
+		[
+			"Student",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Agency Staff Member",
+			"is parent of",
+			"Person"
+		]
+	],
+	"ekaw#Submitted_Paper": [
+		[
+			"Submitted Paper",
+			"is child of",
+			"Assigned Paper"
+		],
+		[
+			"Submitted Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Regular Paper"
+		],
+		[
+			"Paper",
+			"hasReview",
+			"Review"
+		],
+		[
+			"Assigned Paper",
+			"hasReviewer",
+			"Thing"
+		],
+		[
+			"Regular Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Review",
+			"is child of",
+			"Positive Review"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Positive Review",
+			"is parent of",
+			"Review"
+		]
+	],
+	"ekaw#Assigned_Paper": [
+		[
+			"Assigned Paper",
+			"is child of",
+			"Evaluated Paper"
+		],
+		[
+			"Assigned Paper",
+			"is parent of",
+			"Submitted Paper"
+		],
+		[
+			"Submitted Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Evaluated Paper",
+			"is parent of",
+			"Assigned Paper"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Workshop Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Web Site"
+		],
+		[
+			"Document",
+			"updatedVersionOf",
+			"Document"
+		],
+		[
+			"Workshop Paper",
+			"is parent of",
+			"Paper"
+		]
+	],
+	"ekaw#Negative_Review": [
+		[
+			"Negative Review",
+			"is parent of",
+			"Review"
+		],
+		[
+			"Review",
+			"reviewWrittenBy",
+			"Possible Reviewer"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Multi-author Volume"
+		],
+		[
+			"Document",
+			"updatedVersionOf",
+			"Document"
+		],
+		[
+			"Possible Reviewer",
+			"reviewerOfPaper",
+			"Paper"
+		],
+		[
+			"Possible Reviewer",
+			"is child of",
+			"PC Member"
+		],
+		[
+			"Multi-author Volume",
+			"is child of",
+			"Proceedings"
+		],
+		[
+			"Multi-author Volume",
+			"is parent of",
+			"Document"
+		],
+		[
+			"PC Member",
+			"is parent of",
+			"Possible Reviewer"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"Session Chair"
+		],
+		[
+			"Paper",
+			"paperPresentedAs",
+			"Individual Presentation"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Review": [
+		[
+			"Review",
+			"reviewWrittenBy",
+			"Possible Reviewer"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Document",
+			"hasUpdatedVersion",
+			"Document"
+		],
+		[
+			"Possible Reviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Possible Reviewer",
+			"is child of",
+			"PC Member"
+		],
+		[
+			"Abstract",
+			"is child of",
+			"Invited Talk Abstract"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Possible Reviewer"
+		],
+		[
+			"Person",
+			"authorOf",
+			"Document"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"Workshop Chair"
+		],
+		[
+			"PC Member",
+			"is parent of",
+			"Possible Reviewer"
+		],
+		[
+			"Invited Talk Abstract",
+			"is parent of",
+			"Abstract"
+		],
+		[
+			"Workshop Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Workshop Chair",
+			"is parent of",
+			"Conference Participant"
+		]
+	],
+	"ekaw#Neutral_Review": [
+		[
+			"Neutral Review",
+			"is parent of",
+			"Review"
+		],
+		[
+			"Review",
+			"is child of",
+			"Neutral Review"
+		],
+		[
+			"Review",
+			"is child of",
+			"Positive Review"
+		],
+		[
+			"Positive Review",
+			"is parent of",
+			"Review"
+		]
+	],
+	"ekaw#Research_Topic": [
+		[
+			"Research Topic",
+			"topicCoveredBy",
+			"Event"
+		],
+		[
+			"Research Topic",
+			"topicCoveredBy",
+			"Paper"
+		],
+		[
+			"Paper",
+			"coversTopic",
+			"Research Topic"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"eventOnList",
+			"Web Site"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Document",
+			"writtenBy",
+			"Person"
+		],
+		[
+			"Social Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Trip"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Person",
+			"authorOf",
+			"Document"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		],
+		[
+			"Conference Trip",
+			"is parent of",
+			"Social Event"
+		]
+	],
+	"ekaw#Organising_Agency": [
+		[
+			"Organising Agency",
+			"is parent of",
+			"Organisation"
+		],
+		[
+			"Organisation",
+			"is child of",
+			"Academic Institution"
+		],
+		[
+			"Organisation",
+			"organises",
+			"Event"
+		],
+		[
+			"Academic Institution",
+			"is parent of",
+			"Organisation"
+		],
+		[
+			"Academic Institution",
+			"is child of",
+			"University"
+		],
+		[
+			"Event",
+			"hasEvent",
+			"Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"University",
+			"is parent of",
+			"Academic Institution"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		]
+	],
+	"ekaw#Academic_Institution": [
+		[
+			"Academic Institution",
+			"is parent of",
+			"Organisation"
+		],
+		[
+			"Academic Institution",
+			"is child of",
+			"University"
+		],
+		[
+			"Organisation",
+			"is child of",
+			"Proceedings Publisher"
+		],
+		[
+			"Organisation",
+			"is child of",
+			"Academic Institution"
+		],
+		[
+			"University",
+			"is parent of",
+			"Academic Institution"
+		],
+		[
+			"Proceedings Publisher",
+			"is parent of",
+			"Organisation"
+		]
+	],
+	"ekaw#Organisation": [
+		[
+			"Organisation",
+			"publisherOf",
+			"Web Site"
+		],
+		[
+			"Organisation",
+			"is child of",
+			"Organising Agency"
+		],
+		[
+			"Organising Agency",
+			"is parent of",
+			"Organisation"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Programme Brochure"
+		],
+		[
+			"Document",
+			"writtenBy",
+			"Person"
+		],
+		[
+			"Programme Brochure",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Programme Brochure",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Possible Reviewer"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		]
+	],
+	"ekaw#Proceedings_Publisher": [
+		[
+			"Proceedings Publisher",
+			"is parent of",
+			"Organisation"
+		],
+		[
+			"Organisation",
+			"publisherOf",
+			"Flyer"
+		],
+		[
+			"Organisation",
+			"is child of",
+			"Academic Institution"
+		],
+		[
+			"Academic Institution",
+			"is child of",
+			"University"
+		],
+		[
+			"Academic Institution",
+			"is child of",
+			"Research Institute"
+		],
+		[
+			"Flyer",
+			"is parent of",
+			"Document"
+		],
+		[
+			"University",
+			"is parent of",
+			"Academic Institution"
+		],
+		[
+			"Research Institute",
+			"is parent of",
+			"Academic Institution"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is child of",
+			"Programme Brochure"
+		]
+	],
+	"ekaw#Poster_Paper": [
+		[
+			"Poster Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Conference Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"hasUpdatedVersion",
+			"Document"
+		],
+		[
+			"Document",
+			"updatedVersionOf",
+			"Document"
+		],
+		[
+			"Conference Paper",
+			"is parent of",
+			"Paper"
+		]
+	],
+	"ekaw#Regular_Paper": [
+		[
+			"Regular Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Web Site"
+		],
+		[
+			"Document",
+			"hasUpdatedVersion",
+			"Document"
+		],
+		[
+			"Web Site",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Demo_Paper": [
+		[
+			"Demo Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Demo Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"writtenBy",
+			"Person"
+		],
+		[
+			"Document",
+			"updatedVersionOf",
+			"Document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Student"
+		],
+		[
+			"Person",
+			"is child of",
+			"Agency Staff Member"
+		]
+	],
+	"ekaw#Location": [
+		[
+			"Location",
+			"locationOf",
+			"Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Social Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Trip"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Workshop"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Conference Trip",
+			"is parent of",
+			"Social Event"
+		],
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Research_Institute": [
+		[
+			"Research Institute",
+			"is parent of",
+			"Academic Institution"
+		],
+		[
+			"Academic Institution",
+			"is parent of",
+			"Organisation"
+		],
+		[
+			"Academic Institution",
+			"is child of",
+			"University"
+		],
+		[
+			"Organisation",
+			"is child of",
+			"Proceedings Publisher"
+		],
+		[
+			"Organisation",
+			"organises",
+			"Event"
+		],
+		[
+			"University",
+			"is parent of",
+			"Academic Institution"
+		],
+		[
+			"Proceedings Publisher",
+			"is parent of",
+			"Organisation"
+		],
+		[
+			"Event",
+			"eventOnList",
+			"Web Site"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Scientific_Event": [
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Session"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Session",
+			"partOfEvent",
+			"Track"
+		],
+		[
+			"Session",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Social Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Banquet"
+		],
+		[
+			"Track",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Conference Banquet",
+			"is parent of",
+			"Social Event"
+		]
+	],
+	"ekaw#Invited_Talk_Abstract": [
+		[
+			"Invited Talk Abstract",
+			"is parent of",
+			"Abstract"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is child of",
+			"Programme Brochure"
+		],
+		[
+			"Review",
+			"reviewOfPaper",
+			"Paper"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Programme Brochure",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Programme Brochure",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Agency_Staff_Member": [
+		[
+			"Agency Staff Member",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"Conference Participant"
+		],
+		[
+			"Person",
+			"is child of",
+			"Agency Staff Member"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"OC Member"
+		],
+		[
+			"OC Member",
+			"is child of",
+			"OC Chair"
+		],
+		[
+			"OC Member",
+			"is parent of",
+			"Conference Participant"
+		]
+	],
+	"ekaw#Workshop_Session": [
+		[
+			"Workshop Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Session",
+			"is child of",
+			"Conference Session"
+		],
+		[
+			"Session",
+			"is child of",
+			"Demo Session"
+		],
+		[
+			"Conference Session",
+			"is child of",
+			"Industrial Session"
+		],
+		[
+			"Conference Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Demo Session",
+			"is parent of",
+			"Session"
+		],
+		[
+			"Industrial Session",
+			"is parent of",
+			"Conference Session"
+		]
+	],
+	"ekaw#Track": [
+		[
+			"Track",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Track"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Event",
+			"hasEvent",
+			"Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Invited_Talk": [
+		[
+			"Invited Talk",
+			"is parent of",
+			"Individual Presentation"
+		],
+		[
+			"Individual Presentation",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Individual Presentation",
+			"presentationOfPaper",
+			"Paper"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Workshop"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Poster Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Event",
+			"partOfEvent",
+			"Event"
+		],
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Document",
+			"is child of",
+			"Web Site"
+		],
+		[
+			"Document",
+			"is child of",
+			"Flyer"
+		],
+		[
+			"Poster Paper",
+			"is parent of",
+			"Paper"
+		]
+	],
+	"ekaw#Workshop": [
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Conference"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Conference",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Trip"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Banquet"
+		]
+	],
+	"ekaw#Tutorial": [
+		[
+			"Tutorial",
+			"is parent of",
+			"Individual Presentation"
+		],
+		[
+			"Individual Presentation",
+			"is child of",
+			"Invited Talk"
+		],
+		[
+			"Individual Presentation",
+			"is child of",
+			"Contributed Talk"
+		],
+		[
+			"Contributed Talk",
+			"presentationOfPaper",
+			"Camera Ready Paper"
+		],
+		[
+			"Contributed Talk",
+			"is parent of",
+			"Individual Presentation"
+		],
+		[
+			"Invited Talk",
+			"is parent of",
+			"Individual Presentation"
+		],
+		[
+			"Camera Ready Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Camera Ready Paper",
+			"updatedVersionOf",
+			"Accepted Paper"
+		]
+	],
+	"ekaw#Contributed_Talk": [
+		[
+			"Contributed Talk",
+			"is parent of",
+			"Individual Presentation"
+		],
+		[
+			"Individual Presentation",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Workshop"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Event",
+			"organisedBy",
+			"Person"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Workshop",
+			"is parent of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Conference": [
+		[
+			"Conference",
+			"is parent of",
+			"Scientific Event"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Individual Presentation"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Event",
+			"partOfEvent",
+			"Event"
+		],
+		[
+			"Individual Presentation",
+			"is parent of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#Demo_Chair": [
+		[
+			"Demo Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"OC Member"
+		],
+		[
+			"Person",
+			"is child of",
+			"Paper Author"
+		],
+		[
+			"Person",
+			"is child of",
+			"Agency Staff Member"
+		],
+		[
+			"OC Member",
+			"is child of",
+			"OC Chair"
+		],
+		[
+			"Paper Author",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Agency Staff Member",
+			"is parent of",
+			"Person"
+		],
+		[
+			"OC Chair",
+			"is parent of",
+			"OC Member"
+		]
+	],
+	"ekaw#Tutorial_Chair": [
+		[
+			"Tutorial Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Tutorial Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Session Chair"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Late-Registered Participant"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"PC Chair"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"Session Chair"
+		],
+		[
+			"Session Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Session Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Late-Registered Participant",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"PC Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"PC Chair",
+			"is parent of",
+			"Conference Participant"
+		]
+	],
+	"ekaw#PC_Chair": [
+		[
+			"PC Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"PC Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"SC Member"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"Workshop Chair"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Workshop Chair"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Session Chair"
+		],
+		[
+			"SC Member",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Workshop Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Workshop Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Session Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Session Chair",
+			"is parent of",
+			"Conference Participant"
+		]
+	],
+	"ekaw#PC_Member": [
+		[
+			"PC Member",
+			"is child of",
+			"SC Member"
+		],
+		[
+			"PC Member",
+			"is parent of",
+			"Possible Reviewer"
+		],
+		[
+			"Possible Reviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"SC Member",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Person",
+			"is child of",
+			"Conference Participant"
+		],
+		[
+			"Person",
+			"is child of",
+			"Student"
+		],
+		[
+			"Student",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		]
+	],
+	"ekaw#OC_Member": [
+		[
+			"OC Member",
+			"is child of",
+			"OC Chair"
+		],
+		[
+			"OC Chair",
+			"is parent of",
+			"OC Member"
+		]
+	],
+	"ekaw#Proceedings": [
+		[
+			"Proceedings",
+			"is child of",
+			"Conference Proceedings"
+		],
+		[
+			"Proceedings",
+			"volumeContainsPaper",
+			"Accepted Paper"
+		],
+		[
+			"Conference Proceedings",
+			"is parent of",
+			"Proceedings"
+		],
+		[
+			"Accepted Paper",
+			"is parent of",
+			"Evaluated Paper"
+		],
+		[
+			"Evaluated Paper",
+			"hasReview",
+			"Thing"
+		],
+		[
+			"Evaluated Paper",
+			"is child of",
+			"Accepted Paper"
+		]
+	],
+	"ekaw#Programme_Brochure": [
+		[
+			"Programme Brochure",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"hasEvent",
+			"Event"
+		],
+		[
+			"Social Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Trip"
+		],
+		[
+			"Conference Trip",
+			"is parent of",
+			"Social Event"
+		]
+	],
+	"ekaw#Flyer": [
+		[
+			"Flyer",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Review",
+			"reviewOfPaper",
+			"Paper"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Abstract",
+			"paperPresentedAs",
+			"Individual Presentation"
+		],
+		[
+			"Abstract",
+			"is child of",
+			"Tutorial Abstract"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Conference Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Tutorial Abstract",
+			"is parent of",
+			"Abstract"
+		],
+		[
+			"Individual Presentation",
+			"presentationOfPaper",
+			"Paper"
+		],
+		[
+			"Individual Presentation",
+			"presentationOfPaper",
+			"Abstract"
+		]
+	],
+	"ekaw#Web_Site": [
+		[
+			"Web Site",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Programme Brochure"
+		],
+		[
+			"Document",
+			"is child of",
+			"Flyer"
+		],
+		[
+			"Event",
+			"eventOnList",
+			"Web Site"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Programme Brochure",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Programme Brochure",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Flyer",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Scientific Event",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Scientific Event",
+			"is child of",
+			"Session"
+		],
+		[
+			"Session",
+			"partOfEvent",
+			"Workshop"
+		],
+		[
+			"Session",
+			"is child of",
+			"Poster Session"
+		]
+	],
+	"ekaw#Multi-author_Volume": [
+		[
+			"Multi-author Volume",
+			"is child of",
+			"Proceedings"
+		],
+		[
+			"Multi-author Volume",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Document",
+			"is child of",
+			"Multi-author Volume"
+		],
+		[
+			"Proceedings",
+			"is child of",
+			"Conference Proceedings"
+		],
+		[
+			"Proceedings",
+			"volumeContainsPaper",
+			"Thing"
+		],
+		[
+			"Abstract",
+			"is child of",
+			"Tutorial Abstract"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Conference Proceedings",
+			"is parent of",
+			"Proceedings"
+		],
+		[
+			"Tutorial Abstract",
+			"is parent of",
+			"Abstract"
+		]
+	],
+	"ekaw#Individual_Presentation": [
+		[
+			"Individual Presentation",
+			"is child of",
+			"Contributed Talk"
+		],
+		[
+			"Individual Presentation",
+			"presentationOfPaper",
+			"Abstract"
+		],
+		[
+			"Contributed Talk",
+			"presentationOfPaper",
+			"Thing"
+		],
+		[
+			"Contributed Talk",
+			"is parent of",
+			"Individual Presentation"
+		],
+		[
+			"Abstract",
+			"is child of",
+			"Invited Talk Abstract"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Web Site"
+		],
+		[
+			"Document",
+			"hasUpdatedVersion",
+			"Document"
+		],
+		[
+			"Invited Talk Abstract",
+			"is parent of",
+			"Abstract"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#OC_Chair": [
+		[
+			"OC Chair",
+			"is parent of",
+			"OC Member"
+		],
+		[
+			"OC Member",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Presenter"
+		],
+		[
+			"Person",
+			"authorOf",
+			"Document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Paper Author"
+		],
+		[
+			"Presenter",
+			"is parent of",
+			"Conference Participant"
+		]
+	],
+	"ekaw#Conference_Banquet": [
+		[
+			"Conference Banquet",
+			"is parent of",
+			"Social Event"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Trip"
+		],
+		[
+			"Social Event",
+			"is child of",
+			"Conference Banquet"
+		],
+		[
+			"Conference Trip",
+			"is parent of",
+			"Social Event"
+		]
+	],
+	"ekaw#Workshop_Chair": [
+		[
+			"Workshop Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Workshop Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Workshop Chair"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Late-Registered Participant"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"PC Chair"
+		],
+		[
+			"PC Member",
+			"is parent of",
+			"Possible Reviewer"
+		],
+		[
+			"Late-Registered Participant",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Possible Reviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Possible Reviewer",
+			"is child of",
+			"PC Member"
+		],
+		[
+			"PC Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"PC Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Person",
+			"authorOf",
+			"Document"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		]
+	],
+	"ekaw#Conference_Proceedings": [
+		[
+			"Conference Proceedings",
+			"is parent of",
+			"Proceedings"
+		],
+		[
+			"Conference Proceedings",
+			"volumeContainsPaper",
+			"Invited Talk Abstract"
+		],
+		[
+			"Proceedings",
+			"is child of",
+			"Conference Proceedings"
+		],
+		[
+			"Invited Talk Abstract",
+			"is parent of",
+			"Abstract"
+		],
+		[
+			"Abstract",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Programme Brochure"
+		],
+		[
+			"Document",
+			"updatedVersionOf",
+			"Document"
+		]
+	],
+	"ekaw#Session_Chair": [
+		[
+			"Session Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Session Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Early-Registered Participant"
+		],
+		[
+			"PC Member",
+			"is parent of",
+			"Possible Reviewer"
+		],
+		[
+			"Person",
+			"is child of",
+			"Possible Reviewer"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		],
+		[
+			"Early-Registered Participant",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Possible Reviewer",
+			"reviewerOfPaper",
+			"Paper"
+		],
+		[
+			"Event",
+			"hasEvent",
+			"Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Workshop Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Early-Registered_Participant": [
+		[
+			"Early-Registered Participant",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Demo Chair"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"Presenter"
+		],
+		[
+			"Presenter",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Presenter",
+			"is child of",
+			"Invited Speaker"
+		],
+		[
+			"Demo Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Invited Speaker",
+			"is parent of",
+			"Presenter"
+		]
+	],
+	"ekaw#Late-Registered_Participant": [
+		[
+			"Late-Registered Participant",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"Possible Reviewer"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		],
+		[
+			"Possible Reviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Possible Reviewer",
+			"is child of",
+			"PC Member"
+		],
+		[
+			"Event",
+			"is child of",
+			"Social Event"
+		],
+		[
+			"Event",
+			"is child of",
+			"Scientific Event"
+		]
+	],
+	"ekaw#University": [
+		[
+			"University",
+			"is parent of",
+			"Academic Institution"
+		],
+		[
+			"Academic Institution",
+			"is child of",
+			"University"
+		],
+		[
+			"Academic Institution",
+			"is child of",
+			"Research Institute"
+		],
+		[
+			"Research Institute",
+			"is parent of",
+			"Academic Institution"
+		]
+	],
+	"ekaw#Possible_Reviewer": [
+		[
+			"Possible Reviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Possible Reviewer",
+			"is child of",
+			"PC Member"
+		],
+		[
+			"Person",
+			"is child of",
+			"Possible Reviewer"
+		],
+		[
+			"Person",
+			"authorOf",
+			"Document"
+		],
+		[
+			"PC Member",
+			"is parent of",
+			"Possible Reviewer"
+		],
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Document",
+			"is child of",
+			"Flyer"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Poster Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Flyer",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Student": [
+		[
+			"Student",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"Possible Reviewer"
+		],
+		[
+			"Person",
+			"organises",
+			"Event"
+		],
+		[
+			"Possible Reviewer",
+			"reviewerOfPaper",
+			"Paper"
+		],
+		[
+			"Possible Reviewer",
+			"is child of",
+			"PC Member"
+		],
+		[
+			"Event",
+			"eventOnList",
+			"Web Site"
+		],
+		[
+			"Event",
+			"eventOnList",
+			"Programme Brochure"
+		],
+		[
+			"PC Member",
+			"is parent of",
+			"Possible Reviewer"
+		],
+		[
+			"Paper",
+			"hasReview",
+			"Review"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Programme Brochure",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Web Site",
+			"listsEvent",
+			"Event"
+		],
+		[
+			"Web Site",
+			"is parent of",
+			"Document"
+		]
+	],
+	"ekaw#Invited_Speaker": [
+		[
+			"Invited Speaker",
+			"is parent of",
+			"Presenter"
+		],
+		[
+			"Presenter",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Presenter",
+			"is child of",
+			"Invited Speaker"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"PC Chair"
+		],
+		[
+			"Person",
+			"is child of",
+			"Conference Participant"
+		],
+		[
+			"Person",
+			"is child of",
+			"Paper Author"
+		],
+		[
+			"PC Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"PC Chair",
+			"is parent of",
+			"Conference Participant"
+		]
+	],
+	"ekaw#Presenter": [
+		[
+			"Presenter",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Presenter",
+			"is child of",
+			"Invited Speaker"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Invited Speaker",
+			"is parent of",
+			"Presenter"
+		],
+		[
+			"Person",
+			"is child of",
+			"Possible Reviewer"
+		],
+		[
+			"Person",
+			"is child of",
+			"Paper Author"
+		],
+		[
+			"Paper Author",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Possible Reviewer",
+			"is parent of",
+			"Person"
+		]
+	],
+	"ekaw#SC_Member": [
+		[
+			"SC Member",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"SC Member"
+		],
+		[
+			"PC Member",
+			"is child of",
+			"Workshop Chair"
+		],
+		[
+			"Workshop Chair",
+			"is parent of",
+			"PC Member"
+		],
+		[
+			"Workshop Chair",
+			"is parent of",
+			"Conference Participant"
+		],
+		[
+			"Conference Participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference Participant",
+			"is child of",
+			"PC Chair"
+		]
+	]
+}

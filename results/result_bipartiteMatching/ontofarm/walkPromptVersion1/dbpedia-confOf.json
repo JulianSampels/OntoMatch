@@ -1,0 +1,30 @@
+[
+	[
+		"dbpedia#University",
+		"confOf#University"
+	],
+	[
+		"dbpedia#Event",
+		"confOf#Event"
+	],
+	[
+		"dbpedia#Company",
+		"confOf#Company"
+	],
+	[
+		"dbpedia#City",
+		"confOf#City"
+	],
+	[
+		"dbpedia#Country",
+		"confOf#Country"
+	],
+	[
+		"dbpedia#Person",
+		"confOf#Person"
+	],
+	[
+		"dbpedia#SocietalEvent",
+		"confOf#Social_event"
+	]
+]

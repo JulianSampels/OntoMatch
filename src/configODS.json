@@ -20,7 +20,7 @@
 	"runPromptsOnLLM": false,
 	"thresholdForConsideration": 0.4,
 	"generateMaximumBipartiteMatching": true,
-	"neighborhoodRange" : 3,
+	"neighborhoodRange" : 0,
 	"exportFinalMatchingsToRDF": true,
 	"promptsFoExportToJson": [
 		0,
@@ -28,14 +28,14 @@
 		2,
 		3
 	],
-	"alignmentPath": "../results/result_alignments/conference/",
-	"exactMatchPath": "../results/result_exactMatches/conference/",
-	"triplesPath": "../results/result_triples/conference/",
-	"llmMatchedPath": "../results/result_llm_matched/conference/",
-	"bipartiteMatchingPath": "../results/result_bipartiteMatching/conference/",
-	"rdfPath": "../results/result_RDF/conference/",
-	"triplesVerbalizedPath": "../results/result_triples_verbalized/conference/",
+	"alignmentPath": "../results/result_alignments/ontofarm/",
+	"exactMatchPath": "../results/result_exactMatches/ontofarm/",
+	"triplesPath": "../results/result_triples/ontofarm/",
+	"llmMatchedPath": "../results/result_llm_matched/ontofarm/",
+	"bipartiteMatchingPath": "../results/result_bipartiteMatching/ontofarm/",
+	"rdfPath": "../results/result_RDF/ontofarm/",
+	"triplesVerbalizedPath": "../results/result_triples_verbalized/ontofarm/",
 	"verbalizedWalkTriplesPath": "../results/result_triples_verbalized/triples_randomWalk_verbalized_out.json",
 	"verbalizedTreeTriplesPath": "../results/result_triples_verbalized/triples_randomTree_verbalized_out.json",
-	"promptsPath": "../results/result_prompts/conference/"
+	"promptsPath": "../results/result_prompts/ontofarm/"
 }

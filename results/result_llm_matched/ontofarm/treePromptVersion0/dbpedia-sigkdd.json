@@ -1,0 +1,7 @@
+{
+	"dbpedia#Presenter;sigkdd#Speaker": "yes",
+	"dbpedia#Linguist;sigkdd#Speaker": "no",
+	"dbpedia#Agent;sigkdd#Organizator": "no",
+	"dbpedia#Sound;sigkdd#Paper": "no",
+	"dbpedia#TelevisionHost;sigkdd#Invited_Speaker": "no"
+}

@@ -1,0 +1,37 @@
+[
+	[
+		"dbpedia#Event",
+		"ekaw#Event",
+		1
+	],
+	[
+		"dbpedia#Person",
+		"ekaw#Person",
+		1
+	],
+	[
+		"dbpedia#University",
+		"ekaw#University",
+		1
+	],
+	[
+		"dbpedia#Organisation",
+		"ekaw#Organisation",
+		1
+	],
+	[
+		"dbpedia#Presenter",
+		"ekaw#Presenter",
+		1
+	],
+	[
+		"dbpedia#Document",
+		"ekaw#Document",
+		1
+	],
+	[
+		"dbpedia#Website",
+		"ekaw#Web_Site",
+		1
+	]
+]

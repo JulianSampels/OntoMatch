@@ -1,0 +1,30 @@
+[
+	[
+		"dbpedia#Document",
+		"sigkdd#Document"
+	],
+	[
+		"dbpedia#Place",
+		"sigkdd#Place"
+	],
+	[
+		"dbpedia#Hotel",
+		"sigkdd#Hotel"
+	],
+	[
+		"dbpedia#Award",
+		"sigkdd#Award"
+	],
+	[
+		"dbpedia#Person",
+		"sigkdd#Person"
+	],
+	[
+		"dbpedia#Sound",
+		"sigkdd#Paper"
+	],
+	[
+		"dbpedia#Linguist",
+		"sigkdd#Speaker"
+	]
+]
