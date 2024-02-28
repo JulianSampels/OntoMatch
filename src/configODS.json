@@ -4,8 +4,8 @@
 	"importOntologies": true,
 	"computeSimilaritiesExportAsAlignments": false,
 	"matchExactMatches": false,
-	"runRandomWalkAlgorithm": false,
-	"runRandomTreeAlgorithm": false,
+	"runRandomWalkAlgorithm": true,
+	"runRandomTreeAlgorithm": true,
 	"randomTreeConfig": {
 		"breadth": 2,
 		"path_depth": 3,
@@ -14,13 +14,13 @@
 		"equivalent_prob": 28,
 		"object_prob": 16
 	},
-	"verbalizeAvailableTriples": false,
-	"exportWalkPromptsToJson": false,
-	"exportTreePromptsToJson": false,
-	"runPromptsOnLLM": false,
+	"verbalizeAvailableTriples": true,
+	"exportWalkPromptsToJson": true,
+	"exportTreePromptsToJson": true,
+	"runPromptsOnLLM": true,
 	"thresholdForConsideration": 0.4,
 	"generateMaximumBipartiteMatching": true,
-	"neighborhoodRange" : 3,
+	"neighborhoodRange" : 2,
 	"exportFinalMatchingsToRDF": true,
 	"promptsFoExportToJson": [
 		0,
@@ -28,12 +28,12 @@
 		2,
 		3
 	],
-	"alignmentPath": "../results/result_alignments/SmallTestCase/",
-	"exactMatchPath": "../results/result_exactMatches/SmallTestCase/",
-	"triplesPath": "../results/result_triples/SmallTestCase/",
-	"llmMatchedPath": "../results/result_llm_matched/SmallTestCase/",
-	"bipartiteMatchingPath": "../results/result_bipartiteMatching/SmallTestCase/",
-	"rdfPath": "../results/result_RDF/SmallTestCase/",
-	"triplesVerbalizedPath": "../results/result_triples_verbalized/SmallTestCase/",
-	"promptsPath": "../results/result_prompts/SmallTestCase/"
+	"alignmentPath": "../results/result_alignments/commonKG/smallYWtestCase/",
+	"exactMatchPath": "../results/result_exactMatches/commonKG/smallYWtestCase/",
+	"triplesPath": "../results/result_triples/commonKG/smallYWtestCase/",
+	"llmMatchedPath": "../results/result_llm_matched/commonKG/smallYWtestCase/",
+	"bipartiteMatchingPath": "../results/result_bipartiteMatching/commonKG/smallYWtestCase/",
+	"rdfPath": "../results/result_RDF/commonKG/smallYWtestCase/",
+	"triplesVerbalizedPath": "../results/result_triples_verbalized/commonKG/smallYWtestCase/",
+	"promptsPath": "../results/result_prompts/commonKG/smallYWtestCase/"
 }

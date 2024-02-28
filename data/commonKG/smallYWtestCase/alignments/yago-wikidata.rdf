@@ -1,0 +1,2442 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<Alignment>
+  <xml>yes</xml>
+  <level>0</level>
+  <type>??</type>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/AccountingService"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/accounting_services"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Action"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/action"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Airline"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/airline"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Airport"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/airport"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/AmusementPark"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/amusement_park"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/AnatomicalStructure"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/anatomical_structure"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/AnimalShelter"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/animal_shelter"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Answer"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Answer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Apartment"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/apartment"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Aquarium"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/public_aquarium"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Artery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/artery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ArtGallery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/art_gallery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Article"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/article"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Atlas"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/atlas"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Attorney"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/lawyer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Audience"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/audience"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Audiobook"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/audiobook"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/AudioObject"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/audio_file"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/AutoBodyShop"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/auto_body_shop"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/AutomatedTeller"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/automated_teller_machine"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/AutoRental"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/car_rental_company"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Bakery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bakery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Barcode"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/barcode"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Beach"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/beach"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BeautySalon"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/beauty_salon"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BedAndBreakfast"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bed_and_breakfast"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Blog"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Blog"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BlogPosting"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/blog_post"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BloodTest"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/blood_test"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Bone"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bone"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Book"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/book"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BookSeries"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/book_series"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BookStore"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bookstore"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Boolean"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/boolean_data_type"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BowlingAlley"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bowling_alley"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Brand"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/brand"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Brewery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/brewery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Bridge"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bridge"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BuddhistTemple"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Buddhist_temple"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BusOrCoach"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bus"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BusStation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bus_station"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/BusStop"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/bus_stop"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/CafeOrCoffeeShop"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/coffeehouse"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Campground"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/campground"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/CampingPitch"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/campsite"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Canal"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/canal"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Car"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/passenger_car"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Casino"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/casino"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/CatholicChurch"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Catholic_church_building"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Cemetery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/cemetery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Chapter"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/chapter"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ChildCare"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/childcare_center"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Church"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/church_building"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/City"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/city"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/CityHall"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/city_hall"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Collection"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/collection"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ComedyClub"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/comedy_club"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ComicSeries"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/comic_book_series"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ComicStory"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/comics"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Comment"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/comment"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/CommunityHealth"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/community_health"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ComputerLanguage"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/computer_language"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ContactPoint"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/contact_point"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Continent"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/continent"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Conversation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/conversation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Corporation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/business"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Country"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/country"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Course"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/course"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Courthouse"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/courthouse"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/CreativeWork"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/creative_work"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/CreativeWorkSeries"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/series_of_creative_works"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/CreditCard"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/credit_card"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Crematorium"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/crematorium"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/DanceGroup"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/dance_troupe"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/DataFeed"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/data_feed"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Dataset"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/data_set"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Date"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/date"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/DayOfWeek"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/day_of_the_week"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/DefenceEstablishment"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/military_facility"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Demand"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/demand"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Dermatology"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/dermatology"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/DiagnosticProcedure"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_diagnosis"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Diet"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/diet"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/DietarySupplement"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/dietary_supplement"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Distance"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/distance"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Distillery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/distillery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Drug"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/drug"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Duration"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/duration"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Electrician"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/electrician"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ElementarySchool"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/elementary_school"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Embassy"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/embassy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Emergency"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/emergency"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/EmergencyService"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/emergency_service"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/EmploymentAgency"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/employment_agency"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Energy"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Energy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Episode"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/episode"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/EPRelease"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/extended_play"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Event"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/EventVenue"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/event_venue"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Festival"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/festival"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/FinancialProduct"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/financial_product"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/FinancialService"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/financial_services"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/FireStation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/fire_station"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Float"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/floating_point"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Florist"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/florist"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Game"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/game"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/GameServer"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/game_server"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/GasStation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/petrol_station"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/GatedResidenceCommunity"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/gated_community"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/GeneralContractor"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/general_contractor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Geriatric"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/geriatrics"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/GolfCourse"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/golf_course"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/GovernmentBuilding"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/government_building"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/GovernmentOrganization"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/government_organization"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Gynecologic"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/gynecology"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/HairSalon"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/haircutting_establishment"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/HealthClub"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/health_club"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/HighSchool"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/high_school"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/HinduTemple"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Hindu_temple"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Hospital"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/hospital"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Hostel"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/hostel"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Hotel"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/hotel"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/HotelRoom"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/hotel_room"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/House"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/house"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/HousePainter"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/decorator"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/IceCreamShop"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/ice_cream_parlor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/InfectiousDisease"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/infectious_disease"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/InsuranceAgency"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/insurance_agency"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Invoice"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/invoice"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Joint"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/joint"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/LakeBodyOfWater"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/lake"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/LandmarksOrHistoricalBuildings"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/landmark"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Language"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/language"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/LegalService"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/legal_service"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Library"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/library"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Ligament"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/ligament"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/LiquorStore"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/liquor_store"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Locksmith"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/locksmith"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/LymphaticVessel"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/lymphatic_vessel"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Map"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/map"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Mass"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/mass"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalClinic"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/clinic"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalCode"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_code"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalDevice"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_device"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalGuideline"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_guideline"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalOrganization"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_organization"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalProcedure"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_procedure"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalSign"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/clinical_sign"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalSpecialty"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_specialty"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalStudy"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_study"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalSymptom"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/symptom"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalTest"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_test"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MedicalTrial"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/medical_trial"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MeetingRoom"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/conference_room"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Menu"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/menu"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Message"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/message"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MiddleSchool"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/middle_school"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Midwifery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/midwifery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MobileApplication"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/mobile_app"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Mosque"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/mosque"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Motel"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/motel"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Motorcycle"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/motorcycle"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Mountain"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/mountain"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Movie"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/film"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MovieTheater"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/movie_theater"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MovingCompany"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/moving_company"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Muscle"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/muscle_organ"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Museum"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/museum"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MusicAlbum"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/album"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MusicComposition"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/musical_composition"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MusicGroup"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/musical_group"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MusicPlaylist"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/playlist"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MusicRelease"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/release"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/MusicVenue"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/music_venue"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/NailSalon"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/nail_salon"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Nerve"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/nerve"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/NewsArticle"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/news_article"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Newspaper"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/newspaper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/NGO"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/non-governmental_organization"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/NightClub"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/nightclub"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Notary"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/notary"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Number"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/number"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Nursing"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/nursing"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/NutritionInformation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/nutrition_information"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Obstetric"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/obstetrics"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/OccupationalTherapy"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/occupational_therapy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/OceanBodyOfWater"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/ocean"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Oncologic"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/oncology"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Optician"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/optician"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Optometric"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/optometry"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Organization"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/organization"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/OutletStore"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/outlet_store"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Painting"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/painting"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PalliativeProcedure"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/palliative_procedure"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Park"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/park"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ParkingFacility"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/parking_facility"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Patient"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/patient"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PaymentCard"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/payment_card"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PaymentMethod"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/payment_method"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PerformingArtsTheater"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/theatre"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Periodical"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/magazine"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Permit"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/license"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PetStore"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/pet_store"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Pharmacy"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/pharmacy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Photograph"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/photograph"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PhysicalExam"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/physical_examination"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Physician"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/physician"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PlaceOfWorship"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/place_of_worship"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PlasticSurgery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/plastic_surgery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Playground"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/playground"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Plumber"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/plumber"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Podiatric"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/podiatry"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PoliceStation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/police_station"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Pond"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Pond"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PostalAddress"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/address"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PostOffice"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/post_office"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Preschool"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/preschool"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PrimaryCare"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/primary_care"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Product"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/product"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ProductModel"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/model"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ProfessionalService"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/professional_services"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Psychiatric"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Psychiatry"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PsychologicalTreatment"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/psychological_treatment"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PublicationVolume"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/annual_collection"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PublicHealth"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/public_health"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PublicSwimmingPool"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/public_swimming_pool"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/PublicToilet"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/public_toilet"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Quantity"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/number_of_entities"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Question"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/question"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Quotation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/quotation"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RadiationTherapy"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/radiation_therapy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RadioSeries"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/radio_series"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RadioStation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/radio_station"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RealEstateAgent"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/real_estate_broker"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Recipe"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/recipe"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RecyclingCenter"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/recycling_center"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Report"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/report"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Residence"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/residence"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Resort"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/resort"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RespiratoryTherapy"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/respiratory_therapy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Restaurant"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/restaurant"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Review"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/review"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RiverBodyOfWater"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/river"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RoofingContractor"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Roofing_contractor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Room"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/room"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/RVPark"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/motorhome_stopover"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ScholarlyArticle"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/scholarly_article"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/School"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/school"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Sculpture"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/sculpture"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SeaBodyOfWater"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/sea"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SelfStorage"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/self_storage"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Series"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/series"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ShoeStore"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/shoe_store"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ShoppingCenter"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/shopping_center"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SingleRelease"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/single"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SkiResort"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/ski_resort"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SoftwareApplication"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/application"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SoftwareSourceCode"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/source_code"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SportsOrganization"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/sports_organization"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SportsTeam"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/sports_team"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/StadiumOrArena"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/stadium"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/State"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/federated_state"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Store"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/shop"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Substance"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/substance"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SubwayStation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/metro_station"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Suite"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/suite"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SuperficialAnatomy"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Superficial_anatomy"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/SurgicalProcedure"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/surgical_procedure"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Synagogue"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/synagogue"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TattooParlor"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/tattoo_parlor"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TaxiStand"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/taxi_rank"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TelevisionStation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/television_station"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TennisComplex"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/tennis_venue"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Text"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/string"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TextDigitalDocument"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/text_file"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TheaterGroup"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/theatre_troupe"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Thesis"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/thesis"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Time"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Timestamp"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TouristAttraction"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/tourist_attraction"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TouristInformationCenter"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/tourism_office"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/ToyStore"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/toy_store"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TrainStation"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/railway_station"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TravelAgency"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/travel_agency"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TVEpisode"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/television_series_episode"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TVSeries"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/television_series"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/URL"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Uniform_Resource_Locator"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Vein"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/vein"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Vessel"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/vessel"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/VeterinaryCare"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/veterinary_medicine"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/VideoGame"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/video_game"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/VideoGameSeries"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/video_game_series"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/VisualArtwork"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/visual_artwork"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/VitalSign"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/vital_signs"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Volcano"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/volcano"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Waterfall"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/waterfall"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/WebApplication"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/web_application"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/WebPage"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/web_page"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/WebSite"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/website"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/WinAction"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/Victory"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Winery"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/winery"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/WorkersUnion"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/labor_union"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/Zoo"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/zoo"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/FALSE"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/false"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://schema.org/TRUE"/>
+      <entity2 rdf:resource="http://www.wikidata.org/wiki/true"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  </Alignment>
+</rdf:RDF>

@@ -29,12 +29,12 @@
                 "accronym_resolution": 1
             }
         },
-        "SmallTestCase": {
-                "ontologies_folder" : "../data/ontologies/SmallTestCase",
-                "alignments_folder" : "../data/alignments/SmallTestCase",
+        "smallYWtestCase": {
+                "ontologies_folder" : "../data/commonKG/smallYWtestCase/ontologies",
+                "alignments_folder" : "../data/commonKG/smallYWtestCase/alignments",
         
-                "//ontologies_folder": "../data/ontologies/SmallTestCase",
-                "//alignments_folder": "../data/alignments/SmallTestCase",
+                "//ontologies_folder": "../data/commonKG/smallYWtestCase/ontologies",
+                "//alignments_folder": "../data/commonKG/smallYWtestCase/alignments",
         
                 "fine_tuned_path" : "./store/conference_MLM_pretrained/",
                 "pair_tuned_path" : "./store/conference_pair_trained/",

@@ -74,9 +74,13 @@ def getLLMPrediction(key1, key2, llmMatchedFilePath):
     promptsPath = '/'.join(llmMatchedFilePath.split('/')[-2:])
     promptsPath = configODS.get('promptsPath') + promptsPath
     cache = cachedLLMPredictions.get(promptsPath)
-    if not cache: 
-        cachedLLMPredictions[promptsPath] = utils.importFromJson(llmMatchedFilePath)
-        cache = cachedLLMPredictions.get(promptsPath)
+    if not cache:
+        if os.path.exists(llmMatchedFilePath):
+            cachedLLMPredictions[promptsPath] = utils.importFromJson(llmMatchedFilePath)
+            cache = cachedLLMPredictions.get(promptsPath)
+        else:
+            cachedLLMPredictions[promptsPath] = {}
+            cache = cachedLLMPredictions.get(promptsPath)
     promptKey = key1 + ';' + key2
     yesOrNo = cache.get(promptKey)
     if yesOrNo != None:
@@ -121,7 +125,7 @@ def main():
             "debug_files_path": "./debug"}
         
         #load ontologies
-        name = "SmallTestCase"
+        name = "smallYWtestCase"
         from transformers import AutoTokenizer
         Globals.tokenizer = AutoTokenizer.from_pretrained(config["General"]["model"])
         t = Track(name, config, metrics_config=metrics_config)
@@ -139,8 +143,8 @@ def main():
                 for class1 in tqdm(onto1.get_classes(), desc = f'computing similarities for {ontoName1} X {ontoName2}'):
                     for class2 in onto2.get_classes():
                         similarity = candidate_concept_sim(class1, class2)
-                        #if similarity > 0.2:
-                        preAlignments.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
+                        if similarity > configODS.get('thresholdForConsideration'):
+                            preAlignments.append([onto1.get_name() + '#' + class1, onto2.get_name() + '#' + class2, similarity])
                 path = configODS.get('alignmentPath') + ontoName1 + '-' + ontoName2 + '.json'
                 utils.saveToJson(preAlignments, path, messageText=f'exported preAlignments for ({ontoName1} X {ontoName2}) to ')
 
