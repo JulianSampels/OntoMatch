@@ -120,7 +120,7 @@ def main():
             "debug_files_path": "./debug"}
         
         #load ontologies
-        name = "conference"
+        name = "SmallTestCase"
         from transformers import AutoTokenizer
         Globals.tokenizer = AutoTokenizer.from_pretrained(config["General"]["model"])
         t = Track(name, config, metrics_config=metrics_config)
