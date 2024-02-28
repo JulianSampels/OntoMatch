@@ -111,5 +111,9 @@
 	"dbpedia#MixedMartialArtsEvent;confOf#Registration_of_participants_event": "no",
 	"dbpedia#MixedMartialArtsEvent;confOf#Submission_event": "yes",
 	"dbpedia#Journalist;confOf#Paper": "no",
-	"dbpedia#OlympicEvent;confOf#Camera_Ready_event": "no"
+	"dbpedia#OlympicEvent;confOf#Camera_Ready_event": "no",
+	"dbpedia#Politician;confOf#Student": "yes",
+	"dbpedia#WrestlingEvent;confOf#Administrative_event": "yes",
+	"dbpedia#MixedMartialArtsEvent;confOf#Administrative_event": "no",
+	"dbpedia#OlympicEvent;confOf#Submission_event": "yes"
 }
