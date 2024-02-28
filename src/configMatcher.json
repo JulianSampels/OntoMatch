@@ -29,7 +29,7 @@
 	"thresholdForConsideration": 0.4,
 	"neighborhoodRange": 2,
 	"exportFinalMatchingsToRDF": true,
-	"track": "conference",
+	"track": "anatomy",
 	"similarityPath": "../results/result_similarities/conference/",
 	"exactMatchPath": "../results/result_exactMatches/conference/",
 	"triplesPath": "../results/result_triples/conference/",

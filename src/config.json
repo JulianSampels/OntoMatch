@@ -30,8 +30,8 @@
             }
         },
     "anatomy": {
-        "ontologies_folder" : "./Documents/datasets/anatomy/ontologies",
-        "alignments_folder" : "./Documents/datasets/anatomy/alignments",
+        "ontologies_folder" : "../data/anatomy-dataset/ontologies",
+        "alignments_folder" : "../data/anatomy-dataset/alignments",
     
         "parsing_parameters":
             {

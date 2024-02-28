@@ -6,17 +6,20 @@ from src import utilsODS
 
 verb_module = None
 
-def verbalise(tripleList, verbModule):
+def verbalise(tripleList, verbModule, getL):
     ans = "translate Graph to English: "
     #print(tripleList)
     #predicateSet = set([])
     for item in tripleList:
-             ans += f"<H> {item[0]} <R> {item[1]} <T> {item[2]} "
+        try :
+            ans += f"<H> {getL(item[0])} <R> {item[1]} <T> {getL(item[2])} "  
+        except Exception as e:
+            print(item, 'error in generate Prompt, will continue:', repr(e))
 
     return verbModule.verbalise(ans)
 
 
-def verbaliseFile(FILENAME, outputFile):
+def verbaliseFile(FILENAME, outputFile, getL):
     #load module only once
     global verb_module
     if not verb_module:
@@ -30,7 +33,7 @@ def verbaliseFile(FILENAME, outputFile):
     for key, value in tqdm(data.items(), desc="Verbalizing", unit="item"):
         #compute verbalization
         triples = value
-        verbalised_text = verbalise(triples, verb_module)
+        verbalised_text = verbalise(triples, verb_module, getL)
         results.update({key: verbalised_text})
     utilsODS.saveToJson(results, outputFile)
 
