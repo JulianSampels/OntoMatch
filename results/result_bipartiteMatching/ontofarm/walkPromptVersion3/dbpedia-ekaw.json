@@ -1,34 +1,38 @@
 [
 	[
-		"dbpedia#Organisation",
-		"ekaw#Organisation"
-	],
-	[
-		"dbpedia#Presenter",
-		"ekaw#Presenter"
-	],
-	[
-		"dbpedia#University",
-		"ekaw#University"
+		"dbpedia#Website",
+		"ekaw#Web_Site"
 	],
 	[
 		"dbpedia#Event",
 		"ekaw#Event"
 	],
 	[
-		"dbpedia#Document",
-		"ekaw#Document"
-	],
-	[
-		"dbpedia#Website",
-		"ekaw#Web_Site"
-	],
-	[
 		"dbpedia#Person",
 		"ekaw#Person"
 	],
 	[
-		"dbpedia#Politician",
+		"dbpedia#University",
+		"ekaw#University"
+	],
+	[
+		"dbpedia#Organisation",
+		"ekaw#Organisation"
+	],
+	[
+		"dbpedia#Document",
+		"ekaw#Document"
+	],
+	[
+		"dbpedia#Presenter",
+		"ekaw#Presenter"
+	],
+	[
+		"dbpedia#SocietalEvent",
+		"ekaw#Social_Event"
+	],
+	[
+		"dbpedia#Writer",
 		"ekaw#Paper_Author"
 	],
 	[
@@ -36,7 +40,55 @@
 		"ekaw#Paper"
 	],
 	[
-		"dbpedia#LifeCycleEvent",
-		"ekaw#Social_Event"
+		"dbpedia#Activity",
+		"ekaw#Track"
+	],
+	[
+		"dbpedia#Artwork",
+		"ekaw#Demo_Paper"
+	],
+	[
+		"dbpedia#Meeting",
+		"ekaw#Conference"
+	],
+	[
+		"dbpedia#Software",
+		"ekaw#Programme_Brochure"
+	],
+	[
+		"dbpedia#MemberOfParliament",
+		"ekaw#PC_Member"
+	],
+	[
+		"dbpedia#FilmFestival",
+		"ekaw#Workshop"
+	],
+	[
+		"dbpedia#Professor",
+		"ekaw#Student"
+	],
+	[
+		"dbpedia#Congressman",
+		"ekaw#Agency_Staff_Member"
+	],
+	[
+		"dbpedia#TeamMember",
+		"ekaw#Conference_Participant"
+	],
+	[
+		"dbpedia#Tournament",
+		"ekaw#Conference_Trip"
+	],
+	[
+		"dbpedia#PersonalEvent",
+		"ekaw#Scientific_Event"
+	],
+	[
+		"dbpedia#College",
+		"ekaw#Academic_Institution"
+	],
+	[
+		"dbpedia#SoccerTournament",
+		"ekaw#Conference_Banquet"
 	]
 ]

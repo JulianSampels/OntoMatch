@@ -1,22 +1,30 @@
 [
 	[
-		"dbpedia#Document",
-		"sigkdd#Document"
+		"dbpedia#Hotel",
+		"sigkdd#Hotel"
+	],
+	[
+		"dbpedia#Person",
+		"sigkdd#Person"
 	],
 	[
 		"dbpedia#Place",
 		"sigkdd#Place"
 	],
 	[
-		"dbpedia#Hotel",
-		"sigkdd#Hotel"
+		"dbpedia#Document",
+		"sigkdd#Document"
 	],
 	[
 		"dbpedia#Award",
 		"sigkdd#Award"
 	],
 	[
-		"dbpedia#Person",
-		"sigkdd#Person"
+		"dbpedia#RadioHost",
+		"sigkdd#Speaker"
+	],
+	[
+		"dbpedia#Artist",
+		"sigkdd#Author"
 	]
 ]

@@ -1,42 +1,54 @@
 [
 	[
-		"dbpedia#University",
-		"confOf#University"
+		"dbpedia#Country",
+		"confOf#Country"
 	],
 	[
 		"dbpedia#Event",
 		"confOf#Event"
 	],
 	[
-		"dbpedia#Company",
-		"confOf#Company"
+		"dbpedia#Person",
+		"confOf#Person"
 	],
 	[
 		"dbpedia#City",
 		"confOf#City"
 	],
 	[
-		"dbpedia#Country",
-		"confOf#Country"
+		"dbpedia#University",
+		"confOf#University"
 	],
 	[
-		"dbpedia#Person",
-		"confOf#Person"
-	],
-	[
-		"dbpedia#Scientist",
-		"confOf#Science_Worker"
+		"dbpedia#Company",
+		"confOf#Company"
 	],
 	[
 		"dbpedia#Athlete",
 		"confOf#Participant"
 	],
 	[
+		"dbpedia#Scientist",
+		"confOf#Science_Worker"
+	],
+	[
 		"dbpedia#Writer",
 		"confOf#Author"
 	],
 	[
-		"dbpedia#TeamMember",
+		"dbpedia#Non-ProfitOrganisation",
+		"confOf#Organization"
+	],
+	[
+		"dbpedia#MemberResistanceMovement",
 		"confOf#Member"
+	],
+	[
+		"dbpedia#Meeting",
+		"confOf#Conference"
+	],
+	[
+		"dbpedia#Biologist",
+		"confOf#Scholar"
 	]
 ]

@@ -282,6 +282,7 @@ def main():
                         neighborhoodRange = configODS.get('neighborhoodRange')
                         alignmentFilePath = configODS.get('alignmentPath') + file_path
                         triples = utils.importFromJson(alignmentFilePath)
+                        triplesHigherThanThreshold = [[keyA, keyB, score] for keyA, keyB, score in triples if (type(score) == type('String') or score >= configODS.get('thresholdForConsideration'))]
                         i = 0
                         while len(newMatches) > 0:
                             i += 1
@@ -296,7 +297,9 @@ def main():
                                     _, node2 = key2.split('#')
                                     neighborsOf1 = getNeighbors(node1, onto1, currentNeighborhoodRange)
                                     neighborsOf2 = getNeighbors(node2, onto2, currentNeighborhoodRange)
-                                    possibleAlignments += [(keyA, keyB) for keyA in neighborsOf1 for keyB in neighborsOf2 if testSimScore(triples, keyA, keyB, configODS.get('thresholdForConsideration'))]
+                                    for keyA, keyB, score in triplesHigherThanThreshold:
+                                        if keyA in neighborsOf1 and keyB in neighborsOf2:
+                                            possibleAlignments.append((keyA, keyB))
                                 #ask LLM for match or no match
                                 for keyA, keyB in tqdm(possibleAlignments, desc = f'running prompts for {currentNeighborhoodRange}-hop neighborhoods in {ontoName1}-{ontoName2}'):
                                     if not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):

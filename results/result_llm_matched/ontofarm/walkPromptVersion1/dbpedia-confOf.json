@@ -86,5 +86,16 @@
 	"dbpedia#Historian;confOf#Scholar": "no",
 	"dbpedia#Historian;confOf#Author": "no",
 	"dbpedia#Historian;confOf#Administrator": "no",
-	"dbpedia#Historian;confOf#Assistant": "no"
+	"dbpedia#Historian;confOf#Assistant": "no",
+	"dbpedia#NaturalEvent;confOf#Reviewing_event": "no",
+	"dbpedia#NaturalEvent;confOf#Submission_event": "no",
+	"dbpedia#Work;confOf#Working_event": "no",
+	"dbpedia#SportsEvent;confOf#Administrative_event": "no",
+	"dbpedia#SportsEvent;confOf#Reviewing_event": "no",
+	"dbpedia#SportsEvent;confOf#Submission_event": "no",
+	"dbpedia#SportsEvent;confOf#Camera_Ready_event": "no",
+	"dbpedia#SportsEvent;confOf#Conference": "no",
+	"dbpedia#SportsEvent;confOf#Working_event": "no",
+	"dbpedia#FilmFestival;confOf#Workshop": "no",
+	"dbpedia#SportCompetitionResult;confOf#Conference": "no"
 }

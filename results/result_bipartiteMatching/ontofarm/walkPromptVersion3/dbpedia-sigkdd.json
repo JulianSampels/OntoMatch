@@ -1,23 +1,23 @@
 [
 	[
-		"dbpedia#Document",
-		"sigkdd#Document"
+		"dbpedia#Hotel",
+		"sigkdd#Hotel"
+	],
+	[
+		"dbpedia#Person",
+		"sigkdd#Person"
 	],
 	[
 		"dbpedia#Place",
 		"sigkdd#Place"
 	],
 	[
-		"dbpedia#Hotel",
-		"sigkdd#Hotel"
+		"dbpedia#Document",
+		"sigkdd#Document"
 	],
 	[
 		"dbpedia#Award",
 		"sigkdd#Award"
-	],
-	[
-		"dbpedia#Person",
-		"sigkdd#Person"
 	],
 	[
 		"dbpedia#Sound",
@@ -26,5 +26,29 @@
 	[
 		"dbpedia#Linguist",
 		"sigkdd#Speaker"
+	],
+	[
+		"dbpedia#Egyptologist",
+		"sigkdd#Author"
+	],
+	[
+		"dbpedia#Artist",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"dbpedia#TelevisionHost",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"dbpedia#OrganisationMember",
+		"sigkdd#Organizing_Committee_member"
+	],
+	[
+		"dbpedia#TeamMember",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"dbpedia#Host",
+		"sigkdd#Webmaster"
 	]
 ]

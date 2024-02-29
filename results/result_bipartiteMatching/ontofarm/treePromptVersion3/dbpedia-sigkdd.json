@@ -1,30 +1,62 @@
 [
 	[
-		"dbpedia#Document",
-		"sigkdd#Document"
-	],
-	[
-		"dbpedia#Place",
-		"sigkdd#Place"
-	],
-	[
 		"dbpedia#Hotel",
 		"sigkdd#Hotel"
-	],
-	[
-		"dbpedia#Award",
-		"sigkdd#Award"
 	],
 	[
 		"dbpedia#Person",
 		"sigkdd#Person"
 	],
 	[
+		"dbpedia#Place",
+		"sigkdd#Place"
+	],
+	[
+		"dbpedia#Document",
+		"sigkdd#Document"
+	],
+	[
+		"dbpedia#Award",
+		"sigkdd#Award"
+	],
+	[
 		"dbpedia#Agent",
 		"sigkdd#Organizator"
 	],
 	[
-		"dbpedia#Organisation",
+		"dbpedia#Senator",
+		"sigkdd#Author"
+	],
+	[
+		"dbpedia#TelevisionHost",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"dbpedia#Artwork",
+		"sigkdd#Paper"
+	],
+	[
+		"dbpedia#MemberResistanceMovement",
 		"sigkdd#Organizing_Committee_member"
+	],
+	[
+		"dbpedia#Device",
+		"sigkdd#Speaker"
+	],
+	[
+		"dbpedia#Arena",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"dbpedia#MemberOfParliament",
+		"sigkdd#Program_Committee_member"
+	],
+	[
+		"dbpedia#Broadcaster",
+		"sigkdd#Listener"
+	],
+	[
+		"dbpedia#Host",
+		"sigkdd#Webmaster"
 	]
 ]

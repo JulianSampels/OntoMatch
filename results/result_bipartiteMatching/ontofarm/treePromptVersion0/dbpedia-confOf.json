@@ -1,30 +1,38 @@
 [
 	[
-		"dbpedia#University",
-		"confOf#University"
+		"dbpedia#Country",
+		"confOf#Country"
 	],
 	[
 		"dbpedia#Event",
 		"confOf#Event"
 	],
 	[
-		"dbpedia#Company",
-		"confOf#Company"
+		"dbpedia#Person",
+		"confOf#Person"
 	],
 	[
 		"dbpedia#City",
 		"confOf#City"
 	],
 	[
-		"dbpedia#Country",
-		"confOf#Country"
+		"dbpedia#University",
+		"confOf#University"
 	],
 	[
-		"dbpedia#Person",
-		"confOf#Person"
+		"dbpedia#Company",
+		"confOf#Company"
 	],
 	[
 		"dbpedia#SocietalEvent",
 		"confOf#Social_event"
+	],
+	[
+		"dbpedia#EmployersOrganisation",
+		"confOf#Organization"
+	],
+	[
+		"dbpedia#MemberResistanceMovement",
+		"confOf#Member"
 	]
 ]

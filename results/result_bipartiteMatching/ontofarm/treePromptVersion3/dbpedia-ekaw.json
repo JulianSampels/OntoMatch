@@ -1,62 +1,118 @@
 [
 	[
-		"dbpedia#Organisation",
-		"ekaw#Organisation"
-	],
-	[
-		"dbpedia#Presenter",
-		"ekaw#Presenter"
-	],
-	[
-		"dbpedia#University",
-		"ekaw#University"
+		"dbpedia#Website",
+		"ekaw#Web_Site"
 	],
 	[
 		"dbpedia#Event",
 		"ekaw#Event"
 	],
 	[
-		"dbpedia#Document",
-		"ekaw#Document"
-	],
-	[
-		"dbpedia#Website",
-		"ekaw#Web_Site"
-	],
-	[
 		"dbpedia#Person",
 		"ekaw#Person"
 	],
 	[
-		"dbpedia#Scientist",
-		"ekaw#Student"
+		"dbpedia#University",
+		"ekaw#University"
 	],
 	[
-		"dbpedia#Politician",
-		"ekaw#Paper_Author"
+		"dbpedia#Organisation",
+		"ekaw#Organisation"
 	],
 	[
-		"dbpedia#Agent",
-		"ekaw#Agency_Staff_Member"
+		"dbpedia#Document",
+		"ekaw#Document"
 	],
 	[
-		"dbpedia#Sound",
-		"ekaw#Paper"
-	],
-	[
-		"dbpedia#TelevisionHost",
-		"ekaw#Invited_Speaker"
+		"dbpedia#Presenter",
+		"ekaw#Presenter"
 	],
 	[
 		"dbpedia#SocietalEvent",
 		"ekaw#Social_Event"
 	],
 	[
+		"dbpedia#Writer",
+		"ekaw#Paper_Author"
+	],
+	[
+		"dbpedia#TelevisionHost",
+		"ekaw#Invited_Speaker"
+	],
+	[
+		"dbpedia#Agent",
+		"ekaw#Agency_Staff_Member"
+	],
+	[
+		"dbpedia#Scientist",
+		"ekaw#Student"
+	],
+	[
+		"dbpedia#Sound",
+		"ekaw#Paper"
+	],
+	[
 		"dbpedia#NaturalEvent",
 		"ekaw#Scientific_Event"
 	],
 	[
+		"dbpedia#Activity",
+		"ekaw#Workshop"
+	],
+	[
+		"dbpedia#PersonFunction",
+		"ekaw#Individual_Presentation"
+	],
+	[
+		"dbpedia#SportCompetitionResult",
+		"ekaw#Conference"
+	],
+	[
+		"dbpedia#StillImage",
+		"ekaw#Poster_Paper"
+	],
+	[
 		"dbpedia#Meeting",
 		"ekaw#Conference_Trip"
+	],
+	[
+		"dbpedia#MemberOfParliament",
+		"ekaw#Late-Registered_Participant"
+	],
+	[
+		"dbpedia#Competition",
+		"ekaw#Track"
+	],
+	[
+		"dbpedia#OrganisationMember",
+		"ekaw#PC_Member"
+	],
+	[
+		"dbpedia#Tournament",
+		"ekaw#Conference_Banquet"
+	],
+	[
+		"dbpedia#TeamMember",
+		"ekaw#Conference_Participant"
+	],
+	[
+		"dbpedia#Publisher",
+		"ekaw#Proceedings_Publisher"
+	],
+	[
+		"dbpedia#WrittenWork",
+		"ekaw#Workshop_Paper"
+	],
+	[
+		"dbpedia#Artwork",
+		"ekaw#Industrial_Paper"
+	],
+	[
+		"dbpedia#SportsTeamMember",
+		"ekaw#SC_Member"
+	],
+	[
+		"dbpedia#Newspaper",
+		"ekaw#Submitted_Paper"
 	]
 ]

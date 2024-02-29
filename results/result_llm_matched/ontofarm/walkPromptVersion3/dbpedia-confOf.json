@@ -111,5 +111,9 @@
 	"dbpedia#OlympicEvent;confOf#Reviewing_event": "no",
 	"dbpedia#OlympicEvent;confOf#Administrative_event": "no",
 	"dbpedia#MixedMartialArtsEvent;confOf#Reviewing_event": "no",
-	"dbpedia#WrestlingEvent;confOf#Reviewing_event": "no"
+	"dbpedia#WrestlingEvent;confOf#Reviewing_event": "no",
+	"dbpedia#Artist;confOf#Contribution": "no",
+	"dbpedia#Scientist;confOf#Student": "no",
+	"dbpedia#WrestlingEvent;confOf#Camera_Ready_event": "no",
+	"dbpedia#OlympicEvent;confOf#Camera_Ready_event": "yes"
 }

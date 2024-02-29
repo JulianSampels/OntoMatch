@@ -1,47 +1,55 @@
 [
 	[
-		"dbpedia#University",
-		"confOf#University"
+		"dbpedia#Country",
+		"confOf#Country"
 	],
 	[
 		"dbpedia#Event",
 		"confOf#Event"
 	],
 	[
-		"dbpedia#Company",
-		"confOf#Company"
+		"dbpedia#Person",
+		"confOf#Person"
 	],
 	[
 		"dbpedia#City",
 		"confOf#City"
 	],
 	[
-		"dbpedia#Country",
-		"confOf#Country"
+		"dbpedia#University",
+		"confOf#University"
 	],
 	[
-		"dbpedia#Person",
-		"confOf#Person"
+		"dbpedia#Company",
+		"confOf#Company"
 	],
 	[
-		"dbpedia#Scientist",
+		"dbpedia#BusinessPerson",
+		"confOf#Assistant"
+	],
+	[
+		"dbpedia#Egyptologist",
+		"confOf#Science_Worker"
+	],
+	[
+		"dbpedia#Archeologist",
 		"confOf#Scholar"
-	],
-	[
-		"dbpedia#Agent",
-		"confOf#Author"
 	],
 	[
 		"dbpedia#LifeCycleEvent",
 		"confOf#Working_event"
 	],
 	[
-		"dbpedia#SocietalEvent",
+		"dbpedia#Athlete",
+		"confOf#Participant"
+	],
+	[
+		"dbpedia#NaturalEvent",
 		"confOf#Social_event"
 	],
 	[
-		"dbpedia#Engineer",
-		"confOf#Science_Worker"
+		"dbpedia#Artist",
+		"confOf#Author"
 	],
 	[
 		"dbpedia#OrganisationMember",
@@ -52,15 +60,35 @@
 		"confOf#Organization"
 	],
 	[
-		"dbpedia#Presenter",
-		"confOf#Participant"
+		"dbpedia#Cricketer",
+		"confOf#Student"
 	],
 	[
-		"dbpedia#Coach",
-		"confOf#Assistant"
+		"dbpedia#Holiday",
+		"confOf#Trip"
+	],
+	[
+		"dbpedia#SportsEvent",
+		"confOf#Administrative_event"
+	],
+	[
+		"dbpedia#Congressman",
+		"confOf#Member"
+	],
+	[
+		"dbpedia#Historian",
+		"confOf#Administrator"
+	],
+	[
+		"dbpedia#Contest",
+		"confOf#Submission_event"
+	],
+	[
+		"dbpedia#PersonalEvent",
+		"confOf#Registration_of_participants_event"
 	],
 	[
 		"dbpedia#Meeting",
-		"confOf#Trip"
+		"confOf#Workshop"
 	]
 ]

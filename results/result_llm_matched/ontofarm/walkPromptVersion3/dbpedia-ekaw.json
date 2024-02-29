@@ -86,5 +86,7 @@
 	"dbpedia#Activity;ekaw#Track": "yes",
 	"dbpedia#Activity;ekaw#Workshop": "no",
 	"dbpedia#Contest;ekaw#Conference": "no",
-	"dbpedia#PersonalEvent;ekaw#Scientific_Event": "yes"
+	"dbpedia#PersonalEvent;ekaw#Scientific_Event": "yes",
+	"dbpedia#Sculpture;ekaw#Workshop_Paper": "no",
+	"dbpedia#Painting;ekaw#Poster_Paper": "no"
 }
