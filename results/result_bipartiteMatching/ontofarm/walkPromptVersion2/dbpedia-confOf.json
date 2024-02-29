@@ -1,11 +1,15 @@
 [
 	[
+		"dbpedia#Event",
+		"confOf#Event"
+	],
+	[
 		"dbpedia#Country",
 		"confOf#Country"
 	],
 	[
-		"dbpedia#Event",
-		"confOf#Event"
+		"dbpedia#University",
+		"confOf#University"
 	],
 	[
 		"dbpedia#Person",
@@ -14,10 +18,6 @@
 	[
 		"dbpedia#City",
 		"confOf#City"
-	],
-	[
-		"dbpedia#University",
-		"confOf#University"
 	],
 	[
 		"dbpedia#Company",

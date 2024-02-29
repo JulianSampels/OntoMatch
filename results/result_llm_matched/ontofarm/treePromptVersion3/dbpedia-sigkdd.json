@@ -67,5 +67,22 @@
 	"dbpedia#Writer;sigkdd#Author_of_paper": "yes",
 	"dbpedia#Writer;sigkdd#Author_of_paper_student": "no",
 	"dbpedia#ScreenWriter;sigkdd#Author_of_paper_student": "no",
-	"dbpedia#SongWriter;sigkdd#Author_of_paper_student": "no"
+	"dbpedia#SongWriter;sigkdd#Author_of_paper_student": "no",
+	"dbpedia#Activity;sigkdd#Abstract": "no",
+	"dbpedia#Annotation;sigkdd#Abstract": "yes",
+	"dbpedia#SongWriter;sigkdd#Author_of_paper": "yes",
+	"dbpedia#ScreenWriter;sigkdd#Author_of_paper": "yes",
+	"dbpedia#Software;sigkdd#Main_office": "no",
+	"dbpedia#CareerStation;sigkdd#Main_office": "yes",
+	"dbpedia#Software;sigkdd#Program_Chair": "yes",
+	"dbpedia#ProgrammingLanguage;sigkdd#Program_Chair": "no",
+	"dbpedia#WrittenWork;sigkdd#Author_of_paper_student": "no",
+	"dbpedia#WrittenWork;sigkdd#Author_of_paper": "yes",
+	"dbpedia#ClericalOrder;sigkdd#Author_of_paper_student": "no",
+	"dbpedia#Publisher;sigkdd#Author_of_paper_student": "no",
+	"dbpedia#LiteraryGenre;sigkdd#Author_of_paper_student": "no",
+	"dbpedia#ArtistDiscography;sigkdd#Author_of_paper_student": "no",
+	"dbpedia#Referee;sigkdd#Review": "no",
+	"dbpedia#Judge;sigkdd#Review": "no",
+	"dbpedia#GrandPrix;sigkdd#General_Chair": "no"
 }

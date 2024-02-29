@@ -1,23 +1,7 @@
 [
 	[
-		"dbpedia#Website",
-		"ekaw#Web_Site"
-	],
-	[
 		"dbpedia#Event",
 		"ekaw#Event"
-	],
-	[
-		"dbpedia#Person",
-		"ekaw#Person"
-	],
-	[
-		"dbpedia#University",
-		"ekaw#University"
-	],
-	[
-		"dbpedia#Organisation",
-		"ekaw#Organisation"
 	],
 	[
 		"dbpedia#Document",
@@ -28,23 +12,35 @@
 		"ekaw#Presenter"
 	],
 	[
-		"dbpedia#SocietalEvent",
-		"ekaw#Social_Event"
+		"dbpedia#University",
+		"ekaw#University"
 	],
 	[
-		"dbpedia#Writer",
-		"ekaw#Paper_Author"
+		"dbpedia#Person",
+		"ekaw#Person"
+	],
+	[
+		"dbpedia#Website",
+		"ekaw#Web_Site"
+	],
+	[
+		"dbpedia#Organisation",
+		"ekaw#Organisation"
 	],
 	[
 		"dbpedia#Sound",
 		"ekaw#Paper"
 	],
 	[
-		"dbpedia#Activity",
-		"ekaw#Track"
+		"dbpedia#Journalist",
+		"ekaw#Paper_Author"
 	],
 	[
-		"dbpedia#Artwork",
+		"dbpedia#NaturalEvent",
+		"ekaw#Social_Event"
+	],
+	[
+		"dbpedia#Image",
 		"ekaw#Demo_Paper"
 	],
 	[
@@ -56,39 +52,127 @@
 		"ekaw#Programme_Brochure"
 	],
 	[
-		"dbpedia#MemberOfParliament",
-		"ekaw#PC_Member"
-	],
-	[
-		"dbpedia#FilmFestival",
-		"ekaw#Workshop"
-	],
-	[
-		"dbpedia#Professor",
-		"ekaw#Student"
+		"dbpedia#TeamMember",
+		"ekaw#Conference_Participant"
 	],
 	[
 		"dbpedia#Congressman",
 		"ekaw#Agency_Staff_Member"
 	],
 	[
-		"dbpedia#TeamMember",
-		"ekaw#Conference_Participant"
+		"dbpedia#Activity",
+		"ekaw#Track"
 	],
 	[
-		"dbpedia#Tournament",
-		"ekaw#Conference_Trip"
+		"dbpedia#Professor",
+		"ekaw#Student"
 	],
 	[
 		"dbpedia#PersonalEvent",
 		"ekaw#Scientific_Event"
 	],
 	[
+		"dbpedia#FilmFestival",
+		"ekaw#Workshop"
+	],
+	[
 		"dbpedia#College",
 		"ekaw#Academic_Institution"
 	],
 	[
-		"dbpedia#SoccerTournament",
+		"dbpedia#MemberOfParliament",
+		"ekaw#PC_Member"
+	],
+	[
+		"dbpedia#MultiVolumePublication",
+		"ekaw#Multi-author_Volume"
+	],
+	[
+		"dbpedia#Judge",
+		"ekaw#Proceedings_Publisher"
+	],
+	[
+		"dbpedia#OrganisationMember",
+		"ekaw#SC_Member"
+	],
+	[
+		"dbpedia#Host",
+		"ekaw#Invited_Speaker"
+	],
+	[
+		"dbpedia#PhilosophicalConcept",
+		"ekaw#Demo_Session"
+	],
+	[
+		"dbpedia#Annotation",
+		"ekaw#Abstract"
+	],
+	[
+		"dbpedia#Tournament",
+		"ekaw#Conference_Session"
+	],
+	[
+		"dbpedia#Artwork",
+		"ekaw#Poster_Session"
+	],
+	[
+		"dbpedia#Tram",
+		"ekaw#Flyer"
+	],
+	[
+		"dbpedia#SportsClub",
 		"ekaw#Conference_Banquet"
+	],
+	[
+		"dbpedia#Employer",
+		"ekaw#Industrial_Session"
+	],
+	[
+		"dbpedia#Camera",
+		"ekaw#Camera_Ready_Paper"
+	],
+	[
+		"dbpedia#Project",
+		"ekaw#Workshop_Paper"
+	],
+	[
+		"dbpedia#Producer",
+		"ekaw#Contributed_Talk"
+	],
+	[
+		"dbpedia#Group",
+		"ekaw#Invited_Talk"
+	],
+	[
+		"dbpedia#Newspaper",
+		"ekaw#Regular_Paper"
+	],
+	[
+		"dbpedia#Theatre",
+		"ekaw#Workshop_Session"
+	],
+	[
+		"dbpedia#Referee",
+		"ekaw#Review"
+	],
+	[
+		"dbpedia#Artist",
+		"ekaw#Poster_Paper"
+	],
+	[
+		"dbpedia#LegalCase",
+		"ekaw#Proceedings"
+	],
+	[
+		"dbpedia#PowerStation",
+		"ekaw#PC_Chair"
+	],
+	[
+		"dbpedia#LunarCrater",
+		"ekaw#Demo_Chair"
+	],
+	[
+		"dbpedia#Factory",
+		"ekaw#Industrial_Paper"
 	]
 ]

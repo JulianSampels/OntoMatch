@@ -1,11 +1,15 @@
 [
 	[
+		"dbpedia#Event",
+		"confOf#Event"
+	],
+	[
 		"dbpedia#Country",
 		"confOf#Country"
 	],
 	[
-		"dbpedia#Event",
-		"confOf#Event"
+		"dbpedia#University",
+		"confOf#University"
 	],
 	[
 		"dbpedia#Person",
@@ -16,23 +20,31 @@
 		"confOf#City"
 	],
 	[
-		"dbpedia#University",
-		"confOf#University"
-	],
-	[
 		"dbpedia#Company",
 		"confOf#Company"
 	],
 	[
-		"dbpedia#Writer",
-		"confOf#Author"
+		"dbpedia#NaturalEvent",
+		"confOf#Working_event"
+	],
+	[
+		"dbpedia#Politician",
+		"confOf#Participant"
+	],
+	[
+		"dbpedia#OrganisationMember",
+		"confOf#Member_PC"
 	],
 	[
 		"dbpedia#Agent",
 		"confOf#Administrator"
 	],
 	[
-		"dbpedia#Scientist",
+		"dbpedia#Writer",
+		"confOf#Author"
+	],
+	[
+		"dbpedia#Engineer",
 		"confOf#Science_Worker"
 	],
 	[
@@ -40,71 +52,83 @@
 		"confOf#Social_event"
 	],
 	[
-		"dbpedia#Athlete",
-		"confOf#Participant"
+		"dbpedia#Ambassador",
+		"confOf#Assistant"
 	],
 	[
 		"dbpedia#Philosopher",
 		"confOf#Scholar"
 	],
 	[
-		"dbpedia#NaturalEvent",
-		"confOf#Working_event"
+		"dbpedia#Holiday",
+		"confOf#Trip"
 	],
 	[
-		"dbpedia#OrganisationMember",
-		"confOf#Member_PC"
+		"dbpedia#TeamMember",
+		"confOf#Member"
 	],
 	[
-		"dbpedia#Ambassador",
-		"confOf#Assistant"
-	],
-	[
-		"dbpedia#Politician",
+		"dbpedia#CollegeCoach",
 		"confOf#Student"
-	],
-	[
-		"dbpedia#Artist",
-		"confOf#Contribution"
 	],
 	[
 		"dbpedia#SportCompetitionResult",
 		"confOf#Conference"
 	],
 	[
-		"dbpedia#MemberResistanceMovement",
-		"confOf#Member"
-	],
-	[
-		"dbpedia#Holiday",
-		"confOf#Trip"
-	],
-	[
 		"dbpedia#EmployersOrganisation",
 		"confOf#Organization"
-	],
-	[
-		"dbpedia#SportsEvent",
-		"confOf#Administrative_event"
-	],
-	[
-		"dbpedia#Competition",
-		"confOf#Banquet"
-	],
-	[
-		"dbpedia#PersonalEvent",
-		"confOf#Reviewing_event"
 	],
 	[
 		"dbpedia#Work",
 		"confOf#Volunteer"
 	],
 	[
+		"dbpedia#Artist",
+		"confOf#Contribution"
+	],
+	[
+		"dbpedia#Competition",
+		"confOf#Banquet"
+	],
+	[
+		"dbpedia#SportsEvent",
+		"confOf#Administrative_event"
+	],
+	[
+		"dbpedia#PersonalEvent",
+		"confOf#Reviewing_event"
+	],
+	[
 		"dbpedia#Meeting",
 		"confOf#Workshop"
 	],
 	[
-		"dbpedia#WrestlingEvent",
+		"dbpedia#MixedMartialArtsEvent",
 		"confOf#Submission_event"
+	],
+	[
+		"dbpedia#Standard",
+		"confOf#Regular"
+	],
+	[
+		"dbpedia#Activity",
+		"confOf#Paper"
+	],
+	[
+		"dbpedia#RadioProgram",
+		"confOf#Reception"
+	],
+	[
+		"dbpedia#Document",
+		"confOf#Short_paper"
+	],
+	[
+		"dbpedia#Image",
+		"confOf#Poster"
+	],
+	[
+		"dbpedia#DigitalCamera",
+		"confOf#Camera_Ready_event"
 	]
 ]

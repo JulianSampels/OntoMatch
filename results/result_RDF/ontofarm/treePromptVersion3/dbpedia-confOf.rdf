@@ -8,6 +8,14 @@
   <type>??</type>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Event"/>
+      <entity2 rdf:resource="http://confOf#Event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Country"/>
       <entity2 rdf:resource="http://confOf#Country"/>
       <relation>=</relation>
@@ -16,8 +24,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Event"/>
-      <entity2 rdf:resource="http://confOf#Event"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/University"/>
+      <entity2 rdf:resource="http://confOf#University"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -40,14 +48,6 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/University"/>
-      <entity2 rdf:resource="http://confOf#University"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Company"/>
       <entity2 rdf:resource="http://confOf#Company"/>
       <relation>=</relation>
@@ -56,8 +56,24 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Writer"/>
-      <entity2 rdf:resource="http://confOf#Author"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/NaturalEvent"/>
+      <entity2 rdf:resource="http://confOf#Working_event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Politician"/>
+      <entity2 rdf:resource="http://confOf#Participant"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/OrganisationMember"/>
+      <entity2 rdf:resource="http://confOf#Member_PC"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -72,7 +88,15 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Scientist"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Writer"/>
+      <entity2 rdf:resource="http://confOf#Author"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Engineer"/>
       <entity2 rdf:resource="http://confOf#Science_Worker"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
@@ -88,8 +112,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Athlete"/>
-      <entity2 rdf:resource="http://confOf#Participant"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Ambassador"/>
+      <entity2 rdf:resource="http://confOf#Assistant"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -104,40 +128,24 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/NaturalEvent"/>
-      <entity2 rdf:resource="http://confOf#Working_event"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Holiday"/>
+      <entity2 rdf:resource="http://confOf#Trip"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/OrganisationMember"/>
-      <entity2 rdf:resource="http://confOf#Member_PC"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+      <entity2 rdf:resource="http://confOf#Member"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Ambassador"/>
-      <entity2 rdf:resource="http://confOf#Assistant"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Politician"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/CollegeCoach"/>
       <entity2 rdf:resource="http://confOf#Student"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Artist"/>
-      <entity2 rdf:resource="http://confOf#Contribution"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -152,48 +160,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/MemberResistanceMovement"/>
-      <entity2 rdf:resource="http://confOf#Member"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Holiday"/>
-      <entity2 rdf:resource="http://confOf#Trip"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/EmployersOrganisation"/>
       <entity2 rdf:resource="http://confOf#Organization"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/SportsEvent"/>
-      <entity2 rdf:resource="http://confOf#Administrative_event"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Competition"/>
-      <entity2 rdf:resource="http://confOf#Banquet"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/PersonalEvent"/>
-      <entity2 rdf:resource="http://confOf#Reviewing_event"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -208,6 +176,38 @@
   </map>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Artist"/>
+      <entity2 rdf:resource="http://confOf#Contribution"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Competition"/>
+      <entity2 rdf:resource="http://confOf#Banquet"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/SportsEvent"/>
+      <entity2 rdf:resource="http://confOf#Administrative_event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/PersonalEvent"/>
+      <entity2 rdf:resource="http://confOf#Reviewing_event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Meeting"/>
       <entity2 rdf:resource="http://confOf#Workshop"/>
       <relation>=</relation>
@@ -216,8 +216,56 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/WrestlingEvent"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/MixedMartialArtsEvent"/>
       <entity2 rdf:resource="http://confOf#Submission_event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Standard"/>
+      <entity2 rdf:resource="http://confOf#Regular"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Activity"/>
+      <entity2 rdf:resource="http://confOf#Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/RadioProgram"/>
+      <entity2 rdf:resource="http://confOf#Reception"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Document"/>
+      <entity2 rdf:resource="http://confOf#Short_paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Image"/>
+      <entity2 rdf:resource="http://confOf#Poster"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/DigitalCamera"/>
+      <entity2 rdf:resource="http://confOf#Camera_Ready_event"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

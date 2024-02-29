@@ -1,19 +1,19 @@
 [
 	[
-		"dbpedia#Hotel",
-		"sigkdd#Hotel"
+		"dbpedia#Document",
+		"sigkdd#Document"
 	],
 	[
-		"dbpedia#Person",
-		"sigkdd#Person"
+		"dbpedia#Hotel",
+		"sigkdd#Hotel"
 	],
 	[
 		"dbpedia#Place",
 		"sigkdd#Place"
 	],
 	[
-		"dbpedia#Document",
-		"sigkdd#Document"
+		"dbpedia#Person",
+		"sigkdd#Person"
 	],
 	[
 		"dbpedia#Award",
@@ -24,39 +24,55 @@
 		"sigkdd#Organizator"
 	],
 	[
-		"dbpedia#Senator",
+		"dbpedia#PlayWright",
 		"sigkdd#Author"
+	],
+	[
+		"dbpedia#RadioHost",
+		"sigkdd#Speaker"
 	],
 	[
 		"dbpedia#TelevisionHost",
 		"sigkdd#Invited_Speaker"
 	],
 	[
-		"dbpedia#Artwork",
-		"sigkdd#Paper"
+		"dbpedia#Host",
+		"sigkdd#Webmaster"
 	],
 	[
 		"dbpedia#MemberResistanceMovement",
 		"sigkdd#Organizing_Committee_member"
 	],
 	[
-		"dbpedia#Device",
-		"sigkdd#Speaker"
-	],
-	[
-		"dbpedia#Arena",
-		"sigkdd#Conference_hall"
+		"dbpedia#Broadcaster",
+		"sigkdd#Listener"
 	],
 	[
 		"dbpedia#MemberOfParliament",
 		"sigkdd#Program_Committee_member"
 	],
 	[
-		"dbpedia#Broadcaster",
-		"sigkdd#Listener"
+		"dbpedia#Arena",
+		"sigkdd#Conference_hall"
 	],
 	[
-		"dbpedia#Host",
-		"sigkdd#Webmaster"
+		"dbpedia#Artwork",
+		"sigkdd#Paper"
+	],
+	[
+		"dbpedia#Software",
+		"sigkdd#Program_Chair"
+	],
+	[
+		"dbpedia#CareerStation",
+		"sigkdd#Main_office"
+	],
+	[
+		"dbpedia#Writer",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"dbpedia#Annotation",
+		"sigkdd#Abstract"
 	]
 ]

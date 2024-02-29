@@ -297,9 +297,12 @@ def main():
                                     _, node2 = key2.split('#')
                                     neighborsOf1 = getNeighbors(node1, onto1, currentNeighborhoodRange)
                                     neighborsOf2 = getNeighbors(node2, onto2, currentNeighborhoodRange)
+                                    neighborsOf1 = [neigh for neigh in neighborsOf1 if not alreadyMatched.get(neigh)]
+                                    neighborsOf2 = [neigh for neigh in neighborsOf2 if not alreadyMatched.get(neigh)]
                                     for keyA, keyB, score in triplesHigherThanThreshold:
-                                        if keyA in neighborsOf1 and keyB in neighborsOf2:
-                                            possibleAlignments.append((keyA, keyB))
+                                        if not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):
+                                            if keyA in neighborsOf1 and keyB in neighborsOf2:
+                                                possibleAlignments.append((keyA, keyB))
                                 #ask LLM for match or no match
                                 for keyA, keyB in tqdm(possibleAlignments, desc = f'running prompts for {currentNeighborhoodRange}-hop neighborhoods in {ontoName1}-{ontoName2}'):
                                     if not alreadyMatched.get(keyA) and not alreadyMatched.get(keyB):

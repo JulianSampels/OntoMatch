@@ -8,40 +8,8 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Website"/>
-      <entity2 rdf:resource="http://ekaw#Web_Site"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Event"/>
       <entity2 rdf:resource="http://ekaw#Event"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Person"/>
-      <entity2 rdf:resource="http://ekaw#Person"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/University"/>
-      <entity2 rdf:resource="http://ekaw#University"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Organisation"/>
-      <entity2 rdf:resource="http://ekaw#Organisation"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -64,40 +32,32 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/SocietalEvent"/>
-      <entity2 rdf:resource="http://ekaw#Social_Event"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/University"/>
+      <entity2 rdf:resource="http://ekaw#University"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Writer"/>
-      <entity2 rdf:resource="http://ekaw#Paper_Author"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Person"/>
+      <entity2 rdf:resource="http://ekaw#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/TelevisionHost"/>
-      <entity2 rdf:resource="http://ekaw#Invited_Speaker"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Website"/>
+      <entity2 rdf:resource="http://ekaw#Web_Site"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Agent"/>
-      <entity2 rdf:resource="http://ekaw#Agency_Staff_Member"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Scientist"/>
-      <entity2 rdf:resource="http://ekaw#Student"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Organisation"/>
+      <entity2 rdf:resource="http://ekaw#Organisation"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -112,6 +72,14 @@
   </map>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Journalist"/>
+      <entity2 rdf:resource="http://ekaw#Paper_Author"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/NaturalEvent"/>
       <entity2 rdf:resource="http://ekaw#Scientific_Event"/>
       <relation>=</relation>
@@ -120,16 +88,56 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Activity"/>
-      <entity2 rdf:resource="http://ekaw#Workshop"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/TelevisionHost"/>
+      <entity2 rdf:resource="http://ekaw#Invited_Speaker"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/PersonFunction"/>
-      <entity2 rdf:resource="http://ekaw#Individual_Presentation"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Criminal"/>
+      <entity2 rdf:resource="http://ekaw#Student"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/SocietalEvent"/>
+      <entity2 rdf:resource="http://ekaw#Social_Event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Agent"/>
+      <entity2 rdf:resource="http://ekaw#Agency_Staff_Member"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Meeting"/>
+      <entity2 rdf:resource="http://ekaw#Session"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/OrganisationMember"/>
+      <entity2 rdf:resource="http://ekaw#PC_Member"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
+      <entity2 rdf:resource="http://ekaw#Conference_Participant"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -152,38 +160,6 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Meeting"/>
-      <entity2 rdf:resource="http://ekaw#Conference_Trip"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/MemberOfParliament"/>
-      <entity2 rdf:resource="http://ekaw#Late-Registered_Participant"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Competition"/>
-      <entity2 rdf:resource="http://ekaw#Track"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/OrganisationMember"/>
-      <entity2 rdf:resource="http://ekaw#PC_Member"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Tournament"/>
       <entity2 rdf:resource="http://ekaw#Conference_Banquet"/>
       <relation>=</relation>
@@ -192,8 +168,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/TeamMember"/>
-      <entity2 rdf:resource="http://ekaw#Conference_Participant"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Activity"/>
+      <entity2 rdf:resource="http://ekaw#Workshop"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/PersonFunction"/>
+      <entity2 rdf:resource="http://ekaw#Individual_Presentation"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -208,8 +192,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/WrittenWork"/>
-      <entity2 rdf:resource="http://ekaw#Workshop_Paper"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Competition"/>
+      <entity2 rdf:resource="http://ekaw#Track"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -218,6 +202,38 @@
     <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Artwork"/>
       <entity2 rdf:resource="http://ekaw#Industrial_Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/MemberOfParliament"/>
+      <entity2 rdf:resource="http://ekaw#Late-Registered_Participant"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/WrittenWork"/>
+      <entity2 rdf:resource="http://ekaw#Workshop_Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Annotation"/>
+      <entity2 rdf:resource="http://ekaw#Abstract"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/PhilosophicalConcept"/>
+      <entity2 rdf:resource="http://ekaw#Demo_Session"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -234,6 +250,118 @@
     <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Newspaper"/>
       <entity2 rdf:resource="http://ekaw#Submitted_Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Tram"/>
+      <entity2 rdf:resource="http://ekaw#Flyer"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Intercommunality"/>
+      <entity2 rdf:resource="http://ekaw#Conference_Session"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Settlement"/>
+      <entity2 rdf:resource="http://ekaw#Workshop_Session"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Comic"/>
+      <entity2 rdf:resource="http://ekaw#Poster_Session"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Group"/>
+      <entity2 rdf:resource="http://ekaw#Invited_Talk"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/ScientificConcept"/>
+      <entity2 rdf:resource="http://ekaw#Research_Institute"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Arena"/>
+      <entity2 rdf:resource="http://ekaw#Conference_Trip"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Case"/>
+      <entity2 rdf:resource="http://ekaw#Proceedings"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/PoliticalConcept"/>
+      <entity2 rdf:resource="http://ekaw#Conference_Proceedings"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/LunarCrater"/>
+      <entity2 rdf:resource="http://ekaw#Demo_Chair"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Judge"/>
+      <entity2 rdf:resource="http://ekaw#Review"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Factory"/>
+      <entity2 rdf:resource="http://ekaw#Industrial_Session"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Host"/>
+      <entity2 rdf:resource="http://ekaw#Invited_Talk_Abstract"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Photographer"/>
+      <entity2 rdf:resource="http://ekaw#Camera_Ready_Paper"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

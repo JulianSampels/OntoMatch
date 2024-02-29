@@ -1,23 +1,7 @@
 [
 	[
-		"dbpedia#Website",
-		"ekaw#Web_Site"
-	],
-	[
 		"dbpedia#Event",
 		"ekaw#Event"
-	],
-	[
-		"dbpedia#Person",
-		"ekaw#Person"
-	],
-	[
-		"dbpedia#University",
-		"ekaw#University"
-	],
-	[
-		"dbpedia#Organisation",
-		"ekaw#Organisation"
 	],
 	[
 		"dbpedia#Document",
@@ -28,40 +12,60 @@
 		"ekaw#Presenter"
 	],
 	[
-		"dbpedia#SocietalEvent",
-		"ekaw#Social_Event"
+		"dbpedia#University",
+		"ekaw#University"
 	],
 	[
-		"dbpedia#Writer",
-		"ekaw#Paper_Author"
+		"dbpedia#Person",
+		"ekaw#Person"
 	],
 	[
-		"dbpedia#TelevisionHost",
-		"ekaw#Invited_Speaker"
+		"dbpedia#Website",
+		"ekaw#Web_Site"
 	],
 	[
-		"dbpedia#Agent",
-		"ekaw#Agency_Staff_Member"
-	],
-	[
-		"dbpedia#Scientist",
-		"ekaw#Student"
+		"dbpedia#Organisation",
+		"ekaw#Organisation"
 	],
 	[
 		"dbpedia#Sound",
 		"ekaw#Paper"
 	],
 	[
+		"dbpedia#Journalist",
+		"ekaw#Paper_Author"
+	],
+	[
 		"dbpedia#NaturalEvent",
 		"ekaw#Scientific_Event"
 	],
 	[
-		"dbpedia#Activity",
-		"ekaw#Workshop"
+		"dbpedia#TelevisionHost",
+		"ekaw#Invited_Speaker"
 	],
 	[
-		"dbpedia#PersonFunction",
-		"ekaw#Individual_Presentation"
+		"dbpedia#Criminal",
+		"ekaw#Student"
+	],
+	[
+		"dbpedia#SocietalEvent",
+		"ekaw#Social_Event"
+	],
+	[
+		"dbpedia#Agent",
+		"ekaw#Agency_Staff_Member"
+	],
+	[
+		"dbpedia#Meeting",
+		"ekaw#Session"
+	],
+	[
+		"dbpedia#OrganisationMember",
+		"ekaw#PC_Member"
+	],
+	[
+		"dbpedia#TeamMember",
+		"ekaw#Conference_Participant"
 	],
 	[
 		"dbpedia#SportCompetitionResult",
@@ -72,40 +76,44 @@
 		"ekaw#Poster_Paper"
 	],
 	[
-		"dbpedia#Meeting",
-		"ekaw#Conference_Trip"
-	],
-	[
-		"dbpedia#MemberOfParliament",
-		"ekaw#Late-Registered_Participant"
-	],
-	[
-		"dbpedia#Competition",
-		"ekaw#Track"
-	],
-	[
-		"dbpedia#OrganisationMember",
-		"ekaw#PC_Member"
-	],
-	[
 		"dbpedia#Tournament",
 		"ekaw#Conference_Banquet"
 	],
 	[
-		"dbpedia#TeamMember",
-		"ekaw#Conference_Participant"
+		"dbpedia#Activity",
+		"ekaw#Workshop"
+	],
+	[
+		"dbpedia#PersonFunction",
+		"ekaw#Individual_Presentation"
 	],
 	[
 		"dbpedia#Publisher",
 		"ekaw#Proceedings_Publisher"
 	],
 	[
-		"dbpedia#WrittenWork",
-		"ekaw#Workshop_Paper"
+		"dbpedia#Competition",
+		"ekaw#Track"
 	],
 	[
 		"dbpedia#Artwork",
 		"ekaw#Industrial_Paper"
+	],
+	[
+		"dbpedia#MemberOfParliament",
+		"ekaw#Late-Registered_Participant"
+	],
+	[
+		"dbpedia#WrittenWork",
+		"ekaw#Workshop_Paper"
+	],
+	[
+		"dbpedia#Annotation",
+		"ekaw#Abstract"
+	],
+	[
+		"dbpedia#PhilosophicalConcept",
+		"ekaw#Demo_Session"
 	],
 	[
 		"dbpedia#SportsTeamMember",
@@ -114,5 +122,61 @@
 	[
 		"dbpedia#Newspaper",
 		"ekaw#Submitted_Paper"
+	],
+	[
+		"dbpedia#Tram",
+		"ekaw#Flyer"
+	],
+	[
+		"dbpedia#Intercommunality",
+		"ekaw#Conference_Session"
+	],
+	[
+		"dbpedia#Settlement",
+		"ekaw#Workshop_Session"
+	],
+	[
+		"dbpedia#Comic",
+		"ekaw#Poster_Session"
+	],
+	[
+		"dbpedia#Group",
+		"ekaw#Invited_Talk"
+	],
+	[
+		"dbpedia#ScientificConcept",
+		"ekaw#Research_Institute"
+	],
+	[
+		"dbpedia#Arena",
+		"ekaw#Conference_Trip"
+	],
+	[
+		"dbpedia#Case",
+		"ekaw#Proceedings"
+	],
+	[
+		"dbpedia#PoliticalConcept",
+		"ekaw#Conference_Proceedings"
+	],
+	[
+		"dbpedia#LunarCrater",
+		"ekaw#Demo_Chair"
+	],
+	[
+		"dbpedia#Judge",
+		"ekaw#Review"
+	],
+	[
+		"dbpedia#Factory",
+		"ekaw#Industrial_Session"
+	],
+	[
+		"dbpedia#Host",
+		"ekaw#Invited_Talk_Abstract"
+	],
+	[
+		"dbpedia#Photographer",
+		"ekaw#Camera_Ready_Paper"
 	]
 ]

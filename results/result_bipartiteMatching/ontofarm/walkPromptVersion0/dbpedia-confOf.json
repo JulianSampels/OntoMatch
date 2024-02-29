@@ -1,11 +1,15 @@
 [
 	[
+		"dbpedia#Event",
+		"confOf#Event"
+	],
+	[
 		"dbpedia#Country",
 		"confOf#Country"
 	],
 	[
-		"dbpedia#Event",
-		"confOf#Event"
+		"dbpedia#University",
+		"confOf#University"
 	],
 	[
 		"dbpedia#Person",
@@ -16,10 +20,6 @@
 		"confOf#City"
 	],
 	[
-		"dbpedia#University",
-		"confOf#University"
-	],
-	[
 		"dbpedia#Company",
 		"confOf#Company"
 	],
@@ -28,27 +28,31 @@
 		"confOf#Participant"
 	],
 	[
-		"dbpedia#Scientist",
-		"confOf#Science_Worker"
-	],
-	[
 		"dbpedia#Writer",
 		"confOf#Author"
 	],
 	[
-		"dbpedia#Non-ProfitOrganisation",
-		"confOf#Organization"
-	],
-	[
-		"dbpedia#MemberResistanceMovement",
-		"confOf#Member"
+		"dbpedia#Scientist",
+		"confOf#Science_Worker"
 	],
 	[
 		"dbpedia#Meeting",
 		"confOf#Conference"
 	],
 	[
-		"dbpedia#Biologist",
+		"dbpedia#Historian",
 		"confOf#Scholar"
+	],
+	[
+		"dbpedia#TeamMember",
+		"confOf#Member"
+	],
+	[
+		"dbpedia#InternationalOrganisation",
+		"confOf#Organization"
+	],
+	[
+		"dbpedia#Letter",
+		"confOf#Paper"
 	]
 ]

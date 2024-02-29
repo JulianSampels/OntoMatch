@@ -1,11 +1,15 @@
 [
 	[
+		"dbpedia#Event",
+		"confOf#Event"
+	],
+	[
 		"dbpedia#Country",
 		"confOf#Country"
 	],
 	[
-		"dbpedia#Event",
-		"confOf#Event"
+		"dbpedia#University",
+		"confOf#University"
 	],
 	[
 		"dbpedia#Person",
@@ -16,64 +20,56 @@
 		"confOf#City"
 	],
 	[
-		"dbpedia#University",
-		"confOf#University"
-	],
-	[
 		"dbpedia#Company",
 		"confOf#Company"
 	],
 	[
-		"dbpedia#BusinessPerson",
-		"confOf#Assistant"
-	],
-	[
-		"dbpedia#Egyptologist",
-		"confOf#Science_Worker"
+		"dbpedia#SocietalEvent",
+		"confOf#Social_event"
 	],
 	[
 		"dbpedia#Archeologist",
 		"confOf#Scholar"
 	],
 	[
-		"dbpedia#LifeCycleEvent",
+		"dbpedia#NaturalEvent",
 		"confOf#Working_event"
 	],
 	[
-		"dbpedia#Athlete",
+		"dbpedia#Presenter",
 		"confOf#Participant"
 	],
 	[
-		"dbpedia#NaturalEvent",
-		"confOf#Social_event"
-	],
-	[
-		"dbpedia#Artist",
+		"dbpedia#Writer",
 		"confOf#Author"
 	],
 	[
-		"dbpedia#OrganisationMember",
-		"confOf#Member_PC"
+		"dbpedia#Engineer",
+		"confOf#Science_Worker"
 	],
 	[
 		"dbpedia#Organisation",
 		"confOf#Organization"
 	],
 	[
-		"dbpedia#Cricketer",
-		"confOf#Student"
+		"dbpedia#Ambassador",
+		"confOf#Assistant"
+	],
+	[
+		"dbpedia#OrganisationMember",
+		"confOf#Member_PC"
 	],
 	[
 		"dbpedia#Holiday",
 		"confOf#Trip"
 	],
 	[
-		"dbpedia#SportsEvent",
-		"confOf#Administrative_event"
+		"dbpedia#TeamMember",
+		"confOf#Member"
 	],
 	[
-		"dbpedia#Congressman",
-		"confOf#Member"
+		"dbpedia#Criminal",
+		"confOf#Student"
 	],
 	[
 		"dbpedia#Historian",
@@ -84,11 +80,59 @@
 		"confOf#Submission_event"
 	],
 	[
+		"dbpedia#SportsEvent",
+		"confOf#Administrative_event"
+	],
+	[
 		"dbpedia#PersonalEvent",
 		"confOf#Registration_of_participants_event"
 	],
 	[
 		"dbpedia#Meeting",
 		"confOf#Workshop"
+	],
+	[
+		"dbpedia#Journalist",
+		"confOf#Paper"
+	],
+	[
+		"dbpedia#Beverage",
+		"confOf#Banquet"
+	],
+	[
+		"dbpedia#Camera",
+		"confOf#Camera_Ready_event"
+	],
+	[
+		"dbpedia#Work",
+		"confOf#Contribution"
+	],
+	[
+		"dbpedia#Activity",
+		"confOf#Volunteer"
+	],
+	[
+		"dbpedia#Document",
+		"confOf#Short_paper"
+	],
+	[
+		"dbpedia#Image",
+		"confOf#Poster"
+	],
+	[
+		"dbpedia#Referee",
+		"confOf#Reviewing_event"
+	],
+	[
+		"dbpedia#Standard",
+		"confOf#Regular"
+	],
+	[
+		"dbpedia#SportsTeam",
+		"confOf#Conference"
+	],
+	[
+		"dbpedia#Station",
+		"confOf#Reception"
 	]
 ]

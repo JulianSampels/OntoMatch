@@ -20,7 +20,7 @@
 	"runPromptsOnLLM": false,
 	"thresholdForConsideration": 0.4,
 	"generateMaximumBipartiteMatching": true,
-	"neighborhoodRange" : 2,
+	"neighborhoodRange" : 8,
 	"exportFinalMatchingsToRDF": true,
 	"promptsFoExportToJson": [
 		0,

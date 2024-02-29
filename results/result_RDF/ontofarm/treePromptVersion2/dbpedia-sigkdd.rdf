@@ -8,16 +8,16 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Hotel"/>
-      <entity2 rdf:resource="http://sigkdd#Hotel"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Document"/>
+      <entity2 rdf:resource="http://sigkdd#Document"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Person"/>
-      <entity2 rdf:resource="http://sigkdd#Person"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Hotel"/>
+      <entity2 rdf:resource="http://sigkdd#Hotel"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -32,8 +32,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Document"/>
-      <entity2 rdf:resource="http://sigkdd#Document"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Person"/>
+      <entity2 rdf:resource="http://sigkdd#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -42,6 +42,14 @@
     <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Award"/>
       <entity2 rdf:resource="http://sigkdd#Award"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Annotation"/>
+      <entity2 rdf:resource="http://sigkdd#Abstract"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

@@ -8,16 +8,16 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Hotel"/>
-      <entity2 rdf:resource="http://sigkdd#Hotel"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Document"/>
+      <entity2 rdf:resource="http://sigkdd#Document"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Person"/>
-      <entity2 rdf:resource="http://sigkdd#Person"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Hotel"/>
+      <entity2 rdf:resource="http://sigkdd#Hotel"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -32,8 +32,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Document"/>
-      <entity2 rdf:resource="http://sigkdd#Document"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Person"/>
+      <entity2 rdf:resource="http://sigkdd#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -56,8 +56,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Senator"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/PlayWright"/>
       <entity2 rdf:resource="http://sigkdd#Author"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/RadioHost"/>
+      <entity2 rdf:resource="http://sigkdd#Speaker"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -72,8 +80,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Artwork"/>
-      <entity2 rdf:resource="http://sigkdd#Paper"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Host"/>
+      <entity2 rdf:resource="http://sigkdd#Webmaster"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -88,16 +96,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Device"/>
-      <entity2 rdf:resource="http://sigkdd#Speaker"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Arena"/>
-      <entity2 rdf:resource="http://sigkdd#Conference_hall"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Broadcaster"/>
+      <entity2 rdf:resource="http://sigkdd#Listener"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -112,16 +112,48 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Broadcaster"/>
-      <entity2 rdf:resource="http://sigkdd#Listener"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Arena"/>
+      <entity2 rdf:resource="http://sigkdd#Conference_hall"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Host"/>
-      <entity2 rdf:resource="http://sigkdd#Webmaster"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Artwork"/>
+      <entity2 rdf:resource="http://sigkdd#Paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Software"/>
+      <entity2 rdf:resource="http://sigkdd#Program_Chair"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/CareerStation"/>
+      <entity2 rdf:resource="http://sigkdd#Main_office"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Writer"/>
+      <entity2 rdf:resource="http://sigkdd#Author_of_paper"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Annotation"/>
+      <entity2 rdf:resource="http://sigkdd#Abstract"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

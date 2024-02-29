@@ -8,6 +8,14 @@
   <type>??</type>
   <map>
     <Cell>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Event"/>
+      <entity2 rdf:resource="http://confOf#Event"/>
+      <relation>=</relation>
+      <measure rdf:datatype="xsd:float">1.0</measure>
+    </Cell>
+  </map>
+  <map>
+    <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/Country"/>
       <entity2 rdf:resource="http://confOf#Country"/>
       <relation>=</relation>
@@ -16,8 +24,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Event"/>
-      <entity2 rdf:resource="http://confOf#Event"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/University"/>
+      <entity2 rdf:resource="http://confOf#University"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -34,14 +42,6 @@
     <Cell>
       <entity1 rdf:resource="http://dbpedia.org/ontology/City"/>
       <entity2 rdf:resource="http://confOf#City"/>
-      <relation>=</relation>
-      <measure rdf:datatype="xsd:float">1.0</measure>
-    </Cell>
-  </map>
-  <map>
-    <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/University"/>
-      <entity2 rdf:resource="http://confOf#University"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

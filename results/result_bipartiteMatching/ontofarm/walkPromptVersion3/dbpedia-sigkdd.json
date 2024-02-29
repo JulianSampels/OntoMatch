@@ -1,19 +1,19 @@
 [
 	[
-		"dbpedia#Hotel",
-		"sigkdd#Hotel"
+		"dbpedia#Document",
+		"sigkdd#Document"
 	],
 	[
-		"dbpedia#Person",
-		"sigkdd#Person"
+		"dbpedia#Hotel",
+		"sigkdd#Hotel"
 	],
 	[
 		"dbpedia#Place",
 		"sigkdd#Place"
 	],
 	[
-		"dbpedia#Document",
-		"sigkdd#Document"
+		"dbpedia#Person",
+		"sigkdd#Person"
 	],
 	[
 		"dbpedia#Award",
@@ -28,20 +28,8 @@
 		"sigkdd#Speaker"
 	],
 	[
-		"dbpedia#Egyptologist",
+		"dbpedia#Economist",
 		"sigkdd#Author"
-	],
-	[
-		"dbpedia#Artist",
-		"sigkdd#Author_of_paper"
-	],
-	[
-		"dbpedia#TelevisionHost",
-		"sigkdd#Invited_Speaker"
-	],
-	[
-		"dbpedia#OrganisationMember",
-		"sigkdd#Organizing_Committee_member"
 	],
 	[
 		"dbpedia#TeamMember",
@@ -50,5 +38,41 @@
 	[
 		"dbpedia#Host",
 		"sigkdd#Webmaster"
+	],
+	[
+		"dbpedia#Writer",
+		"sigkdd#Author_of_paper"
+	],
+	[
+		"dbpedia#OrganisationMember",
+		"sigkdd#Organizing_Committee_member"
+	],
+	[
+		"dbpedia#TelevisionHost",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"dbpedia#Broadcaster",
+		"sigkdd#Listener"
+	],
+	[
+		"dbpedia#Organisation",
+		"sigkdd#Abstract"
+	],
+	[
+		"dbpedia#Referee",
+		"sigkdd#Review"
+	],
+	[
+		"dbpedia#Congressman",
+		"sigkdd#Conference_hall"
+	],
+	[
+		"dbpedia#RecordOffice",
+		"sigkdd#Main_office"
+	],
+	[
+		"dbpedia#GrandPrix",
+		"sigkdd#General_Chair"
 	]
 ]

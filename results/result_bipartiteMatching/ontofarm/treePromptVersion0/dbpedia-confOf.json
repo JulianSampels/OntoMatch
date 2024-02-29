@@ -1,11 +1,15 @@
 [
 	[
+		"dbpedia#Event",
+		"confOf#Event"
+	],
+	[
 		"dbpedia#Country",
 		"confOf#Country"
 	],
 	[
-		"dbpedia#Event",
-		"confOf#Event"
+		"dbpedia#University",
+		"confOf#University"
 	],
 	[
 		"dbpedia#Person",
@@ -16,10 +20,6 @@
 		"confOf#City"
 	],
 	[
-		"dbpedia#University",
-		"confOf#University"
-	],
-	[
 		"dbpedia#Company",
 		"confOf#Company"
 	],
@@ -28,11 +28,23 @@
 		"confOf#Social_event"
 	],
 	[
+		"dbpedia#MemberResistanceMovement",
+		"confOf#Member"
+	],
+	[
 		"dbpedia#EmployersOrganisation",
 		"confOf#Organization"
 	],
 	[
-		"dbpedia#MemberResistanceMovement",
-		"confOf#Member"
+		"dbpedia#Work",
+		"confOf#Working_event"
+	],
+	[
+		"dbpedia#Camera",
+		"confOf#Camera_Ready_event"
+	],
+	[
+		"dbpedia#Document",
+		"confOf#Paper"
 	]
 ]

@@ -1,23 +1,7 @@
 [
 	[
-		"dbpedia#Website",
-		"ekaw#Web_Site"
-	],
-	[
 		"dbpedia#Event",
 		"ekaw#Event"
-	],
-	[
-		"dbpedia#Person",
-		"ekaw#Person"
-	],
-	[
-		"dbpedia#University",
-		"ekaw#University"
-	],
-	[
-		"dbpedia#Organisation",
-		"ekaw#Organisation"
 	],
 	[
 		"dbpedia#Document",
@@ -28,11 +12,35 @@
 		"ekaw#Presenter"
 	],
 	[
-		"dbpedia#EducationalInstitution",
-		"ekaw#Academic_Institution"
+		"dbpedia#University",
+		"ekaw#University"
+	],
+	[
+		"dbpedia#Person",
+		"ekaw#Person"
+	],
+	[
+		"dbpedia#Website",
+		"ekaw#Web_Site"
+	],
+	[
+		"dbpedia#Organisation",
+		"ekaw#Organisation"
 	],
 	[
 		"dbpedia#InternationalOrganisation",
 		"ekaw#Organising_Agency"
+	],
+	[
+		"dbpedia#EducationalInstitution",
+		"ekaw#Academic_Institution"
+	],
+	[
+		"dbpedia#MultiVolumePublication",
+		"ekaw#Multi-author_Volume"
+	],
+	[
+		"dbpedia#TrackList",
+		"ekaw#Track"
 	]
 ]

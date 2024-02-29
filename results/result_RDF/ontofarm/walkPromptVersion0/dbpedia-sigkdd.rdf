@@ -8,16 +8,16 @@
   <type>??</type>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Hotel"/>
-      <entity2 rdf:resource="http://sigkdd#Hotel"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Document"/>
+      <entity2 rdf:resource="http://sigkdd#Document"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Person"/>
-      <entity2 rdf:resource="http://sigkdd#Person"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Hotel"/>
+      <entity2 rdf:resource="http://sigkdd#Hotel"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -32,8 +32,8 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Document"/>
-      <entity2 rdf:resource="http://sigkdd#Document"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Person"/>
+      <entity2 rdf:resource="http://sigkdd#Person"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
@@ -48,16 +48,16 @@
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/RadioHost"/>
-      <entity2 rdf:resource="http://sigkdd#Speaker"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/SongWriter"/>
+      <entity2 rdf:resource="http://sigkdd#Author"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>
   </map>
   <map>
     <Cell>
-      <entity1 rdf:resource="http://dbpedia.org/ontology/Artist"/>
-      <entity2 rdf:resource="http://sigkdd#Author"/>
+      <entity1 rdf:resource="http://dbpedia.org/ontology/Article"/>
+      <entity2 rdf:resource="http://sigkdd#Paper"/>
       <relation>=</relation>
       <measure rdf:datatype="xsd:float">1.0</measure>
     </Cell>

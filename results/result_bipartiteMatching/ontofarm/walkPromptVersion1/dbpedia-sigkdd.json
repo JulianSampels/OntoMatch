@@ -1,19 +1,19 @@
 [
 	[
-		"dbpedia#Hotel",
-		"sigkdd#Hotel"
+		"dbpedia#Document",
+		"sigkdd#Document"
 	],
 	[
-		"dbpedia#Person",
-		"sigkdd#Person"
+		"dbpedia#Hotel",
+		"sigkdd#Hotel"
 	],
 	[
 		"dbpedia#Place",
 		"sigkdd#Place"
 	],
 	[
-		"dbpedia#Document",
-		"sigkdd#Document"
+		"dbpedia#Person",
+		"sigkdd#Person"
 	],
 	[
 		"dbpedia#Award",
