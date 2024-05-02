@@ -1,215 +1,73 @@
-[
-    {
-        "ekaw#Event": "The social event is the parent of the scientific event, the individual presentation, the tutorial and the conference trip."
-    },
-    {
-        "ekaw#Person": "The parent of a conference participant is the presenter, the invited speaker, the agency staff member, the student, the paper author and the possible reviewer. The program committee member and the session chair are both members of the program committee."
-    },
-    {
-        "ekaw#Accepted_Paper": "The accepted paper is the child of the evaluated paper, the assigned paper is the child of the submitted paper and the parent of the camera ready paper."
-    },
-    {
-        "ekaw#Rejected_Paper": "The rejected paper is the child of the evaluated paper and the accepted paper."
-    },
-    {
-        "ekaw#Evaluated_Paper": "The evaluated paper is the parent of accepted paper and rejected paper. It is also the child of assigned paper and submitted paper. It is also the parent of industrial paper."
-    },
-    {
-        "ekaw#Camera_Ready_Paper": "The camera ready paper is a child of paper which is the parent of poster paper."
-    },
-    {
-        "ekaw#Positive_Review": "The positive review is the parent of the neutral review."
-    },
-    {
-        "ekaw#Workshop_Paper": "The workshop paper is a child of the document."
-    },
-    {
-        "ekaw#Industrial_Paper": "Industrial paper is the child of paper and is the parent of demo paper."
-    },
-    {
-        "ekaw#Paper": "Paper is the parent of flyer and conference papers. It is also the parent of industrial paper and workshop paper."
-    },
-    {
-        "ekaw#Conference_Paper": "The conference paper is the child of the workshop paper."
-    },
-    {
-        "ekaw#Industrial_Session": "The industrial session is the child of the conference session. It is also the child of the social event which is the parent of the conference trip. The scientific event is also the child of the conference session."
-    },
-    {
-        "ekaw#Conference_Session": "The conference session is the parent of the industrial session and the demo session."
-    },
-    {
-        "ekaw#Regular_Session": "The regular session is the child of the scientific event which is the parent of the workshop."
-    },
-    {
-        "ekaw#Poster_Session": "The poster session is a child of a scientific event."
-    },
-    {
-        "ekaw#Demo_Session": "The demo session is a child of a scientific event which is parented by a social event."
-    },
-    {
-        "ekaw#Session": "The session is the parent of the conference trip, the industrial session, the poster session and the workshop session. It is also the parent of the social event which is also the parent of the conference trip."
-    },
-    {
-        "ekaw#Abstract": "The abstract is the parent of the tutorial abstract and the invited talk abstract. It is also the parent of review and negative review."
-    },
-    {
-        "ekaw#Document": "The parent document of the web site is the document that is the parent of the conference proceedings. The conference proceedings are also the parent of the document which is also the parent of the abstract and the invited talk abstract."
-    },
-    {
-        "ekaw#Paper_Author": "The paper author is a child of the person who is the parent of the student."
-    },
-    {
-        "ekaw#Conference_Trip": "The conference trip is a child of a social event which is parented by a scientific event which is also parented by a track."
-    },
-    {
-        "ekaw#Social_Event": "The social event is the parent of the conference trip and the conference banquet. It is also the parent of the scientific event which is also the parent of the tutorial."
-    },
-    {
-        "ekaw#Tutorial_Abstract": "The abstract of a tutorial is a child of the flyer."
-    },
-    {
-        "ekaw#Conference_Participant": "The conference participant is the parent of the workshop chair and the program committee chair. The presenter is the invited speaker and the late registered participant is the presenter. The agency staff member is also a parent of the conference participant."
-    },
-    {
-        "ekaw#Submitted_Paper": "The paper submitted is the child of the paper which is also the parent of the camera ready paper. The assigned paper is the parent of the evaluated paper."
-    },
-    {
-        "ekaw#Assigned_Paper": "The assigned paper is the parent of the evaluated paper, the accepted paper and the submitted paper. The paper is also the parent of the camera ready paper."
-    },
-    {
-        "ekaw#Negative_Review": "The negative review is the parent of the neutral review."
-    },
-    {
-        "ekaw#Review": "Review is the parent of both the positive review and the neutral review. It is the parent of the conference proceedings and the multi author volume."
-    },
-    {
-        "ekaw#Neutral_Review": "The neutral review is the parent of the negative review."
-    },
-    {
-        "ekaw#Organising_Agency": "The organising agency is a child of the organisation which is parented by an academic institution."
-    },
-    {
-        "ekaw#Academic_Institution": "The academic institution is parented by the university and the research institute. The university is the parent of the proceedings publisher."
-    },
-    {
-        "ekaw#Organisation": "The parent organisation is the academic institution, the research institute, the organising agency and the proceedings publisher."
-    },
-    {
-        "ekaw#Proceedings_Publisher": "The proceedings publisher is a child of an organisation which is parented by an academic institution and a research institute."
-    },
-    {
-        "ekaw#Poster_Paper": "The poster paper is a child of paper which is parented by the submitted paper and the assigned paper."
-    },
-    {
-        "ekaw#Regular_Paper": "The regular paper is the child of paper and the parent of poster paper."
-    },
-    {
-        "ekaw#Demo_Paper": "Demo paper is a child of paper and is also a child of a document. Review is the parent of positive review."
-    },
-    {
-        "ekaw#Research_Institute": "The research institute is the child of the academic institution which is the parent of the university."
-    },
-    {
-        "ekaw#Scientific_Event": "The scientific event is the parent of the workshop and the conference. It is also the parent of the social event. It is also the parent of the session, the regular session and the individual presentation."
-    },
-    {
-        "ekaw#Invited_Talk_Abstract": "The invited talk abstract is the child of the abstract and the tutorial abstract."
-    },
-    {
-        "ekaw#Agency_Staff_Member": "The agency staff member is the child of a person who is the parent of a possible reviewer. The program committee member is the child of a conference participant and the program committee chair is the child of an early registered participant."
-    },
-    {
-        "ekaw#Workshop_Session": "The workshop session is the child of the poster session."
-    },
-    {
-        "ekaw#Track": "The track is child of a scientific event which is parented by a social event which is also parented by a conference trip."
-    },
-    {
-        "ekaw#Invited_Talk": "The invited talk is the child of the individual presentation and the contributed talk."
-    },
-    {
-        "ekaw#Workshop": "The workshop is a child of a scientific event which is parented by a social event."
-    },
-    {
-        "ekaw#Tutorial": "The individual presentation is the child of a scientific event which is parented by a social event. The conference banquet is also a social event."
-    },
-    {
-        "ekaw#Contributed_Talk": "Contributed talk is child of individual presentation which is child of a scientific event."
-    },
-    {
-        "ekaw#Conference": "The conference is the parent of the scientific event which is the parent of the poster session."
-    },
-    {
-        "ekaw#Demo_Chair": "The demo chair is the child of the conference participant and the parent of the paper author. The program committee member is the child of a possible reviewer and the program committee member is the child of the program committee member."
-    },
-    {
-        "ekaw#Tutorial_Chair": "The child of a conference participant is the child of a program committee member and a possible reviewer. The child of a program committee member is the child of a parent of an agency staff member."
-    },
-    {
-        "ekaw#PC_Chair": "The program committee chair is the child of the program committee member and the workshop chair. The workshop chair is the child of a conference participant."
-    },
-    {
-        "ekaw#PC_Member": "The program committee chair is the parent of the conference participant, the tutorial chair and the session chair. The program committee member is also the parent of the workshop chair and the program committee member is the parent of the workshop chair. The child of the program committee member is the child of the paper author and the child of the possible reviewer."
-    },
-    {
-        "ekaw#OC_Member": "The oc member is the parent of the oc chair and the child of a conference participant and a student."
-    },
-    {
-        "ekaw#Proceedings": "The conference proceedings are parented to the conference proceedings. The abstract and the tutorial abstract are also parented to the multi author volume."
-    },
-    {
-        "ekaw#Programme_Brochure": "The programme brochure is a child of document which is parented by paper."
-    },
-    {
-        "ekaw#Flyer": "The flyer is a child of the document which is the parent of the web site."
-    },
-    {
-        "ekaw#Web_Site": "The web site is a child of a document which is parented by paper."
-    },
-    {
-        "ekaw#Multi-author_Volume": "The multi author volume is the parent of the conference proceedings and the flyer."
-    },
-    {
-        "ekaw#Individual_Presentation": "The individual presentation is the parent of the contributed talk and the invited talk. It is also the child of the scientific event, the conference and the tutorial."
-    },
-    {
-        "ekaw#OC_Chair": "The oc chair is the child of the oc member and the conference participant. The parent of the oc member is the agency staff member."
-    },
-    {
-        "ekaw#Conference_Banquet": "The conference banquet is the child of the social event which is the parent of the conference trip."
-    },
-    {
-        "ekaw#Workshop_Chair": "The workshop chair is the child of a conference participant, a student and a program committee member. The session chair is also a child of a program committee member."
-    },
-    {
-        "ekaw#Conference_Proceedings": "The multi author volume is a child of the proceedings of a conference. The document is the parent of the review which is the parent of the positive review."
-    },
-    {
-        "ekaw#Session_Chair": "The session chair is the child of the conference participant and the workshop chair. The early registered participant is also a child of the program committee member."
-    },
-    {
-        "ekaw#Early-Registered_Participant": "The early registered participant is the child of the conference participant and the parent of the paper author."
-    },
-    {
-        "ekaw#Late-Registered_Participant": "The late registered participant is a child of a conference participant who is also a child of a person."
-    },
-    {
-        "ekaw#University": "The university is a child of an academic institution which is a child of an organisation."
-    },
-    {
-        "ekaw#Possible_Reviewer": "The program committee chair is the parent of the conference participant and the agency staff member. The child of the conference participant is the child of the program committee member and the possible reviewer is the parent of the program committee member."
-    },
-    {
-        "ekaw#Student": "The student is a child of the person who is the parent of the possible reviewer. The program committee member is the parent of the session chair member."
-    },
-    {
-        "ekaw#Invited_Speaker": "The invited speaker is a child of the presenter and the conference participant."
-    },
-    {
-        "ekaw#Presenter": "The presenter is the parent of the invited speaker and the child of the conference participant and the agency staff member."
-    },
-    {
-        "ekaw#SC_Member": "The session chair member is a child of a program committee member and a possible reviewer. The parent of a student is also a child of a possible reviewer."
-    }
-]
+{
+	"ekaw#Event": "The conferencebanquet and the scientificevent are both parented by the same event. The socialevent and the individualpresentation are also parented by the same event.",
+	"ekaw#Person": "The parent of a conferenceparticipant is the lateregisteredparticipant. The student is the parent of the paperauthor and the possiblereviewer is the parent of the member of the agency staff.",
+	"ekaw#Accepted_Paper": "Acceptedpaper is the child of evaluatedpaper and the parent of rejectedpaper.",
+	"ekaw#Rejected_Paper": "The rejected paper is the child of the evaluated paper and the accepted paper.",
+	"ekaw#Evaluated_Paper": "The evaluatedpaper is the parent of acceptedpaper and rejectedpaper. The assignedpaper is the child of submittedpaper and the posterpaper is the child of evaluatedpaper.",
+	"ekaw#Camera_Ready_Paper": "camerareadypaper is a child of paper which is the parent of regularpaper.",
+	"ekaw#Positive_Review": "The positivereview is a child of review which is a document which is parented by paper and industrialpaper.",
+	"ekaw#Workshop_Paper": "The workshoppaper is a child of paper which is the parent of the demopaper.",
+	"ekaw#Industrial_Paper": "Industrialpaper is a child of paper and a document.",
+	"ekaw#Paper": "Paper is the parent of demopaper and workshoppaper. It is also the parent of the website and cameraready paper.",
+	"ekaw#Conference_Paper": "conferencepaper is the child of paper and is the parent of demopaper.",
+	"ekaw#Industrial_Session": "The industrialsession is the child of the conferencesession and the scientificevent which is the parent of the workshop.",
+	"ekaw#Conference_Session": "The conferencesession is the parent of the industrialsession and the scientificevent.",
+	"ekaw#Regular_Session": "The regularsession is the child of the session and the parent of the postersession.",
+	"ekaw#Poster_Session": "The postersession is the child of the session which is the parent of the demosession.",
+	"ekaw#Demo_Session": "The demosession is a child of the scientificevent.",
+	"ekaw#Session": "The session is the child of the scientificevent and the social event. It is also the parent of the conferencebanquet, the regularsession and the industrialsession.",
+	"ekaw#Abstract": "The abstract is the parent of invitedtalkabstract and tutorialabstract. Paper is the parent of submittedpaper.",
+	"ekaw#Document": "The document is the parent of the conferenceproceedings, the proceedings, and the flyer. It is also the parent of the flyer and the website. It is also the parent of the review, which is also the parent of the neutralreview.",
+	"ekaw#Paper_Author": "The paperauthor is the child of the conferenceparticipant and the chair. The workshopchair is the child of the chair and the conferenceparticipant.",
+	"ekaw#Conference_Trip": "The conferencetrip is a child of socialvent which is the parent event of scientificevent which is the parent event of workshop.",
+	"ekaw#Social_Event": "Socialvent is the parent of conferencetrip and scientificevent. It is also the parent of conferencebanquet.",
+	"ekaw#Tutorial_Abstract": "The abstract is a child of the tutorial abstract which is a child of the document which is parented by paper which is also parented by industrialpaper.",
+	"ekaw#Conference_Participant": "The conferenceparticipant is the parent of the paperauthor, the presenter, the invited speaker and the sessionchair. The child of the sessionchair and the possible reviewer is also the parent of the chair.",
+	"ekaw#Submitted_Paper": "The paper submitted is the child of the document, the assignedpaper is the parent of acceptedpaper and the evaluatedpaper is the parent of acceptedpaper.",
+	"ekaw#Assigned_Paper": "The assignedpaper is the child of submittedpaper and evaluatedpaper. The paper is also the parent of conferencepaper and rejectedpaper.",
+	"ekaw#Negative_Review": "The negativereview is the child of the review and the parent of the positivereview.",
+	"ekaw#Review": "Review is a child of the program brochure. It is also the parent of the negativereview and the positivereview.",
+	"ekaw#Neutral_Review": "neutralreview is a child of review and is the parent of negativereview.",
+	"ekaw#Organising_Agency": "organisingagency is a child of the organisation which is parented by proceedingspublisher.",
+	"ekaw#Academic_Institution": "The academicinstitution is the child of the organisation that publishes proceedings. It is also the parent of the university and the researchinstitute.",
+	"ekaw#Organisation": "The organisingagency is the parent organisation of the proceedings publisher. The academicinstitution is the parent organisation of the researchinstitute.",
+	"ekaw#Proceedings_Publisher": "The proceedingspublisher is a child of the organisation which is parented by the organisation.",
+	"ekaw#Poster_Paper": "Posterpaper is a child of paper and is the parent of workshoppaper.",
+	"ekaw#Regular_Paper": "Paper is a child of paper and is the parent of industrial paper.",
+	"ekaw#Demo_Paper": "Demopaper is a child of paper and a document.",
+	"ekaw#Research_Institute": "The researchinstitute is a child of the academicinstitution which is a child of the organisation.",
+	"ekaw#Scientific_Event": "The scientificevent is the parent of the conferencesession, the conferencesession and the industrialsession. It is also the parent of the contributedtalk and the conference.",
+	"ekaw#Invited_Talk_Abstract": "invitedtalkabstract is a child of abstract and is a parent of multiauthor volume.",
+	"ekaw#Agency_Staff_Member": "The agency staff member is the child of the person who is the parent of the paperauthor.",
+	"ekaw#Workshop_Session": "The workshop session is the child of the session and the parent of the regular session.",
+	"ekaw#Track": "The track is a child of scientificevent which is a parent of socialevent.",
+	"ekaw#Invited_Talk": "The invitedtalk is a child of the scientificevent which is a child of the event.",
+	"ekaw#Workshop": "The scientificevent is a child of the workshop.",
+	"ekaw#Tutorial": "The tutorial is child of individualpresentation which is parented by contributedtalk.",
+	"ekaw#Contributed_Talk": "contributedtalk is a child of individualpresentation which is a child of scientificevent which is parented by a conference.",
+	"ekaw#Conference": "The conference is the parent of the scientificevent which is also the parent of the workshop.",
+	"ekaw#Demo_Chair": "The demochair is the child of the conferenceparticipant and the parent of the paperauthor.",
+	"ekaw#Tutorial_Chair": "The tutorialchair is the child of the conferenceparticipant and the parent of the student. The sessionchair is also the child of the member and the possiblereviewer.",
+	"ekaw#PC_Chair": "The chair of the conference is child of the conferenceparticipant and the child of the member who is the parent of the workshopchair.",
+	"ekaw#PC_Member": "The child of a conferenceparticipant is the parent of a student and a possible reviewer. The child of a sessionchair and a conferenceparticipant is the child of the chair.",
+	"ekaw#OC_Member": "The child of the conferenceparticipant is the child of the parent of the chair and the possible reviewer.",
+	"ekaw#Proceedings": "The proceedings are the parent of conferenceproceedings and paper. Paper is the parent of submittedpaper and is the child of the multiauthorvolume.",
+	"ekaw#Programme_Brochure": "The programmebrochure is a child of document which is parented by paper which is also parented by workshoppaper.",
+	"ekaw#Flyer": "The flyer is a child of the document which is the parent of the review.",
+	"ekaw#Web_Site": "The website is the child of the document which is the parent of the programmebrochure.",
+	"ekaw#Multi-author_Volume": "The multiauthorvolume is the parent of proceedings and conferenceproceedings. It is also the child of paper and regularpaper.",
+	"ekaw#Individual_Presentation": "Individualpresentation is a child of scientificevent and socialvent. It is also the parent of conferencetrip and tutorial. It is also the parent of contributedtalk and scientificevent.",
+	"ekaw#OC_Chair": "The chair is child of the member and the conference participant.",
+	"ekaw#Conference_Banquet": "conferencebanquet is a child of socialvent which is the parent of conferencetrip.",
+	"ekaw#Workshop_Chair": "The workshopchair is the child of a member of the conferenceparticipant, a student and a parent of the chair.",
+	"ekaw#Conference_Proceedings": "Conferenceproceedings is a child of proceedings and multiauthorvolume.",
+	"ekaw#Session_Chair": "The sessionchair is the child of the conferenceparticipant, the parent of the tutorialchair and the parent of the workshopchair.",
+	"ekaw#Early-Registered_Participant": "The earlyregisteredparticipant is the child of the conferenceparticipant and the parent of the sessionchair.",
+	"ekaw#Late-Registered_Participant": "The lateregisteredparticipant is a child of the conferenceparticipant who is the parent of the chair and the member.",
+	"ekaw#University": "The university is the child of the academicinstitution which is the parent of the proceedingspublisher.",
+	"ekaw#Possible_Reviewer": "Possiblereviewer is a parent of a member, a student and a child of that member.",
+	"ekaw#Student": "The student is the child of the person who is the parent of the agency staff member.",
+	"ekaw#Invited_Speaker": "The invited speaker is the child of the presenter and the conferenceparticipant. The chair is the parent of the invited speaker.",
+	"ekaw#Presenter": "The presenter is the parent of the invited speaker and the child of the conferenceparticipant and the agency staff member.",
+	"ekaw#SC_Member": "The child of a member is a possiblereviewer who is a child of a member."
+}

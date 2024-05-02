@@ -1,164 +1,56 @@
-[
-    {
-        "conference#Conference_participant": "The parent of the conference participant is the track workshop chair. The active conference participant is the parent of the conference contributor and the regular author. The conference participant is also the parent of the conference contributor."
-    },
-    {
-        "conference#Active_conference_participant": "The active conference participant is the parent of the conference contributor, the regular author and the contribution co author. The active conference participant is the child of the invited speaker and the conference participant is the parent of the passive conference participant."
-    },
-    {
-        "conference#Passive_conference_participant": "The child of a conference participant is the child of a registered applicant and a conference applicant. The conference applicant is the parent of the conference participant."
-    },
-    {
-        "conference#Person": "The parent of the conference contributor is the committee member, co chair and the conference applicant. The conference applicant is the registered applicant and the reviewer is the parent of the track workshop chair."
-    },
-    {
-        "conference#Review_expertise": "Review expertise is a child of Thing."
-    },
-    {
-        "conference#Submitted_contribution": "The submitted contribution is the child of the regular contribution and the reviewed contribution. The reviewed contribution is the parent of the poster and the camera ready contribution. The written contribution is equivalent to the conference contribution."
-    },
-    {
-        "conference#Reviewer": "The reviewer is a child of the person who is the parent of the committee member. The committee member is the parent of the organizer who is the child of the organization."
-    },
-    {
-        "conference#Regular_author": "The regular author is the parent of both the active conference participant and the contribution co author. He is the child of the conference contributor and the contribution 1st author."
-    },
-    {
-        "conference#Conference_contributor": "The parent of the conference contributor is the registered applicant. The registered applicant is the parent of the paid applicant and the late paid applicant. The conference contributor is the child of the invited speaker and the regular author. The contributor is also the parent of the conference contributor."
-    },
-    {
-        "conference#Contribution_1th-author": "The contribution 1st author is the child of the regular author and the conference contributor. The invited speaker is the parent of the active conference participant and the invited speaker is the invited speaker."
-    },
-    {
-        "conference#Contribution_co-author": "The contribution co author is the child of the regular author and the conference contributor who is the parent of an active conference participant."
-    },
-    {
-        "conference#Conference_contribution": "The conference contribution is the parent of the poster, the conference announcement and the conference document. The conference contribution is the parent of the invited talk and the conference contribution is the parent of the conference contribution. The written contribution is the parent of the regular contribution and the reviewed contribution is the equivalent of the accepted contribution."
-    },
-    {
-        "conference#Co-chair": "The co chair is the child of the committee member and the parent of the track workshop chair."
-    },
-    {
-        "conference#Committee": "The committee is the parent of the organizing committee, the program committee and the steering committee."
-    },
-    {
-        "conference#Committee_member": "The committee member is the parent of the organizer and the co chair. The committee member is also the parent of the chair and the track workshop chair. The committee member is the child of the organizer and the chair."
-    },
-    {
-        "conference#Abstract": "Extended abstract is a child of extended abstract which is equivalent to regular contribution."
-    },
-    {
-        "conference#Extended_abstract": "The extended abstract is equivalent to the regular contribution which is parented by the written contribution and the submitted contribution."
-    },
-    {
-        "conference#Invited_speaker": "The invited speaker is the parent of an active conference participant, a committee member and a regular author. The 1st author is also a child of the conference contributor."
-    },
-    {
-        "conference#Information_for_participants": "The conference document is the parent of the conference contribution, the presentation and the invited talk. The information for participants is provided by the conference document."
-    },
-    {
-        "conference#Conference_document": "The conference document is the parent of the call for paper, the conference announcement and the poster. It is also the parent of the information for participants and the conference contribution."
-    },
-    {
-        "conference#Organization": "The parent of the organizer is the parent of the chair and the committee member."
-    },
-    {
-        "conference#Regular_contribution": "The conference contribution is the parent of the written contribution which is the parent of the submitted contribution. The reviewed contribution is the parent of the reviewed contribution which is the equivalent of the rejected contribution. The extended abstract is the parent of the regular contribution which is equivalent to the paper."
-    },
-    {
-        "conference#Poster": "The poster is the parent of both the submitted contribution and the accepted contribution. The conference contribution is the parent of the invited talk and the written contribution is the parent of the paper."
-    },
-    {
-        "conference#Written_contribution": "The written contribution is the parent of the submitted contribution and the accepted contribution. It is also the parent of the extended abstract which is the same as the extended abstract. The conference contribution is the child of the conference document and the written contribution is the child of the poster."
-    },
-    {
-        "conference#Conference_applicant": "The conference applicant is a child of a person who is the parent of a conference contributor and an active conference participant. The registered applicant is the parent of a paid applicant which is equivalent to an early paid applicant."
-    },
-    {
-        "conference#Camera_ready_contribution": "The camera ready contribution is a child of the accepted contribution which is equivalent to the reviewed contribution. The written contribution is also a child of the regular contribution which is parented by the extended abstract."
-    },
-    {
-        "conference#Accepted_contribution": "The accepted contribution is the parent of the camera ready contribution and is equivalent to the reviewed contribution. The written contribution is the child of the conference contribution and the conference document."
-    },
-    {
-        "conference#Program_committee": "The program committee is equivalent to the steering committee."
-    },
-    {
-        "conference#Organizing_committee": "The organizing committee is a child of the committee which is equivalent to the steering committee."
-    },
-    {
-        "conference#Steering_committee": "The steering committee is equivalent to the committee which is the parent of the organizing committee."
-    },
-    {
-        "conference#Conference_volume": "The conference volume is a child of conference."
-    },
-    {
-        "conference#Conference": "The conference is the parent of the conference volume."
-    },
-    {
-        "conference#Call_for_paper": "The call for paper is a child of conference document which is the parent of review."
-    },
-    {
-        "conference#Conference_announcement": "The conference announcement is the child of the conference document which is the parent of the call for participation."
-    },
-    {
-        "conference#Paper": "The paper is the child of the regular contribution and the written contribution. The poster is the parent of the submitted contribution."
-    },
-    {
-        "conference#Invited_talk": "The conference contribution, which is the parent of the presentation, is equivalent to an invited talk."
-    },
-    {
-        "conference#Conference_part": "The conference part is the parent of the workshop and the tutorial."
-    },
-    {
-        "conference#Presentation": "The conference contribution is the child of the conference document and is the parent of the invited talk."
-    },
-    {
-        "conference#Chair": "The chair of the committee is the child of the committee member who is the parent of the organizer who is the child of Thing."
-    },
-    {
-        "conference#Track": "The track is the child of the conference part and the parent of the tutorial."
-    },
-    {
-        "conference#Workshop": "The workshop is the child of the conference part and the parent of the tutorial."
-    },
-    {
-        "conference#Tutorial": "The tutorial is child of the conference part and the parent of the workshop."
-    },
-    {
-        "conference#Rejected_contribution": "The rejected contribution is the child of the reviewed contribution which is equivalent to the accepted contribution and the parent of the camera ready contribution."
-    },
-    {
-        "conference#Reviewed_contribution": "The submitted contribution is the child of the written contribution and the reviewed contribution is the parent of the rejected contribution. The reviewed contribution is equivalent to the accepted contribution which is the parent of the camera ready contribution."
-    },
-    {
-        "conference#Review": "The conference document is the parent of the conference contribution which is equivalent to a written contribution. The review contribution is the parent of the submitted contribution which is equivalent to a rejected contribution."
-    },
-    {
-        "conference#Late_paid_applicant": "The late paid applicant is a child of the registered applicant and the conference applicant. The registered applicant is also a child of the paid applicant."
-    },
-    {
-        "conference#Paid_applicant": "The late paid applicant is the parent of the late paid applicant. The registered applicant is the child of the conference applicant and the parent of the conference participant."
-    },
-    {
-        "conference#Early_paid_applicant": "Early paid applicant is equivalent to paid applicant and late paid applicant."
-    },
-    {
-        "conference#Organizer": "The parent of a conference applicant is the registered applicant. The registered applicant is the parent of a paid applicant. The late paid applicant is also the parent of the conference applicant. The committee member is also a child of the organizer of the Thing."
-    },
-    {
-        "conference#Call_for_participation": "The conference document is the parent of the conference announcement and the call for participation."
-    },
-    {
-        "conference#Registeered_applicant": "The registered applicant is the parent of the paid applicant, which is equivalent to late paid applicant. The registered applicant is also the child of the conference applicant and the conference participant."
-    },
-    {
-        "conference#Track-workshop_chair": "The track workshop chair is child of the person who is the parent of the conference contributor. The regular author is also the parent of the contribution co author."
-    },
-    {
-        "conference#Conference_www": "conference www is the parent of conference announcement and conference document."
-    },
-    {
-        "conference#Review_preference": "The review preference is a child of Thing."
-    }
-]
+{
+	"conference#Conference_participant": "The conferenceparticipant is the child of the conferencecontributor, the activeconferenceparticipant is the child of the invited speaker and the passiveconferenceparticipant is the parent of the conferencecontributor.",
+	"conference#Active_conference_participant": "The activeconferenceparticipant is the parent of the conferencecontributor, the regularauthor and the invitedspeaker. The activeconferenceparticipant is the equivalent of the conferenceparticipant and the parent of the passiveconferenceparticipant.",
+	"conference#Passive_conference_participant": "The conferenceparticipant is the parent of the activeconferenceparticipant. The conferencecontributor is the child of the invited speaker and the conferenceparticipant is the child of the conferenceparticipant.",
+	"conference#Person": "The parent of a conferenceparticipant is the reviewer. The activeconferenceparticipant is the equivalent of the passiveconferenceparticipant. The committee member is the parent of the organizer and the committee member is the parent of the committee. The invitedspeaker is the parent of the activeconferenceparticipant and the trackworkshopchair is the parent of the conferencecontributor.",
+	"conference#Review_expertise": "Reviewexpertise is a child of Thing.",
+	"conference#Submitted_contribution": "The submittedcontribution is the parent of the reviewedcontribution, which is equivalent to the rejectedcontribution. It is also the child of the writtencontribution, which is equivalent to the conferencecontribution. It is the parent of the presentation, which is the parent of the invitedtalk and is the child of the poster.",
+	"conference#Reviewer": "The reviewer is a child of the person who is the parent of the conference applicant. The registeered applicant is the parent of the paid applicant and the conference applicant is the parent of the conference applicant.",
+	"conference#Regular_author": "Regularauthor is the parent of contribution1author and contributioncoauthor. The activeconferenceparticipant is the child of invitedspeaker and conferencecontributor.",
+	"conference#Conference_contributor": "The conferencecontributor is the parent of the conferenceapplicant, the registeeredapplicant, the paidapplicant and the activeconferenceparticipant. The activeconferenceparticipant is the child of the conferencecontributor and the regularauthor is the parent of contribution1author.",
+	"conference#Contribution_1th-author": "The contribution1author is the child of the regularauthor and the conferencecontributor. The activeconferenceparticipant is the parent of the conferencecontributor.",
+	"conference#Contribution_co-author": "Contributioncoauthor is the child of regularauthor and the parent of contribution1author.",
+	"conference#Conference_contribution": "The conferencecontribution is the parent of the conferencedocument and the informationforparticipants. It is also the parent of the poster, the invitedtalk and the writtencontribution.",
+	"conference#Co-chair": "The chair of a trackworkshop is the child of a committee member and a parent of a trackworkshopchair.",
+	"conference#Committee": "The committee is the parent of the steeringcommittee and the programcommittee. It is the equivalent of the organizingcommittee.",
+	"conference#Committee_member": "The committee member is the parent of the chair and the chair. The committee member is also the parent of the organizer and the child of the organization. The committee member is the parent of the conference applicant and the late paid applicant.",
+	"conference#Abstract": "The extendedabstract is a child of the regularcontribution which is parented to the submittedcontribution. The writtencontribution is also a child of the extendedabstract.",
+	"conference#Extended_abstract": "Extendedabstract is equivalent to regularcontribution. Writtencontribution is parented to reviewedcontribution and submittedcontribution is parented to submittedcontribution.",
+	"conference#Invited_speaker": "invitedspeaker is a child of the conferencecontributor and the trackworkshopchair. He is also a child of the regularauthor and contributioncoauthor.",
+	"conference#Information_for_participants": "Informationforparticipants is a child of conferencedocument which is parented by conferenceannouncement.",
+	"conference#Conference_document": "The conferencedocument is the parent of conferenceannouncement and informationforparticipants. It is also the parent of conferencecontribution which is equivalent to poster and regularcontribution which is equivalent to paper.",
+	"conference#Organization": "The parent of the organizer is the parent of the committee member who is a child of the committee member and the reviewer.",
+	"conference#Regular_contribution": "The paper is the parent of the extendedabstract which is the parent of the abstract. The paper is the parent of the conference contribution and the written contribution is the child of the regularcontribution.",
+	"conference#Poster": "The poster is the parent of the writtencontribution and the submittedcontribution. The conferencecontribution is the child of the conferencedocument and is the parent of the review.",
+	"conference#Written_contribution": "The writtencontribution is the child of conferencecontribution, which is the parent of the call for participation. It is also the child of poster and reviewedcontribution. It is the parent of acceptedcontribution and camerareadycontribution.",
+	"conference#Conference_applicant": "The conference applicant is the child of a person who is the parent of a reviewer. The registeered applicant is the parent of the paid applicant and the earlypaid applicant.",
+	"conference#Camera_ready_contribution": "The camerareadycontribution is a child of the acceptedcontribution and the reviewedcontribution.",
+	"conference#Accepted_contribution": "The acceptedcontribution is the parent of the camerareadycontribution and the reviewedcontribution is the parent of the rejectedcontribution.",
+	"conference#Program_committee": "The programcommittee is the child of the committee and the parent of the steeringcommittee.",
+	"conference#Organizing_committee": "The organizingcommittee is a child of the committee which is equivalent to the programcommittee.",
+	"conference#Steering_committee": "The steeringcommittee is equivalent to the committee and the organizingcommittee.",
+	"conference#Conference_volume": "conferencevolume is a child of conference.",
+	"conference#Conference": "The conference is the parent of conferencevolume.",
+	"conference#Call_for_paper": "The callforpaper is a child of conferencedocument which is parented by conferencecontribution. The poster is also parented by conferencecontribution. The written contribution is also a child of conferencecontribution and regular contribution.",
+	"conference#Conference_announcement": "The conference announcement is a child of the conferencedocument which is parented by the informationforparticipants.",
+	"conference#Paper": "The paper is equivalent to the regularcontribution which is the child of the writtencontribution and the poster. The conferencecontribution is the child of conferencedocument which is parented by conferencewww.",
+	"conference#Invited_talk": "The invitedtalk is the child of the presentation. The conferencecontribution is the parent of the poster, the submittedcontribution is the parent of the acceptedcontribution and the reviewedcontribution is the parent of the acceptedcontribution.",
+	"conference#Conference_part": "The conferencepart is the parent of the workshop and the tutorial.",
+	"conference#Presentation": "The conferencecontribution is the parent of the writtencontribution which is the child of the poster. It is also the parent of the invitedtalk.",
+	"conference#Chair": "The chair of the committee is the child of the committee member and the parent of the conference contributor.",
+	"conference#Track": "The track is a child of conferencepart which is the parent of tutorial.",
+	"conference#Workshop": "The workshop is the child of conferencepart which is the parent of track.",
+	"conference#Tutorial": "The tutorial is child of conferencepart which is parent of track.",
+	"conference#Rejected_contribution": "The rejectedcontribution is a child of the reviewedcontribution and the submittedcontribution.",
+	"conference#Reviewed_contribution": "The submittedcontribution and the acceptedcontribution are both children of conferencecontribution. The conferencecontribution is the parent of the call for participation and the reviewedcontribution is the parent of the rejectedcontribution. The writtencontribution is the child of the submittedcontribution and the acceptedcontribution is the parent of the camerareadycontribution.",
+	"conference#Review": "The conferencedocument is the parent of conferenceannouncement and is the child of conferencedocument.",
+	"conference#Late_paid_applicant": "The latepaid applicant is the child of the paid applicant and the parent of the earlypaid applicant.",
+	"conference#Paid_applicant": "The paid applicant is the child of the registeered applicant and the conference applicant. The reviewer is the parent of the paid applicant and the late paid applicant is the parent of the early paid applicant.",
+	"conference#Early_paid_applicant": "The latepaid applicant is the parent of the paid applicant.",
+	"conference#Organizer": "The child of the organizer is the child of the organization Thing and the committee member is the parent of the chair.",
+	"conference#Call_for_participation": "The callforparticipation is a child of the conferencedocument which is the parent of the informationforparticipants.",
+	"conference#Registeered_applicant": "The registeeredapplicant is the parent of the paidapplicant, the latepaidapplicant and the conferenceapplicant. The trackworkshopchair is also the parent of the registeeredapplicant.",
+	"conference#Track-workshop_chair": "The trackworkshopchair is the child of the person who is the parent of the reviewer.",
+	"conference#Conference_www": "conferencewww is the child of conferencedocument which is the parent of review.",
+	"conference#Review_preference": "reviewpreference is a child of Thing."
+}

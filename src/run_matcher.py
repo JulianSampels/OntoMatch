@@ -232,11 +232,11 @@ def main():
                 if file_path.endswith('.json'):
                     alignmentFilePath = configODS.get('similarityPath') + file_path
                     if configODS.get('generateWalkPrompts'):
-                        contextPaths = [configODS.get('triplesVerbalizedPath') + 'verbalized_triples_randomWalk_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
+                        contextPaths = [configODS.get('triplesVerbalizedPath') + '_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
                         promptList = generatePromptTemplates.getPrompt(alignmentFilePath, contextPaths, promptVersion = i, promptCounter = -1, skipIfNoContext = True)
                         utilsODS.saveToJson(promptList, configODS.get('promptsPath') + f"walkPromptVersion{i}/"+ file_path, f"exported 'walkPromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
                     if configODS.get('generateTreePrompts'):
-                        contextPaths = [configODS.get('triplesVerbalizedPath') + 'verbalized_triples_randomTree_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
+                        contextPaths = [configODS.get('triplesVerbalizedPath') + 'triples_randomTree_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
                         promptList = generatePromptTemplates.getPrompt(alignmentFilePath, contextPaths, promptVersion = i, promptCounter = -1, skipIfNoContext = True)
                         utilsODS.saveToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}/" + file_path, f"exported 'treePromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
 

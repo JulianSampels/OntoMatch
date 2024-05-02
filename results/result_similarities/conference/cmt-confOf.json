@@ -2,167 +2,167 @@
 	"cmt#Meta-Reviewer;confOf#Trip": [
 		"cmt#Meta-Reviewer",
 		"confOf#Trip",
-		0.08373910188674927
+		0.08373917639255524
 	],
 	"cmt#Meta-Reviewer;confOf#Banquet": [
 		"cmt#Meta-Reviewer",
 		"confOf#Banquet",
-		-0.0029078577645123005
+		-0.0029078256338834763
 	],
 	"cmt#Meta-Reviewer;confOf#Reception": [
 		"cmt#Meta-Reviewer",
 		"confOf#Reception",
-		0.03187454119324684
+		0.03187469393014908
 	],
 	"cmt#Meta-Reviewer;confOf#Social_event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Social_event",
-		0.00927837286144495
+		0.009278358891606331
 	],
 	"cmt#Meta-Reviewer;confOf#Event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Event",
-		0.09511750936508179
+		0.09511758387088776
 	],
 	"cmt#Meta-Reviewer;confOf#Contribution": [
 		"cmt#Meta-Reviewer",
 		"confOf#Contribution",
-		0.08344472944736481
+		0.08344482630491257
 	],
 	"cmt#Meta-Reviewer;confOf#City": [
 		"cmt#Meta-Reviewer",
 		"confOf#City",
-		0.03455124422907829
+		0.03455132991075516
 	],
 	"cmt#Meta-Reviewer;confOf#Organization": [
 		"cmt#Meta-Reviewer",
 		"confOf#Organization",
-		0.0048967041075229645
+		0.004896784201264381
 	],
 	"cmt#Meta-Reviewer;confOf#Person": [
 		"cmt#Meta-Reviewer",
 		"confOf#Person",
-		0.10413875430822372
+		0.10413879156112671
 	],
 	"cmt#Meta-Reviewer;confOf#Topic": [
 		"cmt#Meta-Reviewer",
 		"confOf#Topic",
-		0.13458861410617828
+		0.1345885992050171
 	],
 	"cmt#Meta-Reviewer;confOf#Country": [
 		"cmt#Meta-Reviewer",
 		"confOf#Country",
-		0.05207318067550659
+		0.05207327753305435
 	],
 	"cmt#Meta-Reviewer;confOf#Company": [
 		"cmt#Meta-Reviewer",
 		"confOf#Company",
-		0.013669249601662159
+		0.013669206760823727
 	],
 	"cmt#Meta-Reviewer;confOf#University": [
 		"cmt#Meta-Reviewer",
 		"confOf#University",
-		0.003436374943703413
+		0.003436371684074402
 	],
 	"cmt#Meta-Reviewer;confOf#Scholar": [
 		"cmt#Meta-Reviewer",
 		"confOf#Scholar",
-		0.12118817865848541
+		0.1211882084608078
 	],
 	"cmt#Meta-Reviewer;confOf#Administrator": [
 		"cmt#Meta-Reviewer",
 		"confOf#Administrator",
-		0.15771213173866272
+		0.15771228075027466
 	],
 	"cmt#Meta-Reviewer;confOf#Poster": [
 		"cmt#Meta-Reviewer",
 		"confOf#Poster",
-		0.13796652853488922
+		0.13796663284301758
 	],
 	"cmt#Meta-Reviewer;confOf#Paper": [
 		"cmt#Meta-Reviewer",
 		"confOf#Paper",
-		0.04054318368434906
+		0.040543243288993835
 	],
 	"cmt#Meta-Reviewer;confOf#Short_paper": [
 		"cmt#Meta-Reviewer",
 		"confOf#Short_paper",
-		0.047311440110206604
+		0.04731140285730362
 	],
 	"cmt#Meta-Reviewer;confOf#Reviewing_results_event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Reviewing_results_event",
-		0.2627462148666382
+		0.262746125459671
 	],
 	"cmt#Meta-Reviewer;confOf#Administrative_event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Administrative_event",
-		0.0943380668759346
+		0.09433817118406296
 	],
 	"cmt#Meta-Reviewer;confOf#Reviewing_event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Reviewing_event",
-		0.2443908154964447
+		0.24439075589179993
 	],
 	"cmt#Meta-Reviewer;confOf#Registration_of_participants_event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Registration_of_participants_event",
-		0.06519962847232819
+		0.06519953906536102
 	],
 	"cmt#Meta-Reviewer;confOf#Submission_event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Submission_event",
-		0.056382838636636734
+		0.0563829205930233
 	],
 	"cmt#Meta-Reviewer;confOf#Camera_Ready_event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Camera_Ready_event",
-		0.24394330382347107
+		0.24394333362579346
 	],
 	"cmt#Meta-Reviewer;confOf#Workshop": [
 		"cmt#Meta-Reviewer",
 		"confOf#Workshop",
-		0.10801101475954056
+		0.10801102966070175
 	],
 	"cmt#Meta-Reviewer;confOf#Conference": [
 		"cmt#Meta-Reviewer",
 		"confOf#Conference",
-		0.02815207839012146
+		0.028152139857411385
 	],
 	"cmt#Meta-Reviewer;confOf#Tutorial": [
 		"cmt#Meta-Reviewer",
 		"confOf#Tutorial",
-		0.14706674218177795
+		0.1470666080713272
 	],
 	"cmt#Meta-Reviewer;confOf#Working_event": [
 		"cmt#Meta-Reviewer",
 		"confOf#Working_event",
-		0.010404693894088268
+		0.010404697619378567
 	],
 	"cmt#Meta-Reviewer;confOf#Member": [
 		"cmt#Meta-Reviewer",
 		"confOf#Member",
-		0.12636011838912964
+		0.12636013329029083
 	],
 	"cmt#Meta-Reviewer;confOf#Participant": [
 		"cmt#Meta-Reviewer",
 		"confOf#Participant",
-		0.1203983724117279
+		0.12039835751056671
 	],
 	"cmt#Meta-Reviewer;confOf#Member_PC": [
 		"cmt#Meta-Reviewer",
 		"confOf#Member_PC",
-		0.09255310893058777
+		0.10000002384185791
 	],
 	"cmt#Meta-Reviewer;confOf#Chair_PC": [
 		"cmt#Meta-Reviewer",
 		"confOf#Chair_PC",
-		0.04049171134829521
+		0.07985471934080124
 	],
 	"cmt#Meta-Reviewer;confOf#Student": [
 		"cmt#Meta-Reviewer",
 		"confOf#Student",
-		0.08469294011592865
+		0.08469293266534805
 	],
 	"cmt#Meta-Reviewer;confOf#Science_Worker": [
 		"cmt#Meta-Reviewer",
@@ -172,62 +172,62 @@
 	"cmt#Meta-Reviewer;confOf#Assistant": [
 		"cmt#Meta-Reviewer",
 		"confOf#Assistant",
-		0.14578619599342346
+		0.14578616619110107
 	],
 	"cmt#Meta-Reviewer;confOf#Volunteer": [
 		"cmt#Meta-Reviewer",
 		"confOf#Volunteer",
-		0.049970801919698715
+		0.0499708354473114
 	],
 	"cmt#Meta-Reviewer;confOf#Regular": [
 		"cmt#Meta-Reviewer",
 		"confOf#Regular",
-		0.10789486020803452
+		0.10789492726325989
 	],
 	"cmt#Meta-Reviewer;confOf#Author": [
 		"cmt#Meta-Reviewer",
 		"confOf#Author",
-		0.06288225948810577
+		0.06288237124681473
 	],
 	"cmt#Reviewer;confOf#Trip": [
 		"cmt#Reviewer",
 		"confOf#Trip",
-		0.3137979507446289
+		0.3137980103492737
 	],
 	"cmt#Reviewer;confOf#Banquet": [
 		"cmt#Reviewer",
 		"confOf#Banquet",
-		0.22711490094661713
+		0.2271149456501007
 	],
 	"cmt#Reviewer;confOf#Reception": [
 		"cmt#Reviewer",
 		"confOf#Reception",
-		0.21070589125156403
+		0.21070584654808044
 	],
 	"cmt#Reviewer;confOf#Social_event": [
 		"cmt#Reviewer",
 		"confOf#Social_event",
-		0.13614720106124878
+		0.13614733517169952
 	],
 	"cmt#Reviewer;confOf#Event": [
 		"cmt#Reviewer",
 		"confOf#Event",
-		0.19085150957107544
+		0.19085156917572021
 	],
 	"cmt#Reviewer;confOf#Contribution": [
 		"cmt#Reviewer",
 		"confOf#Contribution",
-		0.3835413455963135
+		0.38354137539863586
 	],
 	"cmt#Reviewer;confOf#City": [
 		"cmt#Reviewer",
 		"confOf#City",
-		0.23683136701583862
+		0.2368311882019043
 	],
 	"cmt#Reviewer;confOf#Organization": [
 		"cmt#Reviewer",
 		"confOf#Organization",
-		0.2263254076242447
+		0.2263253927230835
 	],
 	"cmt#Reviewer;confOf#Person": [
 		"cmt#Reviewer",
@@ -237,77 +237,77 @@
 	"cmt#Reviewer;confOf#Topic": [
 		"cmt#Reviewer",
 		"confOf#Topic",
-		0.27756258845329285
+		0.2775624394416809
 	],
 	"cmt#Reviewer;confOf#Country": [
 		"cmt#Reviewer",
 		"confOf#Country",
-		0.2057371437549591
+		0.20573705434799194
 	],
 	"cmt#Reviewer;confOf#Company": [
 		"cmt#Reviewer",
 		"confOf#Company",
-		0.28746306896209717
+		0.2874631881713867
 	],
 	"cmt#Reviewer;confOf#University": [
 		"cmt#Reviewer",
 		"confOf#University",
-		0.21397748589515686
+		0.21397756040096283
 	],
 	"cmt#Reviewer;confOf#Scholar": [
 		"cmt#Reviewer",
 		"confOf#Scholar",
-		0.34146854281425476
+		0.3414685130119324
 	],
 	"cmt#Reviewer;confOf#Administrator": [
 		"cmt#Reviewer",
 		"confOf#Administrator",
-		0.22799114882946014
+		0.2279912531375885
 	],
 	"cmt#Reviewer;confOf#Poster": [
 		"cmt#Reviewer",
 		"confOf#Poster",
-		0.3127650022506714
+		0.31276488304138184
 	],
 	"cmt#Reviewer;confOf#Paper": [
 		"cmt#Reviewer",
 		"confOf#Paper",
-		0.3457788825035095
+		0.3457786440849304
 	],
 	"cmt#Reviewer;confOf#Short_paper": [
 		"cmt#Reviewer",
 		"confOf#Short_paper",
-		0.26194238662719727
+		0.2619423568248749
 	],
 	"cmt#Reviewer;confOf#Reviewing_results_event": [
 		"cmt#Reviewer",
 		"confOf#Reviewing_results_event",
-		0.4342731535434723
+		0.43427354097366333
 	],
 	"cmt#Reviewer;confOf#Administrative_event": [
 		"cmt#Reviewer",
 		"confOf#Administrative_event",
-		0.11285601556301117
+		0.11285613477230072
 	],
 	"cmt#Reviewer;confOf#Reviewing_event": [
 		"cmt#Reviewer",
 		"confOf#Reviewing_event",
-		0.5250207781791687
+		0.525020956993103
 	],
 	"cmt#Reviewer;confOf#Registration_of_participants_event": [
 		"cmt#Reviewer",
 		"confOf#Registration_of_participants_event",
-		0.017196303233504295
+		0.017196381464600563
 	],
 	"cmt#Reviewer;confOf#Submission_event": [
 		"cmt#Reviewer",
 		"confOf#Submission_event",
-		0.1932779997587204
+		0.19327816367149353
 	],
 	"cmt#Reviewer;confOf#Camera_Ready_event": [
 		"cmt#Reviewer",
 		"confOf#Camera_Ready_event",
-		0.10436542332172394
+		0.10436553508043289
 	],
 	"cmt#Reviewer;confOf#Workshop": [
 		"cmt#Reviewer",
@@ -317,72 +317,72 @@
 	"cmt#Reviewer;confOf#Conference": [
 		"cmt#Reviewer",
 		"confOf#Conference",
-		0.2327909916639328
+		0.23279114067554474
 	],
 	"cmt#Reviewer;confOf#Tutorial": [
 		"cmt#Reviewer",
 		"confOf#Tutorial",
-		0.12461231648921967
+		0.12461236864328384
 	],
 	"cmt#Reviewer;confOf#Working_event": [
 		"cmt#Reviewer",
 		"confOf#Working_event",
-		0.11974188685417175
+		0.11974172294139862
 	],
 	"cmt#Reviewer;confOf#Member": [
 		"cmt#Reviewer",
 		"confOf#Member",
-		0.2791096568107605
+		0.2791095972061157
 	],
 	"cmt#Reviewer;confOf#Participant": [
 		"cmt#Reviewer",
 		"confOf#Participant",
-		0.2999016344547272
+		0.29990166425704956
 	],
 	"cmt#Reviewer;confOf#Member_PC": [
 		"cmt#Reviewer",
 		"confOf#Member_PC",
-		0.20589770376682281
+		0.2670462727546692
 	],
 	"cmt#Reviewer;confOf#Chair_PC": [
 		"cmt#Reviewer",
 		"confOf#Chair_PC",
-		0.21931301057338715
+		0.26433292031288147
 	],
 	"cmt#Reviewer;confOf#Student": [
 		"cmt#Reviewer",
 		"confOf#Student",
-		0.29115861654281616
+		0.2911585569381714
 	],
 	"cmt#Reviewer;confOf#Science_Worker": [
 		"cmt#Reviewer",
 		"confOf#Science_Worker",
-		0.31688734889030457
+		0.3168871998786926
 	],
 	"cmt#Reviewer;confOf#Assistant": [
 		"cmt#Reviewer",
 		"confOf#Assistant",
-		0.2948644757270813
+		0.2948645055294037
 	],
 	"cmt#Reviewer;confOf#Volunteer": [
 		"cmt#Reviewer",
 		"confOf#Volunteer",
-		0.24199680984020233
+		0.24199682474136353
 	],
 	"cmt#Reviewer;confOf#Regular": [
 		"cmt#Reviewer",
 		"confOf#Regular",
-		0.3909747898578644
+		0.390974760055542
 	],
 	"cmt#Reviewer;confOf#Author": [
 		"cmt#Reviewer",
 		"confOf#Author",
-		0.3823227286338806
+		0.38232263922691345
 	],
 	"cmt#Decision;confOf#Trip": [
 		"cmt#Decision",
 		"confOf#Trip",
-		0.3554254472255707
+		0.3554255962371826
 	],
 	"cmt#Decision;confOf#Banquet": [
 		"cmt#Decision",
@@ -392,17 +392,17 @@
 	"cmt#Decision;confOf#Reception": [
 		"cmt#Decision",
 		"confOf#Reception",
-		0.32689541578292847
+		0.3268953263759613
 	],
 	"cmt#Decision;confOf#Social_event": [
 		"cmt#Decision",
 		"confOf#Social_event",
-		0.23739054799079895
+		0.2373906970024109
 	],
 	"cmt#Decision;confOf#Event": [
 		"cmt#Decision",
 		"confOf#Event",
-		0.3922696113586426
+		0.3922698497772217
 	],
 	"cmt#Decision;confOf#Contribution": [
 		"cmt#Decision",
@@ -412,17 +412,17 @@
 	"cmt#Decision;confOf#City": [
 		"cmt#Decision",
 		"confOf#City",
-		0.3462992310523987
+		0.34629929065704346
 	],
 	"cmt#Decision;confOf#Organization": [
 		"cmt#Decision",
 		"confOf#Organization",
-		0.27195215225219727
+		0.2719520926475525
 	],
 	"cmt#Decision;confOf#Person": [
 		"cmt#Decision",
 		"confOf#Person",
-		0.32637038826942444
+		0.326370507478714
 	],
 	"cmt#Decision;confOf#Topic": [
 		"cmt#Decision",
@@ -432,27 +432,27 @@
 	"cmt#Decision;confOf#Country": [
 		"cmt#Decision",
 		"confOf#Country",
-		0.37089791893959045
+		0.37089797854423523
 	],
 	"cmt#Decision;confOf#Company": [
 		"cmt#Decision",
 		"confOf#Company",
-		0.34462833404541016
+		0.34462839365005493
 	],
 	"cmt#Decision;confOf#University": [
 		"cmt#Decision",
 		"confOf#University",
-		0.2832335829734802
+		0.283233642578125
 	],
 	"cmt#Decision;confOf#Scholar": [
 		"cmt#Decision",
 		"confOf#Scholar",
-		0.2913544178009033
+		0.29135459661483765
 	],
 	"cmt#Decision;confOf#Administrator": [
 		"cmt#Decision",
 		"confOf#Administrator",
-		0.2610921561717987
+		0.26109224557876587
 	],
 	"cmt#Decision;confOf#Poster": [
 		"cmt#Decision",
@@ -462,37 +462,37 @@
 	"cmt#Decision;confOf#Paper": [
 		"cmt#Decision",
 		"confOf#Paper",
-		0.3318678140640259
+		0.33186769485473633
 	],
 	"cmt#Decision;confOf#Short_paper": [
 		"cmt#Decision",
 		"confOf#Short_paper",
-		0.2601926922798157
+		0.2601925730705261
 	],
 	"cmt#Decision;confOf#Reviewing_results_event": [
 		"cmt#Decision",
 		"confOf#Reviewing_results_event",
-		0.1546071618795395
+		0.15460717678070068
 	],
 	"cmt#Decision;confOf#Administrative_event": [
 		"cmt#Decision",
 		"confOf#Administrative_event",
-		0.23348455131053925
+		0.23348459601402283
 	],
 	"cmt#Decision;confOf#Reviewing_event": [
 		"cmt#Decision",
 		"confOf#Reviewing_event",
-		0.28234055638313293
+		0.28234076499938965
 	],
 	"cmt#Decision;confOf#Registration_of_participants_event": [
 		"cmt#Decision",
 		"confOf#Registration_of_participants_event",
-		0.07941408455371857
+		0.0794142633676529
 	],
 	"cmt#Decision;confOf#Submission_event": [
 		"cmt#Decision",
 		"confOf#Submission_event",
-		0.28393682837486267
+		0.28393691778182983
 	],
 	"cmt#Decision;confOf#Camera_Ready_event": [
 		"cmt#Decision",
@@ -502,57 +502,57 @@
 	"cmt#Decision;confOf#Workshop": [
 		"cmt#Decision",
 		"confOf#Workshop",
-		0.23603352904319763
+		0.236033633351326
 	],
 	"cmt#Decision;confOf#Conference": [
 		"cmt#Decision",
 		"confOf#Conference",
-		0.288562536239624
+		0.2885626256465912
 	],
 	"cmt#Decision;confOf#Tutorial": [
 		"cmt#Decision",
 		"confOf#Tutorial",
-		0.14285708963871002
+		0.14285728335380554
 	],
 	"cmt#Decision;confOf#Working_event": [
 		"cmt#Decision",
 		"confOf#Working_event",
-		0.2457420378923416
+		0.24574199318885803
 	],
 	"cmt#Decision;confOf#Member": [
 		"cmt#Decision",
 		"confOf#Member",
-		0.3402532637119293
+		0.34025317430496216
 	],
 	"cmt#Decision;confOf#Participant": [
 		"cmt#Decision",
 		"confOf#Participant",
-		0.319243460893631
+		0.31924358010292053
 	],
 	"cmt#Decision;confOf#Member_PC": [
 		"cmt#Decision",
 		"confOf#Member_PC",
-		0.20859524607658386
+		0.33342355489730835
 	],
 	"cmt#Decision;confOf#Chair_PC": [
 		"cmt#Decision",
 		"confOf#Chair_PC",
-		0.23136475682258606
+		0.30556434392929077
 	],
 	"cmt#Decision;confOf#Student": [
 		"cmt#Decision",
 		"confOf#Student",
-		0.3530784845352173
+		0.35307836532592773
 	],
 	"cmt#Decision;confOf#Science_Worker": [
 		"cmt#Decision",
 		"confOf#Science_Worker",
-		0.22849617898464203
+		0.228496253490448
 	],
 	"cmt#Decision;confOf#Assistant": [
 		"cmt#Decision",
 		"confOf#Assistant",
-		0.251679003238678
+		0.25167906284332275
 	],
 	"cmt#Decision;confOf#Volunteer": [
 		"cmt#Decision",
@@ -562,32 +562,32 @@
 	"cmt#Decision;confOf#Regular": [
 		"cmt#Decision",
 		"confOf#Regular",
-		0.3085773289203644
+		0.308577299118042
 	],
 	"cmt#Decision;confOf#Author": [
 		"cmt#Decision",
 		"confOf#Author",
-		0.2781672179698944
+		0.2781672775745392
 	],
 	"cmt#Person;confOf#Trip": [
 		"cmt#Person",
 		"confOf#Trip",
-		0.20601731538772583
+		0.20601752400398254
 	],
 	"cmt#Person;confOf#Banquet": [
 		"cmt#Person",
 		"confOf#Banquet",
-		0.2849162518978119
+		0.28491634130477905
 	],
 	"cmt#Person;confOf#Reception": [
 		"cmt#Person",
 		"confOf#Reception",
-		0.2765626013278961
+		0.27656257152557373
 	],
 	"cmt#Person;confOf#Social_event": [
 		"cmt#Person",
 		"confOf#Social_event",
-		0.28752338886260986
+		0.2875235676765442
 	],
 	"cmt#Person;confOf#Event": [
 		"cmt#Person",
@@ -597,42 +597,42 @@
 	"cmt#Person;confOf#Contribution": [
 		"cmt#Person",
 		"confOf#Contribution",
-		0.4131586253643036
+		0.413158655166626
 	],
 	"cmt#Person;confOf#City": [
 		"cmt#Person",
 		"confOf#City",
-		0.31648775935173035
+		0.31648796796798706
 	],
 	"cmt#Person;confOf#Organization": [
 		"cmt#Person",
 		"confOf#Organization",
-		0.23175276815891266
+		0.23175278306007385
 	],
 	"cmt#Person;confOf#Person": [
 		"cmt#Person",
 		"confOf#Person",
-		1.0000001192092896
+		0.9999998807907104
 	],
 	"cmt#Person;confOf#Topic": [
 		"cmt#Person",
 		"confOf#Topic",
-		0.3141123354434967
+		0.31411251425743103
 	],
 	"cmt#Person;confOf#Country": [
 		"cmt#Person",
 		"confOf#Country",
-		0.2762964963912964
+		0.2762967646121979
 	],
 	"cmt#Person;confOf#Company": [
 		"cmt#Person",
 		"confOf#Company",
-		0.3196079432964325
+		0.31960806250572205
 	],
 	"cmt#Person;confOf#University": [
 		"cmt#Person",
 		"confOf#University",
-		0.21337541937828064
+		0.2133755385875702
 	],
 	"cmt#Person;confOf#Scholar": [
 		"cmt#Person",
@@ -642,17 +642,17 @@
 	"cmt#Person;confOf#Administrator": [
 		"cmt#Person",
 		"confOf#Administrator",
-		0.29140934348106384
+		0.29140928387641907
 	],
 	"cmt#Person;confOf#Poster": [
 		"cmt#Person",
 		"confOf#Poster",
-		0.3845745325088501
+		0.38457462191581726
 	],
 	"cmt#Person;confOf#Paper": [
 		"cmt#Person",
 		"confOf#Paper",
-		0.3245117962360382
+		0.3245118260383606
 	],
 	"cmt#Person;confOf#Short_paper": [
 		"cmt#Person",
@@ -662,7 +662,7 @@
 	"cmt#Person;confOf#Reviewing_results_event": [
 		"cmt#Person",
 		"confOf#Reviewing_results_event",
-		0.058613523840904236
+		0.05861366167664528
 	],
 	"cmt#Person;confOf#Administrative_event": [
 		"cmt#Person",
@@ -672,87 +672,87 @@
 	"cmt#Person;confOf#Reviewing_event": [
 		"cmt#Person",
 		"confOf#Reviewing_event",
-		0.22830122709274292
+		0.22830143570899963
 	],
 	"cmt#Person;confOf#Registration_of_participants_event": [
 		"cmt#Person",
 		"confOf#Registration_of_participants_event",
-		0.21543268859386444
+		0.21543282270431519
 	],
 	"cmt#Person;confOf#Submission_event": [
 		"cmt#Person",
 		"confOf#Submission_event",
-		0.24433405697345734
+		0.2443341463804245
 	],
 	"cmt#Person;confOf#Camera_Ready_event": [
 		"cmt#Person",
 		"confOf#Camera_Ready_event",
-		0.19366620481014252
+		0.19366632401943207
 	],
 	"cmt#Person;confOf#Workshop": [
 		"cmt#Person",
 		"confOf#Workshop",
-		0.24800968170166016
+		0.24800972640514374
 	],
 	"cmt#Person;confOf#Conference": [
 		"cmt#Person",
 		"confOf#Conference",
-		0.21935458481311798
+		0.21935462951660156
 	],
 	"cmt#Person;confOf#Tutorial": [
 		"cmt#Person",
 		"confOf#Tutorial",
-		0.16559092700481415
+		0.16559097170829773
 	],
 	"cmt#Person;confOf#Working_event": [
 		"cmt#Person",
 		"confOf#Working_event",
-		0.26038607954978943
+		0.2603861093521118
 	],
 	"cmt#Person;confOf#Member": [
 		"cmt#Person",
 		"confOf#Member",
-		0.4805755317211151
+		0.4805755615234375
 	],
 	"cmt#Person;confOf#Participant": [
 		"cmt#Person",
 		"confOf#Participant",
-		0.6199663281440735
+		0.6199663877487183
 	],
 	"cmt#Person;confOf#Member_PC": [
 		"cmt#Person",
 		"confOf#Member_PC",
-		0.2628525197505951
+		0.41977766156196594
 	],
 	"cmt#Person;confOf#Chair_PC": [
 		"cmt#Person",
 		"confOf#Chair_PC",
-		0.2128610908985138
+		0.43061041831970215
 	],
 	"cmt#Person;confOf#Student": [
 		"cmt#Person",
 		"confOf#Student",
-		0.46298515796661377
+		0.4629850387573242
 	],
 	"cmt#Person;confOf#Science_Worker": [
 		"cmt#Person",
 		"confOf#Science_Worker",
-		0.30314451456069946
+		0.3031443953514099
 	],
 	"cmt#Person;confOf#Assistant": [
 		"cmt#Person",
 		"confOf#Assistant",
-		0.39737388491630554
+		0.3973740041255951
 	],
 	"cmt#Person;confOf#Volunteer": [
 		"cmt#Person",
 		"confOf#Volunteer",
-		0.3551194965839386
+		0.3551195561885834
 	],
 	"cmt#Person;confOf#Regular": [
 		"cmt#Person",
 		"confOf#Regular",
-		0.28887632489204407
+		0.28887638449668884
 	],
 	"cmt#Person;confOf#Author": [
 		"cmt#Person",
@@ -762,27 +762,27 @@
 	"cmt#Document;confOf#Trip": [
 		"cmt#Document",
 		"confOf#Trip",
-		0.1946849673986435
+		0.19468528032302856
 	],
 	"cmt#Document;confOf#Banquet": [
 		"cmt#Document",
 		"confOf#Banquet",
-		0.2482835352420807
+		0.24828386306762695
 	],
 	"cmt#Document;confOf#Reception": [
 		"cmt#Document",
 		"confOf#Reception",
-		0.21528035402297974
+		0.21528033912181854
 	],
 	"cmt#Document;confOf#Social_event": [
 		"cmt#Document",
 		"confOf#Social_event",
-		0.20720520615577698
+		0.20720532536506653
 	],
 	"cmt#Document;confOf#Event": [
 		"cmt#Document",
 		"confOf#Event",
-		0.31238269805908203
+		0.3123828172683716
 	],
 	"cmt#Document;confOf#Contribution": [
 		"cmt#Document",
@@ -792,92 +792,92 @@
 	"cmt#Document;confOf#City": [
 		"cmt#Document",
 		"confOf#City",
-		0.2187201827764511
+		0.21872031688690186
 	],
 	"cmt#Document;confOf#Organization": [
 		"cmt#Document",
 		"confOf#Organization",
-		0.29673147201538086
+		0.2967315912246704
 	],
 	"cmt#Document;confOf#Person": [
 		"cmt#Document",
 		"confOf#Person",
-		0.28402525186538696
+		0.28402549028396606
 	],
 	"cmt#Document;confOf#Topic": [
 		"cmt#Document",
 		"confOf#Topic",
-		0.33159109950065613
+		0.3315911293029785
 	],
 	"cmt#Document;confOf#Country": [
 		"cmt#Document",
 		"confOf#Country",
-		0.2345035821199417
+		0.23450371623039246
 	],
 	"cmt#Document;confOf#Company": [
 		"cmt#Document",
 		"confOf#Company",
-		0.30726614594459534
+		0.30726635456085205
 	],
 	"cmt#Document;confOf#University": [
 		"cmt#Document",
 		"confOf#University",
-		0.2576749920845032
+		0.2576751112937927
 	],
 	"cmt#Document;confOf#Scholar": [
 		"cmt#Document",
 		"confOf#Scholar",
-		0.4199737012386322
+		0.41997382044792175
 	],
 	"cmt#Document;confOf#Administrator": [
 		"cmt#Document",
 		"confOf#Administrator",
-		0.20199072360992432
+		0.20199081301689148
 	],
 	"cmt#Document;confOf#Poster": [
 		"cmt#Document",
 		"confOf#Poster",
-		0.3557165563106537
+		0.3557167053222656
 	],
 	"cmt#Document;confOf#Paper": [
 		"cmt#Document",
 		"confOf#Paper",
-		0.6194126605987549
+		0.6194128394126892
 	],
 	"cmt#Document;confOf#Short_paper": [
 		"cmt#Document",
 		"confOf#Short_paper",
-		0.44456344842910767
+		0.44456326961517334
 	],
 	"cmt#Document;confOf#Reviewing_results_event": [
 		"cmt#Document",
 		"confOf#Reviewing_results_event",
-		0.10937286168336868
+		0.10937304049730301
 	],
 	"cmt#Document;confOf#Administrative_event": [
 		"cmt#Document",
 		"confOf#Administrative_event",
-		0.23764023184776306
+		0.23764026165008545
 	],
 	"cmt#Document;confOf#Reviewing_event": [
 		"cmt#Document",
 		"confOf#Reviewing_event",
-		0.23079141974449158
+		0.23079130053520203
 	],
 	"cmt#Document;confOf#Registration_of_participants_event": [
 		"cmt#Document",
 		"confOf#Registration_of_participants_event",
-		0.1698397397994995
+		0.16983972489833832
 	],
 	"cmt#Document;confOf#Submission_event": [
 		"cmt#Document",
 		"confOf#Submission_event",
-		0.2991165816783905
+		0.29911676049232483
 	],
 	"cmt#Document;confOf#Camera_Ready_event": [
 		"cmt#Document",
 		"confOf#Camera_Ready_event",
-		0.1655135303735733
+		0.1655135452747345
 	],
 	"cmt#Document;confOf#Workshop": [
 		"cmt#Document",
@@ -887,72 +887,72 @@
 	"cmt#Document;confOf#Conference": [
 		"cmt#Document",
 		"confOf#Conference",
-		0.3086909353733063
+		0.30869099497795105
 	],
 	"cmt#Document;confOf#Tutorial": [
 		"cmt#Document",
 		"confOf#Tutorial",
-		0.2856598198413849
+		0.28565964102745056
 	],
 	"cmt#Document;confOf#Working_event": [
 		"cmt#Document",
 		"confOf#Working_event",
-		0.22867323458194733
+		0.22867320477962494
 	],
 	"cmt#Document;confOf#Member": [
 		"cmt#Document",
 		"confOf#Member",
-		0.22610028088092804
+		0.2261003851890564
 	],
 	"cmt#Document;confOf#Participant": [
 		"cmt#Document",
 		"confOf#Participant",
-		0.2946501672267914
+		0.29465043544769287
 	],
 	"cmt#Document;confOf#Member_PC": [
 		"cmt#Document",
 		"confOf#Member_PC",
-		0.18686796724796295
+		0.2622224688529968
 	],
 	"cmt#Document;confOf#Chair_PC": [
 		"cmt#Document",
 		"confOf#Chair_PC",
-		0.1367885172367096
+		0.24975712597370148
 	],
 	"cmt#Document;confOf#Student": [
 		"cmt#Document",
 		"confOf#Student",
-		0.2974741756916046
+		0.2974741458892822
 	],
 	"cmt#Document;confOf#Science_Worker": [
 		"cmt#Document",
 		"confOf#Science_Worker",
-		0.24426677823066711
+		0.24426688253879547
 	],
 	"cmt#Document;confOf#Assistant": [
 		"cmt#Document",
 		"confOf#Assistant",
-		0.26648178696632385
+		0.2664819061756134
 	],
 	"cmt#Document;confOf#Volunteer": [
 		"cmt#Document",
 		"confOf#Volunteer",
-		0.1726105511188507
+		0.17261068522930145
 	],
 	"cmt#Document;confOf#Regular": [
 		"cmt#Document",
 		"confOf#Regular",
-		0.17274336516857147
+		0.17274338006973267
 	],
 	"cmt#Document;confOf#Author": [
 		"cmt#Document",
 		"confOf#Author",
-		0.3387567102909088
+		0.338756799697876
 	],
 	"cmt#Preference;confOf#Trip": [
 		"cmt#Preference",
 		"confOf#Trip",
-		0.20768272876739502
+		0.20768283307552338
 	],
 	"cmt#Preference;confOf#Banquet": [
 		"cmt#Preference",
@@ -962,37 +962,37 @@
 	"cmt#Preference;confOf#Reception": [
 		"cmt#Preference",
 		"confOf#Reception",
-		0.22032125294208527
+		0.22032123804092407
 	],
 	"cmt#Preference;confOf#Social_event": [
 		"cmt#Preference",
 		"confOf#Social_event",
-		0.25521740317344666
+		0.25521737337112427
 	],
 	"cmt#Preference;confOf#Event": [
 		"cmt#Preference",
 		"confOf#Event",
-		0.20971953868865967
+		0.2097194939851761
 	],
 	"cmt#Preference;confOf#Contribution": [
 		"cmt#Preference",
 		"confOf#Contribution",
-		0.263374000787735
+		0.26337379217147827
 	],
 	"cmt#Preference;confOf#City": [
 		"cmt#Preference",
 		"confOf#City",
-		0.22549042105674744
+		0.2254905104637146
 	],
 	"cmt#Preference;confOf#Organization": [
 		"cmt#Preference",
 		"confOf#Organization",
-		0.22112424671649933
+		0.22112420201301575
 	],
 	"cmt#Preference;confOf#Person": [
 		"cmt#Preference",
 		"confOf#Person",
-		0.21216155588626862
+		0.21216164529323578
 	],
 	"cmt#Preference;confOf#Topic": [
 		"cmt#Preference",
@@ -1007,32 +1007,32 @@
 	"cmt#Preference;confOf#Company": [
 		"cmt#Preference",
 		"confOf#Company",
-		0.21676120162010193
+		0.21676138043403625
 	],
 	"cmt#Preference;confOf#University": [
 		"cmt#Preference",
 		"confOf#University",
-		0.2067074477672577
+		0.20670761168003082
 	],
 	"cmt#Preference;confOf#Scholar": [
 		"cmt#Preference",
 		"confOf#Scholar",
-		0.25437939167022705
+		0.2543795108795166
 	],
 	"cmt#Preference;confOf#Administrator": [
 		"cmt#Preference",
 		"confOf#Administrator",
-		0.16963249444961548
+		0.16963259875774384
 	],
 	"cmt#Preference;confOf#Poster": [
 		"cmt#Preference",
 		"confOf#Poster",
-		0.15721839666366577
+		0.15721836686134338
 	],
 	"cmt#Preference;confOf#Paper": [
 		"cmt#Preference",
 		"confOf#Paper",
-		0.21311832964420319
+		0.21311818063259125
 	],
 	"cmt#Preference;confOf#Short_paper": [
 		"cmt#Preference",
@@ -1042,32 +1042,32 @@
 	"cmt#Preference;confOf#Reviewing_results_event": [
 		"cmt#Preference",
 		"confOf#Reviewing_results_event",
-		0.07503080368041992
+		0.0750308483839035
 	],
 	"cmt#Preference;confOf#Administrative_event": [
 		"cmt#Preference",
 		"confOf#Administrative_event",
-		0.11184880137443542
+		0.11184875667095184
 	],
 	"cmt#Preference;confOf#Reviewing_event": [
 		"cmt#Preference",
 		"confOf#Reviewing_event",
-		0.18848645687103271
+		0.1884864866733551
 	],
 	"cmt#Preference;confOf#Registration_of_participants_event": [
 		"cmt#Preference",
 		"confOf#Registration_of_participants_event",
-		0.057749032974243164
+		0.057748764753341675
 	],
 	"cmt#Preference;confOf#Submission_event": [
 		"cmt#Preference",
 		"confOf#Submission_event",
-		0.1303471028804779
+		0.13034716248512268
 	],
 	"cmt#Preference;confOf#Camera_Ready_event": [
 		"cmt#Preference",
 		"confOf#Camera_Ready_event",
-		0.07882380485534668
+		0.0788237601518631
 	],
 	"cmt#Preference;confOf#Workshop": [
 		"cmt#Preference",
@@ -1077,17 +1077,17 @@
 	"cmt#Preference;confOf#Conference": [
 		"cmt#Preference",
 		"confOf#Conference",
-		0.15311554074287415
+		0.1531156301498413
 	],
 	"cmt#Preference;confOf#Tutorial": [
 		"cmt#Preference",
 		"confOf#Tutorial",
-		0.07240109890699387
+		0.07240118086338043
 	],
 	"cmt#Preference;confOf#Working_event": [
 		"cmt#Preference",
 		"confOf#Working_event",
-		0.08630405366420746
+		0.0863039642572403
 	],
 	"cmt#Preference;confOf#Member": [
 		"cmt#Preference",
@@ -1097,17 +1097,17 @@
 	"cmt#Preference;confOf#Participant": [
 		"cmt#Preference",
 		"confOf#Participant",
-		0.1865488439798355
+		0.18654875457286835
 	],
 	"cmt#Preference;confOf#Member_PC": [
 		"cmt#Preference",
 		"confOf#Member_PC",
-		0.16733598709106445
+		0.20969560742378235
 	],
 	"cmt#Preference;confOf#Chair_PC": [
 		"cmt#Preference",
 		"confOf#Chair_PC",
-		0.14912191033363342
+		0.2124129831790924
 	],
 	"cmt#Preference;confOf#Student": [
 		"cmt#Preference",
@@ -1117,137 +1117,137 @@
 	"cmt#Preference;confOf#Science_Worker": [
 		"cmt#Preference",
 		"confOf#Science_Worker",
-		0.11331522464752197
+		0.11331523954868317
 	],
 	"cmt#Preference;confOf#Assistant": [
 		"cmt#Preference",
 		"confOf#Assistant",
-		0.19775424897670746
+		0.19775432348251343
 	],
 	"cmt#Preference;confOf#Volunteer": [
 		"cmt#Preference",
 		"confOf#Volunteer",
-		0.12797297537326813
+		0.12797290086746216
 	],
 	"cmt#Preference;confOf#Regular": [
 		"cmt#Preference",
 		"confOf#Regular",
-		0.4469813108444214
+		0.4469815492630005
 	],
 	"cmt#Preference;confOf#Author": [
 		"cmt#Preference",
 		"confOf#Author",
-		0.23681265115737915
+		0.23681259155273438
 	],
 	"cmt#ProgramCommittee;confOf#Trip": [
 		"cmt#ProgramCommittee",
 		"confOf#Trip",
-		0.1373675912618637
+		0.13736751675605774
 	],
 	"cmt#ProgramCommittee;confOf#Banquet": [
 		"cmt#ProgramCommittee",
 		"confOf#Banquet",
-		0.28076040744781494
+		0.28076010942459106
 	],
 	"cmt#ProgramCommittee;confOf#Reception": [
 		"cmt#ProgramCommittee",
 		"confOf#Reception",
-		0.1984730362892151
+		0.19847285747528076
 	],
 	"cmt#ProgramCommittee;confOf#Social_event": [
 		"cmt#ProgramCommittee",
 		"confOf#Social_event",
-		0.2622945308685303
+		0.26229438185691833
 	],
 	"cmt#ProgramCommittee;confOf#Event": [
 		"cmt#ProgramCommittee",
 		"confOf#Event",
-		0.22642356157302856
+		0.22642332315444946
 	],
 	"cmt#ProgramCommittee;confOf#Contribution": [
 		"cmt#ProgramCommittee",
 		"confOf#Contribution",
-		0.33095329999923706
+		0.3309532105922699
 	],
 	"cmt#ProgramCommittee;confOf#City": [
 		"cmt#ProgramCommittee",
 		"confOf#City",
-		0.17610132694244385
+		0.17610116302967072
 	],
 	"cmt#ProgramCommittee;confOf#Organization": [
 		"cmt#ProgramCommittee",
 		"confOf#Organization",
-		0.2506004273891449
+		0.25060027837753296
 	],
 	"cmt#ProgramCommittee;confOf#Person": [
 		"cmt#ProgramCommittee",
 		"confOf#Person",
-		0.1444774568080902
+		0.14447736740112305
 	],
 	"cmt#ProgramCommittee;confOf#Topic": [
 		"cmt#ProgramCommittee",
 		"confOf#Topic",
-		0.24246276915073395
+		0.2424626499414444
 	],
 	"cmt#ProgramCommittee;confOf#Country": [
 		"cmt#ProgramCommittee",
 		"confOf#Country",
-		0.11826663464307785
+		0.11826649308204651
 	],
 	"cmt#ProgramCommittee;confOf#Company": [
 		"cmt#ProgramCommittee",
 		"confOf#Company",
-		0.21077129244804382
+		0.21077117323875427
 	],
 	"cmt#ProgramCommittee;confOf#University": [
 		"cmt#ProgramCommittee",
 		"confOf#University",
-		0.3019813895225525
+		0.30198127031326294
 	],
 	"cmt#ProgramCommittee;confOf#Scholar": [
 		"cmt#ProgramCommittee",
 		"confOf#Scholar",
-		0.22273163497447968
+		0.22273167967796326
 	],
 	"cmt#ProgramCommittee;confOf#Administrator": [
 		"cmt#ProgramCommittee",
 		"confOf#Administrator",
-		0.2313242107629776
+		0.2313242405653
 	],
 	"cmt#ProgramCommittee;confOf#Poster": [
 		"cmt#ProgramCommittee",
 		"confOf#Poster",
-		0.11560361832380295
+		0.1156034991145134
 	],
 	"cmt#ProgramCommittee;confOf#Paper": [
 		"cmt#ProgramCommittee",
 		"confOf#Paper",
-		0.21585817635059357
+		0.21585795283317566
 	],
 	"cmt#ProgramCommittee;confOf#Short_paper": [
 		"cmt#ProgramCommittee",
 		"confOf#Short_paper",
-		0.21151462197303772
+		0.2115144431591034
 	],
 	"cmt#ProgramCommittee;confOf#Reviewing_results_event": [
 		"cmt#ProgramCommittee",
 		"confOf#Reviewing_results_event",
-		0.2829551100730896
+		0.2829550504684448
 	],
 	"cmt#ProgramCommittee;confOf#Administrative_event": [
 		"cmt#ProgramCommittee",
 		"confOf#Administrative_event",
-		0.28353530168533325
+		0.2835351824760437
 	],
 	"cmt#ProgramCommittee;confOf#Reviewing_event": [
 		"cmt#ProgramCommittee",
 		"confOf#Reviewing_event",
-		0.26460641622543335
+		0.2646063566207886
 	],
 	"cmt#ProgramCommittee;confOf#Registration_of_participants_event": [
 		"cmt#ProgramCommittee",
 		"confOf#Registration_of_participants_event",
-		0.19580042362213135
+		0.19580043852329254
 	],
 	"cmt#ProgramCommittee;confOf#Submission_event": [
 		"cmt#ProgramCommittee",
@@ -1257,72 +1257,72 @@
 	"cmt#ProgramCommittee;confOf#Camera_Ready_event": [
 		"cmt#ProgramCommittee",
 		"confOf#Camera_Ready_event",
-		0.19703185558319092
+		0.19703173637390137
 	],
 	"cmt#ProgramCommittee;confOf#Workshop": [
 		"cmt#ProgramCommittee",
 		"confOf#Workshop",
-		0.3450808525085449
+		0.3450809121131897
 	],
 	"cmt#ProgramCommittee;confOf#Conference": [
 		"cmt#ProgramCommittee",
 		"confOf#Conference",
-		0.29903849959373474
+		0.2990383803844452
 	],
 	"cmt#ProgramCommittee;confOf#Tutorial": [
 		"cmt#ProgramCommittee",
 		"confOf#Tutorial",
-		0.22541949152946472
+		0.2254195362329483
 	],
 	"cmt#ProgramCommittee;confOf#Working_event": [
 		"cmt#ProgramCommittee",
 		"confOf#Working_event",
-		0.24574139714241028
+		0.24574124813079834
 	],
 	"cmt#ProgramCommittee;confOf#Member": [
 		"cmt#ProgramCommittee",
 		"confOf#Member",
-		0.2508293688297272
+		0.25082939863204956
 	],
 	"cmt#ProgramCommittee;confOf#Participant": [
 		"cmt#ProgramCommittee",
 		"confOf#Participant",
-		0.2422371655702591
+		0.2422368973493576
 	],
 	"cmt#ProgramCommittee;confOf#Member_PC": [
 		"cmt#ProgramCommittee",
 		"confOf#Member_PC",
-		0.26440030336380005
+		0.1932862102985382
 	],
 	"cmt#ProgramCommittee;confOf#Chair_PC": [
 		"cmt#ProgramCommittee",
 		"confOf#Chair_PC",
-		0.1693304181098938
+		0.13293321430683136
 	],
 	"cmt#ProgramCommittee;confOf#Student": [
 		"cmt#ProgramCommittee",
 		"confOf#Student",
-		0.3808341920375824
+		0.3808339834213257
 	],
 	"cmt#ProgramCommittee;confOf#Science_Worker": [
 		"cmt#ProgramCommittee",
 		"confOf#Science_Worker",
-		0.2351105511188507
+		0.23511049151420593
 	],
 	"cmt#ProgramCommittee;confOf#Assistant": [
 		"cmt#ProgramCommittee",
 		"confOf#Assistant",
-		0.25428763031959534
+		0.2542875409126282
 	],
 	"cmt#ProgramCommittee;confOf#Volunteer": [
 		"cmt#ProgramCommittee",
 		"confOf#Volunteer",
-		0.26943135261535645
+		0.2694311738014221
 	],
 	"cmt#ProgramCommittee;confOf#Regular": [
 		"cmt#ProgramCommittee",
 		"confOf#Regular",
-		0.13566620647907257
+		0.1356661021709442
 	],
 	"cmt#ProgramCommittee;confOf#Author": [
 		"cmt#ProgramCommittee",
@@ -1332,57 +1332,57 @@
 	"cmt#Bid;confOf#Trip": [
 		"cmt#Bid",
 		"confOf#Trip",
-		0.2596362829208374
+		0.25963640213012695
 	],
 	"cmt#Bid;confOf#Banquet": [
 		"cmt#Bid",
 		"confOf#Banquet",
-		0.3134556710720062
+		0.3134557604789734
 	],
 	"cmt#Bid;confOf#Reception": [
 		"cmt#Bid",
 		"confOf#Reception",
-		0.17584186792373657
+		0.17584171891212463
 	],
 	"cmt#Bid;confOf#Social_event": [
 		"cmt#Bid",
 		"confOf#Social_event",
-		0.21299313008785248
+		0.21299320459365845
 	],
 	"cmt#Bid;confOf#Event": [
 		"cmt#Bid",
 		"confOf#Event",
-		0.3182581961154938
+		0.31825825572013855
 	],
 	"cmt#Bid;confOf#Contribution": [
 		"cmt#Bid",
 		"confOf#Contribution",
-		0.3323787748813629
+		0.332378625869751
 	],
 	"cmt#Bid;confOf#City": [
 		"cmt#Bid",
 		"confOf#City",
-		0.24188166856765747
+		0.2418815791606903
 	],
 	"cmt#Bid;confOf#Organization": [
 		"cmt#Bid",
 		"confOf#Organization",
-		0.2315782755613327
+		0.23157820105552673
 	],
 	"cmt#Bid;confOf#Person": [
 		"cmt#Bid",
 		"confOf#Person",
-		0.26958656311035156
+		0.2695865333080292
 	],
 	"cmt#Bid;confOf#Topic": [
 		"cmt#Bid",
 		"confOf#Topic",
-		0.2598024308681488
+		0.25980252027511597
 	],
 	"cmt#Bid;confOf#Country": [
 		"cmt#Bid",
 		"confOf#Country",
-		0.1827479898929596
+		0.1827479600906372
 	],
 	"cmt#Bid;confOf#Company": [
 		"cmt#Bid",
@@ -1397,57 +1397,57 @@
 	"cmt#Bid;confOf#Scholar": [
 		"cmt#Bid",
 		"confOf#Scholar",
-		0.16291695833206177
+		0.162916898727417
 	],
 	"cmt#Bid;confOf#Administrator": [
 		"cmt#Bid",
 		"confOf#Administrator",
-		0.22263886034488678
+		0.2226387858390808
 	],
 	"cmt#Bid;confOf#Poster": [
 		"cmt#Bid",
 		"confOf#Poster",
-		0.35106948018074036
+		0.35106945037841797
 	],
 	"cmt#Bid;confOf#Paper": [
 		"cmt#Bid",
 		"confOf#Paper",
-		0.34487858414649963
+		0.34487849473953247
 	],
 	"cmt#Bid;confOf#Short_paper": [
 		"cmt#Bid",
 		"confOf#Short_paper",
-		0.24661371111869812
+		0.24661363661289215
 	],
 	"cmt#Bid;confOf#Reviewing_results_event": [
 		"cmt#Bid",
 		"confOf#Reviewing_results_event",
-		0.07950760424137115
+		0.07950771600008011
 	],
 	"cmt#Bid;confOf#Administrative_event": [
 		"cmt#Bid",
 		"confOf#Administrative_event",
-		0.19377729296684265
+		0.19377724826335907
 	],
 	"cmt#Bid;confOf#Reviewing_event": [
 		"cmt#Bid",
 		"confOf#Reviewing_event",
-		0.17644338309764862
+		0.17644348740577698
 	],
 	"cmt#Bid;confOf#Registration_of_participants_event": [
 		"cmt#Bid",
 		"confOf#Registration_of_participants_event",
-		0.1359822154045105
+		0.13598224520683289
 	],
 	"cmt#Bid;confOf#Submission_event": [
 		"cmt#Bid",
 		"confOf#Submission_event",
-		0.28437650203704834
+		0.2843765318393707
 	],
 	"cmt#Bid;confOf#Camera_Ready_event": [
 		"cmt#Bid",
 		"confOf#Camera_Ready_event",
-		0.14393357932567596
+		0.14393362402915955
 	],
 	"cmt#Bid;confOf#Workshop": [
 		"cmt#Bid",
@@ -1457,77 +1457,77 @@
 	"cmt#Bid;confOf#Conference": [
 		"cmt#Bid",
 		"confOf#Conference",
-		0.3715651035308838
+		0.371565043926239
 	],
 	"cmt#Bid;confOf#Tutorial": [
 		"cmt#Bid",
 		"confOf#Tutorial",
-		0.15285389125347137
+		0.15285390615463257
 	],
 	"cmt#Bid;confOf#Working_event": [
 		"cmt#Bid",
 		"confOf#Working_event",
-		0.20105308294296265
+		0.2010529637336731
 	],
 	"cmt#Bid;confOf#Member": [
 		"cmt#Bid",
 		"confOf#Member",
-		0.36867907643318176
+		0.3686789572238922
 	],
 	"cmt#Bid;confOf#Participant": [
 		"cmt#Bid",
 		"confOf#Participant",
-		0.2894986867904663
+		0.28949859738349915
 	],
 	"cmt#Bid;confOf#Member_PC": [
 		"cmt#Bid",
 		"confOf#Member_PC",
-		0.22439676523208618
+		0.36912521719932556
 	],
 	"cmt#Bid;confOf#Chair_PC": [
 		"cmt#Bid",
 		"confOf#Chair_PC",
-		0.16192899644374847
+		0.26840710639953613
 	],
 	"cmt#Bid;confOf#Student": [
 		"cmt#Bid",
 		"confOf#Student",
-		0.2645610272884369
+		0.26456087827682495
 	],
 	"cmt#Bid;confOf#Science_Worker": [
 		"cmt#Bid",
 		"confOf#Science_Worker",
-		0.15217703580856323
+		0.1521768867969513
 	],
 	"cmt#Bid;confOf#Assistant": [
 		"cmt#Bid",
 		"confOf#Assistant",
-		0.3027452528476715
+		0.3027450442314148
 	],
 	"cmt#Bid;confOf#Volunteer": [
 		"cmt#Bid",
 		"confOf#Volunteer",
-		0.22867079079151154
+		0.22867073118686676
 	],
 	"cmt#Bid;confOf#Regular": [
 		"cmt#Bid",
 		"confOf#Regular",
-		0.3293135464191437
+		0.3293135166168213
 	],
 	"cmt#Bid;confOf#Author": [
 		"cmt#Bid",
 		"confOf#Author",
-		0.22531208395957947
+		0.22531206905841827
 	],
 	"cmt#Conference;confOf#Trip": [
 		"cmt#Conference",
 		"confOf#Trip",
-		0.3201467990875244
+		0.3201468288898468
 	],
 	"cmt#Conference;confOf#Banquet": [
 		"cmt#Conference",
 		"confOf#Banquet",
-		0.5081296563148499
+		0.5081297159194946
 	],
 	"cmt#Conference;confOf#Reception": [
 		"cmt#Conference",
@@ -1537,127 +1537,127 @@
 	"cmt#Conference;confOf#Social_event": [
 		"cmt#Conference",
 		"confOf#Social_event",
-		0.30734020471572876
+		0.3073403835296631
 	],
 	"cmt#Conference;confOf#Event": [
 		"cmt#Conference",
 		"confOf#Event",
-		0.5104795694351196
+		0.5104796886444092
 	],
 	"cmt#Conference;confOf#Contribution": [
 		"cmt#Conference",
 		"confOf#Contribution",
-		0.3450896143913269
+		0.345089852809906
 	],
 	"cmt#Conference;confOf#City": [
 		"cmt#Conference",
 		"confOf#City",
-		0.40900442004203796
+		0.4090043902397156
 	],
 	"cmt#Conference;confOf#Organization": [
 		"cmt#Conference",
 		"confOf#Organization",
-		0.44532454013824463
+		0.4453245997428894
 	],
 	"cmt#Conference;confOf#Person": [
 		"cmt#Conference",
 		"confOf#Person",
-		0.21935458481311798
+		0.21935462951660156
 	],
 	"cmt#Conference;confOf#Topic": [
 		"cmt#Conference",
 		"confOf#Topic",
-		0.25382179021835327
+		0.25382184982299805
 	],
 	"cmt#Conference;confOf#Country": [
 		"cmt#Conference",
 		"confOf#Country",
-		0.25406521558761597
+		0.2540653347969055
 	],
 	"cmt#Conference;confOf#Company": [
 		"cmt#Conference",
 		"confOf#Company",
-		0.32703518867492676
+		0.3270353674888611
 	],
 	"cmt#Conference;confOf#University": [
 		"cmt#Conference",
 		"confOf#University",
-		0.4240848124027252
+		0.42408493161201477
 	],
 	"cmt#Conference;confOf#Scholar": [
 		"cmt#Conference",
 		"confOf#Scholar",
-		0.36103278398513794
+		0.3610328733921051
 	],
 	"cmt#Conference;confOf#Administrator": [
 		"cmt#Conference",
 		"confOf#Administrator",
-		0.252099871635437
+		0.2521000802516937
 	],
 	"cmt#Conference;confOf#Poster": [
 		"cmt#Conference",
 		"confOf#Poster",
-		0.27638667821884155
+		0.2763867974281311
 	],
 	"cmt#Conference;confOf#Paper": [
 		"cmt#Conference",
 		"confOf#Paper",
-		0.31517770886421204
+		0.3151776194572449
 	],
 	"cmt#Conference;confOf#Short_paper": [
 		"cmt#Conference",
 		"confOf#Short_paper",
-		0.2730739414691925
+		0.2730739712715149
 	],
 	"cmt#Conference;confOf#Reviewing_results_event": [
 		"cmt#Conference",
 		"confOf#Reviewing_results_event",
-		0.16969533264636993
+		0.1696954071521759
 	],
 	"cmt#Conference;confOf#Administrative_event": [
 		"cmt#Conference",
 		"confOf#Administrative_event",
-		0.2998790442943573
+		0.2998791038990021
 	],
 	"cmt#Conference;confOf#Reviewing_event": [
 		"cmt#Conference",
 		"confOf#Reviewing_event",
-		0.2992090582847595
+		0.29920926690101624
 	],
 	"cmt#Conference;confOf#Registration_of_participants_event": [
 		"cmt#Conference",
 		"confOf#Registration_of_participants_event",
-		0.21497708559036255
+		0.21497716009616852
 	],
 	"cmt#Conference;confOf#Submission_event": [
 		"cmt#Conference",
 		"confOf#Submission_event",
-		0.3493480086326599
+		0.3493480682373047
 	],
 	"cmt#Conference;confOf#Camera_Ready_event": [
 		"cmt#Conference",
 		"confOf#Camera_Ready_event",
-		0.20196086168289185
+		0.20196080207824707
 	],
 	"cmt#Conference;confOf#Workshop": [
 		"cmt#Conference",
 		"confOf#Workshop",
-		0.43847036361694336
+		0.43847039341926575
 	],
 	"cmt#Conference;confOf#Conference": [
 		"cmt#Conference",
 		"confOf#Conference",
-		1.000000238418579
+		1.0000001192092896
 	],
 	"cmt#Conference;confOf#Tutorial": [
 		"cmt#Conference",
 		"confOf#Tutorial",
-		0.12419439852237701
+		0.12419438362121582
 	],
 	"cmt#Conference;confOf#Working_event": [
 		"cmt#Conference",
 		"confOf#Working_event",
-		0.26625722646713257
+		0.2662571668624878
 	],
 	"cmt#Conference;confOf#Member": [
 		"cmt#Conference",
@@ -1667,122 +1667,122 @@
 	"cmt#Conference;confOf#Participant": [
 		"cmt#Conference",
 		"confOf#Participant",
-		0.3958762586116791
+		0.3958764374256134
 	],
 	"cmt#Conference;confOf#Member_PC": [
 		"cmt#Conference",
 		"confOf#Member_PC",
-		0.32155993580818176
+		0.4241170883178711
 	],
 	"cmt#Conference;confOf#Chair_PC": [
 		"cmt#Conference",
 		"confOf#Chair_PC",
-		0.2829646170139313
+		0.3154217600822449
 	],
 	"cmt#Conference;confOf#Student": [
 		"cmt#Conference",
 		"confOf#Student",
-		0.28920045495033264
+		0.2892003655433655
 	],
 	"cmt#Conference;confOf#Science_Worker": [
 		"cmt#Conference",
 		"confOf#Science_Worker",
-		0.26595339179039
+		0.2659534811973572
 	],
 	"cmt#Conference;confOf#Assistant": [
 		"cmt#Conference",
 		"confOf#Assistant",
-		0.29571449756622314
+		0.2957145571708679
 	],
 	"cmt#Conference;confOf#Volunteer": [
 		"cmt#Conference",
 		"confOf#Volunteer",
-		0.23912538588047028
+		0.23912546038627625
 	],
 	"cmt#Conference;confOf#Regular": [
 		"cmt#Conference",
 		"confOf#Regular",
-		0.2638626992702484
+		0.263862669467926
 	],
 	"cmt#Conference;confOf#Author": [
 		"cmt#Conference",
 		"confOf#Author",
-		0.22003720700740814
+		0.2200373113155365
 	],
 	"cmt#ConferenceChair;confOf#Trip": [
 		"cmt#ConferenceChair",
 		"confOf#Trip",
-		0.19035670161247253
+		0.1903565526008606
 	],
 	"cmt#ConferenceChair;confOf#Banquet": [
 		"cmt#ConferenceChair",
 		"confOf#Banquet",
-		0.4710610508918762
+		0.47106119990348816
 	],
 	"cmt#ConferenceChair;confOf#Reception": [
 		"cmt#ConferenceChair",
 		"confOf#Reception",
-		0.1684718281030655
+		0.16847190260887146
 	],
 	"cmt#ConferenceChair;confOf#Social_event": [
 		"cmt#ConferenceChair",
 		"confOf#Social_event",
-		0.2990429103374481
+		0.29904288053512573
 	],
 	"cmt#ConferenceChair;confOf#Event": [
 		"cmt#ConferenceChair",
 		"confOf#Event",
-		0.33320093154907227
+		0.3332009017467499
 	],
 	"cmt#ConferenceChair;confOf#Contribution": [
 		"cmt#ConferenceChair",
 		"confOf#Contribution",
-		0.27130308747291565
+		0.2713031470775604
 	],
 	"cmt#ConferenceChair;confOf#City": [
 		"cmt#ConferenceChair",
 		"confOf#City",
-		0.23038841784000397
+		0.23038829863071442
 	],
 	"cmt#ConferenceChair;confOf#Organization": [
 		"cmt#ConferenceChair",
 		"confOf#Organization",
-		0.37456902861595154
+		0.37456899881362915
 	],
 	"cmt#ConferenceChair;confOf#Person": [
 		"cmt#ConferenceChair",
 		"confOf#Person",
-		0.15601320564746857
+		0.1560131460428238
 	],
 	"cmt#ConferenceChair;confOf#Topic": [
 		"cmt#ConferenceChair",
 		"confOf#Topic",
-		0.16825371980667114
+		0.16825363039970398
 	],
 	"cmt#ConferenceChair;confOf#Country": [
 		"cmt#ConferenceChair",
 		"confOf#Country",
-		0.12482139468193054
+		0.12482133507728577
 	],
 	"cmt#ConferenceChair;confOf#Company": [
 		"cmt#ConferenceChair",
 		"confOf#Company",
-		0.29247722029685974
+		0.29247719049453735
 	],
 	"cmt#ConferenceChair;confOf#University": [
 		"cmt#ConferenceChair",
 		"confOf#University",
-		0.17946508526802063
+		0.17946505546569824
 	],
 	"cmt#ConferenceChair;confOf#Scholar": [
 		"cmt#ConferenceChair",
 		"confOf#Scholar",
-		0.2808625102043152
+		0.2808624505996704
 	],
 	"cmt#ConferenceChair;confOf#Administrator": [
 		"cmt#ConferenceChair",
 		"confOf#Administrator",
-		0.1982361078262329
+		0.19823618233203888
 	],
 	"cmt#ConferenceChair;confOf#Poster": [
 		"cmt#ConferenceChair",
@@ -1792,17 +1792,17 @@
 	"cmt#ConferenceChair;confOf#Paper": [
 		"cmt#ConferenceChair",
 		"confOf#Paper",
-		0.2615250051021576
+		0.2615247964859009
 	],
 	"cmt#ConferenceChair;confOf#Short_paper": [
 		"cmt#ConferenceChair",
 		"confOf#Short_paper",
-		0.1993165761232376
+		0.1993163824081421
 	],
 	"cmt#ConferenceChair;confOf#Reviewing_results_event": [
 		"cmt#ConferenceChair",
 		"confOf#Reviewing_results_event",
-		0.1477959007024765
+		0.14779603481292725
 	],
 	"cmt#ConferenceChair;confOf#Administrative_event": [
 		"cmt#ConferenceChair",
@@ -1812,27 +1812,27 @@
 	"cmt#ConferenceChair;confOf#Reviewing_event": [
 		"cmt#ConferenceChair",
 		"confOf#Reviewing_event",
-		0.2558150589466095
+		0.25581520795822144
 	],
 	"cmt#ConferenceChair;confOf#Registration_of_participants_event": [
 		"cmt#ConferenceChair",
 		"confOf#Registration_of_participants_event",
-		0.17094863951206207
+		0.17094868421554565
 	],
 	"cmt#ConferenceChair;confOf#Submission_event": [
 		"cmt#ConferenceChair",
 		"confOf#Submission_event",
-		0.30093201994895935
+		0.3009321093559265
 	],
 	"cmt#ConferenceChair;confOf#Camera_Ready_event": [
 		"cmt#ConferenceChair",
 		"confOf#Camera_Ready_event",
-		0.17732326686382294
+		0.17732331156730652
 	],
 	"cmt#ConferenceChair;confOf#Workshop": [
 		"cmt#ConferenceChair",
 		"confOf#Workshop",
-		0.45384708046913147
+		0.4538469910621643
 	],
 	"cmt#ConferenceChair;confOf#Conference": [
 		"cmt#ConferenceChair",
@@ -1842,17 +1842,17 @@
 	"cmt#ConferenceChair;confOf#Tutorial": [
 		"cmt#ConferenceChair",
 		"confOf#Tutorial",
-		0.18875809013843536
+		0.18875804543495178
 	],
 	"cmt#ConferenceChair;confOf#Working_event": [
 		"cmt#ConferenceChair",
 		"confOf#Working_event",
-		0.20814236998558044
+		0.20814234018325806
 	],
 	"cmt#ConferenceChair;confOf#Member": [
 		"cmt#ConferenceChair",
 		"confOf#Member",
-		0.310621052980423
+		0.3106209337711334
 	],
 	"cmt#ConferenceChair;confOf#Participant": [
 		"cmt#ConferenceChair",
@@ -1862,47 +1862,47 @@
 	"cmt#ConferenceChair;confOf#Member_PC": [
 		"cmt#ConferenceChair",
 		"confOf#Member_PC",
-		0.48617756366729736
+		0.32822275161743164
 	],
 	"cmt#ConferenceChair;confOf#Chair_PC": [
 		"cmt#ConferenceChair",
 		"confOf#Chair_PC",
-		0.45322751998901367
+		0.2784925699234009
 	],
 	"cmt#ConferenceChair;confOf#Student": [
 		"cmt#ConferenceChair",
 		"confOf#Student",
-		0.1828506886959076
+		0.18285053968429565
 	],
 	"cmt#ConferenceChair;confOf#Science_Worker": [
 		"cmt#ConferenceChair",
 		"confOf#Science_Worker",
-		0.23584067821502686
+		0.23584046959877014
 	],
 	"cmt#ConferenceChair;confOf#Assistant": [
 		"cmt#ConferenceChair",
 		"confOf#Assistant",
-		0.20245487987995148
+		0.20245486497879028
 	],
 	"cmt#ConferenceChair;confOf#Volunteer": [
 		"cmt#ConferenceChair",
 		"confOf#Volunteer",
-		0.16543589532375336
+		0.16543586552143097
 	],
 	"cmt#ConferenceChair;confOf#Regular": [
 		"cmt#ConferenceChair",
 		"confOf#Regular",
-		0.13073907792568207
+		0.13073894381523132
 	],
 	"cmt#ConferenceChair;confOf#Author": [
 		"cmt#ConferenceChair",
 		"confOf#Author",
-		0.14189915359020233
+		0.14189916849136353
 	],
 	"cmt#ConferenceMember;confOf#Trip": [
 		"cmt#ConferenceMember",
 		"confOf#Trip",
-		0.22803784906864166
+		0.22803786396980286
 	],
 	"cmt#ConferenceMember;confOf#Banquet": [
 		"cmt#ConferenceMember",
@@ -1912,47 +1912,47 @@
 	"cmt#ConferenceMember;confOf#Reception": [
 		"cmt#ConferenceMember",
 		"confOf#Reception",
-		0.21825481951236725
+		0.21825489401817322
 	],
 	"cmt#ConferenceMember;confOf#Social_event": [
 		"cmt#ConferenceMember",
 		"confOf#Social_event",
-		0.2952626943588257
+		0.29526281356811523
 	],
 	"cmt#ConferenceMember;confOf#Event": [
 		"cmt#ConferenceMember",
 		"confOf#Event",
-		0.3905434310436249
+		0.39054352045059204
 	],
 	"cmt#ConferenceMember;confOf#Contribution": [
 		"cmt#ConferenceMember",
 		"confOf#Contribution",
-		0.3737189471721649
+		0.3737189769744873
 	],
 	"cmt#ConferenceMember;confOf#City": [
 		"cmt#ConferenceMember",
 		"confOf#City",
-		0.2150849997997284
+		0.215084969997406
 	],
 	"cmt#ConferenceMember;confOf#Organization": [
 		"cmt#ConferenceMember",
 		"confOf#Organization",
-		0.41736742854118347
+		0.41736745834350586
 	],
 	"cmt#ConferenceMember;confOf#Person": [
 		"cmt#ConferenceMember",
 		"confOf#Person",
-		0.37189173698425293
+		0.37189170718193054
 	],
 	"cmt#ConferenceMember;confOf#Topic": [
 		"cmt#ConferenceMember",
 		"confOf#Topic",
-		0.23554685711860657
+		0.2355467677116394
 	],
 	"cmt#ConferenceMember;confOf#Country": [
 		"cmt#ConferenceMember",
 		"confOf#Country",
-		0.12543003261089325
+		0.12543006241321564
 	],
 	"cmt#ConferenceMember;confOf#Company": [
 		"cmt#ConferenceMember",
@@ -1962,12 +1962,12 @@
 	"cmt#ConferenceMember;confOf#University": [
 		"cmt#ConferenceMember",
 		"confOf#University",
-		0.25991395115852356
+		0.25991392135620117
 	],
 	"cmt#ConferenceMember;confOf#Scholar": [
 		"cmt#ConferenceMember",
 		"confOf#Scholar",
-		0.33886340260505676
+		0.33886343240737915
 	],
 	"cmt#ConferenceMember;confOf#Administrator": [
 		"cmt#ConferenceMember",
@@ -1977,72 +1977,72 @@
 	"cmt#ConferenceMember;confOf#Poster": [
 		"cmt#ConferenceMember",
 		"confOf#Poster",
-		0.2588823139667511
+		0.2588823437690735
 	],
 	"cmt#ConferenceMember;confOf#Paper": [
 		"cmt#ConferenceMember",
 		"confOf#Paper",
-		0.2377060353755951
+		0.23770588636398315
 	],
 	"cmt#ConferenceMember;confOf#Short_paper": [
 		"cmt#ConferenceMember",
 		"confOf#Short_paper",
-		0.23684383928775787
+		0.23684367537498474
 	],
 	"cmt#ConferenceMember;confOf#Reviewing_results_event": [
 		"cmt#ConferenceMember",
 		"confOf#Reviewing_results_event",
-		0.1810036301612854
+		0.1810036599636078
 	],
 	"cmt#ConferenceMember;confOf#Administrative_event": [
 		"cmt#ConferenceMember",
 		"confOf#Administrative_event",
-		0.39282679557800293
+		0.3928268253803253
 	],
 	"cmt#ConferenceMember;confOf#Reviewing_event": [
 		"cmt#ConferenceMember",
 		"confOf#Reviewing_event",
-		0.2918444573879242
+		0.29184457659721375
 	],
 	"cmt#ConferenceMember;confOf#Registration_of_participants_event": [
 		"cmt#ConferenceMember",
 		"confOf#Registration_of_participants_event",
-		0.2532465159893036
+		0.2532464861869812
 	],
 	"cmt#ConferenceMember;confOf#Submission_event": [
 		"cmt#ConferenceMember",
 		"confOf#Submission_event",
-		0.31930744647979736
+		0.3193073868751526
 	],
 	"cmt#ConferenceMember;confOf#Camera_Ready_event": [
 		"cmt#ConferenceMember",
 		"confOf#Camera_Ready_event",
-		0.18575802445411682
+		0.1857580542564392
 	],
 	"cmt#ConferenceMember;confOf#Workshop": [
 		"cmt#ConferenceMember",
 		"confOf#Workshop",
-		0.4158792197704315
+		0.41587913036346436
 	],
 	"cmt#ConferenceMember;confOf#Conference": [
 		"cmt#ConferenceMember",
 		"confOf#Conference",
-		0.7399161458015442
+		0.739916205406189
 	],
 	"cmt#ConferenceMember;confOf#Tutorial": [
 		"cmt#ConferenceMember",
 		"confOf#Tutorial",
-		0.16112656891345978
+		0.1611264944076538
 	],
 	"cmt#ConferenceMember;confOf#Working_event": [
 		"cmt#ConferenceMember",
 		"confOf#Working_event",
-		0.2724308967590332
+		0.27243077754974365
 	],
 	"cmt#ConferenceMember;confOf#Member": [
 		"cmt#ConferenceMember",
 		"confOf#Member",
-		0.629052460193634
+		0.6290524005889893
 	],
 	"cmt#ConferenceMember;confOf#Participant": [
 		"cmt#ConferenceMember",
@@ -2052,27 +2052,27 @@
 	"cmt#ConferenceMember;confOf#Member_PC": [
 		"cmt#ConferenceMember",
 		"confOf#Member_PC",
-		0.5235835313796997
+		0.5962086319923401
 	],
 	"cmt#ConferenceMember;confOf#Chair_PC": [
 		"cmt#ConferenceMember",
 		"confOf#Chair_PC",
-		0.34451359510421753
+		0.3593873977661133
 	],
 	"cmt#ConferenceMember;confOf#Student": [
 		"cmt#ConferenceMember",
 		"confOf#Student",
-		0.35789239406585693
+		0.3578922152519226
 	],
 	"cmt#ConferenceMember;confOf#Science_Worker": [
 		"cmt#ConferenceMember",
 		"confOf#Science_Worker",
-		0.3250901997089386
+		0.3250899314880371
 	],
 	"cmt#ConferenceMember;confOf#Assistant": [
 		"cmt#ConferenceMember",
 		"confOf#Assistant",
-		0.363552987575531
+		0.36355286836624146
 	],
 	"cmt#ConferenceMember;confOf#Volunteer": [
 		"cmt#ConferenceMember",
@@ -2082,42 +2082,42 @@
 	"cmt#ConferenceMember;confOf#Regular": [
 		"cmt#ConferenceMember",
 		"confOf#Regular",
-		0.2606674134731293
+		0.2606673240661621
 	],
 	"cmt#ConferenceMember;confOf#Author": [
 		"cmt#ConferenceMember",
 		"confOf#Author",
-		0.30546271800994873
+		0.3054627776145935
 	],
 	"cmt#AssociatedChair;confOf#Trip": [
 		"cmt#AssociatedChair",
 		"confOf#Trip",
-		0.14051465690135956
+		0.14051467180252075
 	],
 	"cmt#AssociatedChair;confOf#Banquet": [
 		"cmt#AssociatedChair",
 		"confOf#Banquet",
-		0.2446656972169876
+		0.24466589093208313
 	],
 	"cmt#AssociatedChair;confOf#Reception": [
 		"cmt#AssociatedChair",
 		"confOf#Reception",
-		0.08078265190124512
+		0.08078271150588989
 	],
 	"cmt#AssociatedChair;confOf#Social_event": [
 		"cmt#AssociatedChair",
 		"confOf#Social_event",
-		0.30704402923583984
+		0.3070440888404846
 	],
 	"cmt#AssociatedChair;confOf#Event": [
 		"cmt#AssociatedChair",
 		"confOf#Event",
-		0.26397013664245605
+		0.26397019624710083
 	],
 	"cmt#AssociatedChair;confOf#Contribution": [
 		"cmt#AssociatedChair",
 		"confOf#Contribution",
-		0.3345528244972229
+		0.3345527648925781
 	],
 	"cmt#AssociatedChair;confOf#City": [
 		"cmt#AssociatedChair",
@@ -2127,37 +2127,37 @@
 	"cmt#AssociatedChair;confOf#Organization": [
 		"cmt#AssociatedChair",
 		"confOf#Organization",
-		0.4007475972175598
+		0.40074750781059265
 	],
 	"cmt#AssociatedChair;confOf#Person": [
 		"cmt#AssociatedChair",
 		"confOf#Person",
-		0.1711832731962204
+		0.17118334770202637
 	],
 	"cmt#AssociatedChair;confOf#Topic": [
 		"cmt#AssociatedChair",
 		"confOf#Topic",
-		0.17927595973014832
+		0.1792759895324707
 	],
 	"cmt#AssociatedChair;confOf#Country": [
 		"cmt#AssociatedChair",
 		"confOf#Country",
-		0.17922112345695496
+		0.1792212426662445
 	],
 	"cmt#AssociatedChair;confOf#Company": [
 		"cmt#AssociatedChair",
 		"confOf#Company",
-		0.32225340604782104
+		0.32225334644317627
 	],
 	"cmt#AssociatedChair;confOf#University": [
 		"cmt#AssociatedChair",
 		"confOf#University",
-		0.20943991839885712
+		0.20944000780582428
 	],
 	"cmt#AssociatedChair;confOf#Scholar": [
 		"cmt#AssociatedChair",
 		"confOf#Scholar",
-		0.2851268947124481
+		0.2851269841194153
 	],
 	"cmt#AssociatedChair;confOf#Administrator": [
 		"cmt#AssociatedChair",
@@ -2167,12 +2167,12 @@
 	"cmt#AssociatedChair;confOf#Poster": [
 		"cmt#AssociatedChair",
 		"confOf#Poster",
-		0.19690383970737457
+		0.19690394401550293
 	],
 	"cmt#AssociatedChair;confOf#Paper": [
 		"cmt#AssociatedChair",
 		"confOf#Paper",
-		0.205316424369812
+		0.20531637966632843
 	],
 	"cmt#AssociatedChair;confOf#Short_paper": [
 		"cmt#AssociatedChair",
@@ -2182,127 +2182,127 @@
 	"cmt#AssociatedChair;confOf#Reviewing_results_event": [
 		"cmt#AssociatedChair",
 		"confOf#Reviewing_results_event",
-		0.07282762229442596
+		0.07282758504152298
 	],
 	"cmt#AssociatedChair;confOf#Administrative_event": [
 		"cmt#AssociatedChair",
 		"confOf#Administrative_event",
-		0.26390647888183594
+		0.26390641927719116
 	],
 	"cmt#AssociatedChair;confOf#Reviewing_event": [
 		"cmt#AssociatedChair",
 		"confOf#Reviewing_event",
-		0.12669086456298828
+		0.12669098377227783
 	],
 	"cmt#AssociatedChair;confOf#Registration_of_participants_event": [
 		"cmt#AssociatedChair",
 		"confOf#Registration_of_participants_event",
-		0.1550307422876358
+		0.15503069758415222
 	],
 	"cmt#AssociatedChair;confOf#Submission_event": [
 		"cmt#AssociatedChair",
 		"confOf#Submission_event",
-		0.14570924639701843
+		0.14570939540863037
 	],
 	"cmt#AssociatedChair;confOf#Camera_Ready_event": [
 		"cmt#AssociatedChair",
 		"confOf#Camera_Ready_event",
-		0.10929660499095917
+		0.10929670184850693
 	],
 	"cmt#AssociatedChair;confOf#Workshop": [
 		"cmt#AssociatedChair",
 		"confOf#Workshop",
-		0.2861308753490448
+		0.2861309051513672
 	],
 	"cmt#AssociatedChair;confOf#Conference": [
 		"cmt#AssociatedChair",
 		"confOf#Conference",
-		0.23324301838874817
+		0.23324310779571533
 	],
 	"cmt#AssociatedChair;confOf#Tutorial": [
 		"cmt#AssociatedChair",
 		"confOf#Tutorial",
-		0.17914946377277374
+		0.17914949357509613
 	],
 	"cmt#AssociatedChair;confOf#Working_event": [
 		"cmt#AssociatedChair",
 		"confOf#Working_event",
-		0.1354776918888092
+		0.13547760248184204
 	],
 	"cmt#AssociatedChair;confOf#Member": [
 		"cmt#AssociatedChair",
 		"confOf#Member",
-		0.34144699573516846
+		0.3414470851421356
 	],
 	"cmt#AssociatedChair;confOf#Participant": [
 		"cmt#AssociatedChair",
 		"confOf#Participant",
-		0.23928512632846832
+		0.23928532004356384
 	],
 	"cmt#AssociatedChair;confOf#Member_PC": [
 		"cmt#AssociatedChair",
 		"confOf#Member_PC",
-		0.43995627760887146
+		0.3402101397514343
 	],
 	"cmt#AssociatedChair;confOf#Chair_PC": [
 		"cmt#AssociatedChair",
 		"confOf#Chair_PC",
-		0.3825777471065521
+		0.26419901847839355
 	],
 	"cmt#AssociatedChair;confOf#Student": [
 		"cmt#AssociatedChair",
 		"confOf#Student",
-		0.16690243780612946
+		0.16690242290496826
 	],
 	"cmt#AssociatedChair;confOf#Science_Worker": [
 		"cmt#AssociatedChair",
 		"confOf#Science_Worker",
-		0.17864291369915009
+		0.17864277958869934
 	],
 	"cmt#AssociatedChair;confOf#Assistant": [
 		"cmt#AssociatedChair",
 		"confOf#Assistant",
-		0.2662864029407501
+		0.26628637313842773
 	],
 	"cmt#AssociatedChair;confOf#Volunteer": [
 		"cmt#AssociatedChair",
 		"confOf#Volunteer",
-		0.16593323647975922
+		0.16593319177627563
 	],
 	"cmt#AssociatedChair;confOf#Regular": [
 		"cmt#AssociatedChair",
 		"confOf#Regular",
-		0.1315554827451706
+		0.13155558705329895
 	],
 	"cmt#AssociatedChair;confOf#Author": [
 		"cmt#AssociatedChair",
 		"confOf#Author",
-		0.22405758500099182
+		0.2240576297044754
 	],
 	"cmt#ProgramCommitteeMember;confOf#Trip": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Trip",
-		0.019636696204543114
+		0.019636735320091248
 	],
 	"cmt#ProgramCommitteeMember;confOf#Banquet": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Banquet",
-		0.1895526945590973
+		0.18955272436141968
 	],
 	"cmt#ProgramCommitteeMember;confOf#Reception": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Reception",
-		0.09957339614629745
+		0.0995735228061676
 	],
 	"cmt#ProgramCommitteeMember;confOf#Social_event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Social_event",
-		0.16168718039989471
+		0.16168726980686188
 	],
 	"cmt#ProgramCommitteeMember;confOf#Event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Event",
-		0.14643479883670807
+		0.1464347243309021
 	],
 	"cmt#ProgramCommitteeMember;confOf#Contribution": [
 		"cmt#ProgramCommitteeMember",
@@ -2312,307 +2312,307 @@
 	"cmt#ProgramCommitteeMember;confOf#City": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#City",
-		0.03216490522027016
+		0.03216484189033508
 	],
 	"cmt#ProgramCommitteeMember;confOf#Organization": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Organization",
-		0.2641257345676422
+		0.2641258239746094
 	],
 	"cmt#ProgramCommitteeMember;confOf#Person": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Person",
-		0.21203626692295074
+		0.2120361626148224
 	],
 	"cmt#ProgramCommitteeMember;confOf#Topic": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Topic",
-		0.1830836981534958
+		0.1830836534500122
 	],
 	"cmt#ProgramCommitteeMember;confOf#Country": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Country",
-		0.00011341017670929432
+		0.00011332705616950989
 	],
 	"cmt#ProgramCommitteeMember;confOf#Company": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Company",
-		0.1132645457983017
+		0.11326460540294647
 	],
 	"cmt#ProgramCommitteeMember;confOf#University": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#University",
-		0.19893597066402435
+		0.19893595576286316
 	],
 	"cmt#ProgramCommitteeMember;confOf#Scholar": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Scholar",
-		0.18320666253566742
+		0.18320664763450623
 	],
 	"cmt#ProgramCommitteeMember;confOf#Administrator": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Administrator",
-		0.34562885761260986
+		0.345628947019577
 	],
 	"cmt#ProgramCommitteeMember;confOf#Poster": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Poster",
-		0.08853219449520111
+		0.08853213489055634
 	],
 	"cmt#ProgramCommitteeMember;confOf#Paper": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Paper",
-		0.08620356768369675
+		0.08620347082614899
 	],
 	"cmt#ProgramCommitteeMember;confOf#Short_paper": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Short_paper",
-		0.14265604317188263
+		0.14265599846839905
 	],
 	"cmt#ProgramCommitteeMember;confOf#Reviewing_results_event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Reviewing_results_event",
-		0.24596285820007324
+		0.2459627240896225
 	],
 	"cmt#ProgramCommitteeMember;confOf#Administrative_event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Administrative_event",
-		0.3124510943889618
+		0.31245121359825134
 	],
 	"cmt#ProgramCommitteeMember;confOf#Reviewing_event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Reviewing_event",
-		0.17993132770061493
+		0.17993147671222687
 	],
 	"cmt#ProgramCommitteeMember;confOf#Registration_of_participants_event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Registration_of_participants_event",
-		0.2279825508594513
+		0.22798258066177368
 	],
 	"cmt#ProgramCommitteeMember;confOf#Submission_event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Submission_event",
-		0.29109811782836914
+		0.29109805822372437
 	],
 	"cmt#ProgramCommitteeMember;confOf#Camera_Ready_event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Camera_Ready_event",
-		0.09052824974060059
+		0.09052830934524536
 	],
 	"cmt#ProgramCommitteeMember;confOf#Workshop": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Workshop",
-		0.2404557764530182
+		0.24045583605766296
 	],
 	"cmt#ProgramCommitteeMember;confOf#Conference": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Conference",
-		0.21700701117515564
+		0.2170071005821228
 	],
 	"cmt#ProgramCommitteeMember;confOf#Tutorial": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Tutorial",
-		0.15124733746051788
+		0.15124748647212982
 	],
 	"cmt#ProgramCommitteeMember;confOf#Working_event": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Working_event",
-		0.16187572479248047
+		0.16187570989131927
 	],
 	"cmt#ProgramCommitteeMember;confOf#Member": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Member",
-		0.4620029926300049
+		0.46200302243232727
 	],
 	"cmt#ProgramCommitteeMember;confOf#Participant": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Participant",
-		0.31325477361679077
+		0.313254714012146
 	],
 	"cmt#ProgramCommitteeMember;confOf#Member_PC": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Member_PC",
-		0.4074072539806366
+		0.366890013217926
 	],
 	"cmt#ProgramCommitteeMember;confOf#Chair_PC": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Chair_PC",
-		0.1518058329820633
+		0.15370695292949677
 	],
 	"cmt#ProgramCommitteeMember;confOf#Student": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Student",
-		0.36104705929756165
+		0.36104682087898254
 	],
 	"cmt#ProgramCommitteeMember;confOf#Science_Worker": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Science_Worker",
-		0.18870748579502106
+		0.18870744109153748
 	],
 	"cmt#ProgramCommitteeMember;confOf#Assistant": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Assistant",
-		0.2449275702238083
+		0.24492740631103516
 	],
 	"cmt#ProgramCommitteeMember;confOf#Volunteer": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Volunteer",
-		0.2646491229534149
+		0.2646491825580597
 	],
 	"cmt#ProgramCommitteeMember;confOf#Regular": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Regular",
-		0.09115064144134521
+		0.09115052223205566
 	],
 	"cmt#ProgramCommitteeMember;confOf#Author": [
 		"cmt#ProgramCommitteeMember",
 		"confOf#Author",
-		0.16979272663593292
+		0.16979266703128815
 	],
 	"cmt#AuthorNotReviewer;confOf#Trip": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Trip",
-		0.05050421133637428
+		0.05050425976514816
 	],
 	"cmt#AuthorNotReviewer;confOf#Banquet": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Banquet",
-		-0.025739723816514015
+		-0.02573969028890133
 	],
 	"cmt#AuthorNotReviewer;confOf#Reception": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Reception",
-		0.0548037588596344
+		0.05480384826660156
 	],
 	"cmt#AuthorNotReviewer;confOf#Social_event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Social_event",
-		0.04206465557217598
+		0.042064812034368515
 	],
 	"cmt#AuthorNotReviewer;confOf#Event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Event",
-		0.09318291395902634
+		0.09318295866250992
 	],
 	"cmt#AuthorNotReviewer;confOf#Contribution": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Contribution",
-		0.28023308515548706
+		0.28023314476013184
 	],
 	"cmt#AuthorNotReviewer;confOf#City": [
 		"cmt#AuthorNotReviewer",
 		"confOf#City",
-		0.019296124577522278
+		0.01929614320397377
 	],
 	"cmt#AuthorNotReviewer;confOf#Organization": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Organization",
-		0.10064321011304855
+		0.10064329206943512
 	],
 	"cmt#AuthorNotReviewer;confOf#Person": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Person",
-		0.28664907813072205
+		0.28664904832839966
 	],
 	"cmt#AuthorNotReviewer;confOf#Topic": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Topic",
-		0.13833360373973846
+		0.13833366334438324
 	],
 	"cmt#AuthorNotReviewer;confOf#Country": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Country",
-		-0.007801302243024111
+		-0.00780118815600872
 	],
 	"cmt#AuthorNotReviewer;confOf#Company": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Company",
-		0.08629897981882095
+		0.08629894256591797
 	],
 	"cmt#AuthorNotReviewer;confOf#University": [
 		"cmt#AuthorNotReviewer",
 		"confOf#University",
-		0.06273118406534195
+		0.0627313032746315
 	],
 	"cmt#AuthorNotReviewer;confOf#Scholar": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Scholar",
-		0.23003362119197845
+		0.23003366589546204
 	],
 	"cmt#AuthorNotReviewer;confOf#Administrator": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Administrator",
-		0.22332556545734406
+		0.2233256846666336
 	],
 	"cmt#AuthorNotReviewer;confOf#Poster": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Poster",
-		0.13259845972061157
+		0.13259847462177277
 	],
 	"cmt#AuthorNotReviewer;confOf#Paper": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Paper",
-		0.09243256598711014
+		0.09243268519639969
 	],
 	"cmt#AuthorNotReviewer;confOf#Short_paper": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Short_paper",
-		0.1055859848856926
+		0.105585977435112
 	],
 	"cmt#AuthorNotReviewer;confOf#Reviewing_results_event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Reviewing_results_event",
-		0.3023456633090973
+		0.3023456931114197
 	],
 	"cmt#AuthorNotReviewer;confOf#Administrative_event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Administrative_event",
-		0.12934431433677673
+		0.12934449315071106
 	],
 	"cmt#AuthorNotReviewer;confOf#Reviewing_event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Reviewing_event",
-		0.21995341777801514
+		0.21995356678962708
 	],
 	"cmt#AuthorNotReviewer;confOf#Registration_of_participants_event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Registration_of_participants_event",
-		0.10605193674564362
+		0.1060519814491272
 	],
 	"cmt#AuthorNotReviewer;confOf#Submission_event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Submission_event",
-		0.12624293565750122
+		0.12624306976795197
 	],
 	"cmt#AuthorNotReviewer;confOf#Camera_Ready_event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Camera_Ready_event",
-		0.18906907737255096
+		0.18906930088996887
 	],
 	"cmt#AuthorNotReviewer;confOf#Workshop": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Workshop",
-		0.10411323606967926
+		0.1041131541132927
 	],
 	"cmt#AuthorNotReviewer;confOf#Conference": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Conference",
-		0.0665292963385582
+		0.06652931869029999
 	],
 	"cmt#AuthorNotReviewer;confOf#Tutorial": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Tutorial",
-		0.14930835366249084
+		0.14930832386016846
 	],
 	"cmt#AuthorNotReviewer;confOf#Working_event": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Working_event",
-		0.02690148912370205
+		0.026901524513959885
 	],
 	"cmt#AuthorNotReviewer;confOf#Member": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Member",
-		0.2958889603614807
+		0.2958890199661255
 	],
 	"cmt#AuthorNotReviewer;confOf#Participant": [
 		"cmt#AuthorNotReviewer",
@@ -2622,92 +2622,92 @@
 	"cmt#AuthorNotReviewer;confOf#Member_PC": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Member_PC",
-		0.2702561020851135
+		0.23907706141471863
 	],
 	"cmt#AuthorNotReviewer;confOf#Chair_PC": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Chair_PC",
-		0.09702713787555695
+		0.10010629147291183
 	],
 	"cmt#AuthorNotReviewer;confOf#Student": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Student",
-		0.20095159113407135
+		0.20095163583755493
 	],
 	"cmt#AuthorNotReviewer;confOf#Science_Worker": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Science_Worker",
-		0.21756713092327118
+		0.2175670564174652
 	],
 	"cmt#AuthorNotReviewer;confOf#Assistant": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Assistant",
-		0.18465381860733032
+		0.1846538782119751
 	],
 	"cmt#AuthorNotReviewer;confOf#Volunteer": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Volunteer",
-		0.08543086051940918
+		0.08543085306882858
 	],
 	"cmt#AuthorNotReviewer;confOf#Regular": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Regular",
-		0.10025834292173386
+		0.10025833547115326
 	],
 	"cmt#AuthorNotReviewer;confOf#Author": [
 		"cmt#AuthorNotReviewer",
 		"confOf#Author",
-		0.5061948299407959
+		0.5061946511268616
 	],
 	"cmt#SubjectArea;confOf#Trip": [
 		"cmt#SubjectArea",
 		"confOf#Trip",
-		0.19943253695964813
+		0.19943265616893768
 	],
 	"cmt#SubjectArea;confOf#Banquet": [
 		"cmt#SubjectArea",
 		"confOf#Banquet",
-		0.2608235478401184
+		0.2608237862586975
 	],
 	"cmt#SubjectArea;confOf#Reception": [
 		"cmt#SubjectArea",
 		"confOf#Reception",
-		0.29294857382774353
+		0.2929486930370331
 	],
 	"cmt#SubjectArea;confOf#Social_event": [
 		"cmt#SubjectArea",
 		"confOf#Social_event",
-		0.31803467869758606
+		0.3180350065231323
 	],
 	"cmt#SubjectArea;confOf#Event": [
 		"cmt#SubjectArea",
 		"confOf#Event",
-		0.26418453454971313
+		0.2641846239566803
 	],
 	"cmt#SubjectArea;confOf#Contribution": [
 		"cmt#SubjectArea",
 		"confOf#Contribution",
-		0.24108938872814178
+		0.24108950793743134
 	],
 	"cmt#SubjectArea;confOf#City": [
 		"cmt#SubjectArea",
 		"confOf#City",
-		0.16504748165607452
+		0.16504746675491333
 	],
 	"cmt#SubjectArea;confOf#Organization": [
 		"cmt#SubjectArea",
 		"confOf#Organization",
-		0.2965570092201233
+		0.29655730724334717
 	],
 	"cmt#SubjectArea;confOf#Person": [
 		"cmt#SubjectArea",
 		"confOf#Person",
-		0.17914800345897675
+		0.17914821207523346
 	],
 	"cmt#SubjectArea;confOf#Topic": [
 		"cmt#SubjectArea",
 		"confOf#Topic",
-		0.4278295934200287
+		0.4278298020362854
 	],
 	"cmt#SubjectArea;confOf#Country": [
 		"cmt#SubjectArea",
@@ -2717,27 +2717,27 @@
 	"cmt#SubjectArea;confOf#Company": [
 		"cmt#SubjectArea",
 		"confOf#Company",
-		0.17934469878673553
+		0.17934481799602509
 	],
 	"cmt#SubjectArea;confOf#University": [
 		"cmt#SubjectArea",
 		"confOf#University",
-		0.261051207780838
+		0.2610512971878052
 	],
 	"cmt#SubjectArea;confOf#Scholar": [
 		"cmt#SubjectArea",
 		"confOf#Scholar",
-		0.2854483127593994
+		0.28544846177101135
 	],
 	"cmt#SubjectArea;confOf#Administrator": [
 		"cmt#SubjectArea",
 		"confOf#Administrator",
-		0.3024997115135193
+		0.3024998605251312
 	],
 	"cmt#SubjectArea;confOf#Poster": [
 		"cmt#SubjectArea",
 		"confOf#Poster",
-		0.29657062888145447
+		0.29657071828842163
 	],
 	"cmt#SubjectArea;confOf#Paper": [
 		"cmt#SubjectArea",
@@ -2747,52 +2747,52 @@
 	"cmt#SubjectArea;confOf#Short_paper": [
 		"cmt#SubjectArea",
 		"confOf#Short_paper",
-		0.2689181864261627
+		0.2689182758331299
 	],
 	"cmt#SubjectArea;confOf#Reviewing_results_event": [
 		"cmt#SubjectArea",
 		"confOf#Reviewing_results_event",
-		0.1251218169927597
+		0.1251220405101776
 	],
 	"cmt#SubjectArea;confOf#Administrative_event": [
 		"cmt#SubjectArea",
 		"confOf#Administrative_event",
-		0.3224071264266968
+		0.32240718603134155
 	],
 	"cmt#SubjectArea;confOf#Reviewing_event": [
 		"cmt#SubjectArea",
 		"confOf#Reviewing_event",
-		0.24617396295070648
+		0.24617405235767365
 	],
 	"cmt#SubjectArea;confOf#Registration_of_participants_event": [
 		"cmt#SubjectArea",
 		"confOf#Registration_of_participants_event",
-		0.17641681432724
+		0.1764167994260788
 	],
 	"cmt#SubjectArea;confOf#Submission_event": [
 		"cmt#SubjectArea",
 		"confOf#Submission_event",
-		0.27386146783828735
+		0.2738615870475769
 	],
 	"cmt#SubjectArea;confOf#Camera_Ready_event": [
 		"cmt#SubjectArea",
 		"confOf#Camera_Ready_event",
-		0.18187765777111053
+		0.18187764286994934
 	],
 	"cmt#SubjectArea;confOf#Workshop": [
 		"cmt#SubjectArea",
 		"confOf#Workshop",
-		0.2174130082130432
+		0.2174130380153656
 	],
 	"cmt#SubjectArea;confOf#Conference": [
 		"cmt#SubjectArea",
 		"confOf#Conference",
-		0.2252490222454071
+		0.22524914145469666
 	],
 	"cmt#SubjectArea;confOf#Tutorial": [
 		"cmt#SubjectArea",
 		"confOf#Tutorial",
-		0.13518252968788147
+		0.1351826936006546
 	],
 	"cmt#SubjectArea;confOf#Working_event": [
 		"cmt#SubjectArea",
@@ -2802,282 +2802,282 @@
 	"cmt#SubjectArea;confOf#Member": [
 		"cmt#SubjectArea",
 		"confOf#Member",
-		0.20574262738227844
+		0.20574277639389038
 	],
 	"cmt#SubjectArea;confOf#Participant": [
 		"cmt#SubjectArea",
 		"confOf#Participant",
-		0.3173161447048187
+		0.3173162639141083
 	],
 	"cmt#SubjectArea;confOf#Member_PC": [
 		"cmt#SubjectArea",
 		"confOf#Member_PC",
-		0.12906599044799805
+		0.23325097560882568
 	],
 	"cmt#SubjectArea;confOf#Chair_PC": [
 		"cmt#SubjectArea",
 		"confOf#Chair_PC",
-		0.15956762433052063
+		0.2775237262248993
 	],
 	"cmt#SubjectArea;confOf#Student": [
 		"cmt#SubjectArea",
 		"confOf#Student",
-		0.2725045084953308
+		0.2725045680999756
 	],
 	"cmt#SubjectArea;confOf#Science_Worker": [
 		"cmt#SubjectArea",
 		"confOf#Science_Worker",
-		0.29169949889183044
+		0.29169967770576477
 	],
 	"cmt#SubjectArea;confOf#Assistant": [
 		"cmt#SubjectArea",
 		"confOf#Assistant",
-		0.31854715943336487
+		0.3185473084449768
 	],
 	"cmt#SubjectArea;confOf#Volunteer": [
 		"cmt#SubjectArea",
 		"confOf#Volunteer",
-		0.18016409873962402
+		0.18016426265239716
 	],
 	"cmt#SubjectArea;confOf#Regular": [
 		"cmt#SubjectArea",
 		"confOf#Regular",
-		0.2075057327747345
+		0.20750582218170166
 	],
 	"cmt#SubjectArea;confOf#Author": [
 		"cmt#SubjectArea",
 		"confOf#Author",
-		0.2689378559589386
+		0.26893773674964905
 	],
 	"cmt#ExternalReviewer;confOf#Trip": [
 		"cmt#ExternalReviewer",
 		"confOf#Trip",
-		-0.03541572391986847
+		-0.0354156456887722
 	],
 	"cmt#ExternalReviewer;confOf#Banquet": [
 		"cmt#ExternalReviewer",
 		"confOf#Banquet",
-		-0.04671516269445419
+		-0.0467151403427124
 	],
 	"cmt#ExternalReviewer;confOf#Reception": [
 		"cmt#ExternalReviewer",
 		"confOf#Reception",
-		0.01094955112785101
+		0.010949578136205673
 	],
 	"cmt#ExternalReviewer;confOf#Social_event": [
 		"cmt#ExternalReviewer",
 		"confOf#Social_event",
-		0.017320919781923294
+		0.017320886254310608
 	],
 	"cmt#ExternalReviewer;confOf#Event": [
 		"cmt#ExternalReviewer",
 		"confOf#Event",
-		-0.0005135899409651756
+		-0.0005136551335453987
 	],
 	"cmt#ExternalReviewer;confOf#Contribution": [
 		"cmt#ExternalReviewer",
 		"confOf#Contribution",
-		0.041660208255052567
+		0.04166027903556824
 	],
 	"cmt#ExternalReviewer;confOf#City": [
 		"cmt#ExternalReviewer",
 		"confOf#City",
-		-0.0069558159448206425
+		-0.006955857388675213
 	],
 	"cmt#ExternalReviewer;confOf#Organization": [
 		"cmt#ExternalReviewer",
 		"confOf#Organization",
-		-0.0340762622654438
+		-0.03407633304595947
 	],
 	"cmt#ExternalReviewer;confOf#Person": [
 		"cmt#ExternalReviewer",
 		"confOf#Person",
-		0.07341621816158295
+		0.07341619580984116
 	],
 	"cmt#ExternalReviewer;confOf#Topic": [
 		"cmt#ExternalReviewer",
 		"confOf#Topic",
-		0.06484843045473099
+		0.06484834104776382
 	],
 	"cmt#ExternalReviewer;confOf#Country": [
 		"cmt#ExternalReviewer",
 		"confOf#Country",
-		0.011671951040625572
+		0.01167197898030281
 	],
 	"cmt#ExternalReviewer;confOf#Company": [
 		"cmt#ExternalReviewer",
 		"confOf#Company",
-		-0.029955118894577026
+		-0.029955212026834488
 	],
 	"cmt#ExternalReviewer;confOf#University": [
 		"cmt#ExternalReviewer",
 		"confOf#University",
-		0.04325932636857033
+		0.04325922951102257
 	],
 	"cmt#ExternalReviewer;confOf#Scholar": [
 		"cmt#ExternalReviewer",
 		"confOf#Scholar",
-		0.03231605142354965
+		0.03231601044535637
 	],
 	"cmt#ExternalReviewer;confOf#Administrator": [
 		"cmt#ExternalReviewer",
 		"confOf#Administrator",
-		0.052817460149526596
+		0.0528174452483654
 	],
 	"cmt#ExternalReviewer;confOf#Poster": [
 		"cmt#ExternalReviewer",
 		"confOf#Poster",
-		0.0031661405228078365
+		0.0031661875545978546
 	],
 	"cmt#ExternalReviewer;confOf#Paper": [
 		"cmt#ExternalReviewer",
 		"confOf#Paper",
-		-0.02365792542695999
+		-0.023657940328121185
 	],
 	"cmt#ExternalReviewer;confOf#Short_paper": [
 		"cmt#ExternalReviewer",
 		"confOf#Short_paper",
-		-0.005039098672568798
+		-0.00503920391201973
 	],
 	"cmt#ExternalReviewer;confOf#Reviewing_results_event": [
 		"cmt#ExternalReviewer",
 		"confOf#Reviewing_results_event",
-		0.19617202877998352
+		0.19617196917533875
 	],
 	"cmt#ExternalReviewer;confOf#Administrative_event": [
 		"cmt#ExternalReviewer",
 		"confOf#Administrative_event",
-		0.061459124088287354
+		0.06145908683538437
 	],
 	"cmt#ExternalReviewer;confOf#Reviewing_event": [
 		"cmt#ExternalReviewer",
 		"confOf#Reviewing_event",
-		0.16046005487442017
+		0.16046009957790375
 	],
 	"cmt#ExternalReviewer;confOf#Registration_of_participants_event": [
 		"cmt#ExternalReviewer",
 		"confOf#Registration_of_participants_event",
-		0.03535664454102516
+		0.03535664081573486
 	],
 	"cmt#ExternalReviewer;confOf#Submission_event": [
 		"cmt#ExternalReviewer",
 		"confOf#Submission_event",
-		0.034375518560409546
+		0.034375593066215515
 	],
 	"cmt#ExternalReviewer;confOf#Camera_Ready_event": [
 		"cmt#ExternalReviewer",
 		"confOf#Camera_Ready_event",
-		0.25432416796684265
+		0.2543242871761322
 	],
 	"cmt#ExternalReviewer;confOf#Workshop": [
 		"cmt#ExternalReviewer",
 		"confOf#Workshop",
-		0.03521227836608887
+		0.03521230071783066
 	],
 	"cmt#ExternalReviewer;confOf#Conference": [
 		"cmt#ExternalReviewer",
 		"confOf#Conference",
-		-0.010906560346484184
+		-0.010906530544161797
 	],
 	"cmt#ExternalReviewer;confOf#Tutorial": [
 		"cmt#ExternalReviewer",
 		"confOf#Tutorial",
-		0.09864351898431778
+		0.09864343702793121
 	],
 	"cmt#ExternalReviewer;confOf#Working_event": [
 		"cmt#ExternalReviewer",
 		"confOf#Working_event",
-		0.0052035050466656685
+		0.0052035413682460785
 	],
 	"cmt#ExternalReviewer;confOf#Member": [
 		"cmt#ExternalReviewer",
 		"confOf#Member",
-		0.06282030045986176
+		0.06282021850347519
 	],
 	"cmt#ExternalReviewer;confOf#Participant": [
 		"cmt#ExternalReviewer",
 		"confOf#Participant",
-		0.07594960182905197
+		0.0759495422244072
 	],
 	"cmt#ExternalReviewer;confOf#Member_PC": [
 		"cmt#ExternalReviewer",
 		"confOf#Member_PC",
-		0.11223183572292328
+		0.005418805405497551
 	],
 	"cmt#ExternalReviewer;confOf#Chair_PC": [
 		"cmt#ExternalReviewer",
 		"confOf#Chair_PC",
-		0.0488375648856163
+		0.027844198048114777
 	],
 	"cmt#ExternalReviewer;confOf#Student": [
 		"cmt#ExternalReviewer",
 		"confOf#Student",
-		0.057767633348703384
+		0.05776762589812279
 	],
 	"cmt#ExternalReviewer;confOf#Science_Worker": [
 		"cmt#ExternalReviewer",
 		"confOf#Science_Worker",
-		0.0795174315571785
+		0.07951753586530685
 	],
 	"cmt#ExternalReviewer;confOf#Assistant": [
 		"cmt#ExternalReviewer",
 		"confOf#Assistant",
-		0.10852795839309692
+		0.10852789878845215
 	],
 	"cmt#ExternalReviewer;confOf#Volunteer": [
 		"cmt#ExternalReviewer",
 		"confOf#Volunteer",
-		-0.06270112097263336
+		-0.06270113587379456
 	],
 	"cmt#ExternalReviewer;confOf#Regular": [
 		"cmt#ExternalReviewer",
 		"confOf#Regular",
-		0.03679024428129196
+		0.03679019957780838
 	],
 	"cmt#ExternalReviewer;confOf#Author": [
 		"cmt#ExternalReviewer",
 		"confOf#Author",
-		0.03469663858413696
+		0.034696582704782486
 	],
 	"cmt#Chairman;confOf#Trip": [
 		"cmt#Chairman",
 		"confOf#Trip",
-		0.21028080582618713
+		0.21028104424476624
 	],
 	"cmt#Chairman;confOf#Banquet": [
 		"cmt#Chairman",
 		"confOf#Banquet",
-		0.31348031759262085
+		0.3134803771972656
 	],
 	"cmt#Chairman;confOf#Reception": [
 		"cmt#Chairman",
 		"confOf#Reception",
-		0.1731375753879547
+		0.1731376349925995
 	],
 	"cmt#Chairman;confOf#Social_event": [
 		"cmt#Chairman",
 		"confOf#Social_event",
-		0.2215270847082138
+		0.2215273082256317
 	],
 	"cmt#Chairman;confOf#Event": [
 		"cmt#Chairman",
 		"confOf#Event",
-		0.3317834436893463
+		0.3317835330963135
 	],
 	"cmt#Chairman;confOf#Contribution": [
 		"cmt#Chairman",
 		"confOf#Contribution",
-		0.3968050181865692
+		0.396805077791214
 	],
 	"cmt#Chairman;confOf#City": [
 		"cmt#Chairman",
 		"confOf#City",
-		0.1979610174894333
+		0.1979609727859497
 	],
 	"cmt#Chairman;confOf#Organization": [
 		"cmt#Chairman",
 		"confOf#Organization",
-		0.43475255370140076
+		0.43475258350372314
 	],
 	"cmt#Chairman;confOf#Person": [
 		"cmt#Chairman",
@@ -3087,37 +3087,37 @@
 	"cmt#Chairman;confOf#Topic": [
 		"cmt#Chairman",
 		"confOf#Topic",
-		0.2469622641801834
+		0.24696221947669983
 	],
 	"cmt#Chairman;confOf#Country": [
 		"cmt#Chairman",
 		"confOf#Country",
-		0.28492626547813416
+		0.28492629528045654
 	],
 	"cmt#Chairman;confOf#Company": [
 		"cmt#Chairman",
 		"confOf#Company",
-		0.4980500042438507
+		0.49805015325546265
 	],
 	"cmt#Chairman;confOf#University": [
 		"cmt#Chairman",
 		"confOf#University",
-		0.2544005513191223
+		0.2544006109237671
 	],
 	"cmt#Chairman;confOf#Scholar": [
 		"cmt#Chairman",
 		"confOf#Scholar",
-		0.273206889629364
+		0.27320703864097595
 	],
 	"cmt#Chairman;confOf#Administrator": [
 		"cmt#Chairman",
 		"confOf#Administrator",
-		0.5251863598823547
+		0.5251865386962891
 	],
 	"cmt#Chairman;confOf#Poster": [
 		"cmt#Chairman",
 		"confOf#Poster",
-		0.34229767322540283
+		0.3422977924346924
 	],
 	"cmt#Chairman;confOf#Paper": [
 		"cmt#Chairman",
@@ -3132,27 +3132,27 @@
 	"cmt#Chairman;confOf#Reviewing_results_event": [
 		"cmt#Chairman",
 		"confOf#Reviewing_results_event",
-		0.1055450439453125
+		0.10554519295692444
 	],
 	"cmt#Chairman;confOf#Administrative_event": [
 		"cmt#Chairman",
 		"confOf#Administrative_event",
-		0.4000181555747986
+		0.40001827478408813
 	],
 	"cmt#Chairman;confOf#Reviewing_event": [
 		"cmt#Chairman",
 		"confOf#Reviewing_event",
-		0.2671041190624237
+		0.26710420846939087
 	],
 	"cmt#Chairman;confOf#Registration_of_participants_event": [
 		"cmt#Chairman",
 		"confOf#Registration_of_participants_event",
-		0.190570667386055
+		0.19057080149650574
 	],
 	"cmt#Chairman;confOf#Submission_event": [
 		"cmt#Chairman",
 		"confOf#Submission_event",
-		0.26924753189086914
+		0.26924756169319153
 	],
 	"cmt#Chairman;confOf#Camera_Ready_event": [
 		"cmt#Chairman",
@@ -3162,52 +3162,52 @@
 	"cmt#Chairman;confOf#Workshop": [
 		"cmt#Chairman",
 		"confOf#Workshop",
-		0.2910425662994385
+		0.29104262590408325
 	],
 	"cmt#Chairman;confOf#Conference": [
 		"cmt#Chairman",
 		"confOf#Conference",
-		0.3550735414028168
+		0.3550736904144287
 	],
 	"cmt#Chairman;confOf#Tutorial": [
 		"cmt#Chairman",
 		"confOf#Tutorial",
-		0.1473408192396164
+		0.14734092354774475
 	],
 	"cmt#Chairman;confOf#Working_event": [
 		"cmt#Chairman",
 		"confOf#Working_event",
-		0.25373902916908264
+		0.2537388503551483
 	],
 	"cmt#Chairman;confOf#Member": [
 		"cmt#Chairman",
 		"confOf#Member",
-		0.49350500106811523
+		0.49350497126579285
 	],
 	"cmt#Chairman;confOf#Participant": [
 		"cmt#Chairman",
 		"confOf#Participant",
-		0.4018721282482147
+		0.40187209844589233
 	],
 	"cmt#Chairman;confOf#Member_PC": [
 		"cmt#Chairman",
 		"confOf#Member_PC",
-		0.4276714026927948
+		0.49466297030448914
 	],
 	"cmt#Chairman;confOf#Chair_PC": [
 		"cmt#Chairman",
 		"confOf#Chair_PC",
-		0.5077536702156067
+		0.5589596033096313
 	],
 	"cmt#Chairman;confOf#Student": [
 		"cmt#Chairman",
 		"confOf#Student",
-		0.32995128631591797
+		0.32995110750198364
 	],
 	"cmt#Chairman;confOf#Science_Worker": [
 		"cmt#Chairman",
 		"confOf#Science_Worker",
-		0.25509461760520935
+		0.2550945281982422
 	],
 	"cmt#Chairman;confOf#Assistant": [
 		"cmt#Chairman",
@@ -3217,12 +3217,12 @@
 	"cmt#Chairman;confOf#Volunteer": [
 		"cmt#Chairman",
 		"confOf#Volunteer",
-		0.16823802888393402
+		0.1682380735874176
 	],
 	"cmt#Chairman;confOf#Regular": [
 		"cmt#Chairman",
 		"confOf#Regular",
-		0.21136893332004547
+		0.21136891841888428
 	],
 	"cmt#Chairman;confOf#Author": [
 		"cmt#Chairman",
@@ -3232,67 +3232,67 @@
 	"cmt#ProgramCommitteeChair;confOf#Trip": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Trip",
-		0.033996738493442535
+		0.03399660810828209
 	],
 	"cmt#ProgramCommitteeChair;confOf#Banquet": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Banquet",
-		0.24703823029994965
+		0.2470380663871765
 	],
 	"cmt#ProgramCommitteeChair;confOf#Reception": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Reception",
-		0.08947692811489105
+		0.08947686851024628
 	],
 	"cmt#ProgramCommitteeChair;confOf#Social_event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Social_event",
-		0.19927595555782318
+		0.19927577674388885
 	],
 	"cmt#ProgramCommitteeChair;confOf#Event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Event",
-		0.13202278316020966
+		0.13202250003814697
 	],
 	"cmt#ProgramCommitteeChair;confOf#Contribution": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Contribution",
-		0.2408379167318344
+		0.24083775281906128
 	],
 	"cmt#ProgramCommitteeChair;confOf#City": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#City",
-		0.06929733604192734
+		0.06929715722799301
 	],
 	"cmt#ProgramCommitteeChair;confOf#Organization": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Organization",
-		0.2481818050146103
+		0.24818158149719238
 	],
 	"cmt#ProgramCommitteeChair;confOf#Person": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Person",
-		0.06287620961666107
+		0.06287606060504913
 	],
 	"cmt#ProgramCommitteeChair;confOf#Topic": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Topic",
-		0.12683843076229095
+		0.1268383413553238
 	],
 	"cmt#ProgramCommitteeChair;confOf#Country": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Country",
-		0.01790722645819187
+		0.017907066270709038
 	],
 	"cmt#ProgramCommitteeChair;confOf#Company": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Company",
-		0.158131405711174
+		0.1581312119960785
 	],
 	"cmt#ProgramCommitteeChair;confOf#University": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#University",
-		0.17851772904396057
+		0.178517684340477
 	],
 	"cmt#ProgramCommitteeChair;confOf#Scholar": [
 		"cmt#ProgramCommitteeChair",
@@ -3302,207 +3302,207 @@
 	"cmt#ProgramCommitteeChair;confOf#Administrator": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Administrator",
-		0.17527396976947784
+		0.17527395486831665
 	],
 	"cmt#ProgramCommitteeChair;confOf#Poster": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Poster",
-		0.04541020467877388
+		0.04540998116135597
 	],
 	"cmt#ProgramCommitteeChair;confOf#Paper": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Paper",
-		0.11562764644622803
+		0.11562731862068176
 	],
 	"cmt#ProgramCommitteeChair;confOf#Short_paper": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Short_paper",
-		0.11242710798978806
+		0.11242694407701492
 	],
 	"cmt#ProgramCommitteeChair;confOf#Reviewing_results_event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Reviewing_results_event",
-		0.19736267626285553
+		0.19736260175704956
 	],
 	"cmt#ProgramCommitteeChair;confOf#Administrative_event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Administrative_event",
-		0.23248708248138428
+		0.2324870526790619
 	],
 	"cmt#ProgramCommitteeChair;confOf#Reviewing_event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Reviewing_event",
-		0.16489572823047638
+		0.1648956537246704
 	],
 	"cmt#ProgramCommitteeChair;confOf#Registration_of_participants_event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Registration_of_participants_event",
-		0.17904554307460785
+		0.17904555797576904
 	],
 	"cmt#ProgramCommitteeChair;confOf#Submission_event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Submission_event",
-		0.2717462182044983
+		0.2717461884021759
 	],
 	"cmt#ProgramCommitteeChair;confOf#Camera_Ready_event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Camera_Ready_event",
-		0.09328769147396088
+		0.09328767657279968
 	],
 	"cmt#ProgramCommitteeChair;confOf#Workshop": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Workshop",
-		0.2882668673992157
+		0.28826677799224854
 	],
 	"cmt#ProgramCommitteeChair;confOf#Conference": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Conference",
-		0.2142416536808014
+		0.21424156427383423
 	],
 	"cmt#ProgramCommitteeChair;confOf#Tutorial": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Tutorial",
-		0.1643574982881546
+		0.16435745358467102
 	],
 	"cmt#ProgramCommitteeChair;confOf#Working_event": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Working_event",
-		0.1694318801164627
+		0.16943170130252838
 	],
 	"cmt#ProgramCommitteeChair;confOf#Member": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Member",
-		0.19319455325603485
+		0.19319450855255127
 	],
 	"cmt#ProgramCommitteeChair;confOf#Participant": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Participant",
-		0.17075073719024658
+		0.17075052857398987
 	],
 	"cmt#ProgramCommitteeChair;confOf#Member_PC": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Member_PC",
-		0.3353364169597626
+		0.13713014125823975
 	],
 	"cmt#ProgramCommitteeChair;confOf#Chair_PC": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Chair_PC",
-		0.23756907880306244
+		0.10788053274154663
 	],
 	"cmt#ProgramCommitteeChair;confOf#Student": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Student",
-		0.24749743938446045
+		0.24749718606472015
 	],
 	"cmt#ProgramCommitteeChair;confOf#Science_Worker": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Science_Worker",
-		0.15571260452270508
+		0.15571236610412598
 	],
 	"cmt#ProgramCommitteeChair;confOf#Assistant": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Assistant",
-		0.14528700709342957
+		0.14528679847717285
 	],
 	"cmt#ProgramCommitteeChair;confOf#Volunteer": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Volunteer",
-		0.1792755424976349
+		0.17927540838718414
 	],
 	"cmt#ProgramCommitteeChair;confOf#Regular": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Regular",
-		0.040665000677108765
+		0.040664881467819214
 	],
 	"cmt#ProgramCommitteeChair;confOf#Author": [
 		"cmt#ProgramCommitteeChair",
 		"confOf#Author",
-		0.07252761721611023
+		0.07252758741378784
 	],
 	"cmt#Acceptance;confOf#Trip": [
 		"cmt#Acceptance",
 		"confOf#Trip",
-		0.24334774911403656
+		0.2433478832244873
 	],
 	"cmt#Acceptance;confOf#Banquet": [
 		"cmt#Acceptance",
 		"confOf#Banquet",
-		0.2130194455385208
+		0.21301956474781036
 	],
 	"cmt#Acceptance;confOf#Reception": [
 		"cmt#Acceptance",
 		"confOf#Reception",
-		0.30537131428718567
+		0.30537134408950806
 	],
 	"cmt#Acceptance;confOf#Social_event": [
 		"cmt#Acceptance",
 		"confOf#Social_event",
-		0.3035254180431366
+		0.3035256266593933
 	],
 	"cmt#Acceptance;confOf#Event": [
 		"cmt#Acceptance",
 		"confOf#Event",
-		0.3108348250389099
+		0.31083494424819946
 	],
 	"cmt#Acceptance;confOf#Contribution": [
 		"cmt#Acceptance",
 		"confOf#Contribution",
-		0.35019293427467346
+		0.3501928150653839
 	],
 	"cmt#Acceptance;confOf#City": [
 		"cmt#Acceptance",
 		"confOf#City",
-		0.1504693180322647
+		0.15046930313110352
 	],
 	"cmt#Acceptance;confOf#Organization": [
 		"cmt#Acceptance",
 		"confOf#Organization",
-		0.36869534850120544
+		0.3686954081058502
 	],
 	"cmt#Acceptance;confOf#Person": [
 		"cmt#Acceptance",
 		"confOf#Person",
-		0.19527193903923035
+		0.19527198374271393
 	],
 	"cmt#Acceptance;confOf#Topic": [
 		"cmt#Acceptance",
 		"confOf#Topic",
-		0.23435071110725403
+		0.23435083031654358
 	],
 	"cmt#Acceptance;confOf#Country": [
 		"cmt#Acceptance",
 		"confOf#Country",
-		0.2286146581172943
+		0.22861464321613312
 	],
 	"cmt#Acceptance;confOf#Company": [
 		"cmt#Acceptance",
 		"confOf#Company",
-		0.2463291585445404
+		0.24632926285266876
 	],
 	"cmt#Acceptance;confOf#University": [
 		"cmt#Acceptance",
 		"confOf#University",
-		0.3392413556575775
+		0.33924156427383423
 	],
 	"cmt#Acceptance;confOf#Scholar": [
 		"cmt#Acceptance",
 		"confOf#Scholar",
-		0.2589087188243866
+		0.2589089572429657
 	],
 	"cmt#Acceptance;confOf#Administrator": [
 		"cmt#Acceptance",
 		"confOf#Administrator",
-		0.25380516052246094
+		0.2538052797317505
 	],
 	"cmt#Acceptance;confOf#Poster": [
 		"cmt#Acceptance",
 		"confOf#Poster",
-		0.21745668351650238
+		0.21745672821998596
 	],
 	"cmt#Acceptance;confOf#Paper": [
 		"cmt#Acceptance",
 		"confOf#Paper",
-		0.2980564534664154
+		0.298056423664093
 	],
 	"cmt#Acceptance;confOf#Short_paper": [
 		"cmt#Acceptance",
@@ -3512,152 +3512,152 @@
 	"cmt#Acceptance;confOf#Reviewing_results_event": [
 		"cmt#Acceptance",
 		"confOf#Reviewing_results_event",
-		0.11468861252069473
+		0.11468872427940369
 	],
 	"cmt#Acceptance;confOf#Administrative_event": [
 		"cmt#Acceptance",
 		"confOf#Administrative_event",
-		0.2621336579322815
+		0.26213374733924866
 	],
 	"cmt#Acceptance;confOf#Reviewing_event": [
 		"cmt#Acceptance",
 		"confOf#Reviewing_event",
-		0.20186802744865417
+		0.20186814665794373
 	],
 	"cmt#Acceptance;confOf#Registration_of_participants_event": [
 		"cmt#Acceptance",
 		"confOf#Registration_of_participants_event",
-		0.12711039185523987
+		0.1271103471517563
 	],
 	"cmt#Acceptance;confOf#Submission_event": [
 		"cmt#Acceptance",
 		"confOf#Submission_event",
-		0.3153650760650635
+		0.315365195274353
 	],
 	"cmt#Acceptance;confOf#Camera_Ready_event": [
 		"cmt#Acceptance",
 		"confOf#Camera_Ready_event",
-		0.08500580489635468
+		0.08500584959983826
 	],
 	"cmt#Acceptance;confOf#Workshop": [
 		"cmt#Acceptance",
 		"confOf#Workshop",
-		0.144217848777771
+		0.1442178636789322
 	],
 	"cmt#Acceptance;confOf#Conference": [
 		"cmt#Acceptance",
 		"confOf#Conference",
-		0.26720374822616577
+		0.2672038674354553
 	],
 	"cmt#Acceptance;confOf#Tutorial": [
 		"cmt#Acceptance",
 		"confOf#Tutorial",
-		0.1262015849351883
+		0.12620171904563904
 	],
 	"cmt#Acceptance;confOf#Working_event": [
 		"cmt#Acceptance",
 		"confOf#Working_event",
-		0.1579015702009201
+		0.15790148079395294
 	],
 	"cmt#Acceptance;confOf#Member": [
 		"cmt#Acceptance",
 		"confOf#Member",
-		0.2927378714084625
+		0.29273778200149536
 	],
 	"cmt#Acceptance;confOf#Participant": [
 		"cmt#Acceptance",
 		"confOf#Participant",
-		0.28436264395713806
+		0.2843627333641052
 	],
 	"cmt#Acceptance;confOf#Member_PC": [
 		"cmt#Acceptance",
 		"confOf#Member_PC",
-		0.23330652713775635
+		0.3194125294685364
 	],
 	"cmt#Acceptance;confOf#Chair_PC": [
 		"cmt#Acceptance",
 		"confOf#Chair_PC",
-		0.16556468605995178
+		0.2451533079147339
 	],
 	"cmt#Acceptance;confOf#Student": [
 		"cmt#Acceptance",
 		"confOf#Student",
-		0.339084267616272
+		0.33908435702323914
 	],
 	"cmt#Acceptance;confOf#Science_Worker": [
 		"cmt#Acceptance",
 		"confOf#Science_Worker",
-		0.18136630952358246
+		0.1813664436340332
 	],
 	"cmt#Acceptance;confOf#Assistant": [
 		"cmt#Acceptance",
 		"confOf#Assistant",
-		0.2984630763530731
+		0.2984631359577179
 	],
 	"cmt#Acceptance;confOf#Volunteer": [
 		"cmt#Acceptance",
 		"confOf#Volunteer",
-		0.2536681592464447
+		0.2536681294441223
 	],
 	"cmt#Acceptance;confOf#Regular": [
 		"cmt#Acceptance",
 		"confOf#Regular",
-		0.2592998147010803
+		0.25929996371269226
 	],
 	"cmt#Acceptance;confOf#Author": [
 		"cmt#Acceptance",
 		"confOf#Author",
-		0.20286495983600616
+		0.20286497473716736
 	],
 	"cmt#Rejection;confOf#Trip": [
 		"cmt#Rejection",
 		"confOf#Trip",
-		0.19657845795154572
+		0.19657856225967407
 	],
 	"cmt#Rejection;confOf#Banquet": [
 		"cmt#Rejection",
 		"confOf#Banquet",
-		0.1637139916419983
+		0.16371403634548187
 	],
 	"cmt#Rejection;confOf#Reception": [
 		"cmt#Rejection",
 		"confOf#Reception",
-		0.27647706866264343
+		0.27647703886032104
 	],
 	"cmt#Rejection;confOf#Social_event": [
 		"cmt#Rejection",
 		"confOf#Social_event",
-		0.16205431520938873
+		0.1620543748140335
 	],
 	"cmt#Rejection;confOf#Event": [
 		"cmt#Rejection",
 		"confOf#Event",
-		0.2542644441127777
+		0.2542646527290344
 	],
 	"cmt#Rejection;confOf#Contribution": [
 		"cmt#Rejection",
 		"confOf#Contribution",
-		0.30377084016799927
+		0.30377089977264404
 	],
 	"cmt#Rejection;confOf#City": [
 		"cmt#Rejection",
 		"confOf#City",
-		0.19277898967266083
+		0.19277891516685486
 	],
 	"cmt#Rejection;confOf#Organization": [
 		"cmt#Rejection",
 		"confOf#Organization",
-		0.13045087456703186
+		0.13045081496238708
 	],
 	"cmt#Rejection;confOf#Person": [
 		"cmt#Rejection",
 		"confOf#Person",
-		0.20604510605335236
+		0.20604529976844788
 	],
 	"cmt#Rejection;confOf#Topic": [
 		"cmt#Rejection",
 		"confOf#Topic",
-		0.201781764626503
+		0.20178182423114777
 	],
 	"cmt#Rejection;confOf#Country": [
 		"cmt#Rejection",
@@ -3667,7 +3667,7 @@
 	"cmt#Rejection;confOf#Company": [
 		"cmt#Rejection",
 		"confOf#Company",
-		0.18344257771968842
+		0.1834425926208496
 	],
 	"cmt#Rejection;confOf#University": [
 		"cmt#Rejection",
@@ -3677,12 +3677,12 @@
 	"cmt#Rejection;confOf#Scholar": [
 		"cmt#Rejection",
 		"confOf#Scholar",
-		0.13695967197418213
+		0.1369597315788269
 	],
 	"cmt#Rejection;confOf#Administrator": [
 		"cmt#Rejection",
 		"confOf#Administrator",
-		0.15577304363250732
+		0.15577302873134613
 	],
 	"cmt#Rejection;confOf#Poster": [
 		"cmt#Rejection",
@@ -3692,57 +3692,57 @@
 	"cmt#Rejection;confOf#Paper": [
 		"cmt#Rejection",
 		"confOf#Paper",
-		0.16719776391983032
+		0.1671978235244751
 	],
 	"cmt#Rejection;confOf#Short_paper": [
 		"cmt#Rejection",
 		"confOf#Short_paper",
-		0.12660323083400726
+		0.12660333514213562
 	],
 	"cmt#Rejection;confOf#Reviewing_results_event": [
 		"cmt#Rejection",
 		"confOf#Reviewing_results_event",
-		0.1250789761543274
+		0.12507888674736023
 	],
 	"cmt#Rejection;confOf#Administrative_event": [
 		"cmt#Rejection",
 		"confOf#Administrative_event",
-		0.08836821466684341
+		0.08836831897497177
 	],
 	"cmt#Rejection;confOf#Reviewing_event": [
 		"cmt#Rejection",
 		"confOf#Reviewing_event",
-		0.16978441178798676
+		0.16978445649147034
 	],
 	"cmt#Rejection;confOf#Registration_of_participants_event": [
 		"cmt#Rejection",
 		"confOf#Registration_of_participants_event",
-		0.04257528856396675
+		0.042575351893901825
 	],
 	"cmt#Rejection;confOf#Submission_event": [
 		"cmt#Rejection",
 		"confOf#Submission_event",
-		0.2541540861129761
+		0.2541542053222656
 	],
 	"cmt#Rejection;confOf#Camera_Ready_event": [
 		"cmt#Rejection",
 		"confOf#Camera_Ready_event",
-		0.0758715271949768
+		0.07587161660194397
 	],
 	"cmt#Rejection;confOf#Workshop": [
 		"cmt#Rejection",
 		"confOf#Workshop",
-		0.10504399985074997
+		0.10504403710365295
 	],
 	"cmt#Rejection;confOf#Conference": [
 		"cmt#Rejection",
 		"confOf#Conference",
-		0.1997000128030777
+		0.19970008730888367
 	],
 	"cmt#Rejection;confOf#Tutorial": [
 		"cmt#Rejection",
 		"confOf#Tutorial",
-		0.07392869144678116
+		0.07392868399620056
 	],
 	"cmt#Rejection;confOf#Working_event": [
 		"cmt#Rejection",
@@ -3752,112 +3752,112 @@
 	"cmt#Rejection;confOf#Member": [
 		"cmt#Rejection",
 		"confOf#Member",
-		0.1938091665506363
+		0.19380898773670197
 	],
 	"cmt#Rejection;confOf#Participant": [
 		"cmt#Rejection",
 		"confOf#Participant",
-		0.20736971497535706
+		0.20736978948116302
 	],
 	"cmt#Rejection;confOf#Member_PC": [
 		"cmt#Rejection",
 		"confOf#Member_PC",
-		0.12777958810329437
+		0.1906946301460266
 	],
 	"cmt#Rejection;confOf#Chair_PC": [
 		"cmt#Rejection",
 		"confOf#Chair_PC",
-		0.1550510674715042
+		0.24624493718147278
 	],
 	"cmt#Rejection;confOf#Student": [
 		"cmt#Rejection",
 		"confOf#Student",
-		0.24476926028728485
+		0.24476924538612366
 	],
 	"cmt#Rejection;confOf#Science_Worker": [
 		"cmt#Rejection",
 		"confOf#Science_Worker",
-		0.11681830137968063
+		0.11681821942329407
 	],
 	"cmt#Rejection;confOf#Assistant": [
 		"cmt#Rejection",
 		"confOf#Assistant",
-		0.19598841667175293
+		0.19598840177059174
 	],
 	"cmt#Rejection;confOf#Volunteer": [
 		"cmt#Rejection",
 		"confOf#Volunteer",
-		0.19368164241313934
+		0.19368168711662292
 	],
 	"cmt#Rejection;confOf#Regular": [
 		"cmt#Rejection",
 		"confOf#Regular",
-		0.267833948135376
+		0.2678340971469879
 	],
 	"cmt#Rejection;confOf#Author": [
 		"cmt#Rejection",
 		"confOf#Author",
-		0.20938101410865784
+		0.20938095450401306
 	],
 	"cmt#Review;confOf#Trip": [
 		"cmt#Review",
 		"confOf#Trip",
-		0.31619343161582947
+		0.3161935806274414
 	],
 	"cmt#Review;confOf#Banquet": [
 		"cmt#Review",
 		"confOf#Banquet",
-		0.23462478816509247
+		0.23462483286857605
 	],
 	"cmt#Review;confOf#Reception": [
 		"cmt#Review",
 		"confOf#Reception",
-		0.2469172477722168
+		0.24691733717918396
 	],
 	"cmt#Review;confOf#Social_event": [
 		"cmt#Review",
 		"confOf#Social_event",
-		0.13494794070720673
+		0.1349480152130127
 	],
 	"cmt#Review;confOf#Event": [
 		"cmt#Review",
 		"confOf#Event",
-		0.1798291653394699
+		0.17982931435108185
 	],
 	"cmt#Review;confOf#Contribution": [
 		"cmt#Review",
 		"confOf#Contribution",
-		0.3701260983943939
+		0.3701261281967163
 	],
 	"cmt#Review;confOf#City": [
 		"cmt#Review",
 		"confOf#City",
-		0.2531813383102417
+		0.25318121910095215
 	],
 	"cmt#Review;confOf#Organization": [
 		"cmt#Review",
 		"confOf#Organization",
-		0.24226965010166168
+		0.24226967990398407
 	],
 	"cmt#Review;confOf#Person": [
 		"cmt#Review",
 		"confOf#Person",
-		0.1906026303768158
+		0.19060276448726654
 	],
 	"cmt#Review;confOf#Topic": [
 		"cmt#Review",
 		"confOf#Topic",
-		0.3233221173286438
+		0.32332199811935425
 	],
 	"cmt#Review;confOf#Country": [
 		"cmt#Review",
 		"confOf#Country",
-		0.20381227135658264
+		0.20381225645542145
 	],
 	"cmt#Review;confOf#Company": [
 		"cmt#Review",
 		"confOf#Company",
-		0.3116798400878906
+		0.3116798996925354
 	],
 	"cmt#Review;confOf#University": [
 		"cmt#Review",
@@ -3867,12 +3867,12 @@
 	"cmt#Review;confOf#Scholar": [
 		"cmt#Review",
 		"confOf#Scholar",
-		0.2731833755970001
+		0.2731834352016449
 	],
 	"cmt#Review;confOf#Administrator": [
 		"cmt#Review",
 		"confOf#Administrator",
-		0.1963799148797989
+		0.19638006389141083
 	],
 	"cmt#Review;confOf#Poster": [
 		"cmt#Review",
@@ -3882,42 +3882,42 @@
 	"cmt#Review;confOf#Paper": [
 		"cmt#Review",
 		"confOf#Paper",
-		0.32726192474365234
+		0.3272619843482971
 	],
 	"cmt#Review;confOf#Short_paper": [
 		"cmt#Review",
 		"confOf#Short_paper",
-		0.2774374485015869
+		0.2774374186992645
 	],
 	"cmt#Review;confOf#Reviewing_results_event": [
 		"cmt#Review",
 		"confOf#Reviewing_results_event",
-		0.5145183801651001
+		0.5145187973976135
 	],
 	"cmt#Review;confOf#Administrative_event": [
 		"cmt#Review",
 		"confOf#Administrative_event",
-		0.06852711737155914
+		0.06852718442678452
 	],
 	"cmt#Review;confOf#Reviewing_event": [
 		"cmt#Review",
 		"confOf#Reviewing_event",
-		0.5439093708992004
+		0.5439094305038452
 	],
 	"cmt#Review;confOf#Registration_of_participants_event": [
 		"cmt#Review",
 		"confOf#Registration_of_participants_event",
-		-0.0014719252940267324
+		-0.00147181935608387
 	],
 	"cmt#Review;confOf#Submission_event": [
 		"cmt#Review",
 		"confOf#Submission_event",
-		0.17013230919837952
+		0.17013254761695862
 	],
 	"cmt#Review;confOf#Camera_Ready_event": [
 		"cmt#Review",
 		"confOf#Camera_Ready_event",
-		0.09372875094413757
+		0.09372875839471817
 	],
 	"cmt#Review;confOf#Workshop": [
 		"cmt#Review",
@@ -3927,52 +3927,52 @@
 	"cmt#Review;confOf#Conference": [
 		"cmt#Review",
 		"confOf#Conference",
-		0.24876658618450165
+		0.24876669049263
 	],
 	"cmt#Review;confOf#Tutorial": [
 		"cmt#Review",
 		"confOf#Tutorial",
-		0.18594984710216522
+		0.18594980239868164
 	],
 	"cmt#Review;confOf#Working_event": [
 		"cmt#Review",
 		"confOf#Working_event",
-		0.06458557397127151
+		0.06458552926778793
 	],
 	"cmt#Review;confOf#Member": [
 		"cmt#Review",
 		"confOf#Member",
-		0.26976022124290466
+		0.2697601616382599
 	],
 	"cmt#Review;confOf#Participant": [
 		"cmt#Review",
 		"confOf#Participant",
-		0.2331542819738388
+		0.23315443098545074
 	],
 	"cmt#Review;confOf#Member_PC": [
 		"cmt#Review",
 		"confOf#Member_PC",
-		0.23841790854930878
+		0.2655770778656006
 	],
 	"cmt#Review;confOf#Chair_PC": [
 		"cmt#Review",
 		"confOf#Chair_PC",
-		0.2651043236255646
+		0.25229549407958984
 	],
 	"cmt#Review;confOf#Student": [
 		"cmt#Review",
 		"confOf#Student",
-		0.23660427331924438
+		0.2366042584180832
 	],
 	"cmt#Review;confOf#Science_Worker": [
 		"cmt#Review",
 		"confOf#Science_Worker",
-		0.18957124650478363
+		0.1895712912082672
 	],
 	"cmt#Review;confOf#Assistant": [
 		"cmt#Review",
 		"confOf#Assistant",
-		0.2322230041027069
+		0.23222294449806213
 	],
 	"cmt#Review;confOf#Volunteer": [
 		"cmt#Review",
@@ -3982,17 +3982,17 @@
 	"cmt#Review;confOf#Regular": [
 		"cmt#Review",
 		"confOf#Regular",
-		0.319725900888443
+		0.3197258710861206
 	],
 	"cmt#Review;confOf#Author": [
 		"cmt#Review",
 		"confOf#Author",
-		0.28974032402038574
+		0.2897404432296753
 	],
 	"cmt#Paper;confOf#Trip": [
 		"cmt#Paper",
 		"confOf#Trip",
-		0.2750074565410614
+		0.27500757575035095
 	],
 	"cmt#Paper;confOf#Banquet": [
 		"cmt#Paper",
@@ -4002,162 +4002,162 @@
 	"cmt#Paper;confOf#Reception": [
 		"cmt#Paper",
 		"confOf#Reception",
-		0.29370468854904175
+		0.2937045693397522
 	],
 	"cmt#Paper;confOf#Social_event": [
 		"cmt#Paper",
 		"confOf#Social_event",
-		0.29200804233551025
+		0.29200810194015503
 	],
 	"cmt#Paper;confOf#Event": [
 		"cmt#Paper",
 		"confOf#Event",
-		0.3320627808570862
+		0.33206284046173096
 	],
 	"cmt#Paper;confOf#Contribution": [
 		"cmt#Paper",
 		"confOf#Contribution",
-		0.3625527322292328
+		0.3625525236129761
 	],
 	"cmt#Paper;confOf#City": [
 		"cmt#Paper",
 		"confOf#City",
-		0.24923141300678253
+		0.24923120439052582
 	],
 	"cmt#Paper;confOf#Organization": [
 		"cmt#Paper",
 		"confOf#Organization",
-		0.34180769324302673
+		0.3418075144290924
 	],
 	"cmt#Paper;confOf#Person": [
 		"cmt#Paper",
 		"confOf#Person",
-		0.3245117962360382
+		0.3245118260383606
 	],
 	"cmt#Paper;confOf#Topic": [
 		"cmt#Paper",
 		"confOf#Topic",
-		0.3615274429321289
+		0.36152729392051697
 	],
 	"cmt#Paper;confOf#Country": [
 		"cmt#Paper",
 		"confOf#Country",
-		0.29432255029678345
+		0.29432249069213867
 	],
 	"cmt#Paper;confOf#Company": [
 		"cmt#Paper",
 		"confOf#Company",
-		0.32144612073898315
+		0.3214459717273712
 	],
 	"cmt#Paper;confOf#University": [
 		"cmt#Paper",
 		"confOf#University",
-		0.26859208941459656
+		0.26859205961227417
 	],
 	"cmt#Paper;confOf#Scholar": [
 		"cmt#Paper",
 		"confOf#Scholar",
-		0.36812281608581543
+		0.36812272667884827
 	],
 	"cmt#Paper;confOf#Administrator": [
 		"cmt#Paper",
 		"confOf#Administrator",
-		0.22576144337654114
+		0.22576141357421875
 	],
 	"cmt#Paper;confOf#Poster": [
 		"cmt#Paper",
 		"confOf#Poster",
-		0.5427091121673584
+		0.5427090525627136
 	],
 	"cmt#Paper;confOf#Paper": [
 		"cmt#Paper",
 		"confOf#Paper",
-		1.0000001192092896
+		1.0
 	],
 	"cmt#Paper;confOf#Short_paper": [
 		"cmt#Paper",
 		"confOf#Short_paper",
-		0.4650152623653412
+		0.4650150537490845
 	],
 	"cmt#Paper;confOf#Reviewing_results_event": [
 		"cmt#Paper",
 		"confOf#Reviewing_results_event",
-		0.11396816372871399
+		0.1139683723449707
 	],
 	"cmt#Paper;confOf#Administrative_event": [
 		"cmt#Paper",
 		"confOf#Administrative_event",
-		0.20930922031402588
+		0.2093091607093811
 	],
 	"cmt#Paper;confOf#Reviewing_event": [
 		"cmt#Paper",
 		"confOf#Reviewing_event",
-		0.24641165137290955
+		0.24641162157058716
 	],
 	"cmt#Paper;confOf#Registration_of_participants_event": [
 		"cmt#Paper",
 		"confOf#Registration_of_participants_event",
-		0.15567882359027863
+		0.1556788980960846
 	],
 	"cmt#Paper;confOf#Submission_event": [
 		"cmt#Paper",
 		"confOf#Submission_event",
-		0.28286632895469666
+		0.28286638855934143
 	],
 	"cmt#Paper;confOf#Camera_Ready_event": [
 		"cmt#Paper",
 		"confOf#Camera_Ready_event",
-		0.1507466435432434
+		0.1507466584444046
 	],
 	"cmt#Paper;confOf#Workshop": [
 		"cmt#Paper",
 		"confOf#Workshop",
-		0.3286342918872833
+		0.3286341726779938
 	],
 	"cmt#Paper;confOf#Conference": [
 		"cmt#Paper",
 		"confOf#Conference",
-		0.31517770886421204
+		0.3151776194572449
 	],
 	"cmt#Paper;confOf#Tutorial": [
 		"cmt#Paper",
 		"confOf#Tutorial",
-		0.2387947142124176
+		0.23879480361938477
 	],
 	"cmt#Paper;confOf#Working_event": [
 		"cmt#Paper",
 		"confOf#Working_event",
-		0.2509916424751282
+		0.250991553068161
 	],
 	"cmt#Paper;confOf#Member": [
 		"cmt#Paper",
 		"confOf#Member",
-		0.24565260112285614
+		0.24565255641937256
 	],
 	"cmt#Paper;confOf#Participant": [
 		"cmt#Paper",
 		"confOf#Participant",
-		0.343484103679657
+		0.34348416328430176
 	],
 	"cmt#Paper;confOf#Member_PC": [
 		"cmt#Paper",
 		"confOf#Member_PC",
-		0.18532027304172516
+		0.2893742322921753
 	],
 	"cmt#Paper;confOf#Chair_PC": [
 		"cmt#Paper",
 		"confOf#Chair_PC",
-		0.18144866824150085
+		0.3193235695362091
 	],
 	"cmt#Paper;confOf#Student": [
 		"cmt#Paper",
 		"confOf#Student",
-		0.37106853723526
+		0.3710683286190033
 	],
 	"cmt#Paper;confOf#Science_Worker": [
 		"cmt#Paper",
 		"confOf#Science_Worker",
-		0.3467259407043457
+		0.34672582149505615
 	],
 	"cmt#Paper;confOf#Assistant": [
 		"cmt#Paper",
@@ -4167,57 +4167,57 @@
 	"cmt#Paper;confOf#Volunteer": [
 		"cmt#Paper",
 		"confOf#Volunteer",
-		0.35920628905296326
+		0.35920611023902893
 	],
 	"cmt#Paper;confOf#Regular": [
 		"cmt#Paper",
 		"confOf#Regular",
-		0.2966502904891968
+		0.2966501712799072
 	],
 	"cmt#Paper;confOf#Author": [
 		"cmt#Paper",
 		"confOf#Author",
-		0.3582516610622406
+		0.3582516014575958
 	],
 	"cmt#Author;confOf#Trip": [
 		"cmt#Author",
 		"confOf#Trip",
-		0.2859776020050049
+		0.28597763180732727
 	],
 	"cmt#Author;confOf#Banquet": [
 		"cmt#Author",
 		"confOf#Banquet",
-		0.21253511309623718
+		0.2125350385904312
 	],
 	"cmt#Author;confOf#Reception": [
 		"cmt#Author",
 		"confOf#Reception",
-		0.19309638440608978
+		0.1930963099002838
 	],
 	"cmt#Author;confOf#Social_event": [
 		"cmt#Author",
 		"confOf#Social_event",
-		0.1920468807220459
+		0.1920469105243683
 	],
 	"cmt#Author;confOf#Event": [
 		"cmt#Author",
 		"confOf#Event",
-		0.258299320936203
+		0.25829941034317017
 	],
 	"cmt#Author;confOf#Contribution": [
 		"cmt#Author",
 		"confOf#Contribution",
-		0.5073258876800537
+		0.5073259472846985
 	],
 	"cmt#Author;confOf#City": [
 		"cmt#Author",
 		"confOf#City",
-		0.28275829553604126
+		0.2827581763267517
 	],
 	"cmt#Author;confOf#Organization": [
 		"cmt#Author",
 		"confOf#Organization",
-		0.2990470826625824
+		0.2990471124649048
 	],
 	"cmt#Author;confOf#Person": [
 		"cmt#Author",
@@ -4227,102 +4227,102 @@
 	"cmt#Author;confOf#Topic": [
 		"cmt#Author",
 		"confOf#Topic",
-		0.32712069153785706
+		0.32712072134017944
 	],
 	"cmt#Author;confOf#Country": [
 		"cmt#Author",
 		"confOf#Country",
-		0.2621166706085205
+		0.2621166408061981
 	],
 	"cmt#Author;confOf#Company": [
 		"cmt#Author",
 		"confOf#Company",
-		0.3988967835903168
+		0.39889687299728394
 	],
 	"cmt#Author;confOf#University": [
 		"cmt#Author",
 		"confOf#University",
-		0.24049325287342072
+		0.2404932975769043
 	],
 	"cmt#Author;confOf#Scholar": [
 		"cmt#Author",
 		"confOf#Scholar",
-		0.4697361886501312
+		0.46973609924316406
 	],
 	"cmt#Author;confOf#Administrator": [
 		"cmt#Author",
 		"confOf#Administrator",
-		0.32160091400146484
+		0.32160112261772156
 	],
 	"cmt#Author;confOf#Poster": [
 		"cmt#Author",
 		"confOf#Poster",
-		0.33072900772094727
+		0.3307289779186249
 	],
 	"cmt#Author;confOf#Paper": [
 		"cmt#Author",
 		"confOf#Paper",
-		0.3582516610622406
+		0.3582516014575958
 	],
 	"cmt#Author;confOf#Short_paper": [
 		"cmt#Author",
 		"confOf#Short_paper",
-		0.3270877003669739
+		0.3270876407623291
 	],
 	"cmt#Author;confOf#Reviewing_results_event": [
 		"cmt#Author",
 		"confOf#Reviewing_results_event",
-		0.11456353962421417
+		0.11456364393234253
 	],
 	"cmt#Author;confOf#Administrative_event": [
 		"cmt#Author",
 		"confOf#Administrative_event",
-		0.18916261196136475
+		0.18916258215904236
 	],
 	"cmt#Author;confOf#Reviewing_event": [
 		"cmt#Author",
 		"confOf#Reviewing_event",
-		0.15583886206150055
+		0.15583884716033936
 	],
 	"cmt#Author;confOf#Registration_of_participants_event": [
 		"cmt#Author",
 		"confOf#Registration_of_participants_event",
-		0.11834067106246948
+		0.11834068596363068
 	],
 	"cmt#Author;confOf#Submission_event": [
 		"cmt#Author",
 		"confOf#Submission_event",
-		0.18409214913845062
+		0.18409228324890137
 	],
 	"cmt#Author;confOf#Camera_Ready_event": [
 		"cmt#Author",
 		"confOf#Camera_Ready_event",
-		0.09746471047401428
+		0.0974646583199501
 	],
 	"cmt#Author;confOf#Workshop": [
 		"cmt#Author",
 		"confOf#Workshop",
-		0.25361335277557373
+		0.25361332297325134
 	],
 	"cmt#Author;confOf#Conference": [
 		"cmt#Author",
 		"confOf#Conference",
-		0.22003720700740814
+		0.2200373113155365
 	],
 	"cmt#Author;confOf#Tutorial": [
 		"cmt#Author",
 		"confOf#Tutorial",
-		0.1551554948091507
+		0.15515568852424622
 	],
 	"cmt#Author;confOf#Working_event": [
 		"cmt#Author",
 		"confOf#Working_event",
-		0.18171729147434235
+		0.18171709775924683
 	],
 	"cmt#Author;confOf#Member": [
 		"cmt#Author",
 		"confOf#Member",
-		0.3383570909500122
+		0.338357150554657
 	],
 	"cmt#Author;confOf#Participant": [
 		"cmt#Author",
@@ -4332,22 +4332,22 @@
 	"cmt#Author;confOf#Member_PC": [
 		"cmt#Author",
 		"confOf#Member_PC",
-		0.1897839903831482
+		0.3419772982597351
 	],
 	"cmt#Author;confOf#Chair_PC": [
 		"cmt#Author",
 		"confOf#Chair_PC",
-		0.15145790576934814
+		0.2664485275745392
 	],
 	"cmt#Author;confOf#Student": [
 		"cmt#Author",
 		"confOf#Student",
-		0.32540127635002136
+		0.3254011571407318
 	],
 	"cmt#Author;confOf#Science_Worker": [
 		"cmt#Author",
 		"confOf#Science_Worker",
-		0.3482725918292999
+		0.3482723832130432
 	],
 	"cmt#Author;confOf#Assistant": [
 		"cmt#Author",
@@ -4357,7 +4357,7 @@
 	"cmt#Author;confOf#Volunteer": [
 		"cmt#Author",
 		"confOf#Volunteer",
-		0.24664366245269775
+		0.2466435432434082
 	],
 	"cmt#Author;confOf#Regular": [
 		"cmt#Author",
@@ -4367,67 +4367,67 @@
 	"cmt#Author;confOf#Author": [
 		"cmt#Author",
 		"confOf#Author",
-		1.0000001192092896
+		1.0
 	],
 	"cmt#User;confOf#Trip": [
 		"cmt#User",
 		"confOf#Trip",
-		0.31412917375564575
+		0.3141293525695801
 	],
 	"cmt#User;confOf#Banquet": [
 		"cmt#User",
 		"confOf#Banquet",
-		0.21578708291053772
+		0.2157871425151825
 	],
 	"cmt#User;confOf#Reception": [
 		"cmt#User",
 		"confOf#Reception",
-		0.23710492253303528
+		0.23710496723651886
 	],
 	"cmt#User;confOf#Social_event": [
 		"cmt#User",
 		"confOf#Social_event",
-		0.2387615442276001
+		0.23876164853572845
 	],
 	"cmt#User;confOf#Event": [
 		"cmt#User",
 		"confOf#Event",
-		0.33856895565986633
+		0.3385690748691559
 	],
 	"cmt#User;confOf#Contribution": [
 		"cmt#User",
 		"confOf#Contribution",
-		0.4833258092403412
+		0.48332586884498596
 	],
 	"cmt#User;confOf#City": [
 		"cmt#User",
 		"confOf#City",
-		0.28978613018989563
+		0.28978610038757324
 	],
 	"cmt#User;confOf#Organization": [
 		"cmt#User",
 		"confOf#Organization",
-		0.2469416707754135
+		0.24694162607192993
 	],
 	"cmt#User;confOf#Person": [
 		"cmt#User",
 		"confOf#Person",
-		0.5441256761550903
+		0.5441257953643799
 	],
 	"cmt#User;confOf#Topic": [
 		"cmt#User",
 		"confOf#Topic",
-		0.358112633228302
+		0.35811275243759155
 	],
 	"cmt#User;confOf#Country": [
 		"cmt#User",
 		"confOf#Country",
-		0.33148229122161865
+		0.33148252964019775
 	],
 	"cmt#User;confOf#Company": [
 		"cmt#User",
 		"confOf#Company",
-		0.36308133602142334
+		0.36308130621910095
 	],
 	"cmt#User;confOf#University": [
 		"cmt#User",
@@ -4437,137 +4437,137 @@
 	"cmt#User;confOf#Scholar": [
 		"cmt#User",
 		"confOf#Scholar",
-		0.30289584398269653
+		0.3028956651687622
 	],
 	"cmt#User;confOf#Administrator": [
 		"cmt#User",
 		"confOf#Administrator",
-		0.4463687837123871
+		0.4463687241077423
 	],
 	"cmt#User;confOf#Poster": [
 		"cmt#User",
 		"confOf#Poster",
-		0.3097403645515442
+		0.3097403049468994
 	],
 	"cmt#User;confOf#Paper": [
 		"cmt#User",
 		"confOf#Paper",
-		0.2462511509656906
+		0.24625103175640106
 	],
 	"cmt#User;confOf#Short_paper": [
 		"cmt#User",
 		"confOf#Short_paper",
-		0.24476203322410583
+		0.24476197361946106
 	],
 	"cmt#User;confOf#Reviewing_results_event": [
 		"cmt#User",
 		"confOf#Reviewing_results_event",
-		0.1561456322669983
+		0.15614555776119232
 	],
 	"cmt#User;confOf#Administrative_event": [
 		"cmt#User",
 		"confOf#Administrative_event",
-		0.28188851475715637
+		0.281888484954834
 	],
 	"cmt#User;confOf#Reviewing_event": [
 		"cmt#User",
 		"confOf#Reviewing_event",
-		0.2032977193593979
+		0.20329788327217102
 	],
 	"cmt#User;confOf#Registration_of_participants_event": [
 		"cmt#User",
 		"confOf#Registration_of_participants_event",
-		0.12452375888824463
+		0.12452369183301926
 	],
 	"cmt#User;confOf#Submission_event": [
 		"cmt#User",
 		"confOf#Submission_event",
-		0.20035114884376526
+		0.20035120844841003
 	],
 	"cmt#User;confOf#Camera_Ready_event": [
 		"cmt#User",
 		"confOf#Camera_Ready_event",
-		0.1453828662633896
+		0.14538294076919556
 	],
 	"cmt#User;confOf#Workshop": [
 		"cmt#User",
 		"confOf#Workshop",
-		0.2737027704715729
+		0.27370285987854004
 	],
 	"cmt#User;confOf#Conference": [
 		"cmt#User",
 		"confOf#Conference",
-		0.25763729214668274
+		0.2576373517513275
 	],
 	"cmt#User;confOf#Tutorial": [
 		"cmt#User",
 		"confOf#Tutorial",
-		0.2333672195672989
+		0.23336729407310486
 	],
 	"cmt#User;confOf#Working_event": [
 		"cmt#User",
 		"confOf#Working_event",
-		0.24121196568012238
+		0.2412118911743164
 	],
 	"cmt#User;confOf#Member": [
 		"cmt#User",
 		"confOf#Member",
-		0.5958645939826965
+		0.5958642959594727
 	],
 	"cmt#User;confOf#Participant": [
 		"cmt#User",
 		"confOf#Participant",
-		0.39272168278694153
+		0.39272165298461914
 	],
 	"cmt#User;confOf#Member_PC": [
 		"cmt#User",
 		"confOf#Member_PC",
-		0.36228543519973755
+		0.5176141262054443
 	],
 	"cmt#User;confOf#Chair_PC": [
 		"cmt#User",
 		"confOf#Chair_PC",
-		0.21256598830223083
+		0.3218546211719513
 	],
 	"cmt#User;confOf#Student": [
 		"cmt#User",
 		"confOf#Student",
-		0.4236915111541748
+		0.4236912727355957
 	],
 	"cmt#User;confOf#Science_Worker": [
 		"cmt#User",
 		"confOf#Science_Worker",
-		0.2749715745449066
+		0.2749713361263275
 	],
 	"cmt#User;confOf#Assistant": [
 		"cmt#User",
 		"confOf#Assistant",
-		0.3163721561431885
+		0.3163720965385437
 	],
 	"cmt#User;confOf#Volunteer": [
 		"cmt#User",
 		"confOf#Volunteer",
-		0.30844399333000183
+		0.3084440231323242
 	],
 	"cmt#User;confOf#Regular": [
 		"cmt#User",
 		"confOf#Regular",
-		0.3869387209415436
+		0.38693881034851074
 	],
 	"cmt#User;confOf#Author": [
 		"cmt#User",
 		"confOf#Author",
-		0.46602725982666016
+		0.46602731943130493
 	],
 	"cmt#Co-author;confOf#Trip": [
 		"cmt#Co-author",
 		"confOf#Trip",
-		0.15240342915058136
+		0.15240350365638733
 	],
 	"cmt#Co-author;confOf#Banquet": [
 		"cmt#Co-author",
 		"confOf#Banquet",
-		0.27767929434776306
+		0.27767935395240784
 	],
 	"cmt#Co-author;confOf#Reception": [
 		"cmt#Co-author",
@@ -4577,47 +4577,47 @@
 	"cmt#Co-author;confOf#Social_event": [
 		"cmt#Co-author",
 		"confOf#Social_event",
-		0.2662903964519501
+		0.26629048585891724
 	],
 	"cmt#Co-author;confOf#Event": [
 		"cmt#Co-author",
 		"confOf#Event",
-		0.21333301067352295
+		0.2133331149816513
 	],
 	"cmt#Co-author;confOf#Contribution": [
 		"cmt#Co-author",
 		"confOf#Contribution",
-		0.4572223722934723
+		0.4572224020957947
 	],
 	"cmt#Co-author;confOf#City": [
 		"cmt#Co-author",
 		"confOf#City",
-		0.1446520835161209
+		0.14465203881263733
 	],
 	"cmt#Co-author;confOf#Organization": [
 		"cmt#Co-author",
 		"confOf#Organization",
-		0.4023820757865906
+		0.4023822247982025
 	],
 	"cmt#Co-author;confOf#Person": [
 		"cmt#Co-author",
 		"confOf#Person",
-		0.41941601037979126
+		0.41941598057746887
 	],
 	"cmt#Co-author;confOf#Topic": [
 		"cmt#Co-author",
 		"confOf#Topic",
-		0.16760799288749695
+		0.16760797798633575
 	],
 	"cmt#Co-author;confOf#Country": [
 		"cmt#Co-author",
 		"confOf#Country",
-		0.10555507987737656
+		0.10555505752563477
 	],
 	"cmt#Co-author;confOf#Company": [
 		"cmt#Co-author",
 		"confOf#Company",
-		0.39088115096092224
+		0.39088112115859985
 	],
 	"cmt#Co-author;confOf#University": [
 		"cmt#Co-author",
@@ -4627,142 +4627,142 @@
 	"cmt#Co-author;confOf#Scholar": [
 		"cmt#Co-author",
 		"confOf#Scholar",
-		0.39165204763412476
+		0.3916518986225128
 	],
 	"cmt#Co-author;confOf#Administrator": [
 		"cmt#Co-author",
 		"confOf#Administrator",
-		0.39104700088500977
+		0.39104706048965454
 	],
 	"cmt#Co-author;confOf#Poster": [
 		"cmt#Co-author",
 		"confOf#Poster",
-		0.2814578115940094
+		0.2814577519893646
 	],
 	"cmt#Co-author;confOf#Paper": [
 		"cmt#Co-author",
 		"confOf#Paper",
-		0.2419314682483673
+		0.2419314980506897
 	],
 	"cmt#Co-author;confOf#Short_paper": [
 		"cmt#Co-author",
 		"confOf#Short_paper",
-		0.19238856434822083
+		0.19238853454589844
 	],
 	"cmt#Co-author;confOf#Reviewing_results_event": [
 		"cmt#Co-author",
 		"confOf#Reviewing_results_event",
-		0.12132136523723602
+		0.12132145464420319
 	],
 	"cmt#Co-author;confOf#Administrative_event": [
 		"cmt#Co-author",
 		"confOf#Administrative_event",
-		0.25732189416885376
+		0.25732213258743286
 	],
 	"cmt#Co-author;confOf#Reviewing_event": [
 		"cmt#Co-author",
 		"confOf#Reviewing_event",
-		0.15315112471580505
+		0.15315136313438416
 	],
 	"cmt#Co-author;confOf#Registration_of_participants_event": [
 		"cmt#Co-author",
 		"confOf#Registration_of_participants_event",
-		0.22170251607894897
+		0.22170257568359375
 	],
 	"cmt#Co-author;confOf#Submission_event": [
 		"cmt#Co-author",
 		"confOf#Submission_event",
-		0.20405900478363037
+		0.2040591835975647
 	],
 	"cmt#Co-author;confOf#Camera_Ready_event": [
 		"cmt#Co-author",
 		"confOf#Camera_Ready_event",
-		0.14924950897693634
+		0.14924955368041992
 	],
 	"cmt#Co-author;confOf#Workshop": [
 		"cmt#Co-author",
 		"confOf#Workshop",
-		0.2645241618156433
+		0.2645242214202881
 	],
 	"cmt#Co-author;confOf#Conference": [
 		"cmt#Co-author",
 		"confOf#Conference",
-		0.34463775157928467
+		0.34463778138160706
 	],
 	"cmt#Co-author;confOf#Tutorial": [
 		"cmt#Co-author",
 		"confOf#Tutorial",
-		0.15541845560073853
+		0.1554185152053833
 	],
 	"cmt#Co-author;confOf#Working_event": [
 		"cmt#Co-author",
 		"confOf#Working_event",
-		0.14980033040046692
+		0.14980030059814453
 	],
 	"cmt#Co-author;confOf#Member": [
 		"cmt#Co-author",
 		"confOf#Member",
-		0.47079193592071533
+		0.47079187631607056
 	],
 	"cmt#Co-author;confOf#Participant": [
 		"cmt#Co-author",
 		"confOf#Participant",
-		0.33140674233436584
+		0.33140677213668823
 	],
 	"cmt#Co-author;confOf#Member_PC": [
 		"cmt#Co-author",
 		"confOf#Member_PC",
-		0.36289161443710327
+		0.4533251225948334
 	],
 	"cmt#Co-author;confOf#Chair_PC": [
 		"cmt#Co-author",
 		"confOf#Chair_PC",
-		0.20725609362125397
+		0.2404552698135376
 	],
 	"cmt#Co-author;confOf#Student": [
 		"cmt#Co-author",
 		"confOf#Student",
-		0.33607807755470276
+		0.33607786893844604
 	],
 	"cmt#Co-author;confOf#Science_Worker": [
 		"cmt#Co-author",
 		"confOf#Science_Worker",
-		0.36836105585098267
+		0.36836087703704834
 	],
 	"cmt#Co-author;confOf#Assistant": [
 		"cmt#Co-author",
 		"confOf#Assistant",
-		0.34509414434432983
+		0.34509435296058655
 	],
 	"cmt#Co-author;confOf#Volunteer": [
 		"cmt#Co-author",
 		"confOf#Volunteer",
-		0.2539840638637543
+		0.25398409366607666
 	],
 	"cmt#Co-author;confOf#Regular": [
 		"cmt#Co-author",
 		"confOf#Regular",
-		0.14636825025081635
+		0.1463681012392044
 	],
 	"cmt#Co-author;confOf#Author": [
 		"cmt#Co-author",
 		"confOf#Author",
-		0.606091320514679
+		0.6060912609100342
 	],
 	"cmt#PaperAbstract;confOf#Trip": [
 		"cmt#PaperAbstract",
 		"confOf#Trip",
-		0.21244029700756073
+		0.21244032680988312
 	],
 	"cmt#PaperAbstract;confOf#Banquet": [
 		"cmt#PaperAbstract",
 		"confOf#Banquet",
-		0.26726233959198
+		0.26726239919662476
 	],
 	"cmt#PaperAbstract;confOf#Reception": [
 		"cmt#PaperAbstract",
 		"confOf#Reception",
-		0.19329100847244263
+		0.1932910680770874
 	],
 	"cmt#PaperAbstract;confOf#Social_event": [
 		"cmt#PaperAbstract",
@@ -4772,102 +4772,102 @@
 	"cmt#PaperAbstract;confOf#Event": [
 		"cmt#PaperAbstract",
 		"confOf#Event",
-		0.21402592957019806
+		0.2140258550643921
 	],
 	"cmt#PaperAbstract;confOf#Contribution": [
 		"cmt#PaperAbstract",
 		"confOf#Contribution",
-		0.2637344002723694
+		0.26373422145843506
 	],
 	"cmt#PaperAbstract;confOf#City": [
 		"cmt#PaperAbstract",
 		"confOf#City",
-		0.20101141929626465
+		0.20101134479045868
 	],
 	"cmt#PaperAbstract;confOf#Organization": [
 		"cmt#PaperAbstract",
 		"confOf#Organization",
-		0.232713982462883
+		0.23271389305591583
 	],
 	"cmt#PaperAbstract;confOf#Person": [
 		"cmt#PaperAbstract",
 		"confOf#Person",
-		0.21820123493671417
+		0.21820126473903656
 	],
 	"cmt#PaperAbstract;confOf#Topic": [
 		"cmt#PaperAbstract",
 		"confOf#Topic",
-		0.2317422777414322
+		0.23174214363098145
 	],
 	"cmt#PaperAbstract;confOf#Country": [
 		"cmt#PaperAbstract",
 		"confOf#Country",
-		0.24427159130573273
+		0.2442716807126999
 	],
 	"cmt#PaperAbstract;confOf#Company": [
 		"cmt#PaperAbstract",
 		"confOf#Company",
-		0.24923941493034363
+		0.24923932552337646
 	],
 	"cmt#PaperAbstract;confOf#University": [
 		"cmt#PaperAbstract",
 		"confOf#University",
-		0.18596251308918
+		0.18596254289150238
 	],
 	"cmt#PaperAbstract;confOf#Scholar": [
 		"cmt#PaperAbstract",
 		"confOf#Scholar",
-		0.30508852005004883
+		0.3050884008407593
 	],
 	"cmt#PaperAbstract;confOf#Administrator": [
 		"cmt#PaperAbstract",
 		"confOf#Administrator",
-		0.144378662109375
+		0.14437878131866455
 	],
 	"cmt#PaperAbstract;confOf#Poster": [
 		"cmt#PaperAbstract",
 		"confOf#Poster",
-		0.3418269157409668
+		0.3418269753456116
 	],
 	"cmt#PaperAbstract;confOf#Paper": [
 		"cmt#PaperAbstract",
 		"confOf#Paper",
-		0.756304919719696
+		0.7563046216964722
 	],
 	"cmt#PaperAbstract;confOf#Short_paper": [
 		"cmt#PaperAbstract",
 		"confOf#Short_paper",
-		0.3774740695953369
+		0.3774736523628235
 	],
 	"cmt#PaperAbstract;confOf#Reviewing_results_event": [
 		"cmt#PaperAbstract",
 		"confOf#Reviewing_results_event",
-		0.10318868607282639
+		0.10318878293037415
 	],
 	"cmt#PaperAbstract;confOf#Administrative_event": [
 		"cmt#PaperAbstract",
 		"confOf#Administrative_event",
-		0.17530009150505066
+		0.1753000020980835
 	],
 	"cmt#PaperAbstract;confOf#Reviewing_event": [
 		"cmt#PaperAbstract",
 		"confOf#Reviewing_event",
-		0.20004011690616608
+		0.20004013180732727
 	],
 	"cmt#PaperAbstract;confOf#Registration_of_participants_event": [
 		"cmt#PaperAbstract",
 		"confOf#Registration_of_participants_event",
-		0.13810503482818604
+		0.13810500502586365
 	],
 	"cmt#PaperAbstract;confOf#Submission_event": [
 		"cmt#PaperAbstract",
 		"confOf#Submission_event",
-		0.2200256884098053
+		0.2200257033109665
 	],
 	"cmt#PaperAbstract;confOf#Camera_Ready_event": [
 		"cmt#PaperAbstract",
 		"confOf#Camera_Ready_event",
-		0.19186408817768097
+		0.19186413288116455
 	],
 	"cmt#PaperAbstract;confOf#Workshop": [
 		"cmt#PaperAbstract",
@@ -4887,52 +4887,52 @@
 	"cmt#PaperAbstract;confOf#Working_event": [
 		"cmt#PaperAbstract",
 		"confOf#Working_event",
-		0.22129787504673004
+		0.22129786014556885
 	],
 	"cmt#PaperAbstract;confOf#Member": [
 		"cmt#PaperAbstract",
 		"confOf#Member",
-		0.18235717713832855
+		0.1823570877313614
 	],
 	"cmt#PaperAbstract;confOf#Participant": [
 		"cmt#PaperAbstract",
 		"confOf#Participant",
-		0.25100305676460266
+		0.2510029375553131
 	],
 	"cmt#PaperAbstract;confOf#Member_PC": [
 		"cmt#PaperAbstract",
 		"confOf#Member_PC",
-		0.14697667956352234
+		0.18149489164352417
 	],
 	"cmt#PaperAbstract;confOf#Chair_PC": [
 		"cmt#PaperAbstract",
 		"confOf#Chair_PC",
-		0.23504675924777985
+		0.2389482706785202
 	],
 	"cmt#PaperAbstract;confOf#Student": [
 		"cmt#PaperAbstract",
 		"confOf#Student",
-		0.2727140784263611
+		0.27271395921707153
 	],
 	"cmt#PaperAbstract;confOf#Science_Worker": [
 		"cmt#PaperAbstract",
 		"confOf#Science_Worker",
-		0.31431543827056885
+		0.31431540846824646
 	],
 	"cmt#PaperAbstract;confOf#Assistant": [
 		"cmt#PaperAbstract",
 		"confOf#Assistant",
-		0.2208091765642166
+		0.22080908715724945
 	],
 	"cmt#PaperAbstract;confOf#Volunteer": [
 		"cmt#PaperAbstract",
 		"confOf#Volunteer",
-		0.26531943678855896
+		0.26531916856765747
 	],
 	"cmt#PaperAbstract;confOf#Regular": [
 		"cmt#PaperAbstract",
 		"confOf#Regular",
-		0.23721343278884888
+		0.23721346259117126
 	],
 	"cmt#PaperAbstract;confOf#Author": [
 		"cmt#PaperAbstract",
@@ -4942,22 +4942,22 @@
 	"cmt#PaperFullVersion;confOf#Trip": [
 		"cmt#PaperFullVersion",
 		"confOf#Trip",
-		0.20957350730895996
+		0.20957349240779877
 	],
 	"cmt#PaperFullVersion;confOf#Banquet": [
 		"cmt#PaperFullVersion",
 		"confOf#Banquet",
-		0.25886887311935425
+		0.258868932723999
 	],
 	"cmt#PaperFullVersion;confOf#Reception": [
 		"cmt#PaperFullVersion",
 		"confOf#Reception",
-		0.21433845162391663
+		0.214338481426239
 	],
 	"cmt#PaperFullVersion;confOf#Social_event": [
 		"cmt#PaperFullVersion",
 		"confOf#Social_event",
-		0.23355785012245178
+		0.2335578054189682
 	],
 	"cmt#PaperFullVersion;confOf#Event": [
 		"cmt#PaperFullVersion",
@@ -4967,52 +4967,52 @@
 	"cmt#PaperFullVersion;confOf#Contribution": [
 		"cmt#PaperFullVersion",
 		"confOf#Contribution",
-		0.2610616087913513
+		0.2610614597797394
 	],
 	"cmt#PaperFullVersion;confOf#City": [
 		"cmt#PaperFullVersion",
 		"confOf#City",
-		0.16003203392028809
+		0.16003194451332092
 	],
 	"cmt#PaperFullVersion;confOf#Organization": [
 		"cmt#PaperFullVersion",
 		"confOf#Organization",
-		0.18135488033294678
+		0.18135486543178558
 	],
 	"cmt#PaperFullVersion;confOf#Person": [
 		"cmt#PaperFullVersion",
 		"confOf#Person",
-		0.1867014467716217
+		0.1867014616727829
 	],
 	"cmt#PaperFullVersion;confOf#Topic": [
 		"cmt#PaperFullVersion",
 		"confOf#Topic",
-		0.232132688164711
+		0.2321326583623886
 	],
 	"cmt#PaperFullVersion;confOf#Country": [
 		"cmt#PaperFullVersion",
 		"confOf#Country",
-		0.16058753430843353
+		0.16058744490146637
 	],
 	"cmt#PaperFullVersion;confOf#Company": [
 		"cmt#PaperFullVersion",
 		"confOf#Company",
-		0.18821726739406586
+		0.1882171928882599
 	],
 	"cmt#PaperFullVersion;confOf#University": [
 		"cmt#PaperFullVersion",
 		"confOf#University",
-		0.10408344119787216
+		0.10408340394496918
 	],
 	"cmt#PaperFullVersion;confOf#Scholar": [
 		"cmt#PaperFullVersion",
 		"confOf#Scholar",
-		0.3051084578037262
+		0.30510836839675903
 	],
 	"cmt#PaperFullVersion;confOf#Administrator": [
 		"cmt#PaperFullVersion",
 		"confOf#Administrator",
-		0.09050179272890091
+		0.09050186723470688
 	],
 	"cmt#PaperFullVersion;confOf#Poster": [
 		"cmt#PaperFullVersion",
@@ -5022,282 +5022,282 @@
 	"cmt#PaperFullVersion;confOf#Paper": [
 		"cmt#PaperFullVersion",
 		"confOf#Paper",
-		0.6639871597290039
+		0.6639873385429382
 	],
 	"cmt#PaperFullVersion;confOf#Short_paper": [
 		"cmt#PaperFullVersion",
 		"confOf#Short_paper",
-		0.3963448405265808
+		0.39634472131729126
 	],
 	"cmt#PaperFullVersion;confOf#Reviewing_results_event": [
 		"cmt#PaperFullVersion",
 		"confOf#Reviewing_results_event",
-		0.12158504873514175
+		0.121585413813591
 	],
 	"cmt#PaperFullVersion;confOf#Administrative_event": [
 		"cmt#PaperFullVersion",
 		"confOf#Administrative_event",
-		0.11223046481609344
+		0.11223042756319046
 	],
 	"cmt#PaperFullVersion;confOf#Reviewing_event": [
 		"cmt#PaperFullVersion",
 		"confOf#Reviewing_event",
-		0.19486640393733978
+		0.19486652314662933
 	],
 	"cmt#PaperFullVersion;confOf#Registration_of_participants_event": [
 		"cmt#PaperFullVersion",
 		"confOf#Registration_of_participants_event",
-		0.1182822659611702
+		0.11828237771987915
 	],
 	"cmt#PaperFullVersion;confOf#Submission_event": [
 		"cmt#PaperFullVersion",
 		"confOf#Submission_event",
-		0.16628795862197876
+		0.1662881076335907
 	],
 	"cmt#PaperFullVersion;confOf#Camera_Ready_event": [
 		"cmt#PaperFullVersion",
 		"confOf#Camera_Ready_event",
-		0.18729743361473083
+		0.18729755282402039
 	],
 	"cmt#PaperFullVersion;confOf#Workshop": [
 		"cmt#PaperFullVersion",
 		"confOf#Workshop",
-		0.22860705852508545
+		0.2286069542169571
 	],
 	"cmt#PaperFullVersion;confOf#Conference": [
 		"cmt#PaperFullVersion",
 		"confOf#Conference",
-		0.15653486549854279
+		0.156534805893898
 	],
 	"cmt#PaperFullVersion;confOf#Tutorial": [
 		"cmt#PaperFullVersion",
 		"confOf#Tutorial",
-		0.1503724306821823
+		0.15037240087985992
 	],
 	"cmt#PaperFullVersion;confOf#Working_event": [
 		"cmt#PaperFullVersion",
 		"confOf#Working_event",
-		0.11049831658601761
+		0.11049828678369522
 	],
 	"cmt#PaperFullVersion;confOf#Member": [
 		"cmt#PaperFullVersion",
 		"confOf#Member",
-		0.14967137575149536
+		0.14967122673988342
 	],
 	"cmt#PaperFullVersion;confOf#Participant": [
 		"cmt#PaperFullVersion",
 		"confOf#Participant",
-		0.17324082553386688
+		0.1732407510280609
 	],
 	"cmt#PaperFullVersion;confOf#Member_PC": [
 		"cmt#PaperFullVersion",
 		"confOf#Member_PC",
-		0.1191251128911972
+		0.14914394915103912
 	],
 	"cmt#PaperFullVersion;confOf#Chair_PC": [
 		"cmt#PaperFullVersion",
 		"confOf#Chair_PC",
-		0.08217161148786545
+		0.07436119019985199
 	],
 	"cmt#PaperFullVersion;confOf#Student": [
 		"cmt#PaperFullVersion",
 		"confOf#Student",
-		0.17685353755950928
+		0.17685338854789734
 	],
 	"cmt#PaperFullVersion;confOf#Science_Worker": [
 		"cmt#PaperFullVersion",
 		"confOf#Science_Worker",
-		0.1832709163427353
+		0.1832708865404129
 	],
 	"cmt#PaperFullVersion;confOf#Assistant": [
 		"cmt#PaperFullVersion",
 		"confOf#Assistant",
-		0.13038133084774017
+		0.13038131594657898
 	],
 	"cmt#PaperFullVersion;confOf#Volunteer": [
 		"cmt#PaperFullVersion",
 		"confOf#Volunteer",
-		0.20281818509101868
+		0.2028181552886963
 	],
 	"cmt#PaperFullVersion;confOf#Regular": [
 		"cmt#PaperFullVersion",
 		"confOf#Regular",
-		0.21648463606834412
+		0.21648447215557098
 	],
 	"cmt#PaperFullVersion;confOf#Author": [
 		"cmt#PaperFullVersion",
 		"confOf#Author",
-		0.2753402888774872
+		0.2753402590751648
 	],
 	"cmt#Administrator;confOf#Trip": [
 		"cmt#Administrator",
 		"confOf#Trip",
-		0.18326538801193237
+		0.18326562643051147
 	],
 	"cmt#Administrator;confOf#Banquet": [
 		"cmt#Administrator",
 		"confOf#Banquet",
-		0.23009119927883148
+		0.23009130358695984
 	],
 	"cmt#Administrator;confOf#Reception": [
 		"cmt#Administrator",
 		"confOf#Reception",
-		0.14639447629451752
+		0.14639458060264587
 	],
 	"cmt#Administrator;confOf#Social_event": [
 		"cmt#Administrator",
 		"confOf#Social_event",
-		0.17584675550460815
+		0.17584694921970367
 	],
 	"cmt#Administrator;confOf#Event": [
 		"cmt#Administrator",
 		"confOf#Event",
-		0.26969480514526367
+		0.2696949243545532
 	],
 	"cmt#Administrator;confOf#Contribution": [
 		"cmt#Administrator",
 		"confOf#Contribution",
-		0.3076969385147095
+		0.30769720673561096
 	],
 	"cmt#Administrator;confOf#City": [
 		"cmt#Administrator",
 		"confOf#City",
-		0.2590091824531555
+		0.25900912284851074
 	],
 	"cmt#Administrator;confOf#Organization": [
 		"cmt#Administrator",
 		"confOf#Organization",
-		0.4499454200267792
+		0.4499456286430359
 	],
 	"cmt#Administrator;confOf#Person": [
 		"cmt#Administrator",
 		"confOf#Person",
-		0.29140934348106384
+		0.29140928387641907
 	],
 	"cmt#Administrator;confOf#Topic": [
 		"cmt#Administrator",
 		"confOf#Topic",
-		0.2360866665840149
+		0.23608680069446564
 	],
 	"cmt#Administrator;confOf#Country": [
 		"cmt#Administrator",
 		"confOf#Country",
-		0.3051217496395111
+		0.30512183904647827
 	],
 	"cmt#Administrator;confOf#Company": [
 		"cmt#Administrator",
 		"confOf#Company",
-		0.3789297938346863
+		0.3789299726486206
 	],
 	"cmt#Administrator;confOf#University": [
 		"cmt#Administrator",
 		"confOf#University",
-		0.29057809710502625
+		0.2905781865119934
 	],
 	"cmt#Administrator;confOf#Scholar": [
 		"cmt#Administrator",
 		"confOf#Scholar",
-		0.2858175039291382
+		0.28581762313842773
 	],
 	"cmt#Administrator;confOf#Administrator": [
 		"cmt#Administrator",
 		"confOf#Administrator",
-		0.9999999403953552
+		1.0
 	],
 	"cmt#Administrator;confOf#Poster": [
 		"cmt#Administrator",
 		"confOf#Poster",
-		0.2355012744665146
+		0.23550140857696533
 	],
 	"cmt#Administrator;confOf#Paper": [
 		"cmt#Administrator",
 		"confOf#Paper",
-		0.22576144337654114
+		0.22576141357421875
 	],
 	"cmt#Administrator;confOf#Short_paper": [
 		"cmt#Administrator",
 		"confOf#Short_paper",
-		0.17998860776424408
+		0.1799885630607605
 	],
 	"cmt#Administrator;confOf#Reviewing_results_event": [
 		"cmt#Administrator",
 		"confOf#Reviewing_results_event",
-		0.10326401144266129
+		0.10326410830020905
 	],
 	"cmt#Administrator;confOf#Administrative_event": [
 		"cmt#Administrator",
 		"confOf#Administrative_event",
-		0.600965142250061
+		0.6009652614593506
 	],
 	"cmt#Administrator;confOf#Reviewing_event": [
 		"cmt#Administrator",
 		"confOf#Reviewing_event",
-		0.1715535968542099
+		0.1715538501739502
 	],
 	"cmt#Administrator;confOf#Registration_of_participants_event": [
 		"cmt#Administrator",
 		"confOf#Registration_of_participants_event",
-		0.0818321481347084
+		0.08183209598064423
 	],
 	"cmt#Administrator;confOf#Submission_event": [
 		"cmt#Administrator",
 		"confOf#Submission_event",
-		0.17586998641490936
+		0.17587000131607056
 	],
 	"cmt#Administrator;confOf#Camera_Ready_event": [
 		"cmt#Administrator",
 		"confOf#Camera_Ready_event",
-		0.12892481684684753
+		0.12892483174800873
 	],
 	"cmt#Administrator;confOf#Workshop": [
 		"cmt#Administrator",
 		"confOf#Workshop",
-		0.3053797781467438
+		0.30537986755371094
 	],
 	"cmt#Administrator;confOf#Conference": [
 		"cmt#Administrator",
 		"confOf#Conference",
-		0.252099871635437
+		0.2521000802516937
 	],
 	"cmt#Administrator;confOf#Tutorial": [
 		"cmt#Administrator",
 		"confOf#Tutorial",
-		0.22914919257164001
+		0.22914928197860718
 	],
 	"cmt#Administrator;confOf#Working_event": [
 		"cmt#Administrator",
 		"confOf#Working_event",
-		0.2480071634054184
+		0.2480071485042572
 	],
 	"cmt#Administrator;confOf#Member": [
 		"cmt#Administrator",
 		"confOf#Member",
-		0.4611760973930359
+		0.4611762762069702
 	],
 	"cmt#Administrator;confOf#Participant": [
 		"cmt#Administrator",
 		"confOf#Participant",
-		0.286900132894516
+		0.28690019249916077
 	],
 	"cmt#Administrator;confOf#Member_PC": [
 		"cmt#Administrator",
 		"confOf#Member_PC",
-		0.36475467681884766
+		0.4338296055793762
 	],
 	"cmt#Administrator;confOf#Chair_PC": [
 		"cmt#Administrator",
 		"confOf#Chair_PC",
-		0.23835107684135437
+		0.34198322892189026
 	],
 	"cmt#Administrator;confOf#Student": [
 		"cmt#Administrator",
 		"confOf#Student",
-		0.38134288787841797
+		0.38134273886680603
 	],
 	"cmt#Administrator;confOf#Science_Worker": [
 		"cmt#Administrator",
 		"confOf#Science_Worker",
-		0.32529720664024353
+		0.32529711723327637
 	],
 	"cmt#Administrator;confOf#Assistant": [
 		"cmt#Administrator",
@@ -5307,206 +5307,206 @@
 	"cmt#Administrator;confOf#Volunteer": [
 		"cmt#Administrator",
 		"confOf#Volunteer",
-		0.34014102816581726
+		0.3401411771774292
 	],
 	"cmt#Administrator;confOf#Regular": [
 		"cmt#Administrator",
 		"confOf#Regular",
-		0.23332415521144867
+		0.2333243489265442
 	],
 	"cmt#Administrator;confOf#Author": [
 		"cmt#Administrator",
 		"confOf#Author",
-		0.32160091400146484
+		0.32160112261772156
 	],
 	"cmt#Meta-Review;confOf#Trip": [
 		"cmt#Meta-Review",
 		"confOf#Trip",
-		0.13058382272720337
+		0.1305839568376541
 	],
 	"cmt#Meta-Review;confOf#Banquet": [
 		"cmt#Meta-Review",
 		"confOf#Banquet",
-		0.03191932663321495
+		0.03191952779889107
 	],
 	"cmt#Meta-Review;confOf#Reception": [
 		"cmt#Meta-Review",
 		"confOf#Reception",
-		0.05593275651335716
+		0.055932965129613876
 	],
 	"cmt#Meta-Review;confOf#Social_event": [
 		"cmt#Meta-Review",
 		"confOf#Social_event",
-		0.016896095126867294
+		0.016896238550543785
 	],
 	"cmt#Meta-Review;confOf#Event": [
 		"cmt#Meta-Review",
 		"confOf#Event",
-		0.11861316114664078
+		0.11861337721347809
 	],
 	"cmt#Meta-Review;confOf#Contribution": [
 		"cmt#Meta-Review",
 		"confOf#Contribution",
-		0.10790476948022842
+		0.10790488123893738
 	],
 	"cmt#Meta-Review;confOf#City": [
 		"cmt#Meta-Review",
 		"confOf#City",
-		0.06736613810062408
+		0.06736629456281662
 	],
 	"cmt#Meta-Review;confOf#Organization": [
 		"cmt#Meta-Review",
 		"confOf#Organization",
-		0.0341520719230175
+		0.03415223956108093
 	],
 	"cmt#Meta-Review;confOf#Person": [
 		"cmt#Meta-Review",
 		"confOf#Person",
-		0.11020682007074356
+		0.11020699143409729
 	],
 	"cmt#Meta-Review;confOf#Topic": [
 		"cmt#Meta-Review",
 		"confOf#Topic",
-		0.1991223394870758
+		0.19912242889404297
 	],
 	"cmt#Meta-Review;confOf#Country": [
 		"cmt#Meta-Review",
 		"confOf#Country",
-		0.07361351698637009
+		0.07361374795436859
 	],
 	"cmt#Meta-Review;confOf#Company": [
 		"cmt#Meta-Review",
 		"confOf#Company",
-		0.06533744186162949
+		0.06533749401569366
 	],
 	"cmt#Meta-Review;confOf#University": [
 		"cmt#Meta-Review",
 		"confOf#University",
-		0.04444735497236252
+		0.04444732144474983
 	],
 	"cmt#Meta-Review;confOf#Scholar": [
 		"cmt#Meta-Review",
 		"confOf#Scholar",
-		0.15168754756450653
+		0.15168771147727966
 	],
 	"cmt#Meta-Review;confOf#Administrator": [
 		"cmt#Meta-Review",
 		"confOf#Administrator",
-		0.14029525220394135
+		0.14029550552368164
 	],
 	"cmt#Meta-Review;confOf#Poster": [
 		"cmt#Meta-Review",
 		"confOf#Poster",
-		0.1985333263874054
+		0.19853362441062927
 	],
 	"cmt#Meta-Review;confOf#Paper": [
 		"cmt#Meta-Review",
 		"confOf#Paper",
-		0.08887213468551636
+		0.08887240290641785
 	],
 	"cmt#Meta-Review;confOf#Short_paper": [
 		"cmt#Meta-Review",
 		"confOf#Short_paper",
-		0.12138596922159195
+		0.12138606607913971
 	],
 	"cmt#Meta-Review;confOf#Reviewing_results_event": [
 		"cmt#Meta-Review",
 		"confOf#Reviewing_results_event",
-		0.27245333790779114
+		0.2724533677101135
 	],
 	"cmt#Meta-Review;confOf#Administrative_event": [
 		"cmt#Meta-Review",
 		"confOf#Administrative_event",
-		0.07874371111392975
+		0.07874388992786407
 	],
 	"cmt#Meta-Review;confOf#Reviewing_event": [
 		"cmt#Meta-Review",
 		"confOf#Reviewing_event",
-		0.23610086739063263
+		0.236100971698761
 	],
 	"cmt#Meta-Review;confOf#Registration_of_participants_event": [
 		"cmt#Meta-Review",
 		"confOf#Registration_of_participants_event",
-		0.05117097869515419
+		0.051170945167541504
 	],
 	"cmt#Meta-Review;confOf#Submission_event": [
 		"cmt#Meta-Review",
 		"confOf#Submission_event",
-		0.08735029399394989
+		0.08735047280788422
 	],
 	"cmt#Meta-Review;confOf#Camera_Ready_event": [
 		"cmt#Meta-Review",
 		"confOf#Camera_Ready_event",
-		0.22908733785152435
+		0.22908750176429749
 	],
 	"cmt#Meta-Review;confOf#Workshop": [
 		"cmt#Meta-Review",
 		"confOf#Workshop",
-		0.1375620812177658
+		0.1375623196363449
 	],
 	"cmt#Meta-Review;confOf#Conference": [
 		"cmt#Meta-Review",
 		"confOf#Conference",
-		0.05999806150794029
+		0.05999821424484253
 	],
 	"cmt#Meta-Review;confOf#Tutorial": [
 		"cmt#Meta-Review",
 		"confOf#Tutorial",
-		0.18249790370464325
+		0.18249794840812683
 	],
 	"cmt#Meta-Review;confOf#Working_event": [
 		"cmt#Meta-Review",
 		"confOf#Working_event",
-		0.011257201433181763
+		0.011257346719503403
 	],
 	"cmt#Meta-Review;confOf#Member": [
 		"cmt#Meta-Review",
 		"confOf#Member",
-		0.1526416689157486
+		0.15264186263084412
 	],
 	"cmt#Meta-Review;confOf#Participant": [
 		"cmt#Meta-Review",
 		"confOf#Participant",
-		0.144009530544281
+		0.14400967955589294
 	],
 	"cmt#Meta-Review;confOf#Member_PC": [
 		"cmt#Meta-Review",
 		"confOf#Member_PC",
-		0.11901406198740005
+		0.12807799875736237
 	],
 	"cmt#Meta-Review;confOf#Chair_PC": [
 		"cmt#Meta-Review",
 		"confOf#Chair_PC",
-		0.0721224769949913
+		0.1334368884563446
 	],
 	"cmt#Meta-Review;confOf#Student": [
 		"cmt#Meta-Review",
 		"confOf#Student",
-		0.11726190894842148
+		0.11726207286119461
 	],
 	"cmt#Meta-Review;confOf#Science_Worker": [
 		"cmt#Meta-Review",
 		"confOf#Science_Worker",
-		0.054378148168325424
+		0.05437822267413139
 	],
 	"cmt#Meta-Review;confOf#Assistant": [
 		"cmt#Meta-Review",
 		"confOf#Assistant",
-		0.1544284075498581
+		0.15442854166030884
 	],
 	"cmt#Meta-Review;confOf#Volunteer": [
 		"cmt#Meta-Review",
 		"confOf#Volunteer",
-		0.055049508810043335
+		0.05504962429404259
 	],
 	"cmt#Meta-Review;confOf#Regular": [
 		"cmt#Meta-Review",
 		"confOf#Regular",
-		0.10915341973304749
+		0.10915357619524002
 	],
 	"cmt#Meta-Review;confOf#Author": [
 		"cmt#Meta-Review",
 		"confOf#Author",
-		0.09706413745880127
+		0.09706427156925201
 	]
 }

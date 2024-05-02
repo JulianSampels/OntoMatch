@@ -1,299 +1,101 @@
-[
-    {
-        "edas#SlideSet": "The slide set is a child of document which is parented by paper which is also parented by rejected paper."
-    },
-    {
-        "edas#Review": "The document review is the child of the document meal menu."
-    },
-    {
-        "edas#Programme": "The meal menu is the child of the program."
-    },
-    {
-        "edas#Paper": "Paper is a child of document, which is the parent of pending paper, published paper, rated paper and rejected paper."
-    },
-    {
-        "edas#MealMenu": "The meal menu is a child of the document which is the parent of the programme."
-    },
-    {
-        "edas#Document": "The document is the parent of the slide set, the meal menu, and the program. The accepted paper is also the parent of the document."
-    },
-    {
-        "edas#Topic": "The topic of multimedia is the parent of the topic of computer architecture, radio communications and mobile computing."
-    },
-    {
-        "edas#ConferenceEvent": "The conference event is the parent of both the academic event and the welcome talk. The social event is also the parent of the conference event."
-    },
-    {
-        "edas#Call": "The call for papers is the parent of the call for manuscripts and the call for reviews."
-    },
-    {
-        "edas#ReviewRating": "Review rating is the parent of accept if room rating and week reject rating."
-    },
-    {
-        "edas#Organization": "The parent organization of the industry organization is the ngo, the government organization is the government organization and the academia organization is also parented by the ngo."
-    },
-    {
-        "edas#Conference": "The conference is the child of Thing and is equivalent to a two level conference and a single level conference."
-    },
-    {
-        "edas#PersonalHistory": "The personal history of a person is the parent of the personal publication history and the personal review history."
-    },
-    {
-        "edas#Sponsorship": "The parent company of sponsorship is the travel grant."
-    },
-    {
-        "edas#ReviewQuestion": "The review question is the parent of the numerical review question and the textual review question."
-    },
-    {
-        "edas#Person": "The parent of the presenter and the tpc member is the parent of the conference chair and the presenter. The author is the parent of the reviewer and the tpc member is the parent of the attendee."
-    },
-    {
-        "edas#Place": "The dining place, the meeting room, the accommodation and the conference venue are both parented."
-    },
-    {
-        "edas#WeekRejectRating": "The week reject rating is the child of the review rating and the parent of the accept rating."
-    },
-    {
-        "edas#AcceptRating": "The accept rating is a child of the review rating which is equivalent to the reject rating."
-    },
-    {
-        "edas#AccpetIfRoomRating": "Accept if room rating is child of review rating which is equivalent to reject rating."
-    },
-    {
-        "edas#RejectRating": "The parent of the reject rating is the review rating which is the parent of the accept if room rating."
-    },
-    {
-        "edas#MealEvent": "A meal event is a child of an academic event, a social event, an excursion and a conference dinner."
-    },
-    {
-        "edas#NonAcademicEvent": "The non academic event is the parent of the conference event. It is also the parent of the social event which is the reception. It is also the parent of the meal event which is also the parent of the conference dinner."
-    },
-    {
-        "edas#BreakEvent": "The break event is the parent of the conference dinner and the non academic event. It is also the equivalent of a coffee break and a meal break."
-    },
-    {
-        "edas#ParallelAndDistributedComputingTopic": "The topic of parallel and distributed computing is a child of the communication topic."
-    },
-    {
-        "edas#WirelessCommunicationsTopic": "The wireless communications topic is a child of the cad topic."
-    },
-    {
-        "edas#OperatingTopicsystems": "The operating topicsystems is a child of the overline transmission topic."
-    },
-    {
-        "edas#ComputerNetworksTopic": "The computer networks topic is the parent of the computer networks security and the computer networks management topics. It is also the parent of the antennas and the computer networks enterprise topics."
-    },
-    {
-        "edas#SatelliteAndSpaceCommunicationsTopic": "The satellite and space communications topic is a child of the operating topicsystems."
-    },
-    {
-        "edas#CADTopic": "The cad topic is a child of the multimedia topic."
-    },
-    {
-        "edas#MultimediaTopic": "The multimedia topic is the child of the test only topic."
-    },
-    {
-        "edas#CommunicationsTopic": "The topic of communications is the child of the performance topic."
-    },
-    {
-        "edas#PowerlineTransmissionTopic": "Overline transmission is a child of parallel and distributed computing."
-    },
-    {
-        "edas#AntennasTopic": "The topic of antennas is a child of the topic of computer architecture."
-    },
-    {
-        "edas#PerformanceTopic": "The performance topic is the child of the signal processing topic."
-    },
-    {
-        "edas#SignalProcessingTopic": "The signal processing topic is a child of the multimedia topic."
-    },
-    {
-        "edas#MicroelectronicsTopic": "The microelectronics topic is a child of the security topic."
-    },
-    {
-        "edas#TestOnlyTopic": "The test only topic is the child of the multimedia topic."
-    },
-    {
-        "edas#RadioCommunicationsTopic": "The radio communication topic is a child of the communication theory topic."
-    },
-    {
-        "edas#ComputerArchitectureTopic": "The topic of computer architecture is child of the topic of operating topicsystems."
-    },
-    {
-        "edas#MedicineTopic": "The topic of medicine is a child of the topic of microelectronics."
-    },
-    {
-        "edas#SecurityTopic": "The security topic is a child of the communication theory topic."
-    },
-    {
-        "edas#MobileComputingTopic": "The mobile computing topic is a child of the test only topic."
-    },
-    {
-        "edas#CryptographyTopic": "The cryptography topic is a child of the mobile computing topic."
-    },
-    {
-        "edas#CommunicationTheoryTopic": "The communication theory topic is a child of the multimedia topic."
-    },
-    {
-        "edas#ConferenceChair": "The conference chair is the child of the person who attended the conference."
-    },
-    {
-        "edas#Author": "The author is the parent of the presenter and the chair of the session."
-    },
-    {
-        "edas#DiningPlace": "The dining place is the child of the accommodation place."
-    },
-    {
-        "edas#Presenter": "The presenter is a child of the author who is the parent of a tpc member."
-    },
-    {
-        "edas#AcademiaOrganization": "The ngo is the parent of the ngo and the academic organization is the child of the organization."
-    },
-    {
-        "edas#IndustryOrganization": "ngo is the parent organization of the industry organization."
-    },
-    {
-        "edas#NGO": "ngo is a child of an organization which is parented by an academic organization."
-    },
-    {
-        "edas#GovernmentOrganization": "The government organization is the child of the organization which is parented by the industry organization."
-    },
-    {
-        "edas#ComputerNetworksEnterpriseTopic": "The computer networks (enterprise) topic is the child of the computer networks topic and the parent of the computer networks (optical) topic."
-    },
-    {
-        "edas#ComputerNetworksSwitchingTopic": "The computer networks switching topic is a child of the computer networks topic and is the parent of the computer networks optical topic."
-    },
-    {
-        "edas#ComputerNetworksSensorTopic": "The computer networks topic is the child of the computer networks sensor and the parent of the computer networks enterprise."
-    },
-    {
-        "edas#ComputerNetworksSecurityTopic": "The computer networks security topic is the child of the computer networks topic and the parent of the computer networks sensor topic."
-    },
-    {
-        "edas#ComputerNetworksOpticalTopic": "The computer networks (optical) topic is a child of the computer networks and mobile computing."
-    },
-    {
-        "edas#ComputerNetworksMeasurementsTopic": "The computer network is a child of the computer networks and medicine."
-    },
-    {
-        "edas#ComputerNetworksManagementTopic": "The computer networks management topic is the child of the computer networks topic and is the parent of the computer networks switching topic."
-    },
-    {
-        "edas#ComputerNetworksAapplicationsTopic": "The topic of computer networks applications is child of the computer networks topic and is parented by the topic of cryptography."
-    },
-    {
-        "edas#ActivePaper": "The active paper is the parent of rated papers and is the child of paper which is also the parent of rejected paper."
-    },
-    {
-        "edas#PendingPaper": "pending paper is a child of paper which is parented by rejected paper."
-    },
-    {
-        "edas#WithdrawnPaper": "withdrawn paper is a child of paper which is the parent of a programme."
-    },
-    {
-        "edas#RejectedPaper": "The rejected paper is a child of paper and a document."
-    },
-    {
-        "edas#AcceptedPaper": "Accepted paper is a child of paper and is the parent of a slide set."
-    },
-    {
-        "edas#PublishedPaper": "The published paper is the child of the document which is the parent of the meal menu."
-    },
-    {
-        "edas#Attendee": "The child of the session chair is the child of the person who attended."
-    },
-    {
-        "edas#CoffeeBreak": "The coffee break is equivalent to a break event which is a non academic event."
-    },
-    {
-        "edas#FreeTimeBreak": "The free time break is equivalent to a break event which is the parent of a coffee break."
-    },
-    {
-        "edas#MealBreak": "The meal break is equivalent to a break event. It is a non academic event that is parented by a meal event and a conference dinner."
-    },
-    {
-        "edas#Reviewer": "The person who reviews is equivalent to the author."
-    },
-    {
-        "edas#ClosingTalk": "The closing talk is a child of the talk event which is a child of the academic event and the conference event."
-    },
-    {
-        "edas#WelcomeTalk": "The welcome talk is the child of the talk event which is the parent of the closing talk."
-    },
-    {
-        "edas#TalkEvent": "The talk event is the parent of the conference event and the welcome talk. It is also the parent of the closing talk and the academic event."
-    },
-    {
-        "edas#SessionChair": "The session chair is child of the parent of the tpc member."
-    },
-    {
-        "edas#TPCMember": "The tpc member is the child of the conference chair and the parent of the conference chair."
-    },
-    {
-        "edas#TwoLevelConference": "Two level conference is equivalent to conference which is child of Thing."
-    },
-    {
-        "edas#CallForPapers": "The call for papers is the child of the call for reviews."
-    },
-    {
-        "edas#TextualReviewQuestion": "The textual review question is the child of the review question and the numerical review question."
-    },
-    {
-        "edas#NumericalReviewQuestion": "The review question is the child of the review question and the parent of the textual review question."
-    },
-    {
-        "edas#OrganizationalMeeting": "The organization meeting is a child of the academic event and the conference event. The conference event is parented by the non academic event."
-    },
-    {
-        "edas#PaperPresentation": "The paper presentation is a child of an academic event which is parented by an organizational meeting."
-    },
-    {
-        "edas#Workshop": "The workshop is the child of an academic event which is the parent of an organizational meeting."
-    },
-    {
-        "edas#AcademicEvent": "The academic event is the parent of the workshop and the organizational meeting. It is also the parent of the conference and non academic events. The closing talk and the paper presentation are both academic events."
-    },
-    {
-        "edas#PersonalPublicationHistory": "The personal publication history is the child of the personal publication history and the parent of the personal review history."
-    },
-    {
-        "edas#Excursion": "The excursion is a child of a social event which is parented by a reception."
-    },
-    {
-        "edas#SocialEvent": "A social event is a non academic event which is the parent of a conference event. It is also the parent of a reception and an excursion."
-    },
-    {
-        "edas#CallForReviews": "The call for reviews is the child of the call for papers."
-    },
-    {
-        "edas#PersonalReviewHistory": "The personal review history is the child of the personal history and the parent of the personal publication history."
-    },
-    {
-        "edas#ConferenceVenuePlace": "The conference venue is the parent of the dining place."
-    },
-    {
-        "edas#CallForManuscripts": "The call for manuscripts is the child of the call for reviews."
-    },
-    {
-        "edas#Reception": "The social event is the child of the reception and the parent of the excursion."
-    },
-    {
-        "edas#SingleLevelConference": "The single level conference is equivalent to conference which is child of Thing."
-    },
-    {
-        "edas#MeetingRoomPlace": "The meeting room is the child of the conference venue."
-    },
-    {
-        "edas#AccommodationPlace": "The accommodation place is child of the dining place."
-    },
-    {
-        "edas#RatedPapers": "rated papers are children of active paper which is also a child of paper."
-    },
-    {
-        "edas#TravelGrant": "The travel grant is a child of sponsorship."
-    },
-    {
-        "edas#ConferenceDinner": "The conference dinner is a non-academic event."
-    }
-]
+{
+	"edas#SlideSet": "The child of a document is a slide which is the parent of paper which is the parent of publishedpaper.",
+	"edas#Review": "The document review is a child of the document which is parented by slides.",
+	"edas#Programme": "The child of a programme is a document which is parented by a paper.",
+	"edas#Paper": "Paper is a child of document, which is parent of slides, acceptedpaper and pendingpaper. It is also parent of ratedpapers and withdrawnpaper.",
+	"edas#MealMenu": "The mealmenu is a child of document which is parented by paper which is also parented by rejectedpaper.",
+	"edas#Document": "The mealmenu and the program are both documents that are parented to the mealmenu. Paper is the parent of the mealmenu and the withdrawn paper is also the parent of the program.",
+	"edas#Topic": "The powerline transmission and the satelliteandspacecommunications topics are both topics that are parented by powerline transmission and security.",
+	"edas#ConferenceEvent": "The conferenceevent is the parent of the academicevent and the paperpresentation. The nonacademicevent is also the parent of the social event which is the parent of reception.",
+	"edas#Call": "callforreviews and callforpapers are both parented by callformanuscripts.",
+	"edas#ReviewRating": "Reviewrating is the parent of weekrejectrating and accpetifroomrating. It is also the parent of rejectrating and accelerating.",
+	"edas#Organization": "The ngo and the government organizations are both parented by organizations such as the academia and the industry.",
+	"edas#Conference": "The conference is the child of Thing and is equivalent to a twolevelconference and a singlelevelconference.",
+	"edas#PersonalHistory": "personalhistory is the parent of personalpublicationhistory and personalreviewhistory.",
+	"edas#Sponsorship": "The parent company of a sponsorship is travelgrant.",
+	"edas#ReviewQuestion": "The review question is the parent of the numericalreview question and the textualreview question.",
+	"edas#Person": "The parent of a sessionchair is the tpcmember, the presenter is the presenter and the conferencechair is the conferencechair.",
+	"edas#Place": "The conference venue, the meetingroom, the accommodation and the dining place are both parented.",
+	"edas#WeekRejectRating": "Reviewrating is the child of reviewrating and is the parent of rejectrating.",
+	"edas#AcceptRating": "accpetifroomrating is the child of reviewrating which is equivalent to accpetifroomrating.",
+	"edas#AccpetIfRoomRating": "accpetifroomrating is a child of reviewrating which is equivalent to rejectrating.",
+	"edas#RejectRating": "Reviewrating is the parent of accpetifroomrating and is equivalent to rejectrating.",
+	"edas#MealEvent": "The parent of a conferencedinner is the nonacademicevent which is the parent of a social event.",
+	"edas#NonAcademicEvent": "The nonacademicevent is the parent of the conferencedinner and the social event. It is also the parent of the excursion and the breakevent.",
+	"edas#BreakEvent": "breakevent is the parent of freetimebreak, mealbreak and social event. It is also the parent of excursion and coffeebreak.",
+	"edas#ParallelAndDistributedComputingTopic": "The parallelanddistributedcomputingtopic is a child of the signal processingtopic.",
+	"edas#WirelessCommunicationsTopic": "The wirelesscommunicationstopic is a child of the antennastopic.",
+	"edas#OperatingTopicsystems": "The operatingtopicsystems is a child of the powerlinetransmissiontopic.",
+	"edas#ComputerNetworksTopic": "Computernetworks is the parent of computernetworksswitching, computernetworkssensor and microelectronics. It is also the parent of computernetworksoptical and computernetworksenterprise.",
+	"edas#SatelliteAndSpaceCommunicationsTopic": "The satelliteandspacecommunicationstopic is a child of the wirelesscommunicationstopic.",
+	"edas#CADTopic": "The topic of cadtopic is the parent of the topic of satelliteandspacecommunications.",
+	"edas#MultimediaTopic": "Microelectronicstopic is a child of multimediatopic.",
+	"edas#CommunicationsTopic": "The communication topic is a child of the performance topic.",
+	"edas#PowerlineTransmissionTopic": "powerlinetransmissiontopic is a child of powerlinetransmissiontopic and is parented by antennastopic.",
+	"edas#AntennasTopic": "antennastopic is a child of testonlytopic and is the parent of antennastopic.",
+	"edas#PerformanceTopic": "The performancetopic is a child of the wirelesscommunicationstopic.",
+	"edas#SignalProcessingTopic": "The signal processing topic is a child of the testonly topic.",
+	"edas#MicroelectronicsTopic": "The microelectronicstopic is a child of the powerline transmissiontopic.",
+	"edas#TestOnlyTopic": "The testonlytopic is a child of the cryptographytopic.",
+	"edas#RadioCommunicationsTopic": "The radiocommunicationstopic is a child of the multimediatopic.",
+	"edas#ComputerArchitectureTopic": "The computer architecture topic is a child of the signal processing topic.",
+	"edas#MedicineTopic": "The medicinetopic is a child of the radiocommunicationstopic.",
+	"edas#SecurityTopic": "The securitytopic is a child of the performancetopic.",
+	"edas#MobileComputingTopic": "The mobilecomputingtopic is a child of the securitytopic.",
+	"edas#CryptographyTopic": "The cryptography topic is a child of the computer architecture topic.",
+	"edas#CommunicationTheoryTopic": "The communicationtheorytopic is a child of the wirelesscommunicationstopic.",
+	"edas#ConferenceChair": "The conference chair is a child of the person who is equivalent to a reviewer.",
+	"edas#Author": "The author is the parent of the presenter and is the equivalent of a person who is a reviewer.",
+	"edas#DiningPlace": "The dining place is the child of the conference venue.",
+	"edas#Presenter": "The presenter is the child of the author who is the parent of the conferencechair.",
+	"edas#AcademiaOrganization": "The academic organization is the child of the organization which is parented by the government organization.",
+	"edas#IndustryOrganization": "The industry organization is the child of the organization which is parented by the government organization.",
+	"edas#NGO": "ngo is a child of an organization which is parented by a government organization.",
+	"edas#GovernmentOrganization": "The government organization is the child of the organization which is parented by the academic organization.",
+	"edas#ComputerNetworksEnterpriseTopic": "The computernetworksenterprisetopic is a child of the computernetworksenterprisetopic and is parented to the cryptographytopic.",
+	"edas#ComputerNetworksSwitchingTopic": "computernetworksswitchingtopic is a child of computernetworksswitchingtopic and is parented to computernetworksenterprisetopic.",
+	"edas#ComputerNetworksSensorTopic": "The computernetworkssensortopic is a child of the computernetworkssensortopic and is the parent of the communicationtheorytopic.",
+	"edas#ComputerNetworksSecurityTopic": "The computernetworkssecuritytopic is the child of the computernetworkssecuritytopic and the parent of the computernetworksenterprisetopic.",
+	"edas#ComputerNetworksOpticalTopic": "The computernetworksopticaltopic is the child of the computernetworkstopic which is the parent of microelectronicstopic.",
+	"edas#ComputerNetworksMeasurementsTopic": "The computernetworksmeasurementstopic is the child of the computernetworkstopic which is the parent of antennastopic.",
+	"edas#ComputerNetworksManagementTopic": "The computernetworksmanagement topic is the child of the computernetworksmanagement topic and the parent of the computernetworksmeasurements topic.",
+	"edas#ComputerNetworksAapplicationsTopic": "The computernetworksaapplicationstopic is a child of the computernetworkstopic which is parented to the multimediatopic.",
+	"edas#ActivePaper": "ratedpapers and activelayer are both children of paper which is the parent of mealmenu and activelayer.",
+	"edas#PendingPaper": "pendingpaper is a child of paper which is a child of document.",
+	"edas#WithdrawnPaper": "withdrawnpaper is a child of paper which is the parent of a programme.",
+	"edas#RejectedPaper": "rejectedpaper is a child of paper which is the parent of mealmenu.",
+	"edas#AcceptedPaper": "Acceptedpaper is the child of paper and is the parent of publishedpaper.",
+	"edas#PublishedPaper": "The publication of paper is the child of the document which is the parent of the programme.",
+	"edas#Attendee": "The child of the sessionchair is the child of the person who attended.",
+	"edas#CoffeeBreak": "coffeebreak is a child of breakevent which is the parent of mealbreak.",
+	"edas#FreeTimeBreak": "breakevent is the parent of coffeebreak and is the child of freetimebreak.",
+	"edas#MealBreak": "breakevent is a non-academic event which is a child of mealbreak.",
+	"edas#Reviewer": "The reviewer is the person who is the parent of tpcmember.",
+	"edas#ClosingTalk": "closingtalk is a child of talkevent and welcometalk.",
+	"edas#WelcomeTalk": "welcometalk is a child of talkevent and is the parent of closingtalk.",
+	"edas#TalkEvent": "talkevent is the parent of welcometalk and closingtalk. It is also the child of conferenceevent and nonacademicevent.",
+	"edas#SessionChair": "The sessionchair is a child of the person who is the parent of the conferencechair.",
+	"edas#TPCMember": "tpcmember is a child of the person who is the parent of the person who attended.",
+	"edas#TwoLevelConference": "The twolevelconference is equivalent to the conference and the singlelevelconference.",
+	"edas#CallForPapers": "callforpapers is the child of callforpapers and is the parent of callforreviews.",
+	"edas#TextualReviewQuestion": "The textualreviewquestion is the child of the reviewquestion and the parent of the numericalreviewquestion.",
+	"edas#NumericalReviewQuestion": "The numericalreviewquestion is the child of the reviewquestion and the parent of the textualreviewquestion.",
+	"edas#OrganizationalMeeting": "The organizationalmeeting is the child of the academicevent which is the parent of the workshop.",
+	"edas#PaperPresentation": "The paperpresentation is a child of academicevent which is the parent of talkevent and closingtalk.",
+	"edas#Workshop": "The workshop is the child of the academicevent which is the parent of the organizationalmeeting.",
+	"edas#AcademicEvent": "The academicevent is the parent of the workshop, the organizationalmeeting, the conferencedinner and the conferenceevent. The conferenceevent is the parent of the conferencedinner and the conferenceevent is the parent of the conference.",
+	"edas#PersonalPublicationHistory": "personalhistory is the child of personalpublicationhistory and is the parent of personalreviewhistory.",
+	"edas#Excursion": "The excursion is a child of socialvent which is the parent of breakevent and nonacademicevent.",
+	"edas#SocialEvent": "The social event is the parent of the reception and the excursion. It is also the parent of the conference and the organizationalmeeting.",
+	"edas#CallForReviews": "callforreviews is a child of call and is the parent of callformanuscripts.",
+	"edas#PersonalReviewHistory": "personalreviewhistory is the child of personalhistory and is the parent of personalpublicationhistory.",
+	"edas#ConferenceVenuePlace": "The conference venue is the child of the conference venue and the parent of the accommodation place.",
+	"edas#CallForManuscripts": "callformanuscripts is a child of call and is parented by callforpapers.",
+	"edas#Reception": "Socialvent is the parent of the excursion and is the child of reception.",
+	"edas#SingleLevelConference": "The singlelevelconference is equivalent to a conference and the twolevelconference.",
+	"edas#MeetingRoomPlace": "The meetingroomplace is the child of the diningplace.",
+	"edas#AccommodationPlace": "The accommodationplace is child of the meetingroomplace.",
+	"edas#RatedPapers": "ratedpapers is a child of activelayer which is a child of paper.",
+	"edas#TravelGrant": "The travel grant is a child of sponsorship.",
+	"edas#ConferenceDinner": "conferencedinner is a child of nonacademicevent which is parented by breakevent."
+}

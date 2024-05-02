@@ -1,107 +1,37 @@
-[
-    {
-        "confOf#Trip": "The child of a social event is the child of the reception."
-    },
-    {
-        "confOf#Banquet": "A banquet is a social event."
-    },
-    {
-        "confOf#Reception": "The reception is the child of a social event which is the parent of a banquet."
-    },
-    {
-        "confOf#Social_event": "The social event is the parent of the banquet, the reception and the trip. It is also the parent of the administrative event which is also the parent of the camera ready event."
-    },
-    {
-        "confOf#Event": "The parent event of a working event is a social event. It is also the parent event of a banquet. It is also the parent event of a submission event. It is also the parent event of an administrative event."
-    },
-    {
-        "confOf#Contribution": "The contribution of a short paper is the parent of a poster and the child of Thing."
-    },
-    {
-        "confOf#Organization": "The parent company of the organization is the university."
-    },
-    {
-        "confOf#Person": "The child of a Thing is the parent of a student and a science worker. The administrator is the parent of the author and the child is the child of a student."
-    },
-    {
-        "confOf#Company": "The company is child of the organization which is parented by the university."
-    },
-    {
-        "confOf#University": "The university is the child of the organization which is parented by the company."
-    },
-    {
-        "confOf#Scholar": "The child of the scholar is the parent of the member program committee."
-    },
-    {
-        "confOf#Administrator": "The administrator is the child of the person who is the parent of the member program committee."
-    },
-    {
-        "confOf#Poster": "The poster is a child of a Thing."
-    },
-    {
-        "confOf#Paper": "The paper is a child of the Thing and the contribution."
-    },
-    {
-        "confOf#Short_paper": "The short paper is a child of contribution which is a child of Thing."
-    },
-    {
-        "confOf#Reviewing_results_event": "The review of results event is a child of the administrative event which is parented by the camera ready event."
-    },
-    {
-        "confOf#Administrative_event": "The administrative event is the parent of the social event, the reception and the submission event. It is also the parent of the registration of participants event."
-    },
-    {
-        "confOf#Reviewing_event": "The review event is a child of the administrative event."
-    },
-    {
-        "confOf#Registration_of_participants_event": "The registration of participants event is a child of the administrative event which is also a child of the social event which is also a parent of a trip."
-    },
-    {
-        "confOf#Submission_event": "The submission event is a child of the administrative event which is the parent of the reviewing event."
-    },
-    {
-        "confOf#Camera_Ready_event": "The camera ready event is a child of the administrative event and the working event. The workshop is also a child of the working event."
-    },
-    {
-        "confOf#Workshop": "The workshop is a child of a working event which is parented by an administrative event."
-    },
-    {
-        "confOf#Conference": "The conference is the child of the working event and the parent of the tutorial."
-    },
-    {
-        "confOf#Tutorial": "The tutorial is child of the working event which is parented by the conference."
-    },
-    {
-        "confOf#Working_event": "The working event is the child of the social event. It is the parent of the banquet, the conference and the workshop."
-    },
-    {
-        "confOf#Member": "The child of the participant is the child of the person who is the parent of the chair program committee."
-    },
-    {
-        "confOf#Participant": "The child of a participant is the child of a person who is a member of Thing. The student and the regular participant are both parents of the same participant."
-    },
-    {
-        "confOf#Member_PC": "The member program committee is child of the person who is the child of a Thing."
-    },
-    {
-        "confOf#Chair_PC": "The chair of the program committee is a child of a Thing."
-    },
-    {
-        "confOf#Student": "The student is the child of a person who is the parent of the chair program committee."
-    },
-    {
-        "confOf#Science_Worker": "The child of a science worker is the parent of a chair program committee."
-    },
-    {
-        "confOf#Assistant": "The assistant is a child of a person who is also a child of a Thing."
-    },
-    {
-        "confOf#Volunteer": "The child of a volunteer is a child of a Thing."
-    },
-    {
-        "confOf#Regular": "The child of a participant is a regular."
-    },
-    {
-        "confOf#Author": "The author is the child of the person who is the parent of the scholar."
-    }
-]
+{
+	"confOf#Trip": "The trip is a child of a social event.",
+	"confOf#Banquet": "The banquet is child of socialvent who is the parent of the trip.",
+	"confOf#Reception": "Socialevent is a child of reception and is parented by administrativeevent and reviewingresultsevent.",
+	"confOf#Social_event": "Socialvent is the parent of reception and banquet. It is also the parent of workingevent and workshop.",
+	"confOf#Event": "The social event is the parent of the banquet and the working event. The working event is also the parent of the tutorial and the reviewingresults event.",
+	"confOf#Contribution": "The short paper and the poster are both contributions.",
+	"confOf#Organization": "The parent company of the organization is the university.",
+	"confOf#Person": "The parent of a volunteer is the parent of a regular and a scienceworker. The other parents are the assistant and the volunteer.",
+	"confOf#Company": "The company is child of the organization which is parented by the university.",
+	"confOf#University": "The university is the child of the organization which is parented by the company.",
+	"confOf#Scholar": "The child of a scholar is a child of a Thing.",
+	"confOf#Administrator": "The administrator is the child of the person who is the parent of the scholar.",
+	"confOf#Poster": "The poster is a child of a Thing.",
+	"confOf#Paper": "The paper is the child of the contribution which is the parent of the poster.",
+	"confOf#Short_paper": "The short paper is a child of the contribution which is the parent of the paper.",
+	"confOf#Reviewing_results_event": "reviewingresultsevent is a child of administrativeevent which is the parent of reviewingevent.",
+	"confOf#Administrative_event": "The administrativeevent is the parent of the social event, the banquet and the registration of participants. It also is the parent of the review and the submission events.",
+	"confOf#Reviewing_event": "reviewingevent is a child of administrativeevent and is parented by camerareadyevent.",
+	"confOf#Registration_of_participants_event": "The registrationofparticipantsevent is a child of the administrativeevent which is parented by the reviewingevent.",
+	"confOf#Submission_event": "The submissionevent is a child of the administrativeevent which is the parent of the reviewingresultsevent.",
+	"confOf#Camera_Ready_event": "Camerareadyevent is a child of administrativeevent which is parented by registrationofparticipantsevent.",
+	"confOf#Workshop": "The workingevent is the child of the workshop and the parent of the tutorial.",
+	"confOf#Conference": "The workingevent is the parent of the conference and the workshop.",
+	"confOf#Tutorial": "The workingevent is the parent of the conference and is the child of the tutorial.",
+	"confOf#Working_event": "The workingevent is the parent of the reception, the workshop, the conference and the tutorial. The social event is also the parent of the conference.",
+	"confOf#Member": "The child of the participant is the parent of the regular participant.",
+	"confOf#Participant": "The parent of a participant is a student and the child of a regular. The child is also a child of a Thing and a member of the family.",
+	"confOf#Member_PC": "The child of the chair is the child of the member.",
+	"confOf#Chair_PC": "The chair is child of the person who is the parent of the participant and the student.",
+	"confOf#Student": "The student is the child of the participant and the parent of the participant.",
+	"confOf#Science_Worker": "The child of a science worker is the parent of a scholar.",
+	"confOf#Assistant": "The assistant is a child of a person who is also a child of a Thing.",
+	"confOf#Volunteer": "The child of a volunteer is a child of a Thing.",
+	"confOf#Regular": "The child of the participant is the child of the parent of the author. The child is a regular.",
+	"confOf#Author": "The author is the child of a person who is a science worker."
+}

@@ -1,155 +1,53 @@
-[
-    {
-        "cocus#Workshop": "The workshop is a child of an event which is a child of Thing."
-    },
-    {
-        "cocus#Event": "The event Thing is the parent of both the workshop and the conference."
-    },
-    {
-        "cocus#User": "The parent of the user is the author and the corresponding author. The child of the user is the administrator and the parent of the committee."
-    },
-    {
-        "cocus#Role": "The role of the child of Thing is to be the parent of the head role, the admin role, the author role and the reviewer role."
-    },
-    {
-        "cocus#Help_Request": "The help request is the parent of both the feature request and the help request. The help request is also the parent of the event creation activity."
-    },
-    {
-        "cocus#Person": "The child of a Thing is the parent of the user and the administrator. The author is the parent of the corresponding author."
-    },
-    {
-        "cocus#Symposium": "The symposium is the parent event of the conference."
-    },
-    {
-        "cocus#Abstract": "The abstract is a child of paper which is the parent of invited paper."
-    },
-    {
-        "cocus#Paper": "The paper is the parent of both the short paper and the full paper. It is also the parent of the submission paper and the invited paper."
-    },
-    {
-        "cocus#Administrator": "The administrator is the child of the person who is the parent of the user and the parent of the committee."
-    },
-    {
-        "cocus#Document": "The paper is the parent of the abstract, the document is the parent of the email, the group email and the submission."
-    },
-    {
-        "cocus#Invited_Paper": "The invited paper is a child of paper which is the parent of the abstract."
-    },
-    {
-        "cocus#Admin_Role": "The admin role is child of the author role and the parent role."
-    },
-    {
-        "cocus#Paper_Typologies": "The paper apologies is a child of the event setup which is the parent of the review form."
-    },
-    {
-        "cocus#Event_Setup": "The event setup is the parent of the review form and the submission template. It is also the parent of the research topic, the event tracks and the email template."
-    },
-    {
-        "cocus#Event_URL": "The event url is a child of url."
-    },
-    {
-        "cocus#URL": "url is the parent of event url."
-    },
-    {
-        "cocus#Notification_Email": "The notification email is a child of the email and the document is the parent of the submission."
-    },
-    {
-        "cocus#Email": "Email is a child of document, review email, approval email, notification email, rejection email and group email."
-    },
-    {
-        "cocus#Short_Paper": "The short paper is a child of paper and a document. It is also a child of a Thing."
-    },
-    {
-        "cocus#Author_Role": "The author role is child of the Thing."
-    },
-    {
-        "cocus#Preview": "The review form is the parent of the review form setup and is the child of the preview form."
-    },
-    {
-        "cocus#Review_Form": "The review form is a child of the event setup which is the parent of the submission template. It is also the parent of the preview form."
-    },
-    {
-        "cocus#Review": "The document review is the child of the document submission."
-    },
-    {
-        "cocus#Committe_Role": "The role of a committee member is child of the role of a reviewer."
-    },
-    {
-        "cocus#Group_Email": "Group email is a child of email and a document. Thing is also a child of email."
-    },
-    {
-        "cocus#Submission_Template": "The submission template is a child of the event setup which is the parent of the email template."
-    },
-    {
-        "cocus#Review_Form_Setup": "The review form is the child of the review form and the parent of the preview form."
-    },
-    {
-        "cocus#Misc": "Misc is a child of help request which is a child of an activity."
-    },
-    {
-        "cocus#Author": "The author is the child of the user and the parent of the committee. The corresponding author is the author."
-    },
-    {
-        "cocus#Event_Creation": "Event creation is child of activity which is parented by registration."
-    },
-    {
-        "cocus#Approval_Email": "The approval email is a child of email and is a parent of group email."
-    },
-    {
-        "cocus#Rejection_Email": "The rejection email is the child of email and the approval email."
-    },
-    {
-        "cocus#Submission": "The submission is child of the document which is parented by paper and the abstract."
-    },
-    {
-        "cocus#Template": "The template is child of document which is child of Thing."
-    },
-    {
-        "cocus#Feature_Request": "The help request is a child of the help request and is a child of the activity which is the parent of the event creation."
-    },
-    {
-        "cocus#Committee": "The child of a committee is the child of a user."
-    },
-    {
-        "cocus#Event_Tracks": "paper apologies is the parent of event setup which is a child of event tracks."
-    },
-    {
-        "cocus#Request": "The help request is the parent of the feature request and the event approval request."
-    },
-    {
-        "cocus#Activity": "The parent of a request is a request for help, the parent of a request for registration and the parent of an event approval."
-    },
-    {
-        "cocus#Head_Role": "The head role is child of the Thing."
-    },
-    {
-        "cocus#Detail": "The detail is child of Thing."
-    },
-    {
-        "cocus#Corresponding_Author": "The corresponding author is the child of the user and the author is the child of the person."
-    },
-    {
-        "cocus#Reviewer_Role": "The role of the reviewer is child of the author and the parent of the reviewer."
-    },
-    {
-        "cocus#Event_Approval": "Event approval is child of activity which is parent of registration."
-    },
-    {
-        "cocus#Registration": "The registration is a child of the activity which is the parent of the event creation."
-    },
-    {
-        "cocus#Full_Paper": "The full paper is the child of paper and is the parent of the invited paper."
-    },
-    {
-        "cocus#Research_Topic": "The research topic is child of event setup which is the parent of paper apologies."
-    },
-    {
-        "cocus#Conference": "The conference is a child of Thing."
-    },
-    {
-        "cocus#Assistance": "The help request is a child of the help request."
-    },
-    {
-        "cocus#Email_Template": "The email template is a child of the event setup which is the parent of the research topic."
-    }
-]
+{
+	"cocus#Workshop": "The workshop is a child of the conference.",
+	"cocus#Event": "The event Thing is the child of the workshop and the conference. It is also the parent of the symposium.",
+	"cocus#User": "The user is the parent of the author and the corresponding author. The user is also the child of Thing and the committee.",
+	"cocus#Role": "The role of the parent of committerole is that of the child of Thing. The parent of authorrole and headrole is also the parent of adminrole.",
+	"cocus#Help_Request": "helprequest is a child of request and featurerequest. It is also the parent of eventapproval and helprequest.",
+	"cocus#Person": "The parent of a Thing is the user, the parent of a committee and the parent of the administrator.",
+	"cocus#Symposium": "The symposium is the parent event of the workshop.",
+	"cocus#Abstract": "The abstract is child of paper which is parented by invitedpaper.",
+	"cocus#Paper": "The paper is the parent of invitedpaper, shortpaper and abstract. It is also the child of Thing.",
+	"cocus#Administrator": "The administrator is the child of the user and the parent of the user.",
+	"cocus#Document": "The parent of a document is email. It is also the parent of approval email. It is also the parent of the abstract and the submission.",
+	"cocus#Invited_Paper": "invitedpaper is a child of paper which is the parent of fullpage.",
+	"cocus#Admin_Role": "The role of adminrole is child of Thing.",
+	"cocus#Paper_Typologies": "papertypologies is the child of eventsetup which is the parent of researchtopic.",
+	"cocus#Event_Setup": "eventsetup is the parent of submissiontemplate, papertypologies, researchtopic, emailtemplate and eventtracks.",
+	"cocus#Event_URL": "url is a child of url.",
+	"cocus#URL": "url is the parent of eventual.",
+	"cocus#Notification_Email": "notificationemail is a child of email and is parented by groupmail.",
+	"cocus#Email": "Email is the child of document, review and approval. It is also the parent of notification and groupmail.",
+	"cocus#Short_Paper": "The short paper is a child of paper and a document. It is also a child of a Thing.",
+	"cocus#Author_Role": "The author role is the child of the head role and the parent role.",
+	"cocus#Preview": "preview is a child of reviewform which is parented by reviewformsetup.",
+	"cocus#Review_Form": "reviewform is a child of eventsetup which is the parent of submissiontemplate. It is also the parent of reviewformsetup and preview.",
+	"cocus#Review": "Review is a child of document which is a child of Thing.",
+	"cocus#Committe_Role": "Committerole is a child of Thing.",
+	"cocus#Group_Email": "Groupmail is a child of email and a document. Thing is also a child of email.",
+	"cocus#Submission_Template": "The submissiontemplate is the child of eventsetup which is the parent of papertypologies.",
+	"cocus#Review_Form_Setup": "reviewformsetup is a child of reviewform and eventsetup which is the parent of eventtracks.",
+	"cocus#Misc": "helprequest is the child of helprequest and the parent of assistance.",
+	"cocus#Author": "The author is the parent of the correspondingauthor and the child of the user. The administrator is the parent of the user.",
+	"cocus#Event_Creation": "Eventcreation is a child of activity which is parented by registration.",
+	"cocus#Approval_Email": "approvalemail is a child of email and the parent document of submission.",
+	"cocus#Rejection_Email": "rejectionemail is a child of email and a document which is the parent of a submission.",
+	"cocus#Submission": "The submission is a child of the document which is the parent of the review.",
+	"cocus#Template": "The template is child of document which is child of Thing.",
+	"cocus#Feature_Request": "The helprequest is a child of the eventapproval activity and the featurerequest.",
+	"cocus#Committee": "The child of a committee is the child of a user.",
+	"cocus#Event_Tracks": "eventtracks is a child of eventsetup which is the parent of researchtopic.",
+	"cocus#Request": "The helprequest is the parent of the eventcreation activity and the helprequest is the child of the request.",
+	"cocus#Activity": "The parent of the registration activity is the eventcreation activity, the parent of the eventapproval activity is the helprequest activity and the parent of the assistance request.",
+	"cocus#Head_Role": "The headrole is the child of the adminrole.",
+	"cocus#Detail": "The detail is child of Thing.",
+	"cocus#Corresponding_Author": "The correspondingauthor is the child of the author and the user.",
+	"cocus#Reviewer_Role": "The reviewerrolle is the child of the headroll and the parent of the reviewerrolle.",
+	"cocus#Event_Approval": "The eventapproval is child of the activity which is parented by the registration.",
+	"cocus#Registration": "The registration is child of the activity which is parented by the eventapproval.",
+	"cocus#Full_Paper": "The fullpage is a child of paper which is the parent of the abstract.",
+	"cocus#Research_Topic": "eventsetup is the parent of emailtemplate and is a research topic.",
+	"cocus#Conference": "The conference is the parent of the symposium.",
+	"cocus#Assistance": "helprequest is the child of helprequest and is the parent of featurerequest.",
+	"cocus#Email_Template": "The emailtemplate is the child of eventsetup which is the parent of submissiontemplate."
+}

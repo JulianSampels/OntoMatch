@@ -15,7 +15,7 @@
 		"equivalent_prob": 28,
 		"object_prob": 16
 	},
-	"verbalizeAvailableTriples": true,
+	"verbalizeAvailableTriples": false,
 	"promptVersions": [
 		0,
 		1,
@@ -33,8 +33,8 @@
 	"similarityPath": "../results/result_similarities/conference/",
 	"exactMatchPath": "../results/result_exactMatches/conference/",
 	"triplesPath": "../results/result_triples/conference/",
-	"triplesVerbalizedPath": "../results/result_triplesVerbalized/conference/",
-	"promptsPath": "../results/result_prompts/conference/",
+	"triplesVerbalizedPath": "../results/result_triplesVerbalized/conference/verbalized_triples_randomWalk",
+	"promptsPath": "../results/result_prompts/conference/verbalized_prompts/",
 	"llmOutcomePath": "../results/result_llmOutcome/conference/",
 	"bipartiteMatchingPath": "../results/result_bipartiteMatching/conference/",
 	"rdfPath": "../results/result_RDF/conference/"
