@@ -96,7 +96,7 @@ def getPrompt(alignmentPath, contextPaths, promptVersion = 0, promptCounter = -1
             p = generatePrompt(triples, context, promptCounter)
             if (len(p) > 0):
                 key1, key2, _, _, _, _, _, _ = extract(triples, context, promptCounter)
-                prompt.update({key1 + ';' + key2 : p})
+                prompt.update({key1 + ';' + key2 : p.replace("[","(").replace("]",")")})
     else:
         prompt = generatePrompt(triples, context, promptCounter)
         
