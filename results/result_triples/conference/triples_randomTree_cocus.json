@@ -7,55 +7,45 @@
 		],
 		[
 			"Event",
-			"is parent of",
-			"Thing"
+			"is child of",
+			"Workshop"
 		],
 		[
 			"Event",
-			"approved by",
-			"Administrator"
-		],
-		[
-			"Administrator",
-			"execute",
-			"Admin Role"
-		],
-		[
-			"Administrator",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
 			"is parent of",
 			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Administrator"
-		],
-		[
-			"Admin Role",
-			"is parent of",
-			"Role"
 		]
 	],
 	"cocus#Event": [
 		[
 			"Event",
+			"conists of",
+			"Event Tracks"
+		],
+		[
+			"Event",
 			"is parent of",
 			"Thing"
 		],
 		[
-			"Event",
-			"is child of",
-			"Workshop"
+			"Event Tracks",
+			"is parent of",
+			"Event Setup"
 		],
 		[
-			"Workshop",
-			"is parent of",
+			"Event Setup",
+			"define",
 			"Event"
+		],
+		[
+			"Event Setup",
+			"is child of",
+			"Email Template"
+		],
+		[
+			"Email Template",
+			"is parent of",
+			"Event Setup"
 		]
 	],
 	"cocus#Account": [
@@ -72,12 +62,17 @@
 		[
 			"Person",
 			"is child of",
-			"User"
+			"Administrator"
 		],
 		[
 			"Person",
-			"is child of",
-			"Administrator"
+			"added by",
+			"Person"
+		],
+		[
+			"Administrator",
+			"is parent of",
+			"Person"
 		],
 		[
 			"Administrator",
@@ -85,101 +80,42 @@
 			"Role"
 		],
 		[
-			"Administrator",
+			"Role",
 			"is parent of",
-			"Person"
-		],
-		[
-			"User",
-			"create",
-			"Event"
-		],
-		[
-			"User",
-			"is child of",
-			"Author"
+			"Thing"
 		],
 		[
 			"Role",
 			"assigned by",
 			"Administrator"
-		],
-		[
-			"Author",
-			"is child of",
-			"Corresponding Author"
-		],
-		[
-			"Event",
-			"is parent of",
-			"Thing"
 		]
 	],
+	"cocus#Inforamtion": [],
 	"cocus#User": [
 		[
 			"User",
-			"is parent of",
-			"Person"
+			"is child of",
+			"Committee"
 		],
 		[
 			"User",
-			"is child of",
-			"Author"
-		],
-		[
-			"Person",
-			"take part in",
-			"Event"
-		],
-		[
-			"Person",
-			"add",
+			"is parent of",
 			"Person"
 		],
 		[
-			"Author",
-			"execute",
-			"Event Creation"
+			"Person",
+			"inverse of add",
+			"Person"
 		],
 		[
-			"Author",
-			"is parent of",
+			"Person",
+			"is child of",
 			"User"
 		],
 		[
-			"Event",
+			"Committee",
 			"is parent of",
-			"Thing"
-		],
-		[
-			"Event",
-			"conists of",
-			"Event Tracks"
-		],
-		[
-			"Event Creation",
-			"has result",
-			"Event"
-		],
-		[
-			"Event Creation",
-			"is parent of",
-			"Activity"
-		],
-		[
-			"Event Tracks",
-			"is parent of",
-			"Event Setup"
-		],
-		[
-			"Activity",
-			"is child of",
-			"Event Creation"
-		],
-		[
-			"Activity",
-			"has result",
-			"Event"
+			"User"
 		]
 	],
 	"cocus#Role": [
@@ -190,13 +126,23 @@
 		],
 		[
 			"Role",
-			"is child of",
-			"Committe Role"
+			"assigned by",
+			"Administrator"
 		],
 		[
-			"Committe Role",
+			"Administrator",
 			"is parent of",
-			"Role"
+			"Person"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"is child of",
+			"Administrator"
 		]
 	],
 	"cocus#Help_Request": [
@@ -209,36 +155,6 @@
 			"Request",
 			"is child of",
 			"Help Request"
-		],
-		[
-			"Request",
-			"is parent of",
-			"Activity"
-		],
-		[
-			"Activity",
-			"has result",
-			"Event"
-		],
-		[
-			"Activity",
-			"has result",
-			"Document"
-		],
-		[
-			"Document",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Event",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Event",
-			"is child of",
-			"Symposium"
 		]
 	],
 	"cocus#Person": [
@@ -246,6 +162,16 @@
 			"Person",
 			"is parent of",
 			"Thing"
+		],
+		[
+			"Person",
+			"is child of",
+			"Administrator"
+		],
+		[
+			"Administrator",
+			"is parent of",
+			"Person"
 		]
 	],
 	"cocus#Symposium": [
@@ -256,13 +182,33 @@
 		],
 		[
 			"Event",
-			"is parent of",
-			"Thing"
+			"is child of",
+			"Symposium"
 		],
 		[
 			"Event",
+			"confirmed by",
+			"Approval Email"
+		],
+		[
+			"Approval Email",
+			"confirm",
+			"Event"
+		],
+		[
+			"Approval Email",
+			"is parent of",
+			"Email"
+		],
+		[
+			"Email",
 			"is child of",
-			"Symposium"
+			"Group Email"
+		],
+		[
+			"Email",
+			"recieved by",
+			"Person"
 		]
 	],
 	"cocus#Abstract": [
@@ -273,30 +219,35 @@
 		],
 		[
 			"Paper",
-			"is parent of",
-			"Document"
+			"is child of",
+			"Invited Paper"
 		],
 		[
-			"Document",
+			"Paper",
+			"is child of",
+			"Abstract"
+		],
+		[
+			"Invited Paper",
 			"is parent of",
-			"Thing"
+			"Paper"
 		]
 	],
 	"cocus#Paper": [
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
 		[
 			"Paper",
 			"submited  by",
 			"Corresponding Author"
 		],
 		[
-			"Paper",
-			"is child of",
-			"Invited Paper"
-		],
-		[
-			"Invited Paper",
+			"Document",
 			"is parent of",
-			"Paper"
+			"Thing"
 		],
 		[
 			"Corresponding Author",
@@ -305,30 +256,30 @@
 		],
 		[
 			"Author",
-			"is parent of",
-			"User"
-		],
-		[
-			"User",
-			"recieve",
-			"Document"
-		],
-		[
-			"User",
-			"is parent of",
-			"Person"
+			"is child of",
+			"Corresponding Author"
 		]
 	],
 	"cocus#Administrator": [
+		[
+			"Administrator",
+			"is parent of",
+			"Person"
+		],
 		[
 			"Administrator",
 			"assign",
 			"Role"
 		],
 		[
-			"Administrator",
-			"execute",
-			"Admin Role"
+			"Person",
+			"add",
+			"Person"
+		],
+		[
+			"Person",
+			"register",
+			"Account"
 		],
 		[
 			"Role",
@@ -341,9 +292,14 @@
 			"Reviewer Role"
 		],
 		[
-			"Admin Role",
-			"is parent of",
-			"Role"
+			"Account",
+			"modified by",
+			"Person"
+		],
+		[
+			"Account",
+			"registred by",
+			"Person"
 		],
 		[
 			"Reviewer Role",
@@ -354,23 +310,23 @@
 	"cocus#Document": [
 		[
 			"Document",
-			"recieved by",
-			"User"
+			"is child of",
+			"Template"
 		],
 		[
 			"Document",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Template",
 			"used by",
 			"Person"
 		],
 		[
-			"User",
-			"take part in",
-			"Event"
-		],
-		[
-			"User",
+			"Template",
 			"is parent of",
-			"Person"
+			"Document"
 		],
 		[
 			"Person",
@@ -380,12 +336,17 @@
 		[
 			"Person",
 			"is child of",
-			"User"
+			"Administrator"
 		],
 		[
-			"Event",
+			"Administrator",
 			"is parent of",
-			"Thing"
+			"Person"
+		],
+		[
+			"Administrator",
+			"assign",
+			"Role"
 		]
 	],
 	"cocus#Invited_Paper": [
@@ -397,22 +358,27 @@
 		[
 			"Paper",
 			"is child of",
-			"Short Paper"
+			"Invited Paper"
 		],
 		[
 			"Paper",
-			"is child of",
-			"Full Paper"
+			"submited  by",
+			"Corresponding Author"
 		],
 		[
-			"Short Paper",
+			"Corresponding Author",
 			"is parent of",
-			"Paper"
+			"Author"
 		],
 		[
-			"Full Paper",
+			"Author",
 			"is parent of",
-			"Paper"
+			"User"
+		],
+		[
+			"Author",
+			"add",
+			"Author"
 		]
 	],
 	"cocus#Admin_Role": [
@@ -423,13 +389,13 @@
 		],
 		[
 			"Role",
-			"is parent of",
-			"Thing"
+			"is child of",
+			"Admin Role"
 		],
 		[
 			"Role",
-			"is child of",
-			"Admin Role"
+			"is parent of",
+			"Thing"
 		]
 	],
 	"cocus#Paper_Typologies": [
@@ -441,7 +407,7 @@
 		[
 			"Event Setup",
 			"is child of",
-			"Email Template"
+			"Paper Typologies"
 		],
 		[
 			"Event Setup",
@@ -449,78 +415,68 @@
 			"Event"
 		],
 		[
-			"Email Template",
+			"Event",
+			"conists of",
+			"Event Tracks"
+		],
+		[
+			"Event",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Event Tracks",
 			"is parent of",
 			"Event Setup"
-		],
-		[
-			"Event",
-			"is child of",
-			"Conference"
-		],
-		[
-			"Event",
-			"confirmed by",
-			"Approval Email"
-		],
-		[
-			"Conference",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Approval Email",
-			"confirm",
-			"Event"
-		],
-		[
-			"Approval Email",
-			"is parent of",
-			"Email"
 		]
 	],
 	"cocus#Event_Setup": [
 		[
 			"Event Setup",
 			"is child of",
-			"Research Topic"
+			"Event Tracks"
 		],
 		[
 			"Event Setup",
-			"define",
-			"Event"
+			"is child of",
+			"Review Form"
 		],
 		[
-			"Research Topic",
+			"Event Tracks",
 			"is parent of",
 			"Event Setup"
 		],
 		[
-			"Event",
+			"Review Form",
+			"is child of",
+			"Review Form Setup"
+		],
+		[
+			"Review Form",
+			"is child of",
+			"Preview"
+		],
+		[
+			"Review Form Setup",
 			"is parent of",
-			"Thing"
+			"Review Form"
 		],
 		[
-			"Event",
-			"confirmed by",
-			"Approval Email"
-		],
-		[
-			"Approval Email",
-			"confirm",
-			"Event"
+			"Preview",
+			"is parent of",
+			"Review Form"
 		]
 	],
 	"cocus#Event_URL": [
 		[
 			"Event URL",
-			"concerned",
-			"Event"
+			"is parent of",
+			"URL"
 		],
 		[
-			"Event",
-			"is parent of",
-			"Thing"
+			"URL",
+			"is child of",
+			"Event URL"
 		]
 	],
 	"cocus#URL": [
@@ -533,26 +489,6 @@
 			"Event URL",
 			"is parent of",
 			"URL"
-		],
-		[
-			"Event URL",
-			"concerned",
-			"Event"
-		],
-		[
-			"Event",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Event",
-			"confirmed by",
-			"Approval Email"
-		],
-		[
-			"Approval Email",
-			"is parent of",
-			"Email"
 		]
 	],
 	"cocus#Notification_Email": [
@@ -563,18 +499,43 @@
 		],
 		[
 			"Email",
-			"is child of",
-			"Notification Email"
+			"is parent of",
+			"Document"
 		],
 		[
 			"Email",
 			"is child of",
-			"Rejection Email"
+			"Notification Email"
 		],
 		[
-			"Rejection Email",
+			"Document",
+			"is child of",
+			"Template"
+		],
+		[
+			"Document",
+			"submited  by",
+			"User"
+		],
+		[
+			"Template",
+			"used by",
+			"Person"
+		],
+		[
+			"Template",
 			"is parent of",
-			"Email"
+			"Document"
+		],
+		[
+			"User",
+			"is child of",
+			"Committee"
+		],
+		[
+			"User",
+			"is parent of",
+			"Person"
 		]
 	],
 	"cocus#Email": [
@@ -584,79 +545,49 @@
 			"Person"
 		],
 		[
-			"Email",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"is child of",
-			"Submission"
-		],
-		[
 			"Person",
 			"is child of",
 			"User"
 		],
 		[
 			"Person",
-			"take part in",
-			"Event"
+			"is child of",
+			"Administrator"
 		],
 		[
-			"Submission",
+			"Administrator",
 			"is parent of",
-			"Document"
+			"Person"
 		],
 		[
-			"Review",
-			"is parent of",
-			"Document"
+			"Administrator",
+			"execute",
+			"Event Approval"
 		],
 		[
 			"User",
-			"send",
-			"Help Request"
+			"is child of",
+			"Committee"
 		],
 		[
 			"User",
-			"create",
-			"Document"
-		],
-		[
-			"Event",
-			"is child of",
-			"Conference"
-		],
-		[
-			"Event",
-			"is child of",
-			"Workshop"
-		],
-		[
-			"Help Request",
-			"is child of",
-			"Feature Request"
-		],
-		[
-			"Help Request",
 			"is parent of",
-			"Request"
+			"Person"
 		],
 		[
-			"Conference",
+			"Event Approval",
 			"is parent of",
-			"Event"
+			"Activity"
 		],
 		[
-			"Workshop",
+			"Event Approval",
+			"has result",
+			"Approval Email"
+		],
+		[
+			"Committee",
 			"is parent of",
-			"Event"
+			"User"
 		]
 	],
 	"cocus#Short_Paper": [
@@ -667,43 +598,28 @@
 		],
 		[
 			"Paper",
-			"submited  by",
-			"Corresponding Author"
-		],
-		[
-			"Paper",
 			"is parent of",
 			"Document"
 		],
 		[
 			"Document",
-			"is parent of",
-			"Thing"
+			"created by",
+			"Person"
 		],
 		[
 			"Document",
 			"is child of",
-			"Review"
+			"Paper"
 		],
 		[
-			"Corresponding Author",
-			"is parent of",
-			"Author"
-		],
-		[
-			"Review",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Author",
-			"is child of",
-			"Corresponding Author"
-		],
-		[
-			"Author",
+			"Person",
 			"remove",
-			"Author"
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"Administrator"
 		]
 	],
 	"cocus#Author_Role": [
@@ -714,21 +630,16 @@
 		],
 		[
 			"Role",
-			"is child of",
-			"Reviewer Role"
+			"is parent of",
+			"Thing"
 		],
 		[
 			"Role",
 			"is child of",
-			"Admin Role"
+			"Committe Role"
 		],
 		[
-			"Admin Role",
-			"is parent of",
-			"Role"
-		],
-		[
-			"Reviewer Role",
+			"Committe Role",
 			"is parent of",
 			"Role"
 		]
@@ -752,12 +663,22 @@
 		[
 			"Event Setup",
 			"is child of",
-			"Review Form"
+			"Submission Template"
 		],
 		[
 			"Event Setup",
 			"define",
 			"Event"
+		],
+		[
+			"Submission Template",
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Event",
+			"confirmed by",
+			"Approval Email"
 		],
 		[
 			"Event",
@@ -769,12 +690,17 @@
 		[
 			"Review Form",
 			"is child of",
-			"Preview"
+			"Review Form Setup"
 		],
 		[
 			"Review Form",
-			"is child of",
-			"Review Form Setup"
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Event Setup",
+			"define",
+			"Event"
 		],
 		[
 			"Review Form Setup",
@@ -782,9 +708,31 @@
 			"Review Form"
 		],
 		[
-			"Preview",
+			"Event",
+			"is child of",
+			"Conference"
+		],
+		[
+			"Event",
 			"is parent of",
-			"Review Form"
+			"Thing"
+		],
+		[
+			"Conference",
+			"is parent of",
+			"Event"
+		]
+	],
+	"cocus#Review": [
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is parent of",
+			"Thing"
 		]
 	],
 	"cocus#Committe_Role": [
@@ -795,13 +743,13 @@
 		],
 		[
 			"Role",
-			"is parent of",
-			"Thing"
+			"is child of",
+			"Admin Role"
 		],
 		[
 			"Role",
-			"is child of",
-			"Admin Role"
+			"is parent of",
+			"Thing"
 		],
 		[
 			"Admin Role",
@@ -817,187 +765,8 @@
 		],
 		[
 			"Email",
-			"recieved by",
-			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"use",
-			"Document"
-		],
-		[
-			"Document",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Document",
 			"is child of",
-			"Template"
-		]
-	],
-	"cocus#Submission_Template": [
-		[
-			"Submission Template",
-			"is parent of",
-			"Event Setup"
-		],
-		[
-			"Event Setup",
-			"define",
-			"Event"
-		],
-		[
-			"Event",
-			"defined by",
-			"Event Setup"
-		],
-		[
-			"Event",
-			"approved by",
-			"Administrator"
-		],
-		[
-			"Administrator",
-			"is parent of",
-			"Person"
-		]
-	],
-	"cocus#Review_Form_Setup": [
-		[
-			"Review Form Setup",
-			"is parent of",
-			"Review Form"
-		],
-		[
-			"Review Form",
-			"is child of",
-			"Preview"
-		],
-		[
-			"Review Form",
-			"is child of",
-			"Review Form Setup"
-		],
-		[
-			"Preview",
-			"is parent of",
-			"Review Form"
-		]
-	],
-	"cocus#Misc": [
-		[
-			"Misc",
-			"is parent of",
-			"Help Request"
-		],
-		[
-			"Help Request",
-			"is parent of",
-			"Request"
-		],
-		[
-			"Request",
-			"is child of",
-			"Help Request"
-		]
-	],
-	"cocus#Author": [
-		[
-			"Author",
-			"is parent of",
-			"User"
-		],
-		[
-			"User",
-			"is child of",
-			"Committee"
-		],
-		[
-			"User",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"Administrator"
-		],
-		[
-			"Committee",
-			"is parent of",
-			"User"
-		],
-		[
-			"Administrator",
-			"approve",
-			"Event"
-		],
-		[
-			"Administrator",
-			"is parent of",
-			"Person"
-		]
-	],
-	"cocus#Event_Creation": [
-		[
-			"Event Creation",
-			"has result",
-			"Event"
-		],
-		[
-			"Event",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Event",
-			"is child of",
-			"Symposium"
-		],
-		[
-			"Symposium",
-			"is parent of",
-			"Event"
-		]
-	],
-	"cocus#Approval_Email": [
-		[
-			"Approval Email",
-			"confirm",
-			"Event"
-		],
-		[
-			"Event",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Event",
-			"is child of",
-			"Conference"
-		],
-		[
-			"Conference",
-			"is parent of",
-			"Event"
-		]
-	],
-	"cocus#Rejection_Email": [
-		[
-			"Rejection Email",
-			"is parent of",
-			"Email"
+			"Approval Email"
 		],
 		[
 			"Email",
@@ -1005,9 +774,14 @@
 			"Notification Email"
 		],
 		[
-			"Email",
-			"recieved by",
-			"Person"
+			"Approval Email",
+			"confirm",
+			"Event"
+		],
+		[
+			"Approval Email",
+			"is parent of",
+			"Email"
 		],
 		[
 			"Notification Email",
@@ -1015,586 +789,19 @@
 			"Email"
 		],
 		[
-			"Person",
+			"Event",
 			"is child of",
-			"User"
-		],
-		[
-			"Person",
-			"is child of",
-			"Administrator"
-		],
-		[
-			"User",
-			"send",
-			"Help Request"
-		],
-		[
-			"User",
-			"is child of",
-			"Committee"
-		],
-		[
-			"Administrator",
-			"is parent of",
-			"Person"
-		]
-	],
-	"cocus#Submission": [
-		[
-			"Submission",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Document",
-			"removed by",
-			"Person"
-		],
-		[
-			"Document",
-			"is child of",
-			"Submission"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"User"
-		],
-		[
-			"User",
-			"send",
-			"Help Request"
-		],
-		[
-			"User",
-			"is parent of",
-			"Person"
-		]
-	],
-	"cocus#Feature_Request": [
-		[
-			"Feature Request",
-			"is parent of",
-			"Help Request"
-		],
-		[
-			"Help Request",
-			"is child of",
-			"Feature Request"
-		],
-		[
-			"Help Request",
-			"is child of",
-			"Assistance"
-		],
-		[
-			"Assistance",
-			"is parent of",
-			"Help Request"
-		]
-	],
-	"cocus#Committee": [
-		[
-			"Committee",
-			"is parent of",
-			"User"
-		],
-		[
-			"User",
-			"is parent of",
-			"Person"
-		],
-		[
-			"User",
-			"is child of",
-			"Author"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"User"
-		],
-		[
-			"Author",
-			"add",
-			"Author"
-		],
-		[
-			"Author",
-			"is parent of",
-			"User"
-		]
-	],
-	"cocus#Event_Tracks": [
-		[
-			"Event Tracks",
-			"is parent of",
-			"Event Setup"
-		],
-		[
-			"Event Setup",
-			"is child of",
-			"Paper Typologies"
-		],
-		[
-			"Event Setup",
-			"is child of",
-			"Email Template"
-		],
-		[
-			"Paper Typologies",
-			"is parent of",
-			"Event Setup"
-		],
-		[
-			"Email Template",
-			"is parent of",
-			"Event Setup"
-		]
-	],
-	"cocus#Request": [
-		[
-			"Request",
-			"is child of",
-			"Help Request"
-		],
-		[
-			"Request",
-			"is parent of",
-			"Activity"
-		],
-		[
-			"Activity",
-			"has result",
-			"Event"
-		],
-		[
-			"Activity",
-			"has result",
-			"Document"
-		],
-		[
-			"Help Request",
-			"is child of",
-			"Assistance"
-		],
-		[
-			"Help Request",
-			"is child of",
-			"Misc"
+			"Conference"
 		],
 		[
 			"Event",
 			"is parent of",
 			"Thing"
-		],
-		[
-			"Document",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Document",
-			"used by",
-			"Person"
-		],
-		[
-			"Misc",
-			"is parent of",
-			"Help Request"
-		],
-		[
-			"Assistance",
-			"is parent of",
-			"Help Request"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"execute",
-			"Role"
 		]
 	],
-	"cocus#Activity": [
-		[
-			"Activity",
-			"has result",
-			"Event"
-		],
-		[
-			"Activity",
-			"sent by",
-			"Person"
-		],
-		[
-			"Event",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Event",
-			"defined by",
-			"Event Setup"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"send",
-			"Activity"
-		],
-		[
-			"Event Setup",
-			"is child of",
-			"Review Form"
-		],
-		[
-			"Event Setup",
-			"define",
-			"Event"
-		],
-		[
-			"Review Form",
-			"is parent of",
-			"Event Setup"
-		],
-		[
-			"Review Form",
-			"is child of",
-			"Review Form Setup"
-		]
-	],
-	"cocus#Head_Role": [
-		[
-			"Head Role",
-			"is parent of",
-			"Role"
-		],
-		[
-			"Role",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Role",
-			"is child of",
-			"Reviewer Role"
-		],
-		[
-			"Reviewer Role",
-			"is parent of",
-			"Role"
-		]
-	],
-	"cocus#Detail": [
-		[
-			"Detail",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Detail",
-			"modified by",
-			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"inverse of add",
-			"Person"
-		]
-	],
-	"cocus#Corresponding_Author": [
-		[
-			"Corresponding Author",
-			"is parent of",
-			"Author"
-		],
-		[
-			"Author",
-			"is child of",
-			"Corresponding Author"
-		],
-		[
-			"Author",
-			"is parent of",
-			"User"
-		],
-		[
-			"User",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Person",
-			"is child of",
-			"User"
-		]
-	],
-	"cocus#Reviewer_Role": [
-		[
-			"Reviewer Role",
-			"is parent of",
-			"Role"
-		],
-		[
-			"Role",
-			"is child of",
-			"Author Role"
-		],
-		[
-			"Role",
-			"is child of",
-			"Committe Role"
-		],
-		[
-			"Author Role",
-			"is parent of",
-			"Role"
-		],
-		[
-			"Committe Role",
-			"is parent of",
-			"Role"
-		]
-	],
-	"cocus#Event_Approval": [
-		[
-			"Event Approval",
-			"is parent of",
-			"Activity"
-		],
-		[
-			"Activity",
-			"is child of",
-			"Event Creation"
-		],
-		[
-			"Activity",
-			"is child of",
-			"Event Approval"
-		],
-		[
-			"Event Creation",
-			"is parent of",
-			"Activity"
-		]
-	],
-	"cocus#Registration": [
-		[
-			"Registration",
-			"has result",
-			"User"
-		],
-		[
-			"User",
-			"send",
-			"Help Request"
-		],
-		[
-			"User",
-			"is child of",
-			"Committee"
-		],
-		[
-			"Committee",
-			"is parent of",
-			"User"
-		],
-		[
-			"Help Request",
-			"is parent of",
-			"Request"
-		],
-		[
-			"Help Request",
-			"is child of",
-			"Misc"
-		],
-		[
-			"Request",
-			"is child of",
-			"Help Request"
-		],
-		[
-			"Misc",
-			"is parent of",
-			"Help Request"
-		]
-	],
-	"cocus#Full_Paper": [
-		[
-			"Full Paper",
-			"is parent of",
-			"Paper"
-		],
-		[
-			"Paper",
-			"is child of",
-			"Abstract"
-		],
-		[
-			"Paper",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Document",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Document",
-			"is child of",
-			"Submission"
-		],
-		[
-			"Abstract",
-			"is parent of",
-			"Paper"
-		],
-		[
-			"Submission",
-			"is parent of",
-			"Document"
-		]
-	],
-	"cocus#Research_Topic": [
-		[
-			"Research Topic",
-			"is parent of",
-			"Event Setup"
-		],
-		[
-			"Event Setup",
-			"is child of",
-			"Submission Template"
-		],
-		[
-			"Event Setup",
-			"is child of",
-			"Review Form"
-		],
-		[
-			"Review Form",
-			"is child of",
-			"Preview"
-		],
-		[
-			"Review Form",
-			"is child of",
-			"Review Form Setup"
-		],
+	"cocus#Submission_Template": [
 		[
 			"Submission Template",
-			"is parent of",
-			"Event Setup"
-		],
-		[
-			"Review Form Setup",
-			"is parent of",
-			"Review Form"
-		],
-		[
-			"Preview",
-			"is parent of",
-			"Review Form"
-		]
-	],
-	"cocus#Conference": [
-		[
-			"Conference",
-			"is parent of",
-			"Event"
-		],
-		[
-			"Event",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Event",
-			"defined by",
-			"Event Setup"
-		],
-		[
-			"Event Setup",
-			"is child of",
-			"Paper Typologies"
-		],
-		[
-			"Event Setup",
-			"define",
-			"Event"
-		],
-		[
-			"Paper Typologies",
-			"is parent of",
-			"Event Setup"
-		]
-	],
-	"cocus#Assistance": [
-		[
-			"Assistance",
-			"is parent of",
-			"Help Request"
-		],
-		[
-			"Help Request",
-			"is parent of",
-			"Request"
-		],
-		[
-			"Request",
-			"is child of",
-			"Help Request"
-		],
-		[
-			"Request",
-			"is parent of",
-			"Activity"
-		],
-		[
-			"Activity",
-			"is child of",
-			"Registration"
-		],
-		[
-			"Activity",
-			"is child of",
-			"Request"
-		]
-	],
-	"cocus#Email_Template": [
-		[
-			"Email Template",
 			"is parent of",
 			"Event Setup"
 		],
@@ -1615,13 +822,967 @@
 		],
 		[
 			"Event",
+			"confirmed by",
+			"Approval Email"
+		],
+		[
+			"Event",
 			"is parent of",
 			"Thing"
+		],
+		[
+			"Approval Email",
+			"confirm",
+			"Event"
+		],
+		[
+			"Approval Email",
+			"is parent of",
+			"Email"
+		]
+	],
+	"cocus#Review_Form_Setup": [
+		[
+			"Review Form Setup",
+			"is parent of",
+			"Review Form"
+		],
+		[
+			"Review Form",
+			"is child of",
+			"Review Form Setup"
+		],
+		[
+			"Review Form",
+			"is child of",
+			"Preview"
+		],
+		[
+			"Preview",
+			"is parent of",
+			"Review Form"
+		]
+	],
+	"cocus#Misc": [
+		[
+			"Misc",
+			"is parent of",
+			"Help Request"
+		],
+		[
+			"Help Request",
+			"is parent of",
+			"Request"
+		],
+		[
+			"Help Request",
+			"is child of",
+			"Feature Request"
+		],
+		[
+			"Request",
+			"is child of",
+			"Help Request"
+		],
+		[
+			"Request",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Feature Request",
+			"is parent of",
+			"Help Request"
+		],
+		[
+			"Activity",
+			"has result",
+			"Document"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Request"
+		]
+	],
+	"cocus#Author": [
+		[
+			"Author",
+			"is parent of",
+			"User"
+		],
+		[
+			"User",
+			"is child of",
+			"Committee"
+		],
+		[
+			"User",
+			"create",
+			"Document"
+		],
+		[
+			"Committee",
+			"is parent of",
+			"User"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Document",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		]
+	],
+	"cocus#Event_Creation": [
+		[
+			"Event Creation",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Activity",
+			"has result",
+			"Document"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Event Creation"
+		],
+		[
+			"Document",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Document",
+			"is child of",
+			"Submission"
+		],
+		[
+			"Submission",
+			"is parent of",
+			"Document"
+		]
+	],
+	"cocus#Approval_Email": [
+		[
+			"Approval Email",
+			"is parent of",
+			"Email"
+		],
+		[
+			"Email",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Email",
+			"is child of",
+			"Rejection Email"
+		],
+		[
+			"Document",
+			"created by",
+			"Person"
+		],
+		[
+			"Document",
+			"recieved by",
+			"User"
+		],
+		[
+			"Rejection Email",
+			"is parent of",
+			"Email"
+		],
+		[
+			"Person",
+			"is child of",
+			"User"
+		],
+		[
+			"Person",
+			"is child of",
+			"Administrator"
+		],
+		[
+			"User",
+			"is child of",
+			"Author"
+		],
+		[
+			"User",
+			"submit",
+			"Document"
+		]
+	],
+	"cocus#Rejection_Email": [
+		[
+			"Rejection Email",
+			"is parent of",
+			"Email"
+		],
+		[
+			"Email",
+			"is child of",
+			"Rejection Email"
+		],
+		[
+			"Email",
+			"recieved by",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"User"
+		],
+		[
+			"Person",
+			"is child of",
+			"Administrator"
+		],
+		[
+			"User",
+			"is parent of",
+			"Person"
+		],
+		[
+			"User",
+			"create",
+			"Event"
+		],
+		[
+			"Administrator",
+			"is parent of",
+			"Person"
+		]
+	],
+	"cocus#Submission": [
+		[
+			"Submission",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is child of",
+			"Email"
+		],
+		[
+			"Document",
+			"recieved by",
+			"User"
+		],
+		[
+			"Email",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Email",
+			"is child of",
+			"Group Email"
+		],
+		[
+			"User",
+			"is child of",
+			"Committee"
+		],
+		[
+			"User",
+			"submit",
+			"Document"
+		],
+		[
+			"Group Email",
+			"is parent of",
+			"Email"
+		],
+		[
+			"Committee",
+			"is parent of",
+			"User"
+		]
+	],
+	"cocus#Template": [
+		[
+			"Template",
+			"used by",
+			"Person"
+		],
+		[
+			"Template",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"cocus#Feature_Request": [
+		[
+			"Feature Request",
+			"is parent of",
+			"Help Request"
+		],
+		[
+			"Help Request",
+			"is child of",
+			"Misc"
+		],
+		[
+			"Help Request",
+			"is parent of",
+			"Request"
+		],
+		[
+			"Request",
+			"is child of",
+			"Help Request"
+		],
+		[
+			"Request",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Misc",
+			"is parent of",
+			"Help Request"
+		],
+		[
+			"Activity",
+			"has result",
+			"Event"
+		],
+		[
+			"Activity",
+			"has result",
+			"Document"
+		]
+	],
+	"cocus#Committee": [
+		[
+			"Committee",
+			"is parent of",
+			"User"
+		],
+		[
+			"User",
+			"is child of",
+			"Author"
+		],
+		[
+			"User",
+			"is child of",
+			"Committee"
+		],
+		[
+			"Author",
+			"is parent of",
+			"User"
+		],
+		[
+			"Author",
+			"is child of",
+			"Corresponding Author"
+		],
+		[
+			"Corresponding Author",
+			"is parent of",
+			"Author"
+		]
+	],
+	"cocus#Event_Tracks": [
+		[
+			"Event Tracks",
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Event Setup",
+			"is child of",
+			"Paper Typologies"
+		],
+		[
+			"Event Setup",
+			"is child of",
+			"Research Topic"
+		],
+		[
+			"Paper Typologies",
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Research Topic",
+			"is parent of",
+			"Event Setup"
+		]
+	],
+	"cocus#Request": [
+		[
+			"Request",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Request"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Event Approval"
+		],
+		[
+			"Event Approval",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Event Approval",
+			"has result",
+			"Approval Email"
+		],
+		[
+			"Approval Email",
+			"confirm",
+			"Event"
+		]
+	],
+	"cocus#Activity": [
+		[
+			"Activity",
+			"is child of",
+			"Registration"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Event Creation"
+		],
+		[
+			"Event Creation",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Registration",
+			"has result",
+			"User"
+		],
+		[
+			"User",
+			"is child of",
+			"Author"
+		],
+		[
+			"User",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"inverse of add",
+			"Person"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Author",
+			"is parent of",
+			"User"
+		],
+		[
+			"Author",
+			"recieve",
+			"Rejection Email"
+		]
+	],
+	"cocus#Head_Role": [
+		[
+			"Head Role",
+			"is parent of",
+			"Role"
+		],
+		[
+			"Role",
+			"assigned by",
+			"Administrator"
+		],
+		[
+			"Role",
+			"is child of",
+			"Reviewer Role"
+		],
+		[
+			"Reviewer Role",
+			"is parent of",
+			"Role"
+		],
+		[
+			"Administrator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"inverse of add",
+			"Person"
+		],
+		[
+			"Person",
+			"remove",
+			"Person"
+		]
+	],
+	"cocus#Detail": [
+		[
+			"Detail",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"cocus#Corresponding_Author": [
+		[
+			"Corresponding Author",
+			"is parent of",
+			"Author"
+		],
+		[
+			"Author",
+			"is parent of",
+			"User"
+		],
+		[
+			"Author",
+			"is child of",
+			"Corresponding Author"
+		],
+		[
+			"User",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"is child of",
+			"Administrator"
+		]
+	],
+	"cocus#Reviewer_Role": [
+		[
+			"Reviewer Role",
+			"is parent of",
+			"Role"
+		],
+		[
+			"Role",
+			"assigned by",
+			"Administrator"
+		],
+		[
+			"Role",
+			"is child of",
+			"Head Role"
+		],
+		[
+			"Head Role",
+			"is parent of",
+			"Role"
+		],
+		[
+			"Administrator",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Administrator",
+			"execute",
+			"Event Approval"
+		],
+		[
+			"Person",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"is child of",
+			"Administrator"
+		],
+		[
+			"Event Approval",
+			"has result",
+			"Approval Email"
+		]
+	],
+	"cocus#Event_Approval": [
+		[
+			"Event Approval",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Event Approval",
+			"has result",
+			"Approval Email"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Registration"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Request"
+		],
+		[
+			"Approval Email",
+			"confirm",
+			"Event"
+		],
+		[
+			"Approval Email",
+			"is parent of",
+			"Email"
+		],
+		[
+			"Registration",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Registration",
+			"has result",
+			"User"
+		],
+		[
+			"Request",
+			"is child of",
+			"Help Request"
+		],
+		[
+			"Request",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Email",
+			"is child of",
+			"Approval Email"
+		],
+		[
+			"Email",
+			"is child of",
+			"Notification Email"
 		],
 		[
 			"Event",
 			"is child of",
 			"Symposium"
+		],
+		[
+			"Event",
+			"defined by",
+			"Event Setup"
+		],
+		[
+			"User",
+			"is child of",
+			"Author"
+		],
+		[
+			"User",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Help Request",
+			"is child of",
+			"Misc"
+		],
+		[
+			"Help Request",
+			"is child of",
+			"Assistance"
+		],
+		[
+			"Notification Email",
+			"is parent of",
+			"Email"
+		],
+		[
+			"Symposium",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Event Setup",
+			"is child of",
+			"Review Form"
+		],
+		[
+			"Event Setup",
+			"is child of",
+			"Research Topic"
+		]
+	],
+	"cocus#Registration": [
+		[
+			"Registration",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Registration",
+			"has result",
+			"User"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Registration"
+		],
+		[
+			"Activity",
+			"sent by",
+			"Person"
+		],
+		[
+			"User",
+			"is child of",
+			"Committee"
+		],
+		[
+			"User",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"add",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"User"
+		],
+		[
+			"Committee",
+			"is parent of",
+			"User"
+		]
+	],
+	"cocus#Full_Paper": [
+		[
+			"Full Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Paper",
+			"is child of",
+			"Invited Paper"
+		],
+		[
+			"Document",
+			"submited  by",
+			"User"
+		],
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Invited Paper",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"User",
+			"is child of",
+			"Committee"
+		],
+		[
+			"User",
+			"take part in",
+			"Event"
+		]
+	],
+	"cocus#Research_Topic": [
+		[
+			"Research Topic",
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Event Setup",
+			"is child of",
+			"Submission Template"
+		],
+		[
+			"Event Setup",
+			"define",
+			"Event"
+		],
+		[
+			"Submission Template",
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Event",
+			"created by",
+			"Person"
+		],
+		[
+			"Event",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Person",
+			"removed by",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
+			"User"
+		]
+	],
+	"cocus#Description": [],
+	"cocus#Conference": [
+		[
+			"Conference",
+			"is parent of",
+			"Event"
+		],
+		[
+			"Event",
+			"conists of",
+			"Event Tracks"
+		],
+		[
+			"Event",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Event Tracks",
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Event Setup",
+			"is child of",
+			"Event Tracks"
+		],
+		[
+			"Event Setup",
+			"define",
+			"Event"
+		]
+	],
+	"cocus#Assistance": [
+		[
+			"Assistance",
+			"is parent of",
+			"Help Request"
+		],
+		[
+			"Help Request",
+			"is child of",
+			"Assistance"
+		],
+		[
+			"Help Request",
+			"is parent of",
+			"Request"
+		],
+		[
+			"Request",
+			"is parent of",
+			"Activity"
+		],
+		[
+			"Activity",
+			"is child of",
+			"Registration"
+		],
+		[
+			"Activity",
+			"sent by",
+			"Person"
+		]
+	],
+	"cocus#Email_Template": [
+		[
+			"Email Template",
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Event Setup",
+			"is child of",
+			"Submission Template"
+		],
+		[
+			"Event Setup",
+			"define",
+			"Event"
+		],
+		[
+			"Submission Template",
+			"is parent of",
+			"Event Setup"
+		],
+		[
+			"Event",
+			"is child of",
+			"Symposium"
+		],
+		[
+			"Event",
+			"is parent of",
+			"Thing"
 		],
 		[
 			"Symposium",

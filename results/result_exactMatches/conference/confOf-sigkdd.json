@@ -1,10 +1,5 @@
 [
 	[
-		"confOf#Organization",
-		"sigkdd#Organizator",
-		1
-	],
-	[
 		"confOf#Person",
 		"sigkdd#Person",
 		1

@@ -40,31 +40,6 @@
 		1
 	],
 	[
-		"confOf#Member",
-		"ekaw#PC_Member",
-		1
-	],
-	[
-		"confOf#Member",
-		"ekaw#OC_Member",
-		1
-	],
-	[
-		"confOf#Member",
-		"ekaw#SC_Member",
-		1
-	],
-	[
-		"confOf#Chair_PC",
-		"ekaw#PC_Chair",
-		1
-	],
-	[
-		"confOf#Chair_PC",
-		"ekaw#OC_Chair",
-		1
-	],
-	[
 		"confOf#Student",
 		"ekaw#Student",
 		1

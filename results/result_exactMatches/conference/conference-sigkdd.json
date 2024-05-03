@@ -20,11 +20,6 @@
 		1
 	],
 	[
-		"conference#Organization",
-		"sigkdd#Organizator",
-		1
-	],
-	[
 		"conference#Program_committee",
 		"sigkdd#Program_Committee",
 		1

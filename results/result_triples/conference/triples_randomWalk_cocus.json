@@ -8,10 +8,15 @@
 		[
 			"event",
 			"is parent of",
-			"conference"
+			"symposium"
 		]
 	],
 	"cocus#Event": [
+		[
+			"event",
+			"is child of",
+			"Thing "
+		],
 		[
 			"event",
 			"is parent of",
@@ -20,30 +25,15 @@
 		[
 			"event",
 			"is parent of",
-			"conference "
-		],
-		[
-			"event",
-			"is parent of",
 			"symposium "
 		],
 		[
 			"event",
-			"is child of",
-			"Thing"
+			"is parent of",
+			"conference"
 		]
 	],
 	"cocus#User": [
-		[
-			"user",
-			"is parent of",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"correspondingauthor "
-		],
 		[
 			"user",
 			"is child of",
@@ -57,15 +47,20 @@
 		[
 			"user",
 			"is parent of",
-			"committee"
+			"committee "
+		],
+		[
+			"user",
+			"is parent of",
+			"author"
+		],
+		[
+			"author",
+			"is parent of",
+			"correspondingauthor"
 		]
 	],
 	"cocus#Role": [
-		[
-			"role",
-			"is parent of",
-			"committerole "
-		],
 		[
 			"role",
 			"is child of",
@@ -74,7 +69,7 @@
 		[
 			"role",
 			"is parent of",
-			"headrole "
+			"reviewerrole "
 		],
 		[
 			"role",
@@ -84,10 +79,30 @@
 		[
 			"role",
 			"is parent of",
-			"adminrole"
+			"adminrole "
+		],
+		[
+			"role",
+			"is parent of",
+			"headrole"
 		]
 	],
 	"cocus#Help_Request": [
+		[
+			"helprequest",
+			"is parent of",
+			"assistance "
+		],
+		[
+			"helprequest",
+			"is parent of",
+			"misc "
+		],
+		[
+			"helprequest",
+			"is parent of",
+			"featurerequest "
+		],
 		[
 			"helprequest",
 			"is child of",
@@ -97,26 +112,6 @@
 			"request",
 			"is child of",
 			"activity"
-		],
-		[
-			"activity",
-			"is parent of",
-			"eventapproval "
-		],
-		[
-			"helprequest",
-			"is parent of",
-			"assistance "
-		],
-		[
-			"helprequest",
-			"is parent of",
-			"featurerequest "
-		],
-		[
-			"helprequest",
-			"is parent of",
-			"misc"
 		]
 	],
 	"cocus#Person": [
@@ -161,30 +156,20 @@
 		],
 		[
 			"paper",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
 			"is parent of",
-			"invitedpaper"
+			"review"
 		]
 	],
 	"cocus#Paper": [
 		[
 			"paper",
 			"is parent of",
-			"invitedpaper "
-		],
-		[
-			"paper",
-			"is parent of",
-			"fullpage "
-		],
-		[
-			"paper",
-			"is parent of",
-			"shortpaper "
-		],
-		[
-			"paper",
-			"is parent of",
-			"abstract "
+			"fullpaper "
 		],
 		[
 			"paper",
@@ -193,8 +178,23 @@
 		],
 		[
 			"document",
-			"is child of",
-			"Thing"
+			"is parent of",
+			"submission "
+		],
+		[
+			"paper",
+			"is parent of",
+			"invitedpaper "
+		],
+		[
+			"paper",
+			"is parent of",
+			"abstract "
+		],
+		[
+			"paper",
+			"is parent of",
+			"shortpaper"
 		]
 	],
 	"cocus#Administrator": [
@@ -207,6 +207,11 @@
 			"person",
 			"is parent of",
 			"user"
+		],
+		[
+			"user",
+			"is parent of",
+			"committee"
 		]
 	],
 	"cocus#Document": [
@@ -223,22 +228,22 @@
 		[
 			"document",
 			"is parent of",
+			"paper"
+		],
+		[
+			"paper",
+			"is parent of",
+			"invitedpaper "
+		],
+		[
+			"document",
+			"is parent of",
 			"email"
 		],
 		[
 			"email",
 			"is parent of",
 			"approvalemail "
-		],
-		[
-			"document",
-			"is parent of",
-			"paper"
-		],
-		[
-			"paper",
-			"is parent of",
-			"abstract "
 		],
 		[
 			"document",
@@ -254,8 +259,18 @@
 		],
 		[
 			"paper",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
 			"is parent of",
-			"fullpage"
+			"email"
+		],
+		[
+			"email",
+			"is parent of",
+			"rejectionemail"
 		]
 	],
 	"cocus#Admin_Role": [
@@ -279,10 +294,20 @@
 		[
 			"eventsetup",
 			"is parent of",
-			"researchtopic"
+			"submissiontemplate"
 		]
 	],
 	"cocus#Event_Setup": [
+		[
+			"eventsetup",
+			"is parent of",
+			"reviewform"
+		],
+		[
+			"reviewform",
+			"is parent of",
+			"preview "
+		],
 		[
 			"eventsetup",
 			"is parent of",
@@ -296,22 +321,17 @@
 		[
 			"eventsetup",
 			"is parent of",
-			"researchtopic "
-		],
-		[
-			"eventsetup",
-			"is parent of",
 			"emailtemplate "
 		],
 		[
 			"eventsetup",
 			"is parent of",
-			"eventtracks"
+			"researchtopic"
 		]
 	],
 	"cocus#Event_URL": [
 		[
-			"eventual",
+			"eventurl",
 			"is child of",
 			"url"
 		]
@@ -320,7 +340,7 @@
 		[
 			"url",
 			"is parent of",
-			"eventual"
+			"eventurl"
 		]
 	],
 	"cocus#Notification_Email": [
@@ -343,18 +363,8 @@
 		],
 		[
 			"document",
-			"is parent of",
-			"review "
-		],
-		[
-			"email",
-			"is parent of",
-			"rejectionemail "
-		],
-		[
-			"email",
-			"is parent of",
-			"groupemail "
+			"is child of",
+			"Thing "
 		],
 		[
 			"email",
@@ -364,7 +374,17 @@
 		[
 			"email",
 			"is parent of",
-			"approvalemail"
+			"approvalemail "
+		],
+		[
+			"email",
+			"is parent of",
+			"rejectionemail "
+		],
+		[
+			"email",
+			"is parent of",
+			"groupemail"
 		]
 	],
 	"cocus#Short_Paper": [
@@ -375,13 +395,8 @@
 		],
 		[
 			"paper",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
-			"is child of",
-			"Thing"
+			"is parent of",
+			"invitedpaper"
 		]
 	],
 	"cocus#Author_Role": [
@@ -392,8 +407,8 @@
 		],
 		[
 			"role",
-			"is parent of",
-			"headrole"
+			"is child of",
+			"Thing"
 		]
 	],
 	"cocus#Preview": [
@@ -404,11 +419,21 @@
 		],
 		[
 			"reviewform",
+			"is child of",
+			"eventsetup"
+		],
+		[
+			"eventsetup",
 			"is parent of",
-			"reviewformsetup"
+			"submissiontemplate"
 		]
 	],
 	"cocus#Review_Form": [
+		[
+			"reviewform",
+			"is parent of",
+			"reviewformsetup "
+		],
 		[
 			"reviewform",
 			"is child of",
@@ -417,12 +442,7 @@
 		[
 			"eventsetup",
 			"is parent of",
-			"submissiontemplate "
-		],
-		[
-			"reviewform",
-			"is parent of",
-			"reviewformsetup "
+			"papertypologies "
 		],
 		[
 			"reviewform",
@@ -450,8 +470,8 @@
 		],
 		[
 			"role",
-			"is child of",
-			"Thing"
+			"is parent of",
+			"authorrole"
 		]
 	],
 	"cocus#Group_Email": [
@@ -462,13 +482,8 @@
 		],
 		[
 			"email",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
-			"is child of",
-			"Thing"
+			"is parent of",
+			"approvalemail"
 		]
 	],
 	"cocus#Submission_Template": [
@@ -480,7 +495,7 @@
 		[
 			"eventsetup",
 			"is parent of",
-			"papertypologies"
+			"eventtracks"
 		]
 	],
 	"cocus#Review_Form_Setup": [
@@ -493,11 +508,6 @@
 			"reviewform",
 			"is child of",
 			"eventsetup"
-		],
-		[
-			"eventsetup",
-			"is parent of",
-			"eventtracks"
 		]
 	],
 	"cocus#Misc": [
@@ -515,11 +525,6 @@
 	"cocus#Author": [
 		[
 			"author",
-			"is parent of",
-			"correspondingauthor "
-		],
-		[
-			"author",
 			"is child of",
 			"user"
 		],
@@ -530,8 +535,13 @@
 		],
 		[
 			"person",
+			"is child of",
+			"Thing "
+		],
+		[
+			"author",
 			"is parent of",
-			"administrator"
+			"correspondingauthor"
 		]
 	],
 	"cocus#Event_Creation": [
@@ -543,7 +553,17 @@
 		[
 			"activity",
 			"is parent of",
-			"registration"
+			"request"
+		],
+		[
+			"request",
+			"is parent of",
+			"helprequest"
+		],
+		[
+			"helprequest",
+			"is parent of",
+			"assistance"
 		]
 	],
 	"cocus#Approval_Email": [
@@ -556,11 +576,6 @@
 			"email",
 			"is child of",
 			"document"
-		],
-		[
-			"document",
-			"is parent of",
-			"submission"
 		]
 	],
 	"cocus#Rejection_Email": [
@@ -571,13 +586,8 @@
 		],
 		[
 			"email",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
 			"is parent of",
-			"submission"
+			"notificationemail"
 		]
 	],
 	"cocus#Submission": [
@@ -588,8 +598,8 @@
 		],
 		[
 			"document",
-			"is parent of",
-			"review"
+			"is child of",
+			"Thing"
 		]
 	],
 	"cocus#Template": [
@@ -612,18 +622,8 @@
 		],
 		[
 			"helprequest",
-			"is child of",
-			"request"
-		],
-		[
-			"request",
-			"is child of",
-			"activity"
-		],
-		[
-			"activity",
 			"is parent of",
-			"eventapproval"
+			"misc"
 		]
 	],
 	"cocus#Committee": [
@@ -634,8 +634,13 @@
 		],
 		[
 			"user",
-			"is child of",
-			"person"
+			"is parent of",
+			"author"
+		],
+		[
+			"author",
+			"is parent of",
+			"correspondingauthor"
 		]
 	],
 	"cocus#Event_Tracks": [
@@ -647,20 +652,15 @@
 		[
 			"eventsetup",
 			"is parent of",
-			"researchtopic"
+			"reviewform"
+		],
+		[
+			"reviewform",
+			"is parent of",
+			"preview"
 		]
 	],
 	"cocus#Request": [
-		[
-			"request",
-			"is child of",
-			"activity"
-		],
-		[
-			"activity",
-			"is parent of",
-			"eventcreation "
-		],
 		[
 			"request",
 			"is parent of",
@@ -669,19 +669,29 @@
 		[
 			"helprequest",
 			"is parent of",
-			"assistance"
+			"misc "
+		],
+		[
+			"request",
+			"is child of",
+			"activity"
+		],
+		[
+			"activity",
+			"is parent of",
+			"eventcreation"
 		]
 	],
 	"cocus#Activity": [
 		[
 			"activity",
 			"is parent of",
-			"registration "
+			"eventcreation "
 		],
 		[
 			"activity",
 			"is parent of",
-			"eventcreation "
+			"registration "
 		],
 		[
 			"activity",
@@ -697,11 +707,6 @@
 			"request",
 			"is parent of",
 			"helprequest"
-		],
-		[
-			"helprequest",
-			"is parent of",
-			"assistance"
 		]
 	],
 	"cocus#Head_Role": [
@@ -712,8 +717,8 @@
 		],
 		[
 			"role",
-			"is parent of",
-			"adminrole"
+			"is child of",
+			"Thing"
 		]
 	],
 	"cocus#Detail": [
@@ -733,6 +738,16 @@
 			"author",
 			"is child of",
 			"user"
+		],
+		[
+			"user",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
+			"is parent of",
+			"administrator"
 		]
 	],
 	"cocus#Reviewer_Role": [
@@ -744,7 +759,7 @@
 		[
 			"role",
 			"is parent of",
-			"headrole"
+			"committerole"
 		]
 	],
 	"cocus#Event_Approval": [
@@ -756,7 +771,17 @@
 		[
 			"activity",
 			"is parent of",
-			"registration"
+			"request"
+		],
+		[
+			"request",
+			"is parent of",
+			"helprequest"
+		],
+		[
+			"helprequest",
+			"is parent of",
+			"featurerequest"
 		]
 	],
 	"cocus#Registration": [
@@ -768,19 +793,34 @@
 		[
 			"activity",
 			"is parent of",
-			"eventapproval"
+			"request"
+		],
+		[
+			"request",
+			"is parent of",
+			"helprequest"
+		],
+		[
+			"helprequest",
+			"is parent of",
+			"misc"
 		]
 	],
 	"cocus#Full_Paper": [
 		[
-			"fullpage",
+			"fullpaper",
 			"is child of",
 			"paper"
 		],
 		[
 			"paper",
-			"is parent of",
-			"abstract"
+			"is child of",
+			"document"
+		],
+		[
+			"document",
+			"is child of",
+			"Thing"
 		]
 	],
 	"cocus#Research_Topic": [
@@ -792,7 +832,7 @@
 		[
 			"eventsetup",
 			"is parent of",
-			"emailtemplate"
+			"submissiontemplate"
 		]
 	],
 	"cocus#Conference": [
@@ -804,7 +844,7 @@
 		[
 			"event",
 			"is parent of",
-			"symposium"
+			"workshop"
 		]
 	],
 	"cocus#Assistance": [
@@ -815,8 +855,18 @@
 		],
 		[
 			"helprequest",
+			"is child of",
+			"request"
+		],
+		[
+			"request",
+			"is child of",
+			"activity"
+		],
+		[
+			"activity",
 			"is parent of",
-			"featurerequest"
+			"registration"
 		]
 	],
 	"cocus#Email_Template": [
@@ -828,7 +878,7 @@
 		[
 			"eventsetup",
 			"is parent of",
-			"submissiontemplate"
+			"papertypologies"
 		]
 	]
 }

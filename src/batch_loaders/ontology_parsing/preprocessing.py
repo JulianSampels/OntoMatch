@@ -128,10 +128,7 @@ class PreprocessingPipeline():
         return new_words
 
     def lowercase(self, words):
-        spell = Speller(lang='en')
-
-
-        return [spell(word.casefold()) for word in words]
+        return [word.casefold() for word in words]
 
     def flatten(self, tokens):
         flattened = []

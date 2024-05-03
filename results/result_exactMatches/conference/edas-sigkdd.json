@@ -15,11 +15,6 @@
 		1
 	],
 	[
-		"edas#Organization",
-		"sigkdd#Organizator",
-		1
-	],
-	[
 		"edas#Conference",
 		"sigkdd#Conference",
 		1

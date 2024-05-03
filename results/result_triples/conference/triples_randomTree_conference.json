@@ -2,13 +2,13 @@
 	"conference#Conference_participant": [
 		[
 			"Conference participant",
-			"is child of",
-			"Active conference participant"
-		],
-		[
-			"Conference participant",
 			"is parent of",
 			"Person"
+		],
+		[
+			"Person",
+			"contributes",
+			"Conference document"
 		],
 		[
 			"Person",
@@ -16,156 +16,77 @@
 			"Committee member"
 		],
 		[
-			"Person",
+			"Committee member",
 			"is child of",
-			"Reviewer"
-		],
-		[
-			"Active conference participant",
-			"gives presentations",
-			"Presentation"
-		],
-		[
-			"Active conference participant",
-			"is equivalent to",
-			"Conference participant"
-		],
-		[
-			"Reviewer",
-			"has a review reference or expertise",
-			"Review preference"
-		],
-		[
-			"Reviewer",
-			"invites co-reviewers",
-			"Reviewer"
+			"Co-chair"
 		],
 		[
 			"Committee member",
-			"is child of",
-			"Chair"
-		],
-		[
-			"Committee member",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Presentation",
-			"is parent of",
-			"Conference contribution"
-		],
-		[
-			"Review preference",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Review preference",
-			"has a topic or a submission contribution",
-			"Topic"
-		],
-		[
-			"Chair",
-			"is parent of",
-			"Committee member"
-		],
-		[
-			"Chair",
-			"was a committee chair of",
+			"was a member of",
 			"Committee"
 		],
 		[
-			"Conference contribution",
+			"Conference document",
 			"is child of",
-			"Written contribution"
+			"Conference announcement"
+		],
+		[
+			"Conference document",
+			"is child of",
+			"Conference contribution"
+		],
+		[
+			"Co-chair",
+			"was a committe co-chair of",
+			"Committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Program committee"
+		],
+		[
+			"Committee",
+			"was a committee of",
+			"Conference volume"
 		],
 		[
 			"Conference contribution",
-			"is child of",
-			"Presentation"
+			"is submitted at",
+			"Conference volume"
+		],
+		[
+			"Conference contribution",
+			"is parent of",
+			"Conference document"
+		],
+		[
+			"Conference announcement",
+			"is parent of",
+			"Conference document"
 		]
 	],
 	"conference#Active_conference_participant": [
 		[
 			"Active conference participant",
-			"gives presentations",
-			"Presentation"
-		],
-		[
-			"Active conference participant",
-			"is equivalent to",
-			"Conference participant"
-		],
-		[
-			"Presentation",
-			"is parent of",
-			"Conference contribution"
-		],
-		[
-			"Presentation",
-			"is child of",
-			"Invited talk"
-		],
-		[
-			"Conference contribution",
-			"is equivalent to",
-			"Invited talk"
-		],
-		[
-			"Conference contribution",
-			"is equivalent to",
-			"Regular contribution"
-		],
-		[
-			"Invited talk",
-			"is parent of",
-			"Presentation"
-		]
-	],
-	"conference#Passive_conference_participant": [
-		[
-			"Passive conference participant",
-			"is parent of",
-			"Conference participant"
-		],
-		[
-			"Passive conference participant",
-			"is equivalent to",
-			"Conference participant"
-		],
-		[
-			"Conference participant",
-			"is child of",
-			"Active conference participant"
-		],
-		[
-			"Conference participant",
-			"is child of",
-			"Passive conference participant"
-		],
-		[
-			"Active conference participant",
-			"is parent of",
-			"Conference participant"
-		],
-		[
-			"Active conference participant",
-			"is parent of",
-			"Invited speaker"
-		],
-		[
-			"Invited speaker",
-			"is child of",
-			"Active conference participant"
-		],
-		[
-			"Invited speaker",
 			"is parent of",
 			"Conference contributor"
-		]
-	],
-	"conference#Person": [
+		],
+		[
+			"Active conference participant",
+			"is equivalent to",
+			"Conference participant"
+		],
+		[
+			"Conference contributor",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference contributor",
+			"is child of",
+			"Active conference participant"
+		],
 		[
 			"Person",
 			"contributes",
@@ -175,13 +96,107 @@
 			"Conference document",
 			"has authors",
 			"Person"
+		],
+		[
+			"Conference document",
+			"is child of",
+			"Conference contribution"
+		]
+	],
+	"conference#Passive_conference_participant": [
+		[
+			"Passive conference participant",
+			"is equivalent to",
+			"Conference participant"
+		],
+		[
+			"Passive conference participant",
+			"is parent of",
+			"Conference participant"
+		],
+		[
+			"Conference participant",
+			"is equivalent to",
+			"Passive conference participant"
+		],
+		[
+			"Conference participant",
+			"is child of",
+			"Active conference participant"
+		],
+		[
+			"Active conference participant",
+			"is equivalent to",
+			"Conference participant"
+		],
+		[
+			"Active conference participant",
+			"gives presentations",
+			"Presentation"
+		],
+		[
+			"Presentation",
+			"is given by",
+			"Active conference participant"
+		],
+		[
+			"Presentation",
+			"is equivalent to",
+			"Conference contribution"
+		]
+	],
+	"conference#Person": [
+		[
+			"Person",
+			"is child of",
+			"Conference contributor"
+		],
+		[
+			"Person",
+			"is child of",
+			"Reviewer"
+		],
+		[
+			"Conference contributor",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference contributor",
+			"is child of",
+			"Invited speaker"
+		],
+		[
+			"Reviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Invited speaker",
+			"is parent of",
+			"Conference contributor"
+		],
+		[
+			"Invited speaker",
+			"is child of",
+			"Active conference participant"
+		],
+		[
+			"Active conference participant",
+			"is parent of",
+			"Regular author"
+		],
+		[
+			"Active conference participant",
+			"is parent of",
+			"Conference participant"
 		]
 	],
 	"conference#Review_expertise": [
 		[
 			"Review expertise",
-			"belongs to reviewers",
-			"Reviewer"
+			"is parent of",
+			"Thing"
 		],
 		[
 			"Review expertise",
@@ -189,19 +204,96 @@
 			"Submitted contribution"
 		],
 		[
+			"Submitted contribution",
+			"is parent of",
+			"Poster"
+		],
+		[
+			"Submitted contribution",
+			"is parent of",
+			"Written contribution"
+		],
+		[
+			"Poster",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Poster",
+			"is parent of",
+			"Conference contribution"
+		],
+		[
+			"Written contribution",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Written contribution",
+			"is parent of",
+			"Conference contribution"
+		],
+		[
+			"Conference contribution",
+			"is equivalent to",
+			"Poster"
+		],
+		[
+			"Conference contribution",
+			"is equivalent to",
+			"Written contribution"
+		]
+	],
+	"conference#Submitted_contribution": [
+		[
+			"Submitted contribution",
+			"is parent of",
+			"Poster"
+		],
+		[
+			"Submitted contribution",
+			"has a review expertise",
+			"Review expertise"
+		],
+		[
+			"Poster",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Poster",
+			"is parent of",
+			"Conference contribution"
+		],
+		[
+			"Review expertise",
+			"belongs to reviewers",
+			"Reviewer"
+		],
+		[
+			"Review expertise",
+			"is parent of",
+			"Thing"
+		],
+		[
+			"Conference contribution",
+			"is equivalent to",
+			"Written contribution"
+		],
+		[
+			"Conference contribution",
+			"is equivalent to",
+			"Regular contribution"
+		],
+		[
 			"Reviewer",
 			"is parent of",
 			"Person"
 		],
 		[
-			"Submitted contribution",
-			"is parent of",
-			"Regular contribution"
-		],
-		[
-			"Submitted contribution",
-			"is child of",
-			"Reviewed contribution"
+			"Reviewer",
+			"invited by",
+			"Reviewer"
 		],
 		[
 			"Person",
@@ -211,141 +303,44 @@
 		[
 			"Person",
 			"is child of",
-			"Committee member"
-		],
-		[
-			"Regular contribution",
-			"is child of",
-			"Paper"
-		],
-		[
-			"Regular contribution",
-			"is equivalent to",
-			"Conference contribution"
-		],
-		[
-			"Reviewed contribution",
-			"is equivalent to",
-			"Rejected contribution"
-		],
-		[
-			"Reviewed contribution",
-			"is child of",
-			"Rejected contribution"
-		],
-		[
-			"Committee member",
-			"is child of",
-			"Chair"
-		],
-		[
-			"Committee member",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Conference document",
-			"has authors",
-			"Person"
-		],
-		[
-			"Paper",
-			"is parent of",
-			"Regular contribution"
-		],
-		[
-			"Paper",
-			"has an abstract",
-			"Abstract"
-		],
-		[
-			"Rejected contribution",
-			"is parent of",
-			"Reviewed contribution"
-		],
-		[
-			"Rejected contribution",
-			"is equivalent to",
-			"Reviewed contribution"
-		]
-	],
-	"conference#Submitted_contribution": [
-		[
-			"Submitted contribution",
-			"is parent of",
-			"Regular contribution"
-		],
-		[
-			"Submitted contribution",
-			"is child of",
-			"Reviewed contribution"
-		],
-		[
-			"Regular contribution",
-			"is equivalent to",
-			"Conference contribution"
-		],
-		[
-			"Regular contribution",
-			"is parent of",
-			"Written contribution"
-		],
-		[
-			"Reviewed contribution",
-			"is equivalent to",
-			"Rejected contribution"
-		],
-		[
-			"Reviewed contribution",
-			"is child of",
-			"Rejected contribution"
-		],
-		[
-			"Written contribution",
-			"is parent of",
-			"Conference contribution"
-		],
-		[
-			"Written contribution",
-			"is child of",
-			"Submitted contribution"
-		],
-		[
-			"Rejected contribution",
-			"is parent of",
-			"Reviewed contribution"
-		],
-		[
-			"Rejected contribution",
-			"is equivalent to",
-			"Reviewed contribution"
-		],
-		[
-			"Conference contribution",
-			"is child of",
-			"Written contribution"
-		],
-		[
-			"Conference contribution",
-			"is child of",
-			"Poster"
+			"Track-workshop chair"
 		]
 	],
 	"conference#Reviewer": [
 		[
 			"Reviewer",
-			"has a review reference or expertise",
-			"Review preference"
+			"is parent of",
+			"Person"
 		],
 		[
-			"Reviewer",
-			"invites co-reviewers",
+			"Person",
+			"contributes",
+			"Conference document"
+		],
+		[
+			"Person",
+			"is child of",
 			"Reviewer"
 		],
 		[
-			"Review preference",
+			"Conference document",
+			"is child of",
+			"Conference announcement"
+		],
+		[
+			"Conference document",
+			"is child of",
+			"Call for participation"
+		],
+		[
+			"Conference announcement",
 			"is parent of",
-			"Thing"
+			"Conference document"
+		],
+		[
+			"Call for participation",
+			"is parent of",
+			"Conference document"
 		]
 	],
 	"conference#Regular_author": [
@@ -355,9 +350,14 @@
 			"Conference contributor"
 		],
 		[
-			"Conference contributor",
+			"Regular author",
 			"is child of",
-			"Active conference participant"
+			"Contribution co-author"
+		],
+		[
+			"Conference contributor",
+			"is parent of",
+			"Person"
 		],
 		[
 			"Conference contributor",
@@ -365,12 +365,37 @@
 			"Invited speaker"
 		],
 		[
-			"Invited speaker",
-			"contributes",
-			"Invited talk"
+			"Contribution co-author",
+			"is parent of",
+			"Regular author"
+		],
+		[
+			"Person",
+			"is child of",
+			"Conference applicant"
+		],
+		[
+			"Person",
+			"is child of",
+			"Reviewer"
 		],
 		[
 			"Invited speaker",
+			"is child of",
+			"Active conference participant"
+		],
+		[
+			"Reviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Conference applicant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Active conference participant",
 			"is parent of",
 			"Conference contributor"
 		],
@@ -378,78 +403,28 @@
 			"Active conference participant",
 			"is equivalent to",
 			"Conference participant"
-		],
-		[
-			"Active conference participant",
-			"is parent of",
-			"Regular author"
-		],
-		[
-			"Invited talk",
-			"is equivalent to",
-			"Conference contribution"
 		]
 	],
 	"conference#Conference_contributor": [
 		[
 			"Conference contributor",
-			"is child of",
-			"Active conference participant"
-		],
-		[
-			"Conference contributor",
-			"is child of",
-			"Regular author"
-		],
-		[
-			"Regular author",
-			"is child of",
-			"Active conference participant"
-		],
-		[
-			"Regular author",
 			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"is child of",
 			"Conference contributor"
 		],
 		[
-			"Active conference participant",
-			"gives presentations",
-			"Presentation"
-		],
-		[
-			"Active conference participant",
-			"is equivalent to",
-			"Conference participant"
-		],
-		[
-			"Presentation",
-			"is parent of",
-			"Conference contribution"
-		],
-		[
-			"Presentation",
+			"Person",
 			"is child of",
-			"Invited talk"
+			"Reviewer"
 		],
 		[
-			"Conference contribution",
+			"Reviewer",
 			"is parent of",
-			"Conference document"
-		],
-		[
-			"Conference contribution",
-			"is equivalent to",
-			"Presentation"
-		],
-		[
-			"Invited talk",
-			"is equivalent to",
-			"Conference contribution"
-		],
-		[
-			"Invited talk",
-			"is parent of",
-			"Presentation"
+			"Person"
 		]
 	],
 	"conference#Contribution_1th-author": [
@@ -460,13 +435,13 @@
 		],
 		[
 			"Regular author",
-			"is child of",
-			"Contribution 1th-author"
+			"is parent of",
+			"Conference contributor"
 		],
 		[
 			"Regular author",
-			"is parent of",
-			"Conference contributor"
+			"is child of",
+			"Active conference participant"
 		],
 		[
 			"Conference contributor",
@@ -474,14 +449,49 @@
 			"Person"
 		],
 		[
-			"Person",
-			"contributes",
-			"Conference document"
+			"Conference contributor",
+			"is child of",
+			"Invited speaker"
+		],
+		[
+			"Active conference participant",
+			"is equivalent to",
+			"Conference participant"
+		],
+		[
+			"Active conference participant",
+			"gives presentations",
+			"Presentation"
 		],
 		[
 			"Person",
 			"is child of",
-			"Reviewer"
+			"Conference applicant"
+		],
+		[
+			"Person",
+			"is child of",
+			"Conference participant"
+		],
+		[
+			"Invited speaker",
+			"contributes",
+			"Invited talk"
+		],
+		[
+			"Invited speaker",
+			"is child of",
+			"Active conference participant"
+		],
+		[
+			"Presentation",
+			"is given by",
+			"Active conference participant"
+		],
+		[
+			"Presentation",
+			"is equivalent to",
+			"Conference contribution"
 		]
 	],
 	"conference#Contribution_co-author": [
@@ -503,17 +513,27 @@
 		[
 			"Conference contributor",
 			"is child of",
-			"Regular author"
-		],
-		[
-			"Person",
-			"contributes",
-			"Conference document"
+			"Invited speaker"
 		],
 		[
 			"Person",
 			"is child of",
 			"Reviewer"
+		],
+		[
+			"Person",
+			"is child of",
+			"Track-workshop chair"
+		],
+		[
+			"Invited speaker",
+			"is parent of",
+			"Conference contributor"
+		],
+		[
+			"Invited speaker",
+			"contributes",
+			"Invited talk"
 		]
 	],
 	"conference#Conference_contribution": [
@@ -524,164 +544,55 @@
 		],
 		[
 			"Conference contribution",
+			"is submitted at",
+			"Conference volume"
+		],
+		[
+			"Written contribution",
 			"is equivalent to",
-			"Regular contribution"
-		],
-		[
-			"Written contribution",
-			"is parent of",
-			"Regular contribution"
-		],
-		[
-			"Written contribution",
-			"is parent of",
-			"Poster"
-		],
-		[
-			"Regular contribution",
-			"is parent of",
-			"Written contribution"
-		],
-		[
-			"Poster",
-			"is parent of",
 			"Conference contribution"
 		],
 		[
-			"Poster",
-			"has an abstract",
-			"Abstract"
+			"Conference volume",
+			"is parent of",
+			"Conference"
 		],
 		[
-			"Abstract",
-			"is the 1th part of",
-			"Paper"
-		],
-		[
-			"Abstract",
-			"is the 1th part of",
-			"Poster"
+			"Conference",
+			"is child of",
+			"Conference volume"
 		]
 	],
 	"conference#Co-chair": [
-		[
-			"Co-chair",
-			"is parent of",
-			"Committee member"
-		],
-		[
-			"Committee member",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Committee member",
-			"was a member of",
-			"Committee"
-		],
-		[
-			"Person",
-			"contributes",
-			"Conference document"
-		],
-		[
-			"Person",
-			"is child of",
-			"Conference contributor"
-		],
-		[
-			"Committee",
-			"is child of",
-			"Organizing committee"
-		],
-		[
-			"Committee",
-			"is equivalent to",
-			"Steering committee"
-		],
-		[
-			"Conference contributor",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Conference contributor",
-			"is child of",
-			"Regular author"
-		],
-		[
-			"Conference document",
-			"is child of",
-			"Conference www"
-		],
-		[
-			"Conference document",
-			"is child of",
-			"Call for paper"
-		],
-		[
-			"Organizing committee",
-			"is parent of",
-			"Committee"
-		],
-		[
-			"Organizing committee",
-			"is equivalent to",
-			"Committee"
-		]
-	],
-	"conference#Committee": [
-		[
-			"Committee",
-			"is equivalent to",
-			"Steering committee"
-		],
-		[
-			"Committee",
-			"has a committee co-chair",
-			"Co-chair"
-		],
-		[
-			"Co-chair",
-			"is parent of",
-			"Committee member"
-		],
 		[
 			"Co-chair",
 			"was a committe co-chair of",
 			"Committee"
 		],
 		[
+			"Co-chair",
+			"is parent of",
+			"Committee member"
+		],
+		[
 			"Committee member",
 			"is parent of",
 			"Person"
 		],
-		[
-			"Committee member",
-			"was a member of",
-			"Committee"
-		],
-		[
-			"Person",
-			"contributes",
-			"Conference document"
-		],
-		[
-			"Person",
-			"is child of",
-			"Committee member"
-		]
-	],
-	"conference#Committee_member": [
 		[
 			"Committee member",
 			"is child of",
 			"Organizer"
 		],
 		[
-			"Committee member",
-			"is parent of",
-			"Person"
+			"Committee",
+			"is equivalent to",
+			"Program committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Program committee"
 		],
 		[
 			"Person",
@@ -691,6 +602,11 @@
 		[
 			"Person",
 			"is child of",
+			"Track-workshop chair"
+		],
+		[
+			"Organizer",
+			"is parent of",
 			"Committee member"
 		],
 		[
@@ -699,9 +615,24 @@
 			"Thing"
 		],
 		[
-			"Organizer",
+			"Program committee",
 			"is parent of",
-			"Organization"
+			"Committee"
+		],
+		[
+			"Program committee",
+			"is equivalent to",
+			"Committee"
+		],
+		[
+			"Track-workshop chair",
+			"was a track-workshop chair of",
+			"Track"
+		],
+		[
+			"Track-workshop chair",
+			"was a track-workshop chair of",
+			"Conference part"
 		],
 		[
 			"Conference document",
@@ -712,14 +643,83 @@
 			"Conference document",
 			"is child of",
 			"Information for participants"
-		],
+		]
+	],
+	"conference#Committee": [
 		[
-			"Organization",
+			"Committee",
 			"is child of",
-			"Organizer"
+			"Steering committee"
 		],
 		[
-			"Information for participants",
+			"Committee",
+			"is child of",
+			"Organizing committee"
+		],
+		[
+			"Steering committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Steering committee",
+			"was a steering committee of",
+			"Conference volume"
+		],
+		[
+			"Organizing committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Organizing committee",
+			"was an organizing committee of",
+			"Conference volume"
+		],
+		[
+			"Conference volume",
+			"is parent of",
+			"Conference"
+		],
+		[
+			"Conference volume",
+			"has a steering committee",
+			"Steering committee"
+		],
+		[
+			"Conference",
+			"is child of",
+			"Conference volume"
+		]
+	],
+	"conference#Committee_member": [
+		[
+			"Committee member",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"contributes",
+			"Conference document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Committee member"
+		],
+		[
+			"Conference document",
+			"is child of",
+			"Call for paper"
+		],
+		[
+			"Conference document",
+			"has authors",
+			"Person"
+		],
+		[
+			"Call for paper",
 			"is parent of",
 			"Conference document"
 		]
@@ -727,13 +727,83 @@
 	"conference#Abstract": [
 		[
 			"Abstract",
+			"is the 1th part of",
+			"Presentation"
+		],
+		[
+			"Abstract",
 			"is parent of",
 			"Extended abstract"
 		],
 		[
 			"Extended abstract",
+			"is parent of",
+			"Regular contribution"
+		],
+		[
+			"Extended abstract",
 			"is child of",
 			"Abstract"
+		],
+		[
+			"Presentation",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Presentation",
+			"is parent of",
+			"Conference contribution"
+		],
+		[
+			"Regular contribution",
+			"is equivalent to",
+			"Paper"
+		],
+		[
+			"Regular contribution",
+			"is parent of",
+			"Written contribution"
+		],
+		[
+			"Conference contribution",
+			"is child of",
+			"Poster"
+		],
+		[
+			"Conference contribution",
+			"is parent of",
+			"Conference document"
+		],
+		[
+			"Written contribution",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Written contribution",
+			"is child of",
+			"Regular contribution"
+		],
+		[
+			"Conference document",
+			"has authors",
+			"Person"
+		],
+		[
+			"Conference document",
+			"is child of",
+			"Conference contribution"
+		],
+		[
+			"Poster",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Poster",
+			"is parent of",
+			"Conference contribution"
 		]
 	],
 	"conference#Extended_abstract": [
@@ -751,11 +821,6 @@
 		],
 		[
 			"Conference volume",
-			"has parts",
-			"Conference part"
-		],
-		[
-			"Conference volume",
 			"is parent of",
 			"Conference"
 		],
@@ -763,38 +828,23 @@
 			"Conference",
 			"is child of",
 			"Conference volume"
-		],
-		[
-			"Conference part",
-			"is part of conference volumes",
-			"Conference volume"
-		],
-		[
-			"Conference part",
-			"is child of",
-			"Workshop"
-		],
-		[
-			"Workshop",
-			"is parent of",
-			"Conference part"
 		]
 	],
 	"conference#Invited_speaker": [
-		[
-			"Invited speaker",
-			"is child of",
-			"Active conference participant"
-		],
 		[
 			"Invited speaker",
 			"is parent of",
 			"Conference contributor"
 		],
 		[
-			"Conference contributor",
+			"Invited speaker",
 			"is child of",
 			"Active conference participant"
+		],
+		[
+			"Conference contributor",
+			"is parent of",
+			"Person"
 		],
 		[
 			"Conference contributor",
@@ -803,33 +853,63 @@
 		],
 		[
 			"Active conference participant",
-			"gives presentations",
-			"Presentation"
+			"is parent of",
+			"Regular author"
 		],
 		[
 			"Active conference participant",
-			"is equivalent to",
+			"is parent of",
 			"Conference participant"
 		],
 		[
-			"Presentation",
-			"is parent of",
-			"Conference contribution"
-		],
-		[
-			"Presentation",
-			"is equivalent to",
-			"Conference contribution"
-		],
-		[
-			"Conference contribution",
-			"is submitted at",
-			"Conference volume"
-		],
-		[
-			"Conference contribution",
-			"is parent of",
+			"Person",
+			"contributes",
 			"Conference document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Reviewer"
+		],
+		[
+			"Regular author",
+			"is parent of",
+			"Conference contributor"
+		],
+		[
+			"Regular author",
+			"is child of",
+			"Contribution co-author"
+		],
+		[
+			"Conference participant",
+			"is equivalent to",
+			"Active conference participant"
+		],
+		[
+			"Conference participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Reviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Reviewer",
+			"has a review reference or expertise",
+			"Review expertise"
+		],
+		[
+			"Conference document",
+			"has authors",
+			"Person"
+		],
+		[
+			"Contribution co-author",
+			"is parent of",
+			"Regular author"
 		]
 	],
 	"conference#Conference_proceedings": [
@@ -852,35 +932,65 @@
 		],
 		[
 			"Conference document",
-			"has authors",
-			"Person"
+			"is child of",
+			"Conference announcement"
 		],
 		[
 			"Conference document",
 			"is child of",
-			"Call for participation"
+			"Conference contribution"
 		],
 		[
-			"Call for participation",
+			"Conference announcement",
 			"is parent of",
 			"Conference document"
 		],
 		[
-			"Person",
-			"contributes",
-			"Conference document"
+			"Conference contribution",
+			"is child of",
+			"Presentation"
+		],
+		[
+			"Conference contribution",
+			"is submitted at",
+			"Conference volume"
+		],
+		[
+			"Presentation",
+			"has an abstract",
+			"Abstract"
+		],
+		[
+			"Presentation",
+			"is child of",
+			"Invited talk"
+		],
+		[
+			"Conference volume",
+			"is parent of",
+			"Conference"
 		]
 	],
 	"conference#Conference_document": [
 		[
 			"Conference document",
 			"is child of",
-			"Information for participants"
+			"Call for paper"
 		],
 		[
 			"Conference document",
 			"is child of",
-			"Call for paper"
+			"Conference contribution"
+		],
+		[
+			"Conference contribution",
+			"is child of",
+			"Poster"
+		],
+		[
+			"Conference contribution",
+			"is parent of",
+			"Conference document"
 		],
 		[
 			"Call for paper",
@@ -888,9 +998,14 @@
 			"Conference document"
 		],
 		[
-			"Information for participants",
+			"Poster",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Poster",
 			"is parent of",
-			"Conference document"
+			"Conference contribution"
 		]
 	],
 	"conference#Organization": [
@@ -902,19 +1017,34 @@
 		[
 			"Organizer",
 			"is parent of",
-			"Thing"
+			"Committee member"
 		],
 		[
 			"Organizer",
 			"is parent of",
-			"Organization"
+			"Thing"
+		],
+		[
+			"Committee member",
+			"is child of",
+			"Chair"
+		],
+		[
+			"Committee member",
+			"is child of",
+			"Organizer"
+		],
+		[
+			"Chair",
+			"is parent of",
+			"Committee member"
 		]
 	],
 	"conference#Regular_contribution": [
 		[
 			"Regular contribution",
-			"is child of",
-			"Written contribution"
+			"is equivalent to",
+			"Paper"
 		],
 		[
 			"Regular contribution",
@@ -923,93 +1053,26 @@
 		],
 		[
 			"Extended abstract",
-			"is child of",
-			"Abstract"
-		],
-		[
-			"Written contribution",
 			"is equivalent to",
-			"Conference contribution"
+			"Regular contribution"
 		],
 		[
-			"Written contribution",
+			"Extended abstract",
 			"is parent of",
-			"Poster"
-		],
-		[
-			"Abstract",
-			"is parent of",
-			"Extended abstract"
-		],
-		[
-			"Abstract",
-			"is the 1th part of",
-			"Presentation"
-		],
-		[
-			"Poster",
-			"is parent of",
-			"Conference contribution"
-		],
-		[
-			"Poster",
-			"is child of",
-			"Submitted contribution"
-		],
-		[
-			"Presentation",
-			"is parent of",
-			"Conference contribution"
-		],
-		[
-			"Conference contribution",
-			"is submitted at",
-			"Conference volume"
-		],
-		[
-			"Conference contribution",
-			"is parent of",
-			"Conference document"
-		],
-		[
-			"Submitted contribution",
-			"has a review expertise",
-			"Review expertise"
-		],
-		[
-			"Submitted contribution",
-			"is child of",
-			"Reviewed contribution"
+			"Regular contribution"
 		]
 	],
 	"conference#Poster": [
 		[
 			"Poster",
 			"is child of",
-			"Submitted contribution"
+			"Written contribution"
 		],
 		[
 			"Poster",
-			"is equivalent to",
-			"Conference contribution"
+			"has an abstract",
+			"Abstract"
 		],
-		[
-			"Submitted contribution",
-			"is child of",
-			"Reviewed contribution"
-		],
-		[
-			"Reviewed contribution",
-			"is equivalent to",
-			"Rejected contribution"
-		],
-		[
-			"Reviewed contribution",
-			"is equivalent to",
-			"Accepted contribution"
-		]
-	],
-	"conference#Written_contribution": [
 		[
 			"Written contribution",
 			"is child of",
@@ -1021,9 +1084,9 @@
 			"Regular contribution"
 		],
 		[
-			"Submitted contribution",
+			"Abstract",
 			"is parent of",
-			"Poster"
+			"Extended abstract"
 		],
 		[
 			"Submitted contribution",
@@ -1031,9 +1094,51 @@
 			"Reviewed contribution"
 		],
 		[
+			"Submitted contribution",
+			"is parent of",
+			"Regular contribution"
+		],
+		[
+			"Regular contribution",
+			"is parent of",
+			"Written contribution"
+		],
+		[
+			"Extended abstract",
+			"is equivalent to",
+			"Regular contribution"
+		],
+		[
+			"Extended abstract",
+			"is parent of",
+			"Regular contribution"
+		],
+		[
+			"Reviewed contribution",
+			"is equivalent to",
+			"Rejected contribution"
+		],
+		[
+			"Reviewed contribution",
+			"is child of",
+			"Rejected contribution"
+		]
+	],
+	"conference#Written_contribution": [
+		[
+			"Written contribution",
+			"is parent of",
+			"Regular contribution"
+		],
+		[
+			"Written contribution",
+			"is child of",
+			"Regular contribution"
+		],
+		[
 			"Regular contribution",
 			"is child of",
-			"Written contribution"
+			"Submitted contribution"
 		],
 		[
 			"Regular contribution",
@@ -1041,76 +1146,26 @@
 			"Paper"
 		],
 		[
-			"Poster",
+			"Submitted contribution",
 			"is parent of",
-			"Conference contribution"
+			"Written contribution"
 		],
 		[
-			"Poster",
-			"is child of",
-			"Submitted contribution"
-		],
-		[
-			"Reviewed contribution",
-			"has a review",
-			"Review"
-		],
-		[
-			"Reviewed contribution",
+			"Submitted contribution",
 			"is parent of",
-			"Submitted contribution"
-		],
-		[
-			"Conference contribution",
-			"is equivalent to",
-			"Invited talk"
-		],
-		[
-			"Conference contribution",
-			"is equivalent to",
-			"Poster"
-		],
-		[
-			"Review",
-			"is parent of",
-			"Conference document"
+			"Regular contribution"
 		]
 	],
 	"conference#Conference_applicant": [
 		[
 			"Conference applicant",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"contributes",
-			"Conference document"
-		],
-		[
-			"Person",
 			"is child of",
-			"Track-workshop chair"
+			"Registeered applicant"
 		],
 		[
-			"Track-workshop chair",
+			"Registeered applicant",
 			"is parent of",
-			"Person"
-		],
-		[
-			"Conference document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Conference document",
-			"has authors",
-			"Person"
-		],
-		[
-			"Review",
-			"is parent of",
-			"Conference document"
+			"Conference applicant"
 		]
 	],
 	"conference#Camera_ready_contribution": [
@@ -1121,75 +1176,25 @@
 		],
 		[
 			"Accepted contribution",
-			"is child of",
-			"Camera ready contribution"
-		],
-		[
-			"Accepted contribution",
-			"is parent of",
+			"is equivalent to",
 			"Reviewed contribution"
-		],
-		[
-			"Reviewed contribution",
-			"is parent of",
-			"Submitted contribution"
-		],
-		[
-			"Submitted contribution",
-			"is parent of",
-			"Regular contribution"
-		],
-		[
-			"Submitted contribution",
-			"has a review expertise",
-			"Review expertise"
 		]
 	],
 	"conference#Accepted_contribution": [
 		[
 			"Accepted contribution",
-			"is parent of",
+			"is equivalent to",
 			"Reviewed contribution"
 		],
 		[
 			"Accepted contribution",
-			"is equivalent to",
-			"Reviewed contribution"
-		],
-		[
-			"Reviewed contribution",
-			"has a review",
-			"Review"
-		],
-		[
-			"Reviewed contribution",
-			"is equivalent to",
-			"Rejected contribution"
-		],
-		[
-			"Review",
-			"is parent of",
-			"Conference document"
-		],
-		[
-			"Review",
-			"has authors",
-			"Reviewer"
-		],
-		[
-			"Conference document",
 			"is child of",
-			"Conference contribution"
+			"Camera ready contribution"
 		],
 		[
-			"Conference document",
-			"is child of",
-			"Call for paper"
-		],
-		[
-			"Reviewer",
+			"Camera ready contribution",
 			"is parent of",
-			"Person"
+			"Accepted contribution"
 		]
 	],
 	"conference#Program_committee": [
@@ -1206,113 +1211,44 @@
 		[
 			"Committee",
 			"is equivalent to",
-			"Organizing committee"
+			"Program committee"
 		],
 		[
 			"Committee",
-			"is child of",
-			"Organizing committee"
-		],
-		[
-			"Organizing committee",
-			"was an organizing committee of",
-			"Conference volume"
-		],
-		[
-			"Conference volume",
-			"has parts",
-			"Conference part"
-		],
-		[
-			"Conference volume",
-			"has a program committee",
-			"Program committee"
+			"is equivalent to",
+			"Steering committee"
 		]
 	],
 	"conference#Organizing_committee": [
 		[
 			"Organizing committee",
-			"is equivalent to",
+			"is parent of",
 			"Committee"
 		],
 		[
 			"Organizing committee",
-			"was an organizing committee of",
-			"Conference volume"
+			"is equivalent to",
+			"Committee"
 		],
 		[
-			"Conference volume",
-			"has tracks",
-			"Track"
+			"Committee",
+			"is equivalent to",
+			"Steering committee"
 		],
 		[
-			"Conference volume",
-			"is parent of",
-			"Conference"
-		],
-		[
-			"Conference",
-			"is child of",
-			"Conference volume"
-		],
-		[
-			"Track",
-			"is parent of",
-			"Conference part"
-		],
-		[
-			"Conference part",
-			"is part of conference volumes",
-			"Conference volume"
-		],
-		[
-			"Conference part",
-			"has a track-workshop-tutorial topic",
-			"Topic"
+			"Committee",
+			"is equivalent to",
+			"Organizing committee"
 		]
 	],
 	"conference#Steering_committee": [
 		[
 			"Steering committee",
-			"is equivalent to",
-			"Committee"
-		]
-	],
-	"conference#Conference_volume": [
-		[
-			"Conference volume",
-			"is parent of",
-			"Conference"
-		],
-		[
-			"Conference",
-			"is child of",
-			"Conference volume"
-		]
-	],
-	"conference#Conference": [
-		[
-			"Conference",
-			"is child of",
-			"Conference volume"
-		],
-		[
-			"Conference volume",
-			"has an organizing committee",
-			"Organizing committee"
-		],
-		[
-			"Conference volume",
-			"is parent of",
-			"Conference"
-		],
-		[
-			"Organizing committee",
 			"is parent of",
 			"Committee"
 		],
 		[
-			"Organizing committee",
+			"Steering committee",
 			"is equivalent to",
 			"Committee"
 		],
@@ -1324,7 +1260,46 @@
 		[
 			"Committee",
 			"is child of",
-			"Organizing committee"
+			"Program committee"
+		],
+		[
+			"Program committee",
+			"is equivalent to",
+			"Committee"
+		]
+	],
+	"conference#Conference_volume": [
+		[
+			"Conference volume",
+			"is parent of",
+			"Conference"
+		],
+		[
+			"Conference volume",
+			"has important dates",
+			"Important dates"
+		],
+		[
+			"Conference",
+			"is child of",
+			"Conference volume"
+		],
+		[
+			"Important dates",
+			"belong to a conference volume",
+			"Conference volume"
+		]
+	],
+	"conference#Conference": [
+		[
+			"Conference",
+			"is child of",
+			"Conference volume"
+		],
+		[
+			"Conference volume",
+			"is parent of",
+			"Conference"
 		]
 	],
 	"conference#Call_for_paper": [
@@ -1341,37 +1316,27 @@
 		[
 			"Conference document",
 			"is child of",
-			"Call for paper"
+			"Conference www"
+		],
+		[
+			"Conference www",
+			"is parent of",
+			"Conference document"
 		],
 		[
 			"Person",
 			"is child of",
-			"Conference contributor"
+			"Conference applicant"
 		],
 		[
 			"Person",
+			"contributes",
+			"Conference document"
+		],
+		[
+			"Conference applicant",
 			"is child of",
-			"Reviewer"
-		],
-		[
-			"Reviewer",
-			"invites co-reviewers",
-			"Reviewer"
-		],
-		[
-			"Reviewer",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Conference contributor",
-			"is child of",
-			"Active conference participant"
-		],
-		[
-			"Conference contributor",
-			"is parent of",
-			"Person"
+			"Registeered applicant"
 		]
 	],
 	"conference#Conference_announcement": [
@@ -1383,23 +1348,43 @@
 		[
 			"Conference document",
 			"is child of",
-			"Call for participation"
+			"Review"
 		],
 		[
 			"Conference document",
 			"is child of",
-			"Conference announcement"
+			"Information for participants"
 		],
 		[
-			"Call for participation",
+			"Information for participants",
 			"is parent of",
 			"Conference document"
+		],
+		[
+			"Review",
+			"reviews",
+			"Reviewed contribution"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Conference document"
+		],
+		[
+			"Reviewed contribution",
+			"is parent of",
+			"Submitted contribution"
+		],
+		[
+			"Reviewed contribution",
+			"has a review",
+			"Review"
 		]
 	],
 	"conference#Paper": [
 		[
 			"Paper",
-			"is parent of",
+			"is equivalent to",
 			"Regular contribution"
 		],
 		[
@@ -1408,29 +1393,14 @@
 			"Abstract"
 		],
 		[
-			"Regular contribution",
-			"is equivalent to",
-			"Conference contribution"
-		],
-		[
-			"Regular contribution",
-			"is parent of",
-			"Written contribution"
-		],
-		[
 			"Abstract",
 			"is parent of",
 			"Extended abstract"
 		],
 		[
-			"Written contribution",
-			"is child of",
-			"Submitted contribution"
-		],
-		[
-			"Written contribution",
-			"is equivalent to",
-			"Conference contribution"
+			"Extended abstract",
+			"is parent of",
+			"Regular contribution"
 		],
 		[
 			"Extended abstract",
@@ -1438,19 +1408,14 @@
 			"Abstract"
 		],
 		[
-			"Extended abstract",
+			"Regular contribution",
 			"is parent of",
-			"Regular contribution"
+			"Written contribution"
 		],
 		[
-			"Submitted contribution",
-			"is parent of",
-			"Regular contribution"
-		],
-		[
-			"Submitted contribution",
+			"Regular contribution",
 			"is child of",
-			"Reviewed contribution"
+			"Written contribution"
 		]
 	],
 	"conference#Invited_talk": [
@@ -1458,41 +1423,6 @@
 			"Invited talk",
 			"is equivalent to",
 			"Conference contribution"
-		],
-		[
-			"Invited talk",
-			"is parent of",
-			"Presentation"
-		],
-		[
-			"Presentation",
-			"is parent of",
-			"Conference contribution"
-		],
-		[
-			"Presentation",
-			"is equivalent to",
-			"Conference contribution"
-		],
-		[
-			"Conference contribution",
-			"is child of",
-			"Written contribution"
-		],
-		[
-			"Conference contribution",
-			"is equivalent to",
-			"Poster"
-		],
-		[
-			"Written contribution",
-			"is equivalent to",
-			"Conference contribution"
-		],
-		[
-			"Written contribution",
-			"is child of",
-			"Regular contribution"
 		]
 	],
 	"conference#Conference_part": [
@@ -1503,11 +1433,187 @@
 		],
 		[
 			"Conference part",
-			"is child of",
-			"Workshop"
+			"is part of conference volumes",
+			"Conference volume"
 		],
 		[
-			"Workshop",
+			"Conference volume",
+			"is parent of",
+			"Conference"
+		],
+		[
+			"Conference volume",
+			"has tracks",
+			"Track"
+		],
+		[
+			"Topic",
+			"is a topis of conference parts",
+			"Conference part"
+		],
+		[
+			"Topic",
+			"belongs to a review reference",
+			"Review preference"
+		],
+		[
+			"Conference",
+			"is child of",
+			"Conference volume"
+		],
+		[
+			"Track",
+			"is parent of",
+			"Conference part"
+		],
+		[
+			"Review preference",
+			"is parent of",
+			"Thing"
+		]
+	],
+	"conference#Presentation": [
+		[
+			"Presentation",
+			"is given by",
+			"Active conference participant"
+		],
+		[
+			"Presentation",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Active conference participant",
+			"is equivalent to",
+			"Conference participant"
+		],
+		[
+			"Active conference participant",
+			"is parent of",
+			"Conference participant"
+		],
+		[
+			"Conference participant",
+			"is equivalent to",
+			"Passive conference participant"
+		],
+		[
+			"Conference participant",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Person",
+			"contributes",
+			"Conference document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Reviewer"
+		]
+	],
+	"conference#Chair": [
+		[
+			"Chair",
+			"was a committee chair of",
+			"Committee"
+		],
+		[
+			"Chair",
+			"is parent of",
+			"Committee member"
+		],
+		[
+			"Committee member",
+			"is child of",
+			"Co-chair"
+		],
+		[
+			"Committee member",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Program committee"
+		],
+		[
+			"Committee",
+			"is child of",
+			"Steering committee"
+		],
+		[
+			"Person",
+			"contributes",
+			"Conference document"
+		],
+		[
+			"Person",
+			"is child of",
+			"Committee member"
+		],
+		[
+			"Co-chair",
+			"was a committe co-chair of",
+			"Committee"
+		],
+		[
+			"Co-chair",
+			"is parent of",
+			"Committee member"
+		],
+		[
+			"Steering committee",
+			"was a steering committee of",
+			"Conference volume"
+		],
+		[
+			"Steering committee",
+			"is equivalent to",
+			"Committee"
+		],
+		[
+			"Program committee",
+			"is parent of",
+			"Committee"
+		],
+		[
+			"Program committee",
+			"is equivalent to",
+			"Committee"
+		],
+		[
+			"Conference document",
+			"has authors",
+			"Person"
+		],
+		[
+			"Conference volume",
+			"is parent of",
+			"Conference"
+		]
+	],
+	"conference#Track": [
+		[
+			"Track",
+			"is parent of",
+			"Conference part"
+		],
+		[
+			"Conference part",
+			"is child of",
+			"Tutorial"
+		],
+		[
+			"Conference part",
+			"has a track-workshop-tutorial topic",
+			"Topic"
+		],
+		[
+			"Tutorial",
 			"is parent of",
 			"Conference part"
 		],
@@ -1525,157 +1631,6 @@
 			"Review preference",
 			"is parent of",
 			"Thing"
-		],
-		[
-			"Review preference",
-			"has a topic or a submission contribution",
-			"Submitted contribution"
-		],
-		[
-			"Submitted contribution",
-			"is parent of",
-			"Written contribution"
-		],
-		[
-			"Submitted contribution",
-			"is child of",
-			"Reviewed contribution"
-		]
-	],
-	"conference#Presentation": [
-		[
-			"Presentation",
-			"is equivalent to",
-			"Conference contribution"
-		],
-		[
-			"Presentation",
-			"is given by",
-			"Active conference participant"
-		],
-		[
-			"Active conference participant",
-			"is equivalent to",
-			"Conference participant"
-		],
-		[
-			"Active conference participant",
-			"is parent of",
-			"Conference contributor"
-		],
-		[
-			"Conference contributor",
-			"is child of",
-			"Invited speaker"
-		],
-		[
-			"Conference contributor",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is child of",
-			"Conference applicant"
-		],
-		[
-			"Person",
-			"is child of",
-			"Conference contributor"
-		],
-		[
-			"Invited speaker",
-			"is child of",
-			"Active conference participant"
-		],
-		[
-			"Invited speaker",
-			"is parent of",
-			"Conference contributor"
-		]
-	],
-	"conference#Chair": [
-		[
-			"Chair",
-			"was a committee chair of",
-			"Committee"
-		],
-		[
-			"Committee",
-			"is child of",
-			"Steering committee"
-		],
-		[
-			"Committee",
-			"has members",
-			"Committee member"
-		],
-		[
-			"Steering committee",
-			"is parent of",
-			"Committee"
-		],
-		[
-			"Steering committee",
-			"is equivalent to",
-			"Committee"
-		],
-		[
-			"Committee member",
-			"is child of",
-			"Co-chair"
-		],
-		[
-			"Committee member",
-			"was a member of",
-			"Committee"
-		],
-		[
-			"Co-chair",
-			"is parent of",
-			"Committee member"
-		]
-	],
-	"conference#Track": [
-		[
-			"Track",
-			"is parent of",
-			"Conference part"
-		],
-		[
-			"Conference part",
-			"has a track-workshop-tutorial chair",
-			"Track-workshop chair"
-		],
-		[
-			"Conference part",
-			"is child of",
-			"Tutorial"
-		],
-		[
-			"Tutorial",
-			"is parent of",
-			"Conference part"
-		],
-		[
-			"Track-workshop chair",
-			"was a track-workshop chair of",
-			"Conference part"
-		],
-		[
-			"Track-workshop chair",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is child of",
-			"Committee member"
-		],
-		[
-			"Person",
-			"is child of",
-			"Reviewer"
 		]
 	],
 	"conference#Workshop": [
@@ -1708,13 +1663,13 @@
 		],
 		[
 			"Conference part",
-			"has a track-workshop-tutorial topic",
-			"Topic"
+			"is child of",
+			"Workshop"
 		],
 		[
 			"Conference part",
 			"is child of",
-			"Workshop"
+			"Track"
 		],
 		[
 			"Workshop",
@@ -1722,24 +1677,9 @@
 			"Conference part"
 		],
 		[
-			"Topic",
-			"is a topis of conference parts",
-			"Conference part"
-		],
-		[
-			"Topic",
-			"belongs to a review reference",
-			"Review preference"
-		],
-		[
-			"Review preference",
+			"Track",
 			"is parent of",
-			"Thing"
-		],
-		[
-			"Review preference",
-			"belongs to reviewers",
-			"Reviewer"
+			"Conference part"
 		]
 	],
 	"conference#Rejected_contribution": [
@@ -1752,13 +1692,43 @@
 	"conference#Reviewed_contribution": [
 		[
 			"Reviewed contribution",
-			"is equivalent to",
-			"Rejected contribution"
+			"is parent of",
+			"Submitted contribution"
 		],
 		[
 			"Reviewed contribution",
 			"is equivalent to",
-			"Accepted contribution"
+			"Rejected contribution"
+		],
+		[
+			"Submitted contribution",
+			"is child of",
+			"Reviewed contribution"
+		],
+		[
+			"Submitted contribution",
+			"is parent of",
+			"Regular contribution"
+		],
+		[
+			"Regular contribution",
+			"is child of",
+			"Submitted contribution"
+		],
+		[
+			"Regular contribution",
+			"is parent of",
+			"Written contribution"
+		],
+		[
+			"Written contribution",
+			"is child of",
+			"Submitted contribution"
+		],
+		[
+			"Written contribution",
+			"is equivalent to",
+			"Conference contribution"
 		]
 	],
 	"conference#Review": [
@@ -1768,71 +1738,51 @@
 			"Conference document"
 		],
 		[
-			"Review",
+			"Conference document",
+			"is child of",
+			"Call for paper"
+		],
+		[
+			"Conference document",
 			"has authors",
-			"Reviewer"
-		],
-		[
-			"Conference document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Conference document",
-			"is child of",
-			"Call for participation"
-		],
-		[
-			"Reviewer",
-			"is parent of",
 			"Person"
 		],
 		[
-			"Call for participation",
+			"Call for paper",
 			"is parent of",
 			"Conference document"
 		],
 		[
 			"Person",
-			"is child of",
-			"Conference applicant"
+			"contributes",
+			"Conference document"
 		],
 		[
 			"Person",
 			"is child of",
-			"Reviewer"
+			"Track-workshop chair"
 		],
 		[
-			"Conference applicant",
-			"is child of",
-			"Registeered applicant"
-		],
-		[
-			"Conference applicant",
+			"Track-workshop chair",
 			"is parent of",
 			"Person"
+		],
+		[
+			"Track-workshop chair",
+			"was a track-workshop chair of",
+			"Conference part"
 		]
 	],
 	"conference#Topic": [
-		[
-			"Topic",
-			"is a topis of conference parts",
-			"Conference part"
-		],
 		[
 			"Topic",
 			"has been assigned a review reference",
 			"Review preference"
 		],
 		[
-			"Review preference",
-			"belongs to reviewers",
-			"Reviewer"
-		],
-		[
-			"Review preference",
-			"has a topic or a submission contribution",
-			"Topic"
+			"Topic",
+			"is a topis of conference parts",
+			"Conference part"
 		],
 		[
 			"Conference part",
@@ -1842,17 +1792,17 @@
 		[
 			"Conference part",
 			"is child of",
-			"Track"
+			"Workshop"
 		],
 		[
-			"Reviewer",
-			"is parent of",
-			"Person"
+			"Review preference",
+			"has a topic or a submission contribution",
+			"Submitted contribution"
 		],
 		[
-			"Track",
+			"Review preference",
 			"is parent of",
-			"Conference part"
+			"Thing"
 		],
 		[
 			"Tutorial",
@@ -1860,61 +1810,81 @@
 			"Conference part"
 		],
 		[
-			"Person",
-			"is child of",
-			"Track-workshop chair"
+			"Workshop",
+			"is parent of",
+			"Conference part"
 		],
 		[
-			"Person",
+			"Submitted contribution",
 			"is child of",
-			"Reviewer"
+			"Reviewed contribution"
+		],
+		[
+			"Submitted contribution",
+			"is parent of",
+			"Written contribution"
+		],
+		[
+			"Written contribution",
+			"is parent of",
+			"Poster"
+		],
+		[
+			"Written contribution",
+			"is equivalent to",
+			"Conference contribution"
+		],
+		[
+			"Reviewed contribution",
+			"is equivalent to",
+			"Rejected contribution"
+		],
+		[
+			"Reviewed contribution",
+			"is equivalent to",
+			"Accepted contribution"
 		]
 	],
 	"conference#Late_paid_applicant": [
-		[
-			"Late paid applicant",
-			"is parent of",
-			"Paid applicant"
-		],
 		[
 			"Late paid applicant",
 			"is equivalent to",
 			"Paid applicant"
 		],
 		[
-			"Paid applicant",
+			"Late paid applicant",
 			"is parent of",
-			"Registeered applicant"
-		],
-		[
-			"Paid applicant",
-			"is child of",
-			"Late paid applicant"
-		],
-		[
-			"Registeered applicant",
-			"is parent of",
-			"Conference applicant"
-		],
-		[
-			"Registeered applicant",
-			"is child of",
 			"Paid applicant"
 		],
 		[
-			"Conference applicant",
+			"Paid applicant",
 			"is child of",
-			"Registeered applicant"
+			"Early paid applicant"
 		],
 		[
-			"Conference applicant",
+			"Paid applicant",
+			"is equivalent to",
+			"Early paid applicant"
+		],
+		[
+			"Early paid applicant",
+			"is equivalent to",
+			"Paid applicant"
+		],
+		[
+			"Early paid applicant",
 			"is parent of",
-			"Person"
+			"Paid applicant"
 		]
 	],
 	"conference#Paid_applicant": [
 		[
 			"Paid applicant",
+			"is child of",
+			"Early paid applicant"
+		],
+		[
+			"Paid applicant",
 			"is parent of",
 			"Registeered applicant"
 		],
@@ -1929,24 +1899,14 @@
 			"Paid applicant"
 		],
 		[
+			"Early paid applicant",
+			"is equivalent to",
+			"Paid applicant"
+		],
+		[
 			"Conference applicant",
 			"is child of",
 			"Registeered applicant"
-		],
-		[
-			"Conference applicant",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
-			"is child of",
-			"Conference applicant"
-		],
-		[
-			"Person",
-			"is child of",
-			"Reviewer"
 		]
 	],
 	"conference#Early_paid_applicant": [
@@ -1956,18 +1916,13 @@
 			"Paid applicant"
 		],
 		[
-			"Early paid applicant",
-			"is equivalent to",
-			"Paid applicant"
-		],
-		[
 			"Paid applicant",
 			"is parent of",
 			"Registeered applicant"
 		],
 		[
 			"Paid applicant",
-			"is equivalent to",
+			"is child of",
 			"Late paid applicant"
 		],
 		[
@@ -1976,66 +1931,36 @@
 			"Conference applicant"
 		],
 		[
-			"Registeered applicant",
-			"is child of",
+			"Late paid applicant",
+			"is equivalent to",
 			"Paid applicant"
-		],
-		[
-			"Conference applicant",
-			"is child of",
-			"Registeered applicant"
 		],
 		[
 			"Conference applicant",
 			"is parent of",
 			"Person"
+		],
+		[
+			"Conference applicant",
+			"is child of",
+			"Registeered applicant"
 		]
 	],
 	"conference#Organizer": [
 		[
 			"Organizer",
 			"is parent of",
-			"Committee member"
+			"Organization"
 		],
 		[
 			"Organizer",
 			"is parent of",
-			"Organization"
-		],
-		[
-			"Committee member",
-			"is child of",
-			"Organizer"
-		],
-		[
-			"Committee member",
-			"is parent of",
-			"Person"
+			"Thing"
 		],
 		[
 			"Organization",
 			"is child of",
 			"Organizer"
-		],
-		[
-			"Person",
-			"is child of",
-			"Track-workshop chair"
-		],
-		[
-			"Person",
-			"is child of",
-			"Reviewer"
-		],
-		[
-			"Track-workshop chair",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Reviewer",
-			"is parent of",
-			"Person"
 		]
 	],
 	"conference#Call_for_participation": [
@@ -2046,63 +1971,18 @@
 		],
 		[
 			"Conference document",
-			"has authors",
-			"Person"
+			"is child of",
+			"Information for participants"
 		],
 		[
 			"Conference document",
 			"is child of",
-			"Conference contribution"
+			"Call for participation"
 		],
 		[
-			"Conference contribution",
-			"is submitted at",
-			"Conference volume"
-		],
-		[
-			"Conference contribution",
+			"Information for participants",
 			"is parent of",
 			"Conference document"
-		],
-		[
-			"Person",
-			"is child of",
-			"Committee member"
-		],
-		[
-			"Person",
-			"is child of",
-			"Conference contributor"
-		],
-		[
-			"Conference volume",
-			"has parts",
-			"Conference part"
-		],
-		[
-			"Conference volume",
-			"is parent of",
-			"Conference"
-		],
-		[
-			"Committee member",
-			"is child of",
-			"Co-chair"
-		],
-		[
-			"Committee member",
-			"is child of",
-			"Chair"
-		],
-		[
-			"Conference contributor",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Conference contributor",
-			"is child of",
-			"Regular author"
 		]
 	],
 	"conference#Publisher": [
@@ -2125,28 +2005,8 @@
 		],
 		[
 			"Conference applicant",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Person",
 			"is child of",
-			"Committee member"
-		],
-		[
-			"Person",
-			"is child of",
-			"Track-workshop chair"
-		],
-		[
-			"Committee member",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Track-workshop chair",
-			"is parent of",
-			"Person"
+			"Registeered applicant"
 		]
 	],
 	"conference#Track-workshop_chair": [
@@ -2158,22 +2018,17 @@
 		[
 			"Person",
 			"is child of",
-			"Conference applicant"
+			"Conference contributor"
 		],
 		[
 			"Person",
 			"is child of",
-			"Conference contributor"
+			"Track-workshop chair"
 		],
 		[
-			"Conference applicant",
+			"Conference contributor",
 			"is child of",
-			"Registeered applicant"
-		],
-		[
-			"Conference applicant",
-			"is parent of",
-			"Person"
+			"Regular author"
 		],
 		[
 			"Conference contributor",
@@ -2181,24 +2036,24 @@
 			"Invited speaker"
 		],
 		[
-			"Conference contributor",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Registeered applicant",
-			"is child of",
-			"Paid applicant"
-		],
-		[
-			"Invited speaker",
-			"contributes",
-			"Invited talk"
-		],
-		[
 			"Invited speaker",
 			"is parent of",
 			"Conference contributor"
+		],
+		[
+			"Invited speaker",
+			"is child of",
+			"Active conference participant"
+		],
+		[
+			"Regular author",
+			"is parent of",
+			"Conference contributor"
+		],
+		[
+			"Regular author",
+			"is child of",
+			"Contribution co-author"
 		]
 	],
 	"conference#Conference_www": [
@@ -2210,34 +2065,50 @@
 		[
 			"Conference document",
 			"is child of",
-			"Conference www"
+			"Call for paper"
 		],
 		[
 			"Conference document",
 			"is child of",
-			"Conference announcement"
+			"Conference contribution"
 		],
 		[
-			"Conference announcement",
+			"Call for paper",
 			"is parent of",
 			"Conference document"
+		],
+		[
+			"Conference contribution",
+			"is submitted at",
+			"Conference volume"
+		],
+		[
+			"Conference contribution",
+			"is parent of",
+			"Conference document"
+		],
+		[
+			"Conference volume",
+			"is parent of",
+			"Conference"
 		]
 	],
+	"conference#Conference_fees": [],
 	"conference#Review_preference": [
-		[
-			"Review preference",
-			"is parent of",
-			"Thing"
-		],
 		[
 			"Review preference",
 			"belongs to reviewers",
 			"Reviewer"
 		],
 		[
+			"Review preference",
+			"is parent of",
+			"Thing"
+		],
+		[
 			"Reviewer",
 			"has a review reference or expertise",
-			"Review expertise"
+			"Review preference"
 		],
 		[
 			"Reviewer",
@@ -2250,24 +2121,14 @@
 			"Conference document"
 		],
 		[
-			"Person",
+			"Conference document",
 			"is child of",
-			"Reviewer"
-		],
-		[
-			"Review expertise",
-			"is parent of",
-			"Thing"
+			"Call for paper"
 		],
 		[
 			"Conference document",
 			"is child of",
-			"Information for participants"
-		],
-		[
-			"Conference document",
-			"is child of",
-			"Conference contribution"
+			"Conference announcement"
 		]
 	]
 }

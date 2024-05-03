@@ -10,16 +10,6 @@
 		1
 	],
 	[
-		"conference#Co-chair",
-		"ekaw#PC_Chair",
-		1
-	],
-	[
-		"conference#Co-chair",
-		"ekaw#OC_Chair",
-		1
-	],
-	[
 		"conference#Abstract",
 		"ekaw#Abstract",
 		1
@@ -47,16 +37,6 @@
 	[
 		"conference#Invited_talk",
 		"ekaw#Invited_Talk",
-		1
-	],
-	[
-		"conference#Chair",
-		"ekaw#PC_Chair",
-		1
-	],
-	[
-		"conference#Chair",
-		"ekaw#OC_Chair",
 		1
 	],
 	[

@@ -9,6 +9,16 @@
 			"socialevent",
 			"is child of",
 			"event"
+		],
+		[
+			"event",
+			"is parent of",
+			"workingevent"
+		],
+		[
+			"workingevent",
+			"is parent of",
+			"tutorial"
 		]
 	],
 	"confOf#Banquet": [
@@ -20,7 +30,7 @@
 		[
 			"socialevent",
 			"is parent of",
-			"trip"
+			"reception"
 		]
 	],
 	"confOf#Reception": [
@@ -33,23 +43,18 @@
 			"socialevent",
 			"is child of",
 			"event"
-		],
-		[
-			"event",
-			"is parent of",
-			"administrativeevent"
-		],
-		[
-			"administrativeevent",
-			"is parent of",
-			"reviewingresultsevent"
 		]
 	],
 	"confOf#Social_event": [
 		[
 			"socialevent",
 			"is parent of",
-			"reception "
+			"trip "
+		],
+		[
+			"socialevent",
+			"is parent of",
+			"banquet "
 		],
 		[
 			"socialevent",
@@ -64,20 +69,25 @@
 		[
 			"workingevent",
 			"is parent of",
-			"workshop "
+			"conference "
 		],
 		[
 			"socialevent",
 			"is parent of",
-			"trip "
-		],
-		[
-			"socialevent",
-			"is parent of",
-			"banquet"
+			"reception"
 		]
 	],
 	"confOf#Event": [
+		[
+			"event",
+			"is parent of",
+			"workingevent"
+		],
+		[
+			"workingevent",
+			"is parent of",
+			"tutorial "
+		],
 		[
 			"event",
 			"is parent of",
@@ -96,25 +106,10 @@
 		[
 			"administrativeevent",
 			"is parent of",
-			"reviewingresultsevent "
-		],
-		[
-			"event",
-			"is parent of",
-			"workingevent"
-		],
-		[
-			"workingevent",
-			"is parent of",
-			"tutorial"
+			"submissionevent"
 		]
 	],
 	"confOf#Contribution": [
-		[
-			"contribution",
-			"is parent of",
-			"shortpaper "
-		],
 		[
 			"contribution",
 			"is child of",
@@ -128,6 +123,11 @@
 		[
 			"contribution",
 			"is parent of",
+			"shortpaper "
+		],
+		[
+			"contribution",
+			"is parent of",
 			"paper"
 		]
 	],
@@ -135,19 +135,24 @@
 		[
 			"organization",
 			"is parent of",
-			"company "
+			"university "
 		],
 		[
 			"organization",
 			"is parent of",
-			"university"
+			"company"
 		]
 	],
 	"confOf#Person": [
 		[
 			"person",
+			"is child of",
+			"Thing "
+		],
+		[
+			"person",
 			"is parent of",
-			"volunteer "
+			"assistant "
 		],
 		[
 			"person",
@@ -162,17 +167,12 @@
 		[
 			"person",
 			"is parent of",
-			"scienceworker "
+			"memberpc "
 		],
 		[
 			"person",
 			"is parent of",
-			"members "
-		],
-		[
-			"person",
-			"is parent of",
-			"assistant"
+			"scholar"
 		]
 	],
 	"confOf#Company": [
@@ -207,8 +207,8 @@
 		],
 		[
 			"person",
-			"is child of",
-			"Thing"
+			"is parent of",
+			"scienceworker"
 		]
 	],
 	"confOf#Administrator": [
@@ -220,7 +220,7 @@
 		[
 			"person",
 			"is parent of",
-			"scholar"
+			"assistant"
 		]
 	],
 	"confOf#Poster": [
@@ -244,7 +244,7 @@
 		[
 			"contribution",
 			"is parent of",
-			"poster"
+			"shortpaper"
 		]
 	],
 	"confOf#Short_paper": [
@@ -255,8 +255,8 @@
 		],
 		[
 			"contribution",
-			"is parent of",
-			"paper"
+			"is child of",
+			"Thing"
 		]
 	],
 	"confOf#Reviewing_results_event": [
@@ -267,8 +267,18 @@
 		],
 		[
 			"administrativeevent",
+			"is child of",
+			"event"
+		],
+		[
+			"event",
 			"is parent of",
-			"reviewingevent"
+			"workingevent"
+		],
+		[
+			"workingevent",
+			"is parent of",
+			"conference"
 		]
 	],
 	"confOf#Administrative_event": [
@@ -290,17 +300,17 @@
 		[
 			"administrativeevent",
 			"is parent of",
+			"reviewingevent "
+		],
+		[
+			"administrativeevent",
+			"is parent of",
 			"submissionevent "
 		],
 		[
 			"administrativeevent",
 			"is parent of",
 			"registrationofparticipantsevent "
-		],
-		[
-			"administrativeevent",
-			"is parent of",
-			"reviewingevent "
 		],
 		[
 			"administrativeevent",
@@ -317,7 +327,7 @@
 		[
 			"administrativeevent",
 			"is parent of",
-			"camerareadyevent"
+			"reviewingresultsevent"
 		]
 	],
 	"confOf#Registration_of_participants_event": [
@@ -340,8 +350,18 @@
 		],
 		[
 			"administrativeevent",
+			"is child of",
+			"event"
+		],
+		[
+			"event",
 			"is parent of",
-			"reviewingresultsevent"
+			"workingevent"
+		],
+		[
+			"workingevent",
+			"is parent of",
+			"conference"
 		]
 	],
 	"confOf#Camera_Ready_event": [
@@ -353,7 +373,7 @@
 		[
 			"administrativeevent",
 			"is parent of",
-			"registrationofparticipantsevent"
+			"reviewingresultsevent"
 		]
 	],
 	"confOf#Workshop": [
@@ -362,37 +382,6 @@
 			"is child of",
 			"workingevent"
 		],
-		[
-			"workingevent",
-			"is parent of",
-			"tutorial"
-		]
-	],
-	"confOf#Conference": [
-		[
-			"conference",
-			"is child of",
-			"workingevent"
-		],
-		[
-			"workingevent",
-			"is parent of",
-			"workshop"
-		]
-	],
-	"confOf#Tutorial": [
-		[
-			"tutorial",
-			"is child of",
-			"workingevent"
-		],
-		[
-			"workingevent",
-			"is parent of",
-			"conference"
-		]
-	],
-	"confOf#Working_event": [
 		[
 			"workingevent",
 			"is child of",
@@ -406,17 +395,63 @@
 		[
 			"socialevent",
 			"is parent of",
-			"reception "
+			"trip"
+		]
+	],
+	"confOf#Conference": [
+		[
+			"conference",
+			"is child of",
+			"workingevent"
+		],
+		[
+			"workingevent",
+			"is parent of",
+			"tutorial"
+		]
+	],
+	"confOf#Tutorial": [
+		[
+			"tutorial",
+			"is child of",
+			"workingevent"
+		],
+		[
+			"workingevent",
+			"is child of",
+			"event"
+		],
+		[
+			"event",
+			"is parent of",
+			"administrativeevent"
+		]
+	],
+	"confOf#Working_event": [
+		[
+			"workingevent",
+			"is parent of",
+			"conference "
+		],
+		[
+			"workingevent",
+			"is child of",
+			"event"
+		],
+		[
+			"event",
+			"is parent of",
+			"socialevent"
+		],
+		[
+			"socialevent",
+			"is parent of",
+			"banquet "
 		],
 		[
 			"workingevent",
 			"is parent of",
 			"workshop "
-		],
-		[
-			"workingevent",
-			"is parent of",
-			"conference "
 		],
 		[
 			"workingevent",
@@ -432,11 +467,26 @@
 		],
 		[
 			"participant",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
 			"is parent of",
-			"regular"
+			"administrator"
 		]
 	],
 	"confOf#Participant": [
+		[
+			"participant",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
+			"is parent of",
+			"chairpc "
+		],
 		[
 			"participant",
 			"is parent of",
@@ -444,52 +494,37 @@
 		],
 		[
 			"participant",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is child of",
-			"Thing "
+			"is parent of",
+			"regular "
 		],
 		[
 			"participant",
 			"is parent of",
-			"member "
-		],
-		[
-			"participant",
-			"is parent of",
-			"regular"
+			"member"
 		]
 	],
 	"confOf#Member_PC": [
 		[
-			"members",
+			"memberpc",
 			"is child of",
 			"person"
 		],
 		[
 			"person",
 			"is parent of",
-			"chair"
+			"administrator"
 		]
 	],
 	"confOf#Chair_PC": [
 		[
-			"chair",
+			"chairpc",
 			"is child of",
 			"person"
 		],
 		[
 			"person",
 			"is parent of",
-			"participant"
-		],
-		[
-			"participant",
-			"is parent of",
-			"student"
+			"volunteer"
 		]
 	],
 	"confOf#Student": [
@@ -505,8 +540,8 @@
 		],
 		[
 			"person",
-			"is parent of",
-			"members"
+			"is child of",
+			"Thing"
 		]
 	],
 	"confOf#Science_Worker": [
@@ -553,13 +588,8 @@
 		],
 		[
 			"participant",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
 			"is parent of",
-			"author"
+			"member"
 		]
 	],
 	"confOf#Author": [
@@ -570,8 +600,8 @@
 		],
 		[
 			"person",
-			"is parent of",
-			"scienceworker"
+			"is child of",
+			"Thing"
 		]
 	]
 }
