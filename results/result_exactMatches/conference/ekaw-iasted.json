@@ -1,0 +1,32 @@
+[
+	[
+		"ekaw#Person",
+		"iasted#Person",
+		1
+	],
+	[
+		"ekaw#Session",
+		"iasted#Session",
+		1
+	],
+	[
+		"ekaw#Document",
+		"iasted#Document",
+		1
+	],
+	[
+		"ekaw#Review",
+		"iasted#Review",
+		1
+	],
+	[
+		"ekaw#Tutorial",
+		"iasted#Tutorial",
+		1
+	],
+	[
+		"ekaw#Session_Chair",
+		"iasted#Session_chair",
+		1
+	]
+]

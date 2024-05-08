@@ -1,0 +1,15 @@
+{
+	"cmt#AuthorNotReviewer;sigkdd#Author_of_paper_student": "yes",
+	"cmt#AuthorNotReviewer;sigkdd#Author_of_paper": "no",
+	"cmt#Co-author;sigkdd#Author_of_paper_student": "yes",
+	"cmt#Co-author;sigkdd#Author_of_paper": "no",
+	"cmt#ConferenceChair;sigkdd#General_Chair": "no",
+	"cmt#ConferenceChair;sigkdd#Program_Chair": "no",
+	"cmt#ConferenceMember;sigkdd#Organizing_Committee_member": "no",
+	"cmt#AssociatedChair;sigkdd#General_Chair": "no",
+	"cmt#AssociatedChair;sigkdd#Program_Chair": "yes",
+	"cmt#ProgramCommitteeChair;sigkdd#General_Chair": "no",
+	"cmt#ProgramCommitteeChair;sigkdd#Program_Chair": "no",
+	"cmt#ProgramCommitteeChair;sigkdd#Organizing_Committee_member": "no",
+	"cmt#ConferenceMember;sigkdd#Invited_Speaker": "no"
+}

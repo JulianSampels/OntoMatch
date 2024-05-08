@@ -1,0 +1,15 @@
+{
+	"edas#Presenter;sigkdd#Speaker": "yes",
+	"edas#ConferenceVenuePlace;sigkdd#Conference_hall": "no",
+	"edas#AccommodationPlace;sigkdd#Hotel": "yes",
+	"edas#DiningPlace;sigkdd#Hotel": "no",
+	"edas#MeetingRoomPlace;sigkdd#Hotel": "yes",
+	"edas#MeetingRoomPlace;sigkdd#Conference_hall": "no",
+	"edas#Attendee;sigkdd#Invited_Speaker": "no",
+	"edas#SessionChair;sigkdd#Program_Chair": "yes",
+	"edas#SessionChair;sigkdd#General_Chair": "yes",
+	"edas#TPCMember;sigkdd#Program_Committee_member": "yes",
+	"edas#TPCMember;sigkdd#Organizing_Committee_member": "no",
+	"edas#ConferenceChair;sigkdd#Program_Chair": "yes",
+	"edas#ConferenceChair;sigkdd#General_Chair": "yes"
+}

@@ -1,0 +1,8 @@
+{
+	"confOf#Short_paper;sigkdd#Document": "no",
+	"confOf#Participant;sigkdd#Invited_Speaker": "no",
+	"confOf#Member_PC;sigkdd#Program_Committee_member": "yes",
+	"confOf#Member_PC;sigkdd#Organizing_Committee_member": "no",
+	"confOf#Member;sigkdd#Program_Committee_member": "yes",
+	"confOf#Member;sigkdd#Organizing_Committee_member": "no"
+}

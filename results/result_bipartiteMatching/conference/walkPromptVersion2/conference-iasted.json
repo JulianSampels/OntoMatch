@@ -1,0 +1,26 @@
+[
+	[
+		"conference#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
+	],
+	[
+		"conference#Person",
+		"iasted#Person"
+	],
+	[
+		"conference#Review",
+		"iasted#Review"
+	],
+	[
+		"conference#Workshop",
+		"iasted#Conference_activity"
+	]
+]

@@ -1,0 +1,21 @@
+{
+	"cmt#Paper;iasted#Transparency": "no",
+	"cmt#Paper;iasted#Form": "no",
+	"cmt#Paper;iasted#Submission": "yes",
+	"cmt#ProgramCommitteeMember;iasted#Delegate": "no",
+	"cmt#ConferenceMember;iasted#Delegate": "yes",
+	"cmt#Chairman;iasted#Delegate": "no",
+	"cmt#Chairman;iasted#Sponsor": "yes",
+	"cmt#AuthorNotReviewer;iasted#Author_cd_proceedings_included": "no",
+	"cmt#AuthorNotReviewer;iasted#Author_book_proceedings_included": "no",
+	"cmt#Co-author;iasted#Author_cd_proceedings_included": "no",
+	"cmt#Co-author;iasted#Author_book_proceedings_included": "yes",
+	"cmt#PaperFullVersion;iasted#Publication": "no",
+	"cmt#PaperAbstract;iasted#Publication": "yes",
+	"cmt#ConferenceChair;iasted#Session_chair": "yes",
+	"cmt#ConferenceChair;iasted#Conference_Hiker": "no",
+	"cmt#ProgramCommitteeMember;iasted#IASTED_non_member": "no",
+	"cmt#ProgramCommitteeMember;iasted#IASTED_member": "yes",
+	"cmt#ProgramCommitteeChair;iasted#Session_chair": "yes",
+	"cmt#AssociatedChair;iasted#Session_chair": "no"
+}

@@ -1,0 +1,34 @@
+[
+	[
+		"conference#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
+	],
+	[
+		"conference#Person",
+		"iasted#Person"
+	],
+	[
+		"conference#Review",
+		"iasted#Review"
+	],
+	[
+		"conference#Conference_document",
+		"iasted#Document"
+	],
+	[
+		"conference#Invited_talk",
+		"iasted#Invitation_letter"
+	],
+	[
+		"conference#Passive_conference_participant",
+		"iasted#Listener"
+	]
+]

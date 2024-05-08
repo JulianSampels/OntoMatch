@@ -1,0 +1,13 @@
+{
+	"cmt#Chairman;confOf#Chair_PC": "yes",
+	"cmt#Chairman;confOf#Participant": "no",
+	"cmt#Chairman;confOf#Member_PC": "yes",
+	"cmt#ConferenceMember;confOf#Participant": "yes",
+	"cmt#ConferenceMember;confOf#Member_PC": "no",
+	"cmt#ProgramCommitteeMember;confOf#Member_PC": "yes",
+	"cmt#User;confOf#Student": "yes",
+	"cmt#User;confOf#Member": "yes",
+	"cmt#User;confOf#Contribution": "no",
+	"cmt#Document;confOf#Short_paper": "yes",
+	"cmt#Co-author;confOf#Member": "yes"
+}

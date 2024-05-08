@@ -1,0 +1,30 @@
+[
+	[
+		"cmt#Author",
+		"iasted#Author"
+	],
+	[
+		"cmt#Review",
+		"iasted#Review"
+	],
+	[
+		"cmt#Document",
+		"iasted#Document"
+	],
+	[
+		"cmt#Person",
+		"iasted#Person"
+	],
+	[
+		"cmt#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"cmt#ConferenceMember",
+		"iasted#Delegate"
+	],
+	[
+		"cmt#ProgramCommitteeMember",
+		"iasted#IASTED_non_member"
+	]
+]

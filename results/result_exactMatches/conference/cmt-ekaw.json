@@ -1,0 +1,27 @@
+[
+	[
+		"cmt#Person",
+		"ekaw#Person",
+		1
+	],
+	[
+		"cmt#Document",
+		"ekaw#Document",
+		1
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Conference",
+		1
+	],
+	[
+		"cmt#Review",
+		"ekaw#Review",
+		1
+	],
+	[
+		"cmt#Paper",
+		"ekaw#Paper",
+		1
+	]
+]
