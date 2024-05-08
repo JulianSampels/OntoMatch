@@ -15,7 +15,7 @@
 		"equivalent_prob": 28,
 		"object_prob": 16
 	},
-	"verbalizeAvailableTriples": true,
+	"verbalizeAvailableTriples": false,
 	"promptVersions": [
 		0,
 		1,
@@ -29,13 +29,13 @@
 	"thresholdForConsideration": 0.4,
 	"neighborhoodRange": 2,
 	"exportFinalMatchingsToRDF": true,
-	"track": "conference",
-	"similarityPath": "../results/result_similarities/conference/",
-	"exactMatchPath": "../results/result_exactMatches/conference/",
-	"triplesPath": "../results/result_triples/conference/",
-	"triplesVerbalizedPath": "../results/result_triplesVerbalized/conference/",
-	"promptsPath": "../results/result_prompts/conference/",
-	"llmOutcomePath": "../results/result_llmOutcome/conference/",
-	"bipartiteMatchingPath": "../results/result_bipartiteMatching/conference/",
-	"rdfPath": "../results/result_RDF/conference/"
+	"track": "ontofarm",
+	"similarityPath": "../results/result_similarities/ontofarm/",
+	"exactMatchPath": "../results/result_exactMatches/ontofarm/",
+	"triplesPath": "../results/result_triples/ontofarm/",
+	"triplesVerbalizedPath": "../results/result_triplesVerbalized/ontofarm/",
+	"promptsPath": "../results/result_prompts/ontofarm/",
+	"llmOutcomePath": "../results/result_llmOutcome/ontofarm/",
+	"bipartiteMatchingPath": "../results/result_bipartiteMatching/ontofarm/",
+	"rdfPath": "../results/result_RDF/ontofarm/"
 }
