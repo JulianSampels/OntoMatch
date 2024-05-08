@@ -2,11 +2,11 @@
 	"reformatThisFile": false,
 	"resetThisFile": false,
 	"importOntologies": true,
-	"computeSimilarities": true,
+	"computeSimilarities": false,
 	"matchExactMatches": true,
 	"thresholdForExactMatches": 0.95,
-	"runRandomWalkAlgorithm": true,
-	"runRandomTreeAlgorithm": true,
+	"runRandomWalkAlgorithm": false,
+	"runRandomTreeAlgorithm": false,
 	"randomTreeConfig": {
 		"breadth": 2,
 		"path_depth": 3,
@@ -15,7 +15,7 @@
 		"equivalent_prob": 28,
 		"object_prob": 16
 	},
-	"verbalizeAvailableTriples": true,
+	"verbalizeAvailableTriples": false,
 	"promptVersions": [
 		0,
 		1,
