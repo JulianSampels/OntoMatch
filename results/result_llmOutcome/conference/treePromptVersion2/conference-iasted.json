@@ -1,26 +1,6 @@
 {
-	"conference#Invited_talk;iasted#Conference_activity": "no",
-	"conference#Conference_contribution;iasted#Conference_activity": "no",
 	"conference#Conference_document;iasted#Document": "no",
 	"conference#Committee_member;iasted#Delegate": "no",
-	"conference#Conference_document;iasted#Conference_activity": "no",
-	"conference#Conference_document;iasted#Payment_document": "no",
-	"conference#Workshop;iasted#Conference_activity": "yes",
-	"conference#Workshop;iasted#Lecture": "no",
-	"conference#Conference_part;iasted#Conference_activity": "no",
-	"conference#Conference_contributor;iasted#Conference_Hiker": "no",
-	"conference#Passive_conference_participant;iasted#Listener": "no",
-	"conference#Committee_member;iasted#IASTED_non_member": "yes",
-	"conference#Committee_member;iasted#IASTED_member": "no",
-	"conference#Committee_member;iasted#Conference_Hiker": "no",
-	"conference#Regular_author;iasted#IASTED_non_member": "yes",
-	"conference#Co-chair;iasted#Session_chair": "no",
-	"conference#Conference_applicant;iasted#Conference_Hiker": "no",
-	"conference#Invited_speaker;iasted#Non_speaker": "no",
-	"conference#Invited_speaker;iasted#Speaker": "yes",
-	"conference#Invited_speaker;iasted#Conference_Hiker": "no",
-	"conference#Conference_participant;iasted#Conference_Hiker": "no",
-	"conference#Regular_author;iasted#Author": "no",
-	"conference#Track;iasted#Activity": "no",
-	"conference#Contribution_co-author;iasted#IASTED_member": "no"
+	"conference#Invited_talk;iasted#Conference_activity": "no",
+	"conference#Conference_contribution;iasted#Conference_activity": "no"
 }

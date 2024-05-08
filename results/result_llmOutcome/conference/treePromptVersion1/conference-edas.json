@@ -1,22 +1,11 @@
 {
 	"conference#Conference_document;edas#Document": "no",
-	"conference#Conference_contributor;edas#ConferenceChair": "no",
-	"conference#Committee_member;edas#TPCMember": "no",
-	"conference#Committee_member;edas#Attendee": "no",
-	"conference#Track-workshop_chair;edas#ConferenceChair": "yes",
+	"conference#Conference_contributor;edas#ConferenceChair": "yes",
+	"conference#Track-workshop_chair;edas#ConferenceChair": "no",
 	"conference#Conference_applicant;edas#ConferenceChair": "no",
 	"conference#Conference_applicant;edas#Attendee": "no",
 	"conference#Conference_participant;edas#ConferenceChair": "no",
 	"conference#Conference_participant;edas#Attendee": "no",
-	"conference#Call_for_participation;edas#Call": "yes",
-	"conference#Call_for_participation;edas#CallForReviews": "no",
-	"conference#Call_for_participation;edas#CallForManuscripts": "no",
-	"conference#Conference_part;edas#TalkEvent": "no",
-	"conference#Conference_part;edas#ConferenceEvent": "no",
-	"conference#Regular_author;edas#Author": "no",
-	"conference#Co-chair;edas#SessionChair": "no",
-	"conference#Conference_applicant;edas#Presenter": "no",
-	"conference#Invited_speaker;edas#Presenter": "no",
-	"conference#Invited_speaker;edas#Attendee": "no",
-	"conference#Conference_participant;edas#Presenter": "yes"
+	"conference#Committee_member;edas#TPCMember": "no",
+	"conference#Committee_member;edas#Attendee": "no"
 }

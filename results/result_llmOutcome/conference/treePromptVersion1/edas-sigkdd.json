@@ -1,16 +1,8 @@
 {
 	"edas#Presenter;sigkdd#Speaker": "no",
-	"edas#AccommodationPlace;sigkdd#Hotel": "yes",
-	"edas#MeetingRoomPlace;sigkdd#Hotel": "no",
-	"edas#MeetingRoomPlace;sigkdd#Conference_hall": "no",
-	"edas#ConferenceVenuePlace;sigkdd#Conference_hall": "no",
 	"edas#DiningPlace;sigkdd#Hotel": "no",
-	"edas#Presenter;sigkdd#Invited_Speaker": "no",
-	"edas#Attendee;sigkdd#Invited_Speaker": "no",
-	"edas#ConferenceChair;sigkdd#General_Chair": "no",
-	"edas#ConferenceChair;sigkdd#Program_Chair": "no",
-	"edas#TPCMember;sigkdd#Program_Committee_member": "no",
-	"edas#TPCMember;sigkdd#Organizing_Committee_member": "yes",
-	"edas#SessionChair;sigkdd#General_Chair": "no",
-	"edas#SessionChair;sigkdd#Program_Chair": "no"
+	"edas#AccommodationPlace;sigkdd#Hotel": "yes",
+	"edas#ConferenceVenuePlace;sigkdd#Conference_hall": "no",
+	"edas#MeetingRoomPlace;sigkdd#Conference_hall": "no",
+	"edas#MeetingRoomPlace;sigkdd#Hotel": "no"
 }

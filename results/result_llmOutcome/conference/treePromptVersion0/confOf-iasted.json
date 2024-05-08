@@ -1,26 +1,4 @@
 {
 	"confOf#Administrator;iasted#Delegate": "no",
-	"confOf#Participant;iasted#Sponsor": "no",
-	"confOf#Workshop;iasted#Conference_activity": "no",
-	"confOf#Workshop;iasted#Lecture": "no",
-	"confOf#Conference;iasted#Conference_activity": "yes",
-	"confOf#Science_Worker;iasted#Technical_commitee": "no",
-	"confOf#Member;iasted#IASTED_non_member": "no",
-	"confOf#Member;iasted#IASTED_member": "yes",
-	"confOf#Assistant;iasted#IASTED_non_member": "no",
-	"confOf#Contribution;iasted#Sponsor": "no",
-	"confOf#Science_Worker;iasted#Student_lecturer": "no",
-	"confOf#Science_Worker;iasted#Worker_lecturer": "no",
-	"confOf#Science_Worker;iasted#Lecturer": "no",
-	"confOf#Scholar;iasted#Student_lecturer": "yes",
-	"confOf#Participant;iasted#Student_lecturer": "no",
-	"confOf#Event;iasted#Activity": "yes",
-	"confOf#Workshop;iasted#Social_program": "no",
-	"confOf#Workshop;iasted#Presentation": "no",
-	"confOf#Workshop;iasted#Activity": "no",
-	"confOf#Trip;iasted#Departure": "yes",
-	"confOf#Banquet;iasted#Presentation": "no",
-	"confOf#Registration_of_participants_event;iasted#Registration": "yes",
-	"confOf#Social_event;iasted#Social_program": "no",
-	"confOf#Social_event;iasted#Technic_activity": "no"
+	"confOf#Participant;iasted#Sponsor": "no"
 }

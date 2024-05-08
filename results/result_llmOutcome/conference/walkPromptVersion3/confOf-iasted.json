@@ -1,21 +1,4 @@
 {
-	"confOf#Participant;iasted#Sponsor": "yes",
-	"confOf#Administrator;iasted#Delegate": "yes",
-	"confOf#Conference;iasted#Conference_activity": "no",
-	"confOf#Workshop;iasted#Conference_activity": "no",
-	"confOf#Workshop;iasted#Lecture": "yes",
-	"confOf#Scholar;iasted#Student_lecturer": "yes",
-	"confOf#Science_Worker;iasted#Student_lecturer": "yes",
-	"confOf#Science_Worker;iasted#Worker_lecturer": "no",
-	"confOf#Science_Worker;iasted#Lecturer": "no",
-	"confOf#Member;iasted#IASTED_non_member": "no",
-	"confOf#Member;iasted#IASTED_member": "yes",
-	"confOf#Assistant;iasted#IASTED_non_member": "yes",
-	"confOf#Science_Worker;iasted#Technical_commitee": "no",
-	"confOf#Scholar;iasted#Student_non_speaker": "yes",
-	"confOf#Assistant;iasted#Worker_non_speaker": "no",
-	"confOf#Science_Worker;iasted#Student_non_speaker": "yes",
-	"confOf#Science_Worker;iasted#Worker_non_speaker": "no",
-	"confOf#Conference;iasted#Presentation": "no",
-	"confOf#Event;iasted#Activity": "no"
+	"confOf#Administrator;iasted#Delegate": "no",
+	"confOf#Participant;iasted#Sponsor": "yes"
 }

@@ -1,16 +1,3 @@
 {
-	"conference#Conference_document;sigkdd#Document": "yes",
-	"conference#Regular_author;sigkdd#Author": "yes",
-	"conference#Organizer;sigkdd#Organizing_Committee_member": "no",
-	"conference#Co-chair;sigkdd#Program_Chair": "no",
-	"conference#Co-chair;sigkdd#General_Chair": "no",
-	"conference#Track-workshop_chair;sigkdd#Program_Chair": "yes",
-	"conference#Track-workshop_chair;sigkdd#General_Chair": "no",
-	"conference#Passive_conference_participant;sigkdd#Listener": "yes",
-	"conference#Committee_member;sigkdd#Program_Committee_member": "yes",
-	"conference#Committee_member;sigkdd#Organizing_Committee_member": "no",
-	"conference#Contribution_co-author;sigkdd#Author_of_paper_student": "no",
-	"conference#Contribution_co-author;sigkdd#Author_of_paper": "no",
-	"conference#Contribution_1th-author;sigkdd#Author_of_paper_student": "no",
-	"conference#Organization;sigkdd#Organizing_Committee_member": "no"
+	"conference#Conference_document;sigkdd#Document": "no"
 }

@@ -1,20 +1,3 @@
 {
-	"ekaw#Presenter;sigkdd#Speaker": "no",
-	"ekaw#Session_Chair;sigkdd#General_Chair": "no",
-	"ekaw#Session_Chair;sigkdd#Program_Chair": "no",
-	"ekaw#Workshop_Chair;sigkdd#General_Chair": "no",
-	"ekaw#Workshop_Chair;sigkdd#Program_Chair": "yes",
-	"ekaw#Tutorial_Chair;sigkdd#General_Chair": "no",
-	"ekaw#Tutorial_Chair;sigkdd#Program_Chair": "yes",
-	"ekaw#Demo_Chair;sigkdd#General_Chair": "no",
-	"ekaw#Demo_Chair;sigkdd#Program_Chair": "no",
-	"ekaw#PC_Chair;sigkdd#General_Chair": "no",
-	"ekaw#PC_Chair;sigkdd#Program_Chair": "no",
-	"ekaw#PC_Member;sigkdd#Program_Committee_member": "no",
-	"ekaw#PC_Member;sigkdd#Organizing_Committee_member": "no",
-	"ekaw#Paper_Author;sigkdd#Author": "no",
-	"ekaw#Agency_Staff_Member;sigkdd#Program_Committee_member": "no",
-	"ekaw#Agency_Staff_Member;sigkdd#Organizing_Committee_member": "no",
-	"ekaw#SC_Member;sigkdd#Program_Committee_member": "no",
-	"ekaw#SC_Member;sigkdd#Organizing_Committee_member": "no"
+	"ekaw#Presenter;sigkdd#Speaker": "no"
 }

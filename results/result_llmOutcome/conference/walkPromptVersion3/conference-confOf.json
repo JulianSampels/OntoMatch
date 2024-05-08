@@ -1,21 +1,10 @@
 {
-	"conference#Conference_participant;confOf#Participant": "yes",
-	"conference#Conference_contributor;confOf#Member_PC": "no",
-	"conference#Committee_member;confOf#Chair_PC": "no",
-	"conference#Committee_member;confOf#Participant": "yes",
-	"conference#Committee_member;confOf#Member_PC": "no",
-	"conference#Written_contribution;confOf#Contribution": "yes",
 	"conference#Submitted_contribution;confOf#Contribution": "no",
-	"conference#Conference_contribution;confOf#Contribution": "yes",
-	"conference#Conference_part;confOf#Event": "no",
-	"conference#Conference_volume;confOf#Event": "no",
-	"conference#Regular_author;confOf#Member": "no",
-	"conference#Regular_author;confOf#Regular": "yes",
-	"conference#Regular_author;confOf#Author": "yes",
-	"conference#Regular_author;confOf#Administrator": "no",
-	"conference#Chair;confOf#Chair_PC": "yes",
-	"conference#Chair;confOf#Member": "yes",
-	"conference#Chair;confOf#Assistant": "no",
-	"conference#Committee_member;confOf#Member": "yes",
-	"conference#Call_for_paper;confOf#Short_paper": "yes"
+	"conference#Conference_contribution;confOf#Contribution": "no",
+	"conference#Written_contribution;confOf#Contribution": "no",
+	"conference#Conference_contributor;confOf#Member_PC": "yes",
+	"conference#Conference_participant;confOf#Participant": "yes",
+	"conference#Committee_member;confOf#Chair_PC": "no",
+	"conference#Committee_member;confOf#Member_PC": "no",
+	"conference#Committee_member;confOf#Participant": "no"
 }

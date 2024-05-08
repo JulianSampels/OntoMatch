@@ -1,8 +1,0 @@
-{
-	"confOf#Participant;sigkdd#Invited_Speaker": "no",
-	"confOf#Member;sigkdd#Program_Committee_member": "no",
-	"confOf#Member;sigkdd#Organizing_Committee_member": "yes",
-	"confOf#Member_PC;sigkdd#Program_Committee_member": "yes",
-	"confOf#Member_PC;sigkdd#Organizing_Committee_member": "yes",
-	"confOf#Short_paper;sigkdd#Document": "yes"
-}

@@ -1,7 +1,7 @@
 {
 	"iasted#Presenter_house": [
 		[
-			"presenter house",
+			"presenterhouse",
 			"is child of",
 			"building"
 		],
@@ -9,33 +9,13 @@
 			"building",
 			"is child of",
 			"place"
-		],
-		[
-			"place",
-			"is parent of",
-			"session room"
 		]
 	],
 	"iasted#Building": [
 		[
 			"building",
 			"is parent of",
-			"sponsor company house "
-		],
-		[
-			"building",
-			"is parent of",
-			"presenter university "
-		],
-		[
-			"building",
-			"is parent of",
-			"conference building "
-		],
-		[
-			"building",
-			"is parent of",
-			"conference hotel "
+			"conferencebuilding "
 		],
 		[
 			"building",
@@ -44,23 +24,48 @@
 		],
 		[
 			"place",
+			"is child of",
+			"Thing "
+		],
+		[
+			"building",
 			"is parent of",
-			"session room"
+			"conferenceairport "
+		],
+		[
+			"building",
+			"is parent of",
+			"conferencerestaurant "
+		],
+		[
+			"building",
+			"is parent of",
+			"presenterhouse"
 		]
 	],
 	"iasted#Presenter_state": [
 		[
-			"presenter state",
+			"presenterstate",
 			"is child of",
 			"state"
 		],
 		[
 			"state",
 			"is parent of",
-			"sponsor state"
+			"conferencestate"
 		]
 	],
 	"iasted#Delegate": [
+		[
+			"delegate",
+			"is parent of",
+			"nonspeaker"
+		],
+		[
+			"nonspeaker",
+			"is parent of",
+			"workernonspeaker "
+		],
 		[
 			"delegate",
 			"is child of",
@@ -74,70 +79,65 @@
 		[
 			"delegate",
 			"is parent of",
-			"non speaker"
-		],
-		[
-			"non speaker",
-			"is parent of",
-			"student non speaker "
+			"onedaypresenter "
 		],
 		[
 			"delegate",
 			"is parent of",
-			"technical committee "
+			"sessionchair "
 		],
 		[
 			"delegate",
 			"is parent of",
-			"iasted non member "
-		],
-		[
-			"delegate",
-			"is parent of",
-			"hotel presenter"
+			"iastednonmember"
 		]
 	],
 	"iasted#Presenter_city": [
 		[
-			"presenter city",
+			"presentercity",
 			"is child of",
 			"city"
 		],
 		[
 			"city",
-			"is child of",
-			"Thing"
+			"is parent of",
+			"tripcity"
 		]
 	],
 	"iasted#Hotel_registration_form": [
 		[
-			"hotel registration form",
+			"hotelregistrationform",
 			"is child of",
 			"form"
 		],
 		[
 			"form",
 			"is parent of",
-			"registration form"
+			"authorinformationform"
 		]
 	],
 	"iasted#Deadline_hotel_reservation": [
 		[
-			"deadline hotel reservation",
+			"deadlinehotelreservation",
 			"is child of",
 			"deadline"
 		],
 		[
 			"deadline",
 			"is parent of",
-			"registration deadline"
+			"camerareadymanuscriptdeadline"
 		]
 	],
 	"iasted#Form": [
 		[
 			"form",
 			"is parent of",
-			"author information form "
+			"hotelregistrationform "
+		],
+		[
+			"form",
+			"is parent of",
+			"authorinformationform "
 		],
 		[
 			"form",
@@ -146,6 +146,40 @@
 		],
 		[
 			"document",
+			"is child of",
+			"item "
+		],
+		[
+			"form",
+			"is parent of",
+			"registrationform"
+		]
+	],
+	"iasted#Car": [
+		[
+			"car",
+			"is child of",
+			"transportvehicle"
+		],
+		[
+			"transportvehicle",
+			"is child of",
+			"item"
+		],
+		[
+			"item",
+			"is parent of",
+			"audiovisualequipment"
+		],
+		[
+			"audiovisualequipment",
+			"is parent of",
+			"videocassetteplayer"
+		]
+	],
+	"iasted#Transport_vehicle": [
+		[
+			"transportvehicle",
 			"is child of",
 			"item"
 		],
@@ -155,85 +189,36 @@
 			"card "
 		],
 		[
-			"form",
+			"transportvehicle",
 			"is parent of",
-			"hotel registration form "
+			"shuttlebus "
 		],
 		[
-			"form",
-			"is parent of",
-			"registration form"
-		]
-	],
-	"iasted#Car": [
-		[
-			"car",
-			"is child of",
-			"transport vehicle"
-		],
-		[
-			"transport vehicle",
-			"is parent of",
-			"shuttle bus"
-		]
-	],
-	"iasted#Transport_vehicle": [
-		[
-			"transport vehicle",
-			"is child of",
-			"item"
-		],
-		[
-			"item",
-			"is parent of",
-			"audiovisual equipment"
-		],
-		[
-			"audiovisual equipment",
-			"is parent of",
-			"overhead projector "
-		],
-		[
-			"transport vehicle",
+			"transportvehicle",
 			"is parent of",
 			"car "
 		],
 		[
-			"transport vehicle",
-			"is parent of",
-			"shuttle bus "
-		],
-		[
-			"transport vehicle",
+			"transportvehicle",
 			"is parent of",
 			"van "
 		],
 		[
-			"transport vehicle",
+			"transportvehicle",
 			"is parent of",
 			"taxi"
 		]
 	],
 	"iasted#Mailing_list": [
 		[
-			"mailing list",
+			"mailinglist",
 			"is child of",
 			"document"
 		],
 		[
 			"document",
-			"is child of",
-			"item"
-		],
-		[
-			"item",
 			"is parent of",
-			"publication"
-		],
-		[
-			"publication",
-			"is parent of",
-			"cd proceeding"
+			"transparency"
 		]
 	],
 	"iasted#Document": [
@@ -245,174 +230,169 @@
 		[
 			"item",
 			"is parent of",
-			"publication"
-		],
-		[
-			"publication",
-			"is parent of",
-			"book proceeding "
+			"publication "
 		],
 		[
 			"document",
 			"is parent of",
-			"mailing list "
+			"paymentdocument"
+		],
+		[
+			"paymentdocument",
+			"is parent of",
+			"cheque "
 		],
 		[
 			"document",
 			"is parent of",
-			"submission"
-		],
-		[
-			"submission",
-			"is parent of",
-			"initial manuscript "
+			"review "
 		],
 		[
 			"document",
 			"is parent of",
-			"invitation letter "
+			"briefintroductionforsessionchair "
 		],
 		[
 			"document",
 			"is parent of",
-			"record of attendance"
+			"form"
+		],
+		[
+			"form",
+			"is parent of",
+			"authorinformationform"
 		]
 	],
 	"iasted#Renting": [
 		[
 			"renting",
 			"is child of",
-			"activity before conference"
+			"activitybeforeconference"
 		],
 		[
-			"activity before conference",
-			"is parent of",
-			"research"
-		],
-		[
-			"research",
-			"is parent of",
-			"modelling"
-		]
-	],
-	"iasted#Activity_before_conference": [
-		[
-			"activity before conference",
+			"activitybeforeconference",
 			"is child of",
 			"activity"
 		],
 		[
 			"activity",
 			"is parent of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
+			"conferenceactivity",
 			"is parent of",
-			"lecture"
+			"socialprogram"
+		]
+	],
+	"iasted#Activity_before_conference": [
+		[
+			"activitybeforeconference",
+			"is child of",
+			"activity"
 		],
 		[
-			"lecture",
+			"activity",
 			"is parent of",
-			"plenary lecture "
+			"activityafterconference"
 		],
 		[
-			"activity before conference",
+			"activityafterconference",
+			"is parent of",
+			"departure "
+		],
+		[
+			"activitybeforeconference",
+			"is parent of",
+			"acceptingmanuscript "
+		],
+		[
+			"activitybeforeconference",
 			"is parent of",
 			"renting "
 		],
 		[
-			"activity before conference",
+			"activitybeforeconference",
 			"is parent of",
-			"receiving manuscript "
+			"refusingmanuscript "
 		],
 		[
-			"activity before conference",
+			"activitybeforeconference",
 			"is parent of",
-			"research"
-		],
-		[
-			"research",
-			"is parent of",
-			"modelling "
-		],
-		[
-			"activity before conference",
-			"is parent of",
-			"accepting manuscript"
+			"receivingmanuscript"
 		]
 	],
 	"iasted#Dinner_banquet": [
 		[
-			"dinner banquet",
+			"dinnerbanquet",
 			"is child of",
-			"social program"
+			"socialprogram"
 		],
 		[
-			"social program",
+			"socialprogram",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		]
 	],
 	"iasted#One_day_presenter": [
 		[
-			"one day presenter",
+			"onedaypresenter",
 			"is child of",
 			"delegate"
 		],
 		[
 			"delegate",
 			"is parent of",
-			"hotel presenter"
+			"hotelpresenter"
 		]
 	],
 	"iasted#Social_program": [
 		[
-			"social program",
+			"socialprogram",
+			"is parent of",
+			"dinnerbanquet "
+		],
+		[
+			"socialprogram",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
+			"conferenceactivity",
 			"is parent of",
-			"lecture "
-		],
-		[
-			"social program",
-			"is parent of",
-			"dinner banquet"
+			"technicactivity"
 		]
 	],
 	"iasted#Activity": [
 		[
 			"activity",
 			"is parent of",
-			"activity before conference"
+			"activitybeforeconference"
 		],
 		[
-			"activity before conference",
+			"activitybeforeconference",
 			"is parent of",
-			"renting "
-		],
-		[
-			"activity",
-			"is parent of",
-			"conference activity"
-		],
-		[
-			"conference activity",
-			"is parent of",
-			"coffee break "
+			"refusingmanuscript "
 		],
 		[
 			"activity",
 			"is parent of",
-			"activity after conference"
+			"conferenceactivity"
 		],
 		[
-			"activity after conference",
+			"conferenceactivity",
 			"is parent of",
-			"full day tour"
+			"lecture "
+		],
+		[
+			"activity",
+			"is parent of",
+			"activityafterconference"
+		],
+		[
+			"activityafterconference",
+			"is parent of",
+			"fulldaytour"
 		]
 	],
 	"iasted#Person": [
@@ -429,106 +409,94 @@
 		[
 			"delegate",
 			"is parent of",
-			"speaker"
-		],
-		[
-			"speaker",
-			"is parent of",
-			"reviewer"
+			"sessionchair"
 		]
 	],
 	"iasted#PowerPoint_presentation": [
 		[
-			"power point presentation",
+			"powerpointpresentation",
 			"is child of",
 			"presentation"
 		],
 		[
 			"presentation",
+			"is child of",
+			"conferenceactivity"
+		],
+		[
+			"conferenceactivity",
 			"is parent of",
-			"video presentation"
+			"introduction"
+		],
+		[
+			"introduction",
+			"is parent of",
+			"introductionofspeaker"
 		]
 	],
 	"iasted#Presentation": [
 		[
 			"presentation",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
-			"is child of",
-			"activity"
-		],
-		[
-			"activity",
+			"conferenceactivity",
 			"is parent of",
-			"activity after conference "
+			"technicactivity "
 		],
 		[
 			"presentation",
 			"is parent of",
-			"video presentation "
+			"videopresentation "
 		],
 		[
 			"presentation",
 			"is parent of",
-			"power point presentation"
+			"powerpointpresentation"
 		]
 	],
 	"iasted#Conference_restaurant": [
 		[
-			"conference restaurant",
+			"conferencerestaurant",
 			"is child of",
 			"building"
 		],
 		[
 			"building",
 			"is parent of",
-			"presenter university"
+			"presenterhouse"
 		]
 	],
 	"iasted#Conference_city": [
 		[
-			"conference city",
+			"conferencecity",
 			"is child of",
 			"city"
 		],
 		[
 			"city",
-			"is parent of",
-			"trip city"
+			"is child of",
+			"Thing"
 		]
 	],
 	"iasted#Conference_state": [
 		[
-			"conference state",
+			"conferencestate",
 			"is child of",
 			"state"
 		],
 		[
 			"state",
 			"is parent of",
-			"presenter state"
+			"sponsorstate"
 		]
 	],
 	"iasted#Submissions_deadline": [
 		[
-			"submissions deadline",
+			"submissionsdeadline",
 			"is child of",
 			"deadline"
-		],
-		[
-			"deadline",
-			"is parent of",
-			"camera ready manuscript deadline"
-		]
-	],
-	"iasted#Deadline": [
-		[
-			"deadline",
-			"is parent of",
-			"registration deadline "
 		],
 		[
 			"deadline",
@@ -538,22 +506,49 @@
 		[
 			"time",
 			"is parent of",
-			"trip day "
+			"conferencedays"
+		],
+		[
+			"conferencedays",
+			"is parent of",
+			"oneconferenceday"
+		]
+	],
+	"iasted#Deadline": [
+		[
+			"deadline",
+			"is child of",
+			"time"
+		],
+		[
+			"time",
+			"is parent of",
+			"conferencedays"
+		],
+		[
+			"conferencedays",
+			"is parent of",
+			"oneconferenceday "
 		],
 		[
 			"deadline",
 			"is parent of",
-			"deadline hotel reservation "
+			"submissionsdeadline "
 		],
 		[
 			"deadline",
 			"is parent of",
-			"deadline for notification of acceptance "
+			"deadlinehotelreservation "
 		],
 		[
 			"deadline",
 			"is parent of",
-			"camera ready manuscript deadline"
+			"deadlinefornotificationofacceptance "
+		],
+		[
+			"deadline",
+			"is parent of",
+			"camerareadymanuscriptdeadline"
 		]
 	],
 	"iasted#Simulating": [
@@ -564,45 +559,15 @@
 		],
 		[
 			"research",
-			"is child of",
-			"activity before conference"
-		],
-		[
-			"activity before conference",
-			"is child of",
-			"activity"
-		],
-		[
-			"activity",
 			"is parent of",
-			"conference activity"
+			"modelling"
 		]
 	],
 	"iasted#Research": [
 		[
 			"research",
-			"is child of",
-			"activity before conference"
-		],
-		[
-			"activity before conference",
-			"is child of",
-			"activity"
-		],
-		[
-			"activity",
 			"is parent of",
-			"conference activity"
-		],
-		[
-			"conference activity",
-			"is parent of",
-			"social program"
-		],
-		[
-			"social program",
-			"is parent of",
-			"dinner banquet "
+			"simulating "
 		],
 		[
 			"research",
@@ -611,148 +576,82 @@
 		],
 		[
 			"research",
+			"is child of",
+			"activitybeforeconference"
+		],
+		[
+			"activitybeforeconference",
 			"is parent of",
-			"simulating"
+			"acceptingmanuscript"
 		]
 	],
 	"iasted#Technic_activity": [
 		[
-			"technical activity",
+			"technicactivity",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
+			"conferenceactivity",
 			"is parent of",
-			"welcome address"
+			"introduction"
+		],
+		[
+			"introduction",
+			"is parent of",
+			"introductionofspeaker"
 		]
 	],
 	"iasted#Conference_activity": [
 		[
-			"conference activity",
+			"conferenceactivity",
+			"is parent of",
+			"socialprogram"
+		],
+		[
+			"socialprogram",
+			"is parent of",
+			"dinnerbanquet "
+		],
+		[
+			"conferenceactivity",
+			"is parent of",
+			"welcomeaddress "
+		],
+		[
+			"conferenceactivity",
 			"is child of",
 			"activity"
 		],
 		[
 			"activity",
 			"is parent of",
-			"activity after conference"
+			"activitybeforeconference "
 		],
 		[
-			"activity after conference",
-			"is parent of",
-			"departure "
-		],
-		[
-			"conference activity",
-			"is parent of",
-			"coffee break "
-		],
-		[
-			"conference activity",
+			"conferenceactivity",
 			"is parent of",
 			"lecture"
 		],
 		[
 			"lecture",
 			"is parent of",
-			"plenary lecture "
+			"plenarylecture "
 		],
 		[
-			"conference activity",
+			"conferenceactivity",
 			"is parent of",
-			"registration "
+			"presentation"
 		],
 		[
-			"conference activity",
+			"presentation",
 			"is parent of",
-			"welcome address"
+			"powerpointpresentation"
 		]
 	],
 	"iasted#Technical_commitee": [
 		[
-			"technical committee",
-			"is child of",
-			"delegate"
-		],
-		[
-			"delegate",
-			"is child of",
-			"person"
-		]
-	],
-	"iasted#Place": [
-		[
-			"place",
-			"is child of",
-			"Thing "
-		],
-		[
-			"place",
-			"is parent of",
-			"hotel room"
-		],
-		[
-			"hotel room",
-			"is parent of",
-			"single hotel room "
-		],
-		[
-			"place",
-			"is parent of",
-			"building"
-		],
-		[
-			"building",
-			"is parent of",
-			"sponsor company house "
-		],
-		[
-			"place",
-			"is parent of",
-			"session room "
-		],
-		[
-			"place",
-			"is parent of",
-			"main office"
-		]
-	],
-	"iasted#Author_cd_proceedings_included": [
-		[
-			"author cd proceedings included",
-			"is child of",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"author book proceedings included"
-		]
-	],
-	"iasted#Author": [
-		[
-			"author",
-			"is parent of",
-			"tutorial speaker "
-		],
-		[
-			"author",
-			"is parent of",
-			"author cd proceedings included "
-		],
-		[
-			"author",
-			"is parent of",
-			"author book proceedings included "
-		],
-		[
-			"author",
-			"is child of",
-			"speaker"
-		],
-		[
-			"speaker",
+			"technicalcommitee",
 			"is child of",
 			"delegate"
 		],
@@ -764,58 +663,117 @@
 		[
 			"person",
 			"is parent of",
-			"sponsor "
+			"sponsor"
+		]
+	],
+	"iasted#Place": [
+		[
+			"place",
+			"is parent of",
+			"conferencehall "
+		],
+		[
+			"place",
+			"is child of",
+			"Thing "
+		],
+		[
+			"place",
+			"is parent of",
+			"hotelroom"
+		],
+		[
+			"hotelroom",
+			"is parent of",
+			"doublehotelroom "
+		],
+		[
+			"place",
+			"is parent of",
+			"sessionroom "
+		],
+		[
+			"place",
+			"is parent of",
+			"mainoffice"
+		]
+	],
+	"iasted#Author_cd_proceedings_included": [
+		[
+			"authorcdproceedingsincluded",
+			"is child of",
+			"author"
+		],
+		[
+			"author",
+			"is child of",
+			"speaker"
+		],
+		[
+			"speaker",
+			"is child of",
+			"delegate"
+		]
+	],
+	"iasted#Author": [
+		[
+			"author",
+			"is parent of",
+			"tutorialspeaker "
+		],
+		[
+			"author",
+			"is child of",
+			"speaker"
+		],
+		[
+			"speaker",
+			"is child of",
+			"delegate"
+		],
+		[
+			"delegate",
+			"is child of",
+			"person "
 		],
 		[
 			"author",
 			"is parent of",
-			"plenary lecture speaker"
+			"plenarylecturespeaker "
+		],
+		[
+			"author",
+			"is parent of",
+			"lecturer"
+		],
+		[
+			"lecturer",
+			"is parent of",
+			"workerlecturer "
+		],
+		[
+			"author",
+			"is parent of",
+			"authorcdproceedingsincluded"
 		]
 	],
 	"iasted#Cd_proceening": [
 		[
-			"cd proceeding",
+			"cdproceening",
 			"is child of",
 			"publication"
 		],
 		[
 			"publication",
-			"is parent of",
-			"book proceeding"
+			"is child of",
+			"item"
 		]
 	],
 	"iasted#Trip_day": [
 		[
-			"trip day",
+			"tripday",
 			"is child of",
 			"time"
-		],
-		[
-			"time",
-			"is parent of",
-			"conference days"
-		],
-		[
-			"conference days",
-			"is parent of",
-			"one conference day"
-		]
-	],
-	"iasted#Time": [
-		[
-			"time",
-			"is parent of",
-			"trip day "
-		],
-		[
-			"time",
-			"is parent of",
-			"conference days"
-		],
-		[
-			"conference days",
-			"is parent of",
-			"one conference day "
 		],
 		[
 			"time",
@@ -825,19 +783,46 @@
 		[
 			"deadline",
 			"is parent of",
-			"submissions deadline"
+			"submissionsdeadline"
+		]
+	],
+	"iasted#Time": [
+		[
+			"time",
+			"is parent of",
+			"conferencedays"
+		],
+		[
+			"conferencedays",
+			"is parent of",
+			"oneconferenceday "
+		],
+		[
+			"time",
+			"is parent of",
+			"tripday "
+		],
+		[
+			"time",
+			"is parent of",
+			"deadline"
+		],
+		[
+			"deadline",
+			"is parent of",
+			"registationdeadline"
 		]
 	],
 	"iasted#Record_of_attendance": [
 		[
-			"record of attendance",
+			"recordofattendance",
 			"is child of",
 			"document"
 		],
 		[
 			"document",
 			"is parent of",
-			"review"
+			"viza"
 		]
 	],
 	"iasted#Listener": [
@@ -848,37 +833,42 @@
 		],
 		[
 			"delegate",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
 			"is parent of",
-			"iasted non member"
+			"sponsor"
 		]
 	],
 	"iasted#Session_room": [
 		[
-			"session room",
+			"sessionroom",
 			"is child of",
 			"place"
 		],
 		[
 			"place",
-			"is parent of",
-			"hotel room"
+			"is child of",
+			"Thing"
 		]
 	],
 	"iasted#Brief_introduction_for_Session_chair": [
 		[
-			"brief introduction for session chair",
+			"briefintroductionforsessionchair",
 			"is child of",
 			"document"
 		],
 		[
 			"document",
-			"is parent of",
-			"record of attendance"
+			"is child of",
+			"item"
 		]
 	],
 	"iasted#Session_chair": [
 		[
-			"session chair",
+			"sessionchair",
 			"is child of",
 			"delegate"
 		],
@@ -895,31 +885,7 @@
 	],
 	"iasted#Invitation_letter": [
 		[
-			"invitation letter",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
-			"is parent of",
-			"submission"
-		]
-	],
-	"iasted#Registration_form": [
-		[
-			"registration form",
-			"is child of",
-			"form"
-		],
-		[
-			"form",
-			"is parent of",
-			"hotel registration form"
-		]
-	],
-	"iasted#Viza": [
-		[
-			"via",
+			"invitationletter",
 			"is child of",
 			"document"
 		],
@@ -931,58 +897,102 @@
 		[
 			"item",
 			"is parent of",
-			"audiovisual equipment"
+			"transportvehicle"
 		],
 		[
-			"audiovisual equipment",
+			"transportvehicle",
 			"is parent of",
-			"computer"
+			"shuttlebus"
+		]
+	],
+	"iasted#Registration_form": [
+		[
+			"registrationform",
+			"is child of",
+			"form"
+		],
+		[
+			"form",
+			"is parent of",
+			"authorinformationform"
+		]
+	],
+	"iasted#Viza": [
+		[
+			"viza",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
+			"is child of",
+			"item"
+		],
+		[
+			"item",
+			"is parent of",
+			"publication"
+		],
+		[
+			"publication",
+			"is parent of",
+			"bookproceeding"
 		]
 	],
 	"iasted#Registration": [
 		[
 			"registration",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
+			"conferenceactivity",
 			"is parent of",
-			"coffee break"
+			"presentation"
+		],
+		[
+			"presentation",
+			"is parent of",
+			"videopresentation"
 		]
 	],
 	"iasted#Conference_days": [
 		[
-			"conference days",
+			"conferencedays",
 			"is parent of",
-			"one conference day "
+			"oneconferenceday "
 		],
 		[
-			"conference days",
+			"conferencedays",
 			"is child of",
 			"time"
 		],
 		[
 			"time",
 			"is parent of",
-			"trip day"
+			"deadline"
 		]
 	],
 	"iasted#Conference_building": [
 		[
-			"conference building",
+			"conferencebuilding",
 			"is child of",
 			"building"
 		],
 		[
 			"building",
-			"is child of",
-			"place"
+			"is parent of",
+			"conferencehotel"
 		]
 	],
 	"iasted#Registration_fee": [
 		[
-			"registration fee",
+			"registrationfee",
+			"is parent of",
+			"authorattendeebookregistrationfee "
+		],
+		[
+			"registrationfee",
 			"is child of",
 			"fee"
 		],
@@ -999,81 +1009,66 @@
 		[
 			"tax",
 			"is parent of",
-			"value added tax "
+			"departuretax "
 		],
 		[
-			"registration fee",
+			"registrationfee",
 			"is parent of",
-			"non-author registration fee "
+			"nonauthorregistrationfee "
 		],
 		[
-			"registration fee",
+			"registrationfee",
 			"is parent of",
-			"member registration fee "
+			"authorattendeecdregistrationfee "
 		],
 		[
-			"registration fee",
+			"registrationfee",
 			"is parent of",
-			"student registration fee "
-		],
-		[
-			"registration fee",
-			"is parent of",
-			"non-member registration fee"
+			"nonmemberregistrationfee"
 		]
 	],
 	"iasted#Departure": [
 		[
 			"departure",
 			"is child of",
-			"activity after conference"
+			"activityafterconference"
 		],
 		[
-			"activity after conference",
-			"is child of",
-			"activity"
-		],
-		[
-			"activity",
+			"activityafterconference",
 			"is parent of",
-			"activity before conference"
-		],
-		[
-			"activity before conference",
-			"is parent of",
-			"renting"
+			"fulldaytour"
 		]
 	],
 	"iasted#Activity_after_conference": [
 		[
-			"activity after conference",
-			"is parent of",
-			"departure "
-		],
-		[
-			"activity after conference",
-			"is parent of",
-			"full day tour "
-		],
-		[
-			"activity after conference",
+			"activityafterconference",
 			"is child of",
 			"activity"
 		],
 		[
 			"activity",
 			"is parent of",
-			"activity before conference"
+			"conferenceactivity"
 		],
 		[
-			"activity before conference",
+			"conferenceactivity",
 			"is parent of",
-			"accepting manuscript"
+			"technicactivity "
+		],
+		[
+			"activityafterconference",
+			"is parent of",
+			"fulldaytour "
+		],
+		[
+			"activityafterconference",
+			"is parent of",
+			"departure"
 		]
 	],
 	"iasted#Conference_airport": [
 		[
-			"conference airport",
+			"conferenceairport",
 			"is child of",
 			"building"
 		],
@@ -1081,21 +1076,31 @@
 			"building",
 			"is child of",
 			"place"
+		],
+		[
+			"place",
+			"is child of",
+			"Thing"
 		]
 	],
 	"iasted#Worker_lecturer": [
 		[
-			"worker lecturer",
+			"workerlecturer",
 			"is child of",
 			"lecturer"
 		],
 		[
 			"lecturer",
-			"is parent of",
-			"student lecturer"
+			"is child of",
+			"author"
 		]
 	],
 	"iasted#Lecturer": [
+		[
+			"lecturer",
+			"is parent of",
+			"studentlecturer "
+		],
 		[
 			"lecturer",
 			"is child of",
@@ -1104,17 +1109,12 @@
 		[
 			"author",
 			"is parent of",
-			"tutorial speaker "
+			"authorbookproceedingsincluded "
 		],
 		[
 			"lecturer",
 			"is parent of",
-			"student lecturer "
-		],
-		[
-			"lecturer",
-			"is parent of",
-			"worker lecturer"
+			"workerlecturer"
 		]
 	],
 	"iasted#Transparency": [
@@ -1126,10 +1126,15 @@
 		[
 			"document",
 			"is parent of",
-			"via"
+			"viza"
 		]
 	],
 	"iasted#Speaker": [
+		[
+			"speaker",
+			"is parent of",
+			"reviewer "
+		],
 		[
 			"speaker",
 			"is parent of",
@@ -1143,7 +1148,7 @@
 		[
 			"lecturer",
 			"is parent of",
-			"worker lecturer "
+			"workerlecturer "
 		],
 		[
 			"speaker",
@@ -1153,20 +1158,10 @@
 		[
 			"delegate",
 			"is parent of",
-			"iasted non member "
-		],
-		[
-			"speaker",
-			"is parent of",
-			"reviewer"
+			"listener"
 		]
 	],
 	"iasted#City": [
-		[
-			"city",
-			"is parent of",
-			"presenter city "
-		],
 		[
 			"city",
 			"is child of",
@@ -1175,17 +1170,22 @@
 		[
 			"city",
 			"is parent of",
-			"conference city "
+			"conferencecity "
 		],
 		[
 			"city",
 			"is parent of",
-			"trip city "
+			"presentercity "
 		],
 		[
 			"city",
 			"is parent of",
-			"sponsor city"
+			"tripcity "
+		],
+		[
+			"city",
+			"is parent of",
+			"sponsorcity"
 		]
 	],
 	"iasted#Card": [
@@ -1197,29 +1197,54 @@
 		[
 			"item",
 			"is parent of",
-			"document"
-		],
-		[
-			"document",
-			"is parent of",
-			"invitation letter "
+			"publication "
 		],
 		[
 			"card",
 			"is parent of",
-			"credit card"
+			"creditcard"
 		]
 	],
 	"iasted#Item": [
 		[
 			"item",
 			"is parent of",
-			"audiovisual equipment"
+			"publication"
 		],
 		[
-			"audiovisual equipment",
+			"publication",
 			"is parent of",
-			"overhead projector "
+			"bookproceeding "
+		],
+		[
+			"item",
+			"is parent of",
+			"card"
+		],
+		[
+			"card",
+			"is parent of",
+			"creditcard "
+		],
+		[
+			"item",
+			"is parent of",
+			"audiovisualequipment"
+		],
+		[
+			"audiovisualequipment",
+			"is parent of",
+			"videocassetteplayer "
+		],
+		[
+			"item",
+			"is parent of",
+			"transportvehicle"
+		],
+		[
+			"transportvehicle",
+			"is parent of",
+			"van "
 		],
 		[
 			"item",
@@ -1229,54 +1254,34 @@
 		[
 			"document",
 			"is parent of",
-			"review "
-		],
-		[
-			"item",
-			"is parent of",
-			"transport vehicle"
-		],
-		[
-			"transport vehicle",
-			"is parent of",
-			"van "
-		],
-		[
-			"item",
-			"is parent of",
-			"card"
-		],
-		[
-			"card",
-			"is parent of",
-			"credit card "
-		],
-		[
-			"item",
-			"is parent of",
-			"publication"
-		],
-		[
-			"publication",
-			"is parent of",
-			"book proceeding"
+			"recordofattendance"
 		]
 	],
 	"iasted#Author_attendee_book_registration_fee": [
 		[
-			"author attended book registration fee",
+			"authorattendeebookregistrationfee",
 			"is child of",
-			"registration fee"
+			"registrationfee"
 		],
 		[
-			"registration fee",
+			"registrationfee",
+			"is child of",
+			"fee"
+		],
+		[
+			"fee",
+			"is child of",
+			"money"
+		],
+		[
+			"money",
 			"is parent of",
-			"non-author registration fee"
+			"tip"
 		]
 	],
 	"iasted#Book_proceeding": [
 		[
-			"book proceeding",
+			"bookproceeding",
 			"is child of",
 			"publication"
 		],
@@ -1284,48 +1289,33 @@
 			"publication",
 			"is child of",
 			"item"
-		],
-		[
-			"item",
-			"is parent of",
-			"transport vehicle"
-		],
-		[
-			"transport vehicle",
-			"is parent of",
-			"taxi"
 		]
 	],
 	"iasted#Video_cassette_player": [
 		[
-			"video cassette player",
+			"videocassetteplayer",
 			"is child of",
-			"audiovisual equipment"
+			"audiovisualequipment"
 		],
 		[
-			"audiovisual equipment",
+			"audiovisualequipment",
+			"is child of",
+			"item"
+		],
+		[
+			"item",
 			"is parent of",
-			"lcd projector"
+			"publication"
+		],
+		[
+			"publication",
+			"is parent of",
+			"bookproceeding"
 		]
 	],
 	"iasted#Audiovisual_equipment": [
 		[
-			"audiovisual equipment",
-			"is parent of",
-			"computer "
-		],
-		[
-			"audiovisual equipment",
-			"is parent of",
-			"overhead projector "
-		],
-		[
-			"audiovisual equipment",
-			"is parent of",
-			"lcd projector "
-		],
-		[
-			"audiovisual equipment",
+			"audiovisualequipment",
 			"is child of",
 			"item"
 		],
@@ -1337,97 +1327,107 @@
 		[
 			"card",
 			"is parent of",
-			"credit card "
+			"creditcard "
 		],
 		[
-			"audiovisual equipment",
+			"audiovisualequipment",
 			"is parent of",
-			"video cassette player"
+			"videocassetteplayer "
+		],
+		[
+			"audiovisualequipment",
+			"is parent of",
+			"overheadprojector "
+		],
+		[
+			"audiovisualequipment",
+			"is parent of",
+			"computer "
+		],
+		[
+			"audiovisualequipment",
+			"is parent of",
+			"lcdprojector"
 		]
 	],
 	"iasted#Video_presentation": [
 		[
-			"video presentation",
+			"videopresentation",
 			"is child of",
 			"presentation"
 		],
 		[
 			"presentation",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
-			"is child of",
-			"activity"
-		],
-		[
-			"activity",
+			"conferenceactivity",
 			"is parent of",
-			"activity after conference"
+			"technicactivity"
 		]
 	],
 	"iasted#Hotel_room": [
 		[
-			"hotel room",
+			"hotelroom",
+			"is parent of",
+			"doublehotelroom "
+		],
+		[
+			"hotelroom",
 			"is child of",
 			"place"
 		],
 		[
 			"place",
-			"is child of",
-			"Thing "
+			"is parent of",
+			"building"
 		],
 		[
-			"hotel room",
+			"building",
 			"is parent of",
-			"double hotel room "
+			"conferencehotel "
 		],
 		[
-			"hotel room",
+			"hotelroom",
 			"is parent of",
-			"single hotel room"
+			"singlehotelroom"
 		]
 	],
 	"iasted#Hotel_presenter": [
 		[
-			"hotel presenter",
+			"hotelpresenter",
 			"is child of",
 			"delegate"
 		],
 		[
 			"delegate",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
 			"is parent of",
-			"sponsor"
+			"onedaypresenter"
 		]
 	],
 	"iasted#Conference_hotel": [
 		[
-			"conference hotel",
+			"conferencehotel",
 			"is child of",
 			"building"
 		],
 		[
 			"building",
 			"is parent of",
-			"conference airport"
+			"conferencerestaurant"
 		]
 	],
 	"iasted#Money": [
 		[
 			"money",
 			"is parent of",
-			"tax"
+			"fee"
 		],
 		[
-			"tax",
+			"fee",
 			"is parent of",
-			"departure tax "
+			"feeforextratrip "
 		],
 		[
 			"money",
@@ -1437,80 +1437,95 @@
 		[
 			"money",
 			"is parent of",
-			"sponsorship "
+			"tax"
+		],
+		[
+			"tax",
+			"is parent of",
+			"valueaddedtax "
 		],
 		[
 			"money",
 			"is parent of",
-			"fee"
-		],
-		[
-			"fee",
-			"is parent of",
-			"fee for extra trip"
+			"sponzorship"
 		]
 	],
 	"iasted#State": [
 		[
 			"state",
 			"is parent of",
-			"presenter state "
+			"presenterstate "
 		],
 		[
 			"state",
 			"is parent of",
-			"conference state "
+			"conferencestate "
 		],
 		[
 			"state",
 			"is parent of",
-			"sponsor state"
+			"sponsorstate"
 		]
 	],
 	"iasted#Introduction": [
 		[
 			"introduction",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
+			"conferenceactivity",
 			"is child of",
-			"activity "
+			"activity"
+		],
+		[
+			"activity",
+			"is parent of",
+			"activityafterconference"
+		],
+		[
+			"activityafterconference",
+			"is parent of",
+			"departure "
 		],
 		[
 			"introduction",
 			"is parent of",
-			"introduction of speaker"
+			"introductionofspeaker"
 		]
 	],
 	"iasted#Welcome_address": [
 		[
-			"welcome address",
+			"welcomeaddress",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
+			"conferenceactivity",
 			"is child of",
 			"activity"
+		],
+		[
+			"activity",
+			"is parent of",
+			"activityafterconference"
+		],
+		[
+			"activityafterconference",
+			"is parent of",
+			"fulldaytour"
 		]
 	],
 	"iasted#Value_added_tax": [
 		[
-			"value added tax",
+			"valueaddedtax",
 			"is child of",
 			"tax"
 		],
 		[
 			"tax",
-			"is child of",
-			"money"
-		],
-		[
-			"money",
 			"is parent of",
-			"tip"
+			"departuretax"
 		]
 	],
 	"iasted#Tax": [
@@ -1522,112 +1537,87 @@
 		[
 			"money",
 			"is parent of",
-			"fee"
-		],
-		[
-			"fee",
-			"is parent of",
-			"registration fee "
+			"tip "
 		],
 		[
 			"tax",
 			"is parent of",
-			"value added tax "
+			"valueaddedtax "
 		],
 		[
 			"tax",
 			"is parent of",
-			"departure tax"
+			"departuretax"
 		]
 	],
 	"iasted#Refusing_manuscript": [
 		[
-			"refusing manuscript",
+			"refusingmanuscript",
 			"is child of",
-			"activity before conference"
+			"activitybeforeconference"
 		],
 		[
-			"activity before conference",
+			"activitybeforeconference",
 			"is parent of",
-			"receiving manuscript"
+			"acceptingmanuscript"
 		]
 	],
 	"iasted#Final_manuscript": [
 		[
-			"final manuscript",
+			"finalmanuscript",
 			"is child of",
 			"submission"
 		],
 		[
 			"submission",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
-			"is child of",
-			"item"
-		],
-		[
-			"item",
 			"is parent of",
-			"publication"
+			"initialmanuscipt"
 		]
 	],
 	"iasted#Accepting_manuscript": [
 		[
-			"accepting manuscript",
+			"acceptingmanuscript",
 			"is child of",
-			"activity before conference"
+			"activitybeforeconference"
 		],
 		[
-			"activity before conference",
+			"activitybeforeconference",
 			"is child of",
 			"activity"
-		],
-		[
-			"activity",
-			"is parent of",
-			"activity after conference"
-		],
-		[
-			"activity after conference",
-			"is parent of",
-			"full day tour"
 		]
 	],
 	"iasted#Submission": [
 		[
 			"submission",
-			"is parent of",
-			"initial manuscript "
-		],
-		[
-			"submission",
 			"is child of",
 			"document"
 		],
 		[
 			"document",
 			"is parent of",
-			"via "
+			"recordofattendance "
 		],
 		[
 			"submission",
 			"is parent of",
-			"final manuscript"
+			"finalmanuscript "
+		],
+		[
+			"submission",
+			"is parent of",
+			"initialmanuscipt"
 		]
 	],
 	"iasted#Sponsor_city": [
 		[
-			"sponsor city",
+			"sponsorcity",
 			"is child of",
 			"city"
 		],
 		[
 			"city",
 			"is parent of",
-			"presenter city"
+			"tripcity"
 		]
 	],
 	"iasted#Sponsor": [
@@ -1644,29 +1634,44 @@
 		[
 			"delegate",
 			"is parent of",
-			"iasted non member"
+			"nonspeaker"
+		],
+		[
+			"nonspeaker",
+			"is parent of",
+			"studentnonspeaker"
 		]
 	],
 	"iasted#Introduction_of_speaker": [
 		[
-			"introduction of speaker",
+			"introductionofspeaker",
 			"is child of",
 			"introduction"
 		],
 		[
 			"introduction",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
+			"conferenceactivity",
+			"is child of",
+			"activity"
+		],
+		[
+			"activity",
 			"is parent of",
-			"social program"
+			"activitybeforeconference"
+		],
+		[
+			"activitybeforeconference",
+			"is parent of",
+			"receivingmanuscript"
 		]
 	],
 	"iasted#Conference_hall": [
 		[
-			"conference hall",
+			"conferencehall",
 			"is child of",
 			"place"
 		],
@@ -1678,36 +1683,36 @@
 	],
 	"iasted#Plenary_lecture": [
 		[
-			"plenary lecture",
+			"plenarylecture",
 			"is child of",
 			"lecture"
 		],
 		[
 			"lecture",
 			"is child of",
-			"conference activity"
-		],
-		[
-			"conference activity",
-			"is parent of",
-			"coffee break"
+			"conferenceactivity"
 		]
 	],
 	"iasted#Lecture": [
 		[
 			"lecture",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
-			"is parent of",
-			"introduction"
+			"conferenceactivity",
+			"is child of",
+			"activity"
 		],
 		[
-			"introduction",
+			"activity",
 			"is parent of",
-			"introduction of speaker "
+			"activityafterconference"
+		],
+		[
+			"activityafterconference",
+			"is parent of",
+			"fulldaytour "
 		],
 		[
 			"lecture",
@@ -1717,7 +1722,7 @@
 		[
 			"lecture",
 			"is parent of",
-			"plenary lecture "
+			"plenarylecture "
 		],
 		[
 			"lecture",
@@ -1727,53 +1732,48 @@
 		[
 			"session",
 			"is parent of",
-			"speaker lecture"
+			"speakerlecture"
 		]
 	],
 	"iasted#Plenary_lecture_speaker": [
 		[
-			"plenary lecture speaker",
+			"plenarylecturespeaker",
 			"is child of",
 			"author"
 		],
 		[
 			"author",
+			"is child of",
+			"speaker"
+		],
+		[
+			"speaker",
 			"is parent of",
-			"author cd proceedings included"
+			"reviewer"
 		]
 	],
 	"iasted#LCD_projector": [
 		[
-			"lcd projector",
+			"lcdprojector",
 			"is child of",
-			"audiovisual equipment"
+			"audiovisualequipment"
 		],
 		[
-			"audiovisual equipment",
-			"is child of",
-			"item"
-		],
-		[
-			"item",
+			"audiovisualequipment",
 			"is parent of",
-			"transport vehicle"
-		],
-		[
-			"transport vehicle",
-			"is parent of",
-			"shuttle bus"
+			"overheadprojector"
 		]
 	],
 	"iasted#Deadline_for_notification_of_acceptance": [
 		[
-			"deadline for notification of acceptance",
+			"deadlinefornotificationofacceptance",
 			"is child of",
 			"deadline"
 		],
 		[
 			"deadline",
 			"is parent of",
-			"submissions deadline"
+			"camerareadymanuscriptdeadline"
 		]
 	],
 	"iasted#Tutorial": [
@@ -1786,16 +1786,11 @@
 			"lecture",
 			"is parent of",
 			"session"
-		],
-		[
-			"session",
-			"is parent of",
-			"speaker lecture"
 		]
 	],
 	"iasted#Tutorial_speaker": [
 		[
-			"tutorial speaker",
+			"tutorialspeaker",
 			"is child of",
 			"author"
 		],
@@ -1814,7 +1809,7 @@
 		[
 			"session",
 			"is parent of",
-			"speaker lecture "
+			"speakerlecture "
 		],
 		[
 			"session",
@@ -1829,82 +1824,31 @@
 	],
 	"iasted#Registation_deadline": [
 		[
-			"registration deadline",
+			"registationdeadline",
 			"is child of",
 			"deadline"
 		],
 		[
 			"deadline",
 			"is parent of",
-			"deadline hotel reservation"
+			"deadlinehotelreservation"
 		]
 	],
 	"iasted#Single_hotel_room": [
 		[
-			"single hotel room",
+			"singlehotelroom",
 			"is child of",
-			"hotel room"
+			"hotelroom"
 		],
 		[
-			"hotel room",
+			"hotelroom",
 			"is parent of",
-			"double hotel room"
+			"doublehotelroom"
 		]
 	],
 	"iasted#Non_speaker": [
 		[
-			"non speaker",
-			"is child of",
-			"delegate"
-		],
-		[
-			"delegate",
-			"is parent of",
-			"session chair "
-		],
-		[
-			"non speaker",
-			"is parent of",
-			"worker non speaker "
-		],
-		[
-			"non speaker",
-			"is parent of",
-			"student non speaker"
-		]
-	],
-	"iasted#Author_information_form": [
-		[
-			"author information form",
-			"is child of",
-			"form"
-		],
-		[
-			"form",
-			"is parent of",
-			"registration form"
-		]
-	],
-	"iasted#Nonmember_registration_fee": [
-		[
-			"non-member registration fee",
-			"is child of",
-			"registration fee"
-		],
-		[
-			"registration fee",
-			"is child of",
-			"fee"
-		],
-		[
-			"fee",
-			"is parent of",
-			"hotel fee"
-		]
-	],
-	"iasted#IASTED_non_member": [
-		[
-			"iasted non member",
+			"nonspeaker",
 			"is child of",
 			"delegate"
 		],
@@ -1916,27 +1860,68 @@
 		[
 			"person",
 			"is parent of",
-			"sponsor"
+			"sponsor "
+		],
+		[
+			"nonspeaker",
+			"is parent of",
+			"studentnonspeaker "
+		],
+		[
+			"nonspeaker",
+			"is parent of",
+			"workernonspeaker"
+		]
+	],
+	"iasted#Author_information_form": [
+		[
+			"authorinformationform",
+			"is child of",
+			"form"
+		],
+		[
+			"form",
+			"is child of",
+			"document"
+		]
+	],
+	"iasted#Nonmember_registration_fee": [
+		[
+			"nonmemberregistrationfee",
+			"is child of",
+			"registrationfee"
+		],
+		[
+			"registrationfee",
+			"is parent of",
+			"memeberregistrationfee"
+		]
+	],
+	"iasted#IASTED_non_member": [
+		[
+			"iastednonmember",
+			"is child of",
+			"delegate"
+		],
+		[
+			"delegate",
+			"is parent of",
+			"nonspeaker"
 		]
 	],
 	"iasted#Hotel_fee": [
 		[
-			"hotel fee",
+			"hotelfee",
 			"is child of",
 			"fee"
 		],
 		[
 			"fee",
-			"is parent of",
-			"fee for extra trip"
+			"is child of",
+			"money"
 		]
 	],
 	"iasted#Fee": [
-		[
-			"fee",
-			"is parent of",
-			"fee for extra trip "
-		],
 		[
 			"fee",
 			"is child of",
@@ -1945,25 +1930,45 @@
 		[
 			"money",
 			"is parent of",
-			"sponsorship "
+			"tax"
+		],
+		[
+			"tax",
+			"is parent of",
+			"valueaddedtax "
 		],
 		[
 			"fee",
 			"is parent of",
-			"hotel fee "
+			"feeforextratrip "
 		],
 		[
 			"fee",
 			"is parent of",
-			"registration fee"
+			"registrationfee"
 		],
 		[
-			"registration fee",
+			"registrationfee",
 			"is parent of",
-			"member registration fee"
+			"nonmemberregistrationfee "
+		],
+		[
+			"fee",
+			"is parent of",
+			"hotelfee"
 		]
 	],
 	"iasted#Publication": [
+		[
+			"publication",
+			"is parent of",
+			"bookproceeding "
+		],
+		[
+			"publication",
+			"is parent of",
+			"cdproceening "
+		],
 		[
 			"publication",
 			"is child of",
@@ -1972,161 +1977,22 @@
 		[
 			"item",
 			"is parent of",
-			"transport vehicle"
+			"transportvehicle"
 		],
 		[
-			"transport vehicle",
+			"transportvehicle",
 			"is parent of",
-			"car "
-		],
-		[
-			"publication",
-			"is parent of",
-			"cd proceeding "
-		],
-		[
-			"publication",
-			"is parent of",
-			"book proceeding"
+			"taxi"
 		]
 	],
 	"iasted#Taxi": [
 		[
 			"taxi",
 			"is child of",
-			"transport vehicle"
+			"transportvehicle"
 		],
 		[
-			"transport vehicle",
-			"is child of",
-			"item"
-		],
-		[
-			"item",
-			"is parent of",
-			"document"
-		],
-		[
-			"document",
-			"is parent of",
-			"form"
-		],
-		[
-			"form",
-			"is parent of",
-			"hotel registration form"
-		]
-	],
-	"iasted#Sponsor_state": [
-		[
-			"sponsor state",
-			"is child of",
-			"state"
-		],
-		[
-			"state",
-			"is parent of",
-			"conference state"
-		]
-	],
-	"iasted#Reviewer": [
-		[
-			"reviewer",
-			"is child of",
-			"speaker"
-		],
-		[
-			"speaker",
-			"is parent of",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"plenary lecture speaker"
-		]
-	],
-	"iasted#Review": [
-		[
-			"review",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
-			"is child of",
-			"item"
-		],
-		[
-			"item",
-			"is parent of",
-			"card"
-		],
-		[
-			"card",
-			"is parent of",
-			"credit card"
-		]
-	],
-	"iasted#Modelling": [
-		[
-			"modelling",
-			"is child of",
-			"research"
-		],
-		[
-			"research",
-			"is child of",
-			"activity before conference"
-		],
-		[
-			"activity before conference",
-			"is parent of",
-			"refusing manuscript"
-		]
-	],
-	"iasted#Worker_non_speaker": [
-		[
-			"worker non speaker",
-			"is child of",
-			"non speaker"
-		],
-		[
-			"non speaker",
-			"is child of",
-			"delegate"
-		],
-		[
-			"delegate",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is parent of",
-			"sponsor"
-		]
-	],
-	"iasted#Nonauthor_registration_fee": [
-		[
-			"non-author registration fee",
-			"is child of",
-			"registration fee"
-		],
-		[
-			"registration fee",
-			"is parent of",
-			"author attended cd registration fee"
-		]
-	],
-	"iasted#Payment_document": [
-		[
-			"payment document",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
+			"transportvehicle",
 			"is child of",
 			"item"
 		],
@@ -2138,99 +2004,262 @@
 		[
 			"publication",
 			"is parent of",
-			"book proceeding "
-		],
-		[
-			"payment document",
-			"is parent of",
-			"cheque "
-		],
-		[
-			"payment document",
-			"is parent of",
-			"bank transfer"
+			"bookproceeding"
 		]
 	],
-	"iasted#Camera_ready_manuscript_deadline": [
+	"iasted#Sponsor_state": [
 		[
-			"camera ready manuscript deadline",
+			"sponsorstate",
 			"is child of",
-			"deadline"
+			"state"
 		],
 		[
-			"deadline",
+			"state",
 			"is parent of",
-			"deadline hotel reservation"
+			"conferencestate"
 		]
 	],
-	"iasted#One_conference_day": [
+	"iasted#Reviewer": [
 		[
-			"one conference day",
+			"reviewer",
 			"is child of",
-			"conference days"
+			"speaker"
 		],
 		[
-			"conference days",
+			"speaker",
 			"is child of",
-			"time"
+			"delegate"
 		],
 		[
-			"time",
-			"is parent of",
-			"deadline"
+			"delegate",
+			"is child of",
+			"person"
 		]
 	],
-	"iasted#Fee_for_extra_trip": [
+	"iasted#Review": [
 		[
-			"fee for extra trip",
+			"review",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
+			"is parent of",
+			"form"
+		],
+		[
+			"form",
+			"is parent of",
+			"hotelregistrationform"
+		]
+	],
+	"iasted#Modelling": [
+		[
+			"modelling",
+			"is child of",
+			"research"
+		],
+		[
+			"research",
+			"is child of",
+			"activitybeforeconference"
+		],
+		[
+			"activitybeforeconference",
+			"is child of",
+			"activity"
+		],
+		[
+			"activity",
+			"is parent of",
+			"conferenceactivity"
+		],
+		[
+			"conferenceactivity",
+			"is parent of",
+			"coffeebreak"
+		]
+	],
+	"iasted#Worker_non_speaker": [
+		[
+			"workernonspeaker",
+			"is child of",
+			"nonspeaker"
+		],
+		[
+			"nonspeaker",
+			"is parent of",
+			"studentnonspeaker"
+		]
+	],
+	"iasted#Nonauthor_registration_fee": [
+		[
+			"nonauthorregistrationfee",
+			"is child of",
+			"registrationfee"
+		],
+		[
+			"registrationfee",
 			"is child of",
 			"fee"
 		],
 		[
 			"fee",
 			"is parent of",
-			"hotel fee"
+			"feeforextratrip"
+		]
+	],
+	"iasted#Payment_document": [
+		[
+			"paymentdocument",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
+			"is child of",
+			"item"
+		],
+		[
+			"item",
+			"is parent of",
+			"card"
+		],
+		[
+			"card",
+			"is parent of",
+			"creditcard "
+		],
+		[
+			"paymentdocument",
+			"is parent of",
+			"cheque "
+		],
+		[
+			"paymentdocument",
+			"is parent of",
+			"banktransfer"
+		]
+	],
+	"iasted#Camera_ready_manuscript_deadline": [
+		[
+			"camerareadymanuscriptdeadline",
+			"is child of",
+			"deadline"
+		],
+		[
+			"deadline",
+			"is parent of",
+			"deadlinefornotificationofacceptance"
+		]
+	],
+	"iasted#One_conference_day": [
+		[
+			"oneconferenceday",
+			"is child of",
+			"conferencedays"
+		],
+		[
+			"conferencedays",
+			"is child of",
+			"time"
+		]
+	],
+	"iasted#Fee_for_extra_trip": [
+		[
+			"feeforextratrip",
+			"is child of",
+			"fee"
+		],
+		[
+			"fee",
+			"is child of",
+			"money"
 		]
 	],
 	"iasted#Full_day_tour": [
 		[
-			"full day tour",
+			"fulldaytour",
 			"is child of",
-			"activity after conference"
+			"activityafterconference"
 		],
 		[
-			"activity after conference",
+			"activityafterconference",
 			"is parent of",
 			"departure"
 		]
 	],
 	"iasted#Conference_Hiker": [
 		[
-			"conference hike",
+			"conferencehiker",
 			"is child of",
 			"delegate"
 		],
 		[
 			"delegate",
 			"is parent of",
-			"hotel presenter"
+			"sessionchair"
 		]
 	],
 	"iasted#Computer": [
 		[
 			"computer",
 			"is child of",
-			"audiovisual equipment"
+			"audiovisualequipment"
 		],
 		[
-			"audiovisual equipment",
+			"audiovisualequipment",
 			"is parent of",
-			"overhead projector"
+			"overheadprojector"
 		]
 	],
 	"iasted#IASTED_member": [
 		[
-			"iasted member",
+			"iastedmember",
+			"is child of",
+			"delegate"
+		],
+		[
+			"delegate",
+			"is parent of",
+			"nonspeaker"
+		],
+		[
+			"nonspeaker",
+			"is parent of",
+			"workernonspeaker"
+		]
+	],
+	"iasted#Memeber_registration_fee": [
+		[
+			"memeberregistrationfee",
+			"is child of",
+			"registrationfee"
+		],
+		[
+			"registrationfee",
+			"is child of",
+			"fee"
+		],
+		[
+			"fee",
+			"is parent of",
+			"hotelfee"
+		]
+	],
+	"iasted#Author_book_proceedings_included": [
+		[
+			"authorbookproceedingsincluded",
+			"is child of",
+			"author"
+		],
+		[
+			"author",
+			"is child of",
+			"speaker"
+		],
+		[
+			"speaker",
 			"is child of",
 			"delegate"
 		],
@@ -2245,43 +2274,9 @@
 			"sponsor"
 		]
 	],
-	"iasted#Memeber_registration_fee": [
-		[
-			"member registration fee",
-			"is child of",
-			"registration fee"
-		],
-		[
-			"registration fee",
-			"is child of",
-			"fee"
-		],
-		[
-			"fee",
-			"is parent of",
-			"hotel fee"
-		]
-	],
-	"iasted#Author_book_proceedings_included": [
-		[
-			"author book proceedings included",
-			"is child of",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"lecturer"
-		],
-		[
-			"lecturer",
-			"is parent of",
-			"student lecturer"
-		]
-	],
 	"iasted#Sponsor_company_house": [
 		[
-			"sponsor company house",
+			"sponsorcompanyhouse",
 			"is child of",
 			"building"
 		],
@@ -2292,129 +2287,129 @@
 		],
 		[
 			"place",
-			"is parent of",
-			"main office"
+			"is child of",
+			"Thing"
 		]
 	],
 	"iasted#Sponzorship": [
 		[
-			"sponsorship",
+			"sponzorship",
 			"is child of",
 			"money"
 		],
 		[
 			"money",
 			"is parent of",
-			"tip"
+			"fee"
+		],
+		[
+			"fee",
+			"is parent of",
+			"hotelfee"
 		]
 	],
 	"iasted#Student_lecturer": [
 		[
-			"student lecturer",
+			"studentlecturer",
 			"is child of",
 			"lecturer"
 		],
 		[
 			"lecturer",
+			"is child of",
+			"author"
+		],
+		[
+			"author",
+			"is child of",
+			"speaker"
+		],
+		[
+			"speaker",
 			"is parent of",
-			"worker lecturer"
+			"reviewer"
 		]
 	],
 	"iasted#Trip_city": [
 		[
-			"trip city",
+			"tripcity",
 			"is child of",
 			"city"
 		],
 		[
 			"city",
-			"is child of",
-			"Thing"
+			"is parent of",
+			"conferencecity"
 		]
 	],
 	"iasted#Cheque": [
 		[
 			"cheque",
 			"is child of",
-			"payment document"
+			"paymentdocument"
 		],
 		[
-			"payment document",
-			"is child of",
-			"document"
-		],
-		[
-			"document",
+			"paymentdocument",
 			"is parent of",
-			"brief introduction for session chair"
+			"banktransfer"
 		]
 	],
 	"iasted#Shuttle_bus": [
 		[
-			"shuttle bus",
+			"shuttlebus",
 			"is child of",
-			"transport vehicle"
+			"transportvehicle"
 		],
 		[
-			"transport vehicle",
+			"transportvehicle",
+			"is child of",
+			"item"
+		],
+		[
+			"item",
 			"is parent of",
-			"car"
+			"audiovisualequipment"
+		],
+		[
+			"audiovisualequipment",
+			"is parent of",
+			"videocassetteplayer"
 		]
 	],
 	"iasted#Student_non_speaker": [
 		[
-			"student non speaker",
+			"studentnonspeaker",
 			"is child of",
-			"non speaker"
+			"nonspeaker"
 		],
 		[
-			"non speaker",
+			"nonspeaker",
 			"is parent of",
-			"worker non speaker"
+			"workernonspeaker"
 		]
 	],
 	"iasted#Student_registration_fee": [
 		[
-			"student registration fee",
+			"studentregistrationfee",
 			"is child of",
-			"registration fee"
+			"registrationfee"
 		],
 		[
-			"registration fee",
-			"is child of",
-			"fee"
-		],
-		[
-			"fee",
+			"registrationfee",
 			"is parent of",
-			"hotel fee"
+			"nonauthorregistrationfee"
 		]
 	],
 	"iasted#Author_attendee_cd_registration_fee": [
 		[
-			"author attended cd registration fee",
+			"authorattendeecdregistrationfee",
 			"is child of",
-			"registration fee"
+			"registrationfee"
 		],
 		[
-			"registration fee",
-			"is child of",
-			"fee"
-		],
-		[
-			"fee",
-			"is child of",
-			"money"
-		],
-		[
-			"money",
+			"registrationfee",
 			"is parent of",
-			"tax"
-		],
-		[
-			"tax",
-			"is parent of",
-			"departure tax"
+			"nonmemberregistrationfee"
 		]
 	],
 	"iasted#Tip": [
@@ -2426,12 +2421,12 @@
 		[
 			"money",
 			"is parent of",
-			"sponsorship"
+			"sponzorship"
 		]
 	],
 	"iasted#Credit_card": [
 		[
-			"credit card",
+			"creditcard",
 			"is child of",
 			"card"
 		],
@@ -2443,153 +2438,143 @@
 		[
 			"item",
 			"is parent of",
-			"transport vehicle"
-		],
-		[
-			"transport vehicle",
-			"is parent of",
-			"shuttle bus"
+			"publication"
 		]
 	],
 	"iasted#Van": [
 		[
 			"van",
 			"is child of",
-			"transport vehicle"
+			"transportvehicle"
 		],
 		[
-			"transport vehicle",
+			"transportvehicle",
 			"is child of",
 			"item"
 		],
 		[
 			"item",
 			"is parent of",
-			"card"
+			"document"
 		],
 		[
-			"card",
+			"document",
 			"is parent of",
-			"credit card"
+			"review"
 		]
 	],
 	"iasted#Main_office": [
 		[
-			"main office",
+			"mainoffice",
 			"is child of",
 			"place"
 		],
 		[
 			"place",
 			"is parent of",
-			"building"
+			"hotelroom"
 		],
 		[
-			"building",
+			"hotelroom",
 			"is parent of",
-			"conference airport"
+			"doublehotelroom"
 		]
 	],
 	"iasted#Presenter_university": [
 		[
-			"presenter university",
+			"presenteruniversity",
 			"is child of",
 			"building"
 		],
 		[
 			"building",
-			"is child of",
-			"place"
-		],
-		[
-			"place",
 			"is parent of",
-			"session room"
+			"conferencerestaurant"
 		]
 	],
 	"iasted#Departure_tax": [
 		[
-			"departure tax",
+			"departuretax",
 			"is child of",
 			"tax"
 		],
 		[
 			"tax",
+			"is child of",
+			"money"
+		],
+		[
+			"money",
 			"is parent of",
-			"value added tax"
+			"sponzorship"
 		]
 	],
 	"iasted#Receiving_manuscript": [
 		[
-			"receiving manuscript",
+			"receivingmanuscript",
 			"is child of",
-			"activity before conference"
+			"activitybeforeconference"
 		],
 		[
-			"activity before conference",
+			"activitybeforeconference",
+			"is parent of",
+			"renting"
+		]
+	],
+	"iasted#Double_hotel_room": [
+		[
+			"doublehotelroom",
+			"is child of",
+			"hotelroom"
+		],
+		[
+			"hotelroom",
+			"is parent of",
+			"singlehotelroom"
+		]
+	],
+	"iasted#Initial_manuscipt": [
+		[
+			"initialmanuscipt",
+			"is child of",
+			"submission"
+		],
+		[
+			"submission",
+			"is child of",
+			"document"
+		],
+		[
+			"document",
+			"is parent of",
+			"viza"
+		]
+	],
+	"iasted#Coffee_break": [
+		[
+			"coffeebreak",
+			"is child of",
+			"conferenceactivity"
+		],
+		[
+			"conferenceactivity",
 			"is child of",
 			"activity"
 		],
 		[
 			"activity",
 			"is parent of",
-			"activity after conference"
-		],
-		[
-			"activity after conference",
-			"is parent of",
-			"full day tour"
-		]
-	],
-	"iasted#Double_hotel_room": [
-		[
-			"double hotel room",
-			"is child of",
-			"hotel room"
-		],
-		[
-			"hotel room",
-			"is child of",
-			"place"
-		],
-		[
-			"place",
-			"is child of",
-			"Thing"
-		]
-	],
-	"iasted#Initial_manuscipt": [
-		[
-			"initial manuscript",
-			"is child of",
-			"submission"
-		],
-		[
-			"submission",
-			"is parent of",
-			"final manuscript"
-		]
-	],
-	"iasted#Coffee_break": [
-		[
-			"coffee break",
-			"is child of",
-			"conference activity"
-		],
-		[
-			"conference activity",
-			"is child of",
-			"activity"
+			"activitybeforeconference"
 		]
 	],
 	"iasted#Bank_transfer": [
 		[
-			"bank transfer",
+			"banktransfer",
 			"is child of",
-			"payment document"
+			"paymentdocument"
 		],
 		[
-			"payment document",
+			"paymentdocument",
 			"is child of",
 			"document"
 		],
@@ -2601,24 +2586,39 @@
 		[
 			"item",
 			"is parent of",
-			"card"
+			"transportvehicle"
+		],
+		[
+			"transportvehicle",
+			"is parent of",
+			"shuttlebus"
 		]
 	],
 	"iasted#Overhead_projector": [
 		[
-			"overhead projector",
+			"overheadprojector",
 			"is child of",
-			"audiovisual equipment"
+			"audiovisualequipment"
 		],
 		[
-			"audiovisual equipment",
+			"audiovisualequipment",
+			"is child of",
+			"item"
+		],
+		[
+			"item",
 			"is parent of",
-			"video cassette player"
+			"document"
+		],
+		[
+			"document",
+			"is parent of",
+			"mailinglist"
 		]
 	],
 	"iasted#Speaker_lecture": [
 		[
-			"speaker lecture",
+			"speakerlecture",
 			"is child of",
 			"session"
 		],
@@ -2630,19 +2630,19 @@
 		[
 			"lecture",
 			"is parent of",
-			"plenary lecture"
+			"plenarylecture"
 		]
 	],
 	"iasted#Coctail_reception": [
 		[
-			"cocktail reception",
+			"coctailreception",
 			"is child of",
-			"conference activity"
+			"conferenceactivity"
 		],
 		[
-			"conference activity",
-			"is child of",
-			"activity"
+			"conferenceactivity",
+			"is parent of",
+			"presentation"
 		]
 	]
 }

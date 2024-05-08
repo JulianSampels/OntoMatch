@@ -12,95 +12,13 @@
 		],
 		[
 			"Reviewer",
-			"hasBeenAssigned",
-			"Paper"
-		],
-		[
-			"ConferenceMember",
-			"memberOfConference",
-			"Conference"
-		],
-		[
-			"ConferenceMember",
-			"is child of",
-			"Reviewer"
-		],
-		[
-			"Paper",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Conference",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Conference",
-			"paperAssignmentFinalizedBy",
-			"Administrator"
-		],
-		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"is child of",
-			"Paper"
-		]
-	],
-	"cmt#Reviewer": [
-		[
-			"Reviewer",
-			"is parent of",
-			"ConferenceMember"
-		],
-		[
-			"Reviewer",
 			"is child of",
 			"Meta-Reviewer"
 		],
 		[
 			"ConferenceMember",
-			"memberOfConference",
-			"Conference"
-		],
-		[
-			"ConferenceMember",
-			"is child of",
-			"ProgramCommitteeMember"
-		],
-		[
-			"Meta-Reviewer",
-			"is parent of",
-			"Reviewer"
-		],
-		[
-			"ProgramCommitteeMember",
-			"is parent of",
-			"ConferenceMember"
-		],
-		[
-			"ProgramCommitteeMember",
 			"is parent of",
 			"Person"
-		],
-		[
-			"Conference",
-			"is parent of",
-			"Thing"
-		],
-		[
-			"Conference",
-			"hardcopyMailingManifestsPrintedBy",
-			"Administrator"
-		],
-		[
-			"Person",
-			"is child of",
-			"ProgramCommitteeMember"
 		],
 		[
 			"Person",
@@ -108,9 +26,41 @@
 			"ExternalReviewer"
 		],
 		[
-			"Administrator",
+			"Person",
+			"is child of",
+			"ProgramCommitteeMember"
+		]
+	],
+	"cmt#Reviewer": [
+		[
+			"Reviewer",
+			"markConflictOfInterest",
+			"Paper"
+		],
+		[
+			"Reviewer",
+			"is child of",
+			"Meta-Reviewer"
+		],
+		[
+			"Meta-Reviewer",
 			"is parent of",
-			"User"
+			"Reviewer"
+		],
+		[
+			"Paper",
+			"is child of",
+			"PaperAbstract"
+		],
+		[
+			"Paper",
+			"hasDecision",
+			"Thing"
+		],
+		[
+			"PaperAbstract",
+			"is parent of",
+			"Paper"
 		]
 	],
 	"cmt#Decision": [
@@ -125,12 +75,12 @@
 			"Acceptance"
 		],
 		[
-			"Rejection",
+			"Acceptance",
 			"is parent of",
 			"Decision"
 		],
 		[
-			"Acceptance",
+			"Rejection",
 			"is parent of",
 			"Decision"
 		]
@@ -142,9 +92,14 @@
 			"Document"
 		],
 		[
-			"Document",
+			"Person",
 			"is child of",
-			"Review"
+			"ExternalReviewer"
+		],
+		[
+			"ExternalReviewer",
+			"is parent of",
+			"Person"
 		],
 		[
 			"Document",
@@ -152,9 +107,51 @@
 			"Paper"
 		],
 		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Paper",
+			"acceptedBy",
+			"Administrator"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Administrator",
+			"assignReviewer",
+			"Reviewer"
+		],
+		[
+			"Administrator",
+			"is parent of",
+			"User"
+		]
+	],
+	"cmt#Document": [
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
 			"Paper",
 			"is child of",
-			"PaperAbstract"
+			"PaperFullVersion"
 		],
 		[
 			"Paper",
@@ -168,11 +165,11 @@
 		],
 		[
 			"Review",
-			"writtenBy",
-			"Reviewer"
+			"is parent of",
+			"Document"
 		],
 		[
-			"PaperAbstract",
+			"PaperFullVersion",
 			"is parent of",
 			"Paper"
 		],
@@ -180,80 +177,9 @@
 			"Meta-Review",
 			"is parent of",
 			"Review"
-		],
-		[
-			"Reviewer",
-			"is child of",
-			"Meta-Reviewer"
-		],
-		[
-			"Reviewer",
-			"is parent of",
-			"User"
 		]
 	],
-	"cmt#Document": [
-		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"is child of",
-			"Paper"
-		],
-		[
-			"Review",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Review",
-			"writtenBy",
-			"Reviewer"
-		],
-		[
-			"Paper",
-			"is child of",
-			"PaperAbstract"
-		],
-		[
-			"Paper",
-			"readByReviewer",
-			"Thing"
-		],
-		[
-			"Reviewer",
-			"is parent of",
-			"ConferenceMember"
-		],
-		[
-			"Reviewer",
-			"is child of",
-			"Meta-Reviewer"
-		],
-		[
-			"PaperAbstract",
-			"is parent of",
-			"Paper"
-		],
-		[
-			"ConferenceMember",
-			"memberOfConference",
-			"Conference"
-		],
-		[
-			"ConferenceMember",
-			"is child of",
-			"ProgramCommitteeMember"
-		],
-		[
-			"Meta-Reviewer",
-			"is parent of",
-			"Reviewer"
-		]
-	],
+	"cmt#Preference": [],
 	"cmt#ProgramCommittee": [
 		[
 			"ProgramCommittee",
@@ -262,18 +188,63 @@
 		],
 		[
 			"ProgramCommitteeMember",
-			"memberOfProgramCommittee",
-			"ProgramCommittee"
+			"is parent of",
+			"Person"
 		],
 		[
 			"ProgramCommitteeMember",
-			"is child of",
-			"ProgramCommitteeChair"
+			"is parent of",
+			"ConferenceMember"
 		],
 		[
-			"ProgramCommitteeChair",
+			"Person",
+			"hasConflictOfInterest",
+			"Document"
+		],
+		[
+			"Person",
+			"is child of",
+			"ExternalReviewer"
+		],
+		[
+			"ConferenceMember",
+			"is parent of",
+			"Person"
+		],
+		[
+			"ConferenceMember",
+			"is child of",
+			"AssociatedChair"
+		],
+		[
+			"ExternalReviewer",
+			"is parent of",
+			"Person"
+		],
+		[
+			"ExternalReviewer",
+			"assignedByReviewer",
+			"Thing"
+		],
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"AssociatedChair",
 			"is equivalent to",
 			"Chairman"
+		],
+		[
+			"AssociatedChair",
+			"is parent of",
+			"ConferenceMember"
 		]
 	],
 	"cmt#Bid": [
@@ -281,11 +252,6 @@
 			"Bid",
 			"adjustedBy",
 			"Reviewer"
-		],
-		[
-			"Reviewer",
-			"adjustBid",
-			"Bid"
 		],
 		[
 			"Reviewer",
@@ -303,11 +269,6 @@
 			"Conference",
 			"is parent of",
 			"Thing"
-		],
-		[
-			"Conference",
-			"name",
-			"Thing"
 		]
 	],
 	"cmt#ConferenceChair": [
@@ -315,61 +276,6 @@
 			"ConferenceChair",
 			"is equivalent to",
 			"Chairman"
-		],
-		[
-			"ConferenceChair",
-			"is parent of",
-			"ConferenceMember"
-		],
-		[
-			"ConferenceMember",
-			"memberOfConference",
-			"Conference"
-		],
-		[
-			"ConferenceMember",
-			"is child of",
-			"ProgramCommitteeMember"
-		],
-		[
-			"ProgramCommitteeMember",
-			"is parent of",
-			"ConferenceMember"
-		],
-		[
-			"ProgramCommitteeMember",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Conference",
-			"reviewerBiddingStartedBy",
-			"Administrator"
-		],
-		[
-			"Conference",
-			"virtualMeetingEnabledBy",
-			"Administrator"
-		],
-		[
-			"Person",
-			"is child of",
-			"ProgramCommitteeMember"
-		],
-		[
-			"Person",
-			"is child of",
-			"Chairman"
-		],
-		[
-			"Administrator",
-			"finalizePaperAssignment",
-			"Conference"
-		],
-		[
-			"Administrator",
-			"is parent of",
-			"User"
 		]
 	],
 	"cmt#ConferenceMember": [
@@ -390,17 +296,27 @@
 		],
 		[
 			"Person",
-			"hasConflictOfInterest",
-			"Document"
+			"is child of",
+			"ProgramCommitteeMember"
 		],
 		[
 			"Reviewer",
-			"writeReview",
-			"Review"
+			"is parent of",
+			"User"
 		],
 		[
 			"Reviewer",
-			"assignedByAdministrator",
+			"is parent of",
+			"ConferenceMember"
+		],
+		[
+			"ProgramCommitteeMember",
+			"is child of",
+			"ProgramCommitteeChair"
+		],
+		[
+			"ProgramCommitteeMember",
+			"addedBy",
 			"Administrator"
 		],
 		[
@@ -409,49 +325,61 @@
 			"Person"
 		],
 		[
-			"Document",
+			"User",
 			"is child of",
-			"Review"
+			"Administrator"
 		],
 		[
-			"Document",
-			"is child of",
-			"Paper"
+			"ProgramCommitteeChair",
+			"is equivalent to",
+			"Chairman"
 		],
 		[
-			"Review",
-			"is child of",
-			"Meta-Review"
-		],
-		[
-			"Review",
+			"ProgramCommitteeChair",
 			"is parent of",
-			"Document"
+			"ProgramCommitteeMember"
 		],
 		[
 			"Administrator",
-			"enableVirtualMeeting",
-			"Conference"
+			"setMaxPapers",
+			"ProgramCommitteeMember"
 		],
 		[
 			"Administrator",
 			"is parent of",
 			"User"
-		],
+		]
+	],
+	"cmt#AssociatedChair": [
 		[
-			"Paper",
-			"hasDecision",
-			"Decision"
-		],
-		[
-			"Paper",
-			"is child of",
-			"PaperFullVersion"
-		],
-		[
-			"Meta-Review",
+			"AssociatedChair",
 			"is parent of",
-			"Review"
+			"ConferenceMember"
+		],
+		[
+			"ConferenceMember",
+			"is parent of",
+			"Person"
+		],
+		[
+			"ConferenceMember",
+			"memberOfConference",
+			"Conference"
+		],
+		[
+			"Person",
+			"hasConflictOfInterest",
+			"Document"
+		],
+		[
+			"Person",
+			"is child of",
+			"ExternalReviewer"
+		],
+		[
+			"Conference",
+			"reviewerBiddingStartedBy",
+			"Administrator"
 		],
 		[
 			"Conference",
@@ -459,16 +387,29 @@
 			"Thing"
 		],
 		[
-			"Conference",
-			"paperAssignmentToolsRunBy",
-			"Administrator"
-		]
-	],
-	"cmt#AssociatedChair": [
+			"ExternalReviewer",
+			"is parent of",
+			"Person"
+		],
 		[
-			"AssociatedChair",
-			"is equivalent to",
-			"Chairman"
+			"ExternalReviewer",
+			"assignedByReviewer",
+			"Thing"
+		],
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Administrator",
+			"is parent of",
+			"User"
 		]
 	],
 	"cmt#ProgramCommitteeMember": [
@@ -478,9 +419,44 @@
 			"ProgramCommitteeChair"
 		],
 		[
+			"ProgramCommitteeMember",
+			"is parent of",
+			"ConferenceMember"
+		],
+		[
+			"ConferenceMember",
+			"is child of",
+			"AssociatedChair"
+		],
+		[
+			"ConferenceMember",
+			"is child of",
+			"Reviewer"
+		],
+		[
 			"ProgramCommitteeChair",
 			"is equivalent to",
 			"Chairman"
+		],
+		[
+			"ProgramCommitteeChair",
+			"is parent of",
+			"ProgramCommitteeMember"
+		],
+		[
+			"Reviewer",
+			"is child of",
+			"Meta-Reviewer"
+		],
+		[
+			"AssociatedChair",
+			"is equivalent to",
+			"Chairman"
+		],
+		[
+			"Meta-Reviewer",
+			"is parent of",
+			"Reviewer"
 		]
 	],
 	"cmt#AuthorNotReviewer": [
@@ -491,18 +467,23 @@
 		],
 		[
 			"Author",
-			"writePaper",
-			"Paper"
+			"is child of",
+			"Co-author"
 		],
 		[
 			"Author",
-			"submitPaper",
+			"is child of",
+			"AuthorNotReviewer"
+		],
+		[
+			"Co-author",
+			"co-writePaper",
 			"Paper"
 		],
 		[
-			"Paper",
-			"hasDecision",
-			"Thing"
+			"Co-author",
+			"is parent of",
+			"Author"
 		],
 		[
 			"Paper",
@@ -510,11 +491,12 @@
 			"PaperAbstract"
 		],
 		[
-			"PaperAbstract",
+			"Paper",
 			"is parent of",
-			"Paper"
+			"Document"
 		]
 	],
+	"cmt#SubjectArea": [],
 	"cmt#ExternalReviewer": [
 		[
 			"ExternalReviewer",
@@ -543,13 +525,8 @@
 		],
 		[
 			"Reviewer",
-			"assignedByAdministrator",
-			"Administrator"
-		],
-		[
-			"Document",
 			"is child of",
-			"Review"
+			"Meta-Reviewer"
 		],
 		[
 			"Document",
@@ -557,9 +534,9 @@
 			"Paper"
 		],
 		[
-			"ConferenceMember",
-			"is parent of",
-			"Person"
+			"Document",
+			"is child of",
+			"Review"
 		],
 		[
 			"ConferenceMember",
@@ -567,19 +544,19 @@
 			"Author"
 		],
 		[
-			"Administrator",
+			"ConferenceMember",
+			"memberOfConference",
+			"Conference"
+		],
+		[
+			"Meta-Reviewer",
 			"is parent of",
-			"User"
+			"Reviewer"
 		],
 		[
 			"Review",
 			"is parent of",
 			"Document"
-		],
-		[
-			"Review",
-			"writtenBy",
-			"Reviewer"
 		],
 		[
 			"Paper",
@@ -588,75 +565,62 @@
 		],
 		[
 			"Paper",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Author",
-			"writePaper",
-			"Paper"
-		],
-		[
-			"Author",
-			"submitPaper",
-			"Paper"
-		],
-		[
-			"User",
-			"is parent of",
-			"Person"
-		],
-		[
-			"User",
 			"is child of",
-			"Reviewer"
+			"PaperAbstract"
+		],
+		[
+			"Author",
+			"is child of",
+			"Co-author"
+		],
+		[
+			"Author",
+			"is parent of",
+			"ConferenceMember"
+		],
+		[
+			"Conference",
+			"reviewerBiddingStartedBy",
+			"Administrator"
+		],
+		[
+			"Conference",
+			"is parent of",
+			"Thing"
 		]
 	],
 	"cmt#Chairman": [
 		[
 			"Chairman",
 			"is equivalent to",
-			"ConferenceChair"
+			"ProgramCommitteeChair"
 		],
 		[
 			"Chairman",
+			"is equivalent to",
+			"ConferenceChair"
+		]
+	],
+	"cmt#ProgramCommitteeChair": [
+		[
+			"ProgramCommitteeChair",
 			"is parent of",
-			"Person"
+			"ProgramCommitteeMember"
 		],
 		[
-			"Person",
-			"is child of",
-			"ConferenceMember"
-		],
-		[
-			"Person",
-			"hasConflictOfInterest",
-			"Document"
-		],
-		[
-			"ConferenceMember",
-			"memberOfConference",
-			"Conference"
-		],
-		[
-			"ConferenceMember",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Document",
-			"is child of",
+			"ProgramCommitteeChair",
+			"endReview",
 			"Review"
 		],
 		[
-			"Document",
+			"ProgramCommitteeMember",
 			"is child of",
-			"Paper"
+			"ProgramCommitteeChair"
 		],
 		[
-			"Conference",
-			"is parent of",
-			"Thing"
+			"Review",
+			"writtenBy",
+			"Reviewer"
 		],
 		[
 			"Review",
@@ -664,21 +628,29 @@
 			"Meta-Review"
 		],
 		[
-			"Paper",
-			"hasBid",
-			"Bid"
+			"Meta-Review",
+			"is parent of",
+			"Review"
 		],
 		[
-			"Paper",
-			"readByReviewer",
-			"Thing"
-		]
-	],
-	"cmt#ProgramCommitteeChair": [
+			"Reviewer",
+			"is parent of",
+			"User"
+		],
 		[
-			"ProgramCommitteeChair",
-			"is equivalent to",
-			"Chairman"
+			"Reviewer",
+			"is child of",
+			"Meta-Reviewer"
+		],
+		[
+			"User",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Meta-Reviewer",
+			"is parent of",
+			"Reviewer"
 		]
 	],
 	"cmt#Acceptance": [
@@ -740,157 +712,18 @@
 	"cmt#Paper": [
 		[
 			"Paper",
-			"is child of",
-			"PaperFullVersion"
-		],
-		[
-			"Paper",
-			"is child of",
-			"PaperAbstract"
-		],
-		[
-			"PaperAbstract",
 			"is parent of",
-			"Paper"
-		],
-		[
-			"PaperFullVersion",
-			"is parent of",
-			"Paper"
-		]
-	],
-	"cmt#Author": [
-		[
-			"Author",
-			"is parent of",
-			"ConferenceMember"
-		],
-		[
-			"Author",
-			"is parent of",
-			"User"
-		],
-		[
-			"User",
-			"is child of",
-			"Reviewer"
-		],
-		[
-			"User",
-			"is child of",
-			"Author"
-		],
-		[
-			"ConferenceMember",
-			"is parent of",
-			"Person"
-		],
-		[
-			"Reviewer",
-			"assignExternalReviewer",
-			"ExternalReviewer"
-		],
-		[
-			"Reviewer",
-			"is parent of",
-			"ConferenceMember"
-		],
-		[
-			"Person",
-			"is child of",
-			"Chairman"
-		],
-		[
-			"Person",
-			"hasConflictOfInterest",
 			"Document"
 		],
 		[
-			"ExternalReviewer",
-			"assignedByReviewer",
-			"Thing"
-		],
-		[
-			"ExternalReviewer",
-			"assignedByReviewer",
-			"Reviewer"
-		],
-		[
-			"Chairman",
-			"is parent of",
-			"Person"
+			"Document",
+			"is child of",
+			"Paper"
 		],
 		[
 			"Document",
 			"is child of",
 			"Review"
-		],
-		[
-			"Document",
-			"is child of",
-			"Paper"
-		]
-	],
-	"cmt#User": [
-		[
-			"User",
-			"is parent of",
-			"Person"
-		],
-		[
-			"User",
-			"is child of",
-			"Reviewer"
-		],
-		[
-			"Person",
-			"is child of",
-			"ProgramCommitteeMember"
-		],
-		[
-			"Person",
-			"hasConflictOfInterest",
-			"Document"
-		],
-		[
-			"Reviewer",
-			"is child of",
-			"Meta-Reviewer"
-		],
-		[
-			"Reviewer",
-			"is parent of",
-			"User"
-		],
-		[
-			"ProgramCommitteeMember",
-			"is child of",
-			"ProgramCommitteeChair"
-		],
-		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"is child of",
-			"Paper"
-		],
-		[
-			"Meta-Reviewer",
-			"is parent of",
-			"Reviewer"
-		],
-		[
-			"ProgramCommitteeChair",
-			"is equivalent to",
-			"Chairman"
-		],
-		[
-			"ProgramCommitteeChair",
-			"is parent of",
-			"ProgramCommitteeMember"
 		],
 		[
 			"Review",
@@ -898,41 +731,36 @@
 			"Reviewer"
 		],
 		[
-			"Paper",
-			"hasSubjectArea",
-			"SubjectArea"
-		],
-		[
-			"Paper",
+			"Review",
 			"is parent of",
 			"Document"
-		]
-	],
-	"cmt#Co-author": [
-		[
-			"Co-author",
-			"co-writePaper",
-			"Paper"
 		],
 		[
-			"Co-author",
+			"Reviewer",
 			"is parent of",
-			"Author"
+			"ConferenceMember"
+		],
+		[
+			"Reviewer",
+			"is child of",
+			"Meta-Reviewer"
+		]
+	],
+	"cmt#Author": [
+		[
+			"Author",
+			"writePaper",
+			"Paper"
 		],
 		[
 			"Author",
 			"is child of",
-			"Co-author"
+			"AuthorNotReviewer"
 		],
 		[
-			"Author",
+			"AuthorNotReviewer",
 			"is parent of",
-			"User"
-		],
-		[
-			"Paper",
-			"hasDecision",
-			"Decision"
+			"Author"
 		],
 		[
 			"Paper",
@@ -940,14 +768,9 @@
 			"PaperAbstract"
 		],
 		[
-			"User",
-			"is parent of",
-			"Person"
-		],
-		[
-			"User",
-			"is child of",
-			"Administrator"
+			"Paper",
+			"hasDecision",
+			"Decision"
 		],
 		[
 			"PaperAbstract",
@@ -965,21 +788,6 @@
 			"Acceptance"
 		],
 		[
-			"Person",
-			"is child of",
-			"ConferenceMember"
-		],
-		[
-			"Person",
-			"hasConflictOfInterest",
-			"Document"
-		],
-		[
-			"Administrator",
-			"is parent of",
-			"User"
-		],
-		[
 			"Rejection",
 			"is parent of",
 			"Decision"
@@ -990,6 +798,115 @@
 			"Decision"
 		]
 	],
+	"cmt#User": [
+		[
+			"User",
+			"is parent of",
+			"Person"
+		],
+		[
+			"User",
+			"is child of",
+			"Author"
+		],
+		[
+			"Person",
+			"hasConflictOfInterest",
+			"Document"
+		],
+		[
+			"Author",
+			"is child of",
+			"Co-author"
+		],
+		[
+			"Author",
+			"is child of",
+			"AuthorNotReviewer"
+		],
+		[
+			"Document",
+			"is child of",
+			"Paper"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Co-author",
+			"co-writePaper",
+			"Paper"
+		],
+		[
+			"Co-author",
+			"is parent of",
+			"Author"
+		],
+		[
+			"AuthorNotReviewer",
+			"is parent of",
+			"Author"
+		],
+		[
+			"Review",
+			"is child of",
+			"Meta-Review"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
+		]
+	],
+	"cmt#Co-author": [
+		[
+			"Co-author",
+			"is parent of",
+			"Author"
+		],
+		[
+			"Author",
+			"is parent of",
+			"User"
+		],
+		[
+			"Author",
+			"submitPaper",
+			"Paper"
+		],
+		[
+			"User",
+			"is parent of",
+			"Person"
+		],
+		[
+			"Paper",
+			"is child of",
+			"PaperAbstract"
+		],
+		[
+			"Paper",
+			"hasBid",
+			"Bid"
+		],
+		[
+			"Person",
+			"hasConflictOfInterest",
+			"Document"
+		],
+		[
+			"PaperAbstract",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Bid",
+			"adjustedBy",
+			"Reviewer"
+		]
+	],
 	"cmt#PaperAbstract": [
 		[
 			"PaperAbstract",
@@ -998,8 +915,8 @@
 		],
 		[
 			"Paper",
-			"readByReviewer",
-			"Reviewer"
+			"is child of",
+			"PaperFullVersion"
 		],
 		[
 			"Paper",
@@ -1007,29 +924,9 @@
 			"PaperAbstract"
 		],
 		[
-			"Reviewer",
-			"writeReview",
-			"Review"
-		],
-		[
-			"Reviewer",
-			"is child of",
-			"Meta-Reviewer"
-		],
-		[
-			"Meta-Reviewer",
+			"PaperFullVersion",
 			"is parent of",
-			"Reviewer"
-		],
-		[
-			"Review",
-			"is parent of",
-			"Document"
-		],
-		[
-			"Review",
-			"writtenBy",
-			"Reviewer"
+			"Paper"
 		]
 	],
 	"cmt#PaperFullVersion": [
@@ -1041,7 +938,7 @@
 		[
 			"Paper",
 			"is child of",
-			"PaperFullVersion"
+			"PaperAbstract"
 		],
 		[
 			"Paper",
@@ -1051,17 +948,22 @@
 		[
 			"Document",
 			"is child of",
-			"Review"
+			"Paper"
 		],
 		[
 			"Document",
 			"is child of",
+			"Review"
+		],
+		[
+			"PaperAbstract",
+			"is parent of",
 			"Paper"
 		],
 		[
 			"Review",
-			"is child of",
-			"Meta-Review"
+			"is parent of",
+			"Document"
 		]
 	],
 	"cmt#Administrator": [
@@ -1071,29 +973,69 @@
 			"User"
 		],
 		[
-			"User",
-			"is parent of",
-			"Person"
+			"Administrator",
+			"acceptPaper",
+			"Paper"
 		],
 		[
-			"Person",
+			"User",
 			"is child of",
+			"Author"
+		],
+		[
+			"User",
+			"is child of",
+			"Reviewer"
+		],
+		[
+			"Paper",
+			"is child of",
+			"PaperAbstract"
+		],
+		[
+			"Paper",
+			"hasBid",
+			"Bid"
+		],
+		[
+			"Reviewer",
+			"is parent of",
 			"User"
 		],
 		[
-			"Person",
-			"hasConflictOfInterest",
-			"Document"
+			"Reviewer",
+			"is parent of",
+			"ConferenceMember"
 		],
 		[
-			"Document",
-			"is child of",
-			"Review"
-		],
-		[
-			"Document",
-			"is child of",
+			"Author",
+			"writePaper",
 			"Paper"
+		],
+		[
+			"Author",
+			"submitPaper",
+			"Paper"
+		],
+		[
+			"PaperAbstract",
+			"is parent of",
+			"Paper"
+		],
+		[
+			"Bid",
+			"adjustedBy",
+			"Reviewer"
+		],
+		[
+			"ConferenceMember",
+			"is child of",
+			"AssociatedChair"
+		],
+		[
+			"ConferenceMember",
+			"is child of",
+			"ProgramCommitteeMember"
 		]
 	],
 	"cmt#Meta-Review": [
@@ -1104,8 +1046,28 @@
 		],
 		[
 			"Review",
+			"is parent of",
+			"Document"
+		],
+		[
+			"Document",
 			"is child of",
-			"Meta-Review"
+			"Paper"
+		],
+		[
+			"Document",
+			"is child of",
+			"Review"
+		],
+		[
+			"Paper",
+			"is child of",
+			"PaperFullVersion"
+		],
+		[
+			"Paper",
+			"is parent of",
+			"Document"
 		]
 	]
 }

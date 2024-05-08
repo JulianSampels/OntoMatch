@@ -1,12 +1,9 @@
 {
-	"cmt#ConferenceMember;edas#Attendee": "no",
-	"cmt#ConferenceMember;edas#TPCMember": "yes",
-	"cmt#ProgramCommitteeMember;edas#TPCMember": "no",
 	"cmt#PaperAbstract;edas#WithdrawnPaper": "no",
-	"cmt#PaperAbstract;edas#PublishedPaper": "no",
-	"cmt#PaperFullVersion;edas#PublishedPaper": "yes",
-	"cmt#ConferenceMember;edas#Presenter": "no",
-	"cmt#ProgramCommitteeChair;edas#SessionChair": "yes",
-	"cmt#AssociatedChair;edas#SessionChair": "yes",
-	"cmt#Chairman;edas#Presenter": "no"
+	"cmt#PaperAbstract;edas#PublishedPaper": "yes",
+	"cmt#PaperFullVersion;edas#PublishedPaper": "no",
+	"cmt#ProgramCommitteeMember;edas#TPCMember": "no",
+	"cmt#ConferenceMember;edas#TPCMember": "no",
+	"cmt#ConferenceMember;edas#Attendee": "no",
+	"cmt#ConferenceMember;edas#Presenter": "no"
 }

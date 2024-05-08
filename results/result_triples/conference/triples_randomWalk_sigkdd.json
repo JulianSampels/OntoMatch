@@ -8,24 +8,24 @@
 		[
 			"place",
 			"is parent of",
-			"conference hall"
+			"conferencehall"
 		]
 	],
 	"sigkdd#Place": [
 		[
 			"place",
 			"is parent of",
-			"conference hall "
+			"conferencehall "
 		],
 		[
 			"place",
 			"is parent of",
-			"hotel "
+			"mainoffice "
 		],
 		[
 			"place",
 			"is parent of",
-			"main office"
+			"hotel"
 		]
 	],
 	"sigkdd#Abstract": [
@@ -37,7 +37,7 @@
 		[
 			"document",
 			"is parent of",
-			"paper"
+			"review"
 		]
 	],
 	"sigkdd#Document": [
@@ -59,301 +59,118 @@
 	],
 	"sigkdd#Deadline_Abstract_Submission": [
 		[
-			"deadline abstract submission",
+			"deadlineabstractsubmission",
 			"is child of",
 			"deadline"
 		],
 		[
 			"deadline",
 			"is parent of",
-			"deadline author notification"
+			"deadlinepapersubmission"
 		]
 	],
 	"sigkdd#Best_Applications_Paper_Award": [
 		[
-			"best applications paper award",
+			"bestapplicationspaperaward",
 			"is child of",
 			"award"
 		],
 		[
 			"award",
 			"is parent of",
-			"best research paper award"
+			"bestresearchpaperaward"
 		]
 	],
 	"sigkdd#Award": [
 		[
 			"award",
 			"is parent of",
-			"best applications paper award "
+			"beststudentpaperaward "
 		],
 		[
 			"award",
 			"is parent of",
-			"best student paper award "
+			"bestresearchpaperaward "
 		],
 		[
 			"award",
 			"is parent of",
-			"best research paper award"
+			"bestapplicationspaperaward"
 		]
 	],
 	"sigkdd#Deadline_Paper_Submission": [
 		[
-			"deadline paper submission",
+			"deadlinepapersubmission",
 			"is child of",
 			"deadline"
 		],
 		[
 			"deadline",
 			"is parent of",
-			"deadline author notification"
+			"deadlineabstractsubmission"
 		]
 	],
 	"sigkdd#Deadline": [
 		[
 			"deadline",
 			"is parent of",
-			"deadline author notification "
+			"deadlinepapersubmission "
 		],
 		[
 			"deadline",
 			"is parent of",
-			"deadline abstract submission "
+			"deadlineabstractsubmission "
 		],
 		[
 			"deadline",
 			"is parent of",
-			"deadline paper submission"
+			"deadlineauthornotification"
 		]
 	],
 	"sigkdd#Deadline_Author_notification": [
 		[
-			"deadline author notification",
+			"deadlineauthornotification",
 			"is child of",
 			"deadline"
 		],
 		[
 			"deadline",
 			"is parent of",
-			"deadline abstract submission"
+			"deadlineabstractsubmission"
 		]
 	],
 	"sigkdd#Webmaster": [
 		[
 			"webmaster",
 			"is child of",
-			"organization"
+			"organizator"
 		],
 		[
-			"organization",
+			"organizator",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
 			"is parent of",
-			"program committee member"
+			"listener"
 		]
 	],
 	"sigkdd#Organizator": [
 		[
-			"organization",
+			"organizator",
 			"is parent of",
-			"organizing committee member "
+			"generalchair "
 		],
 		[
-			"organization",
-			"is parent of",
-			"program chair "
-		],
-		[
-			"organization",
+			"organizator",
 			"is parent of",
 			"webmaster "
 		],
 		[
-			"organization",
+			"organizator",
 			"is child of",
 			"person"
-		],
-		[
-			"person",
-			"is parent of",
-			"speaker"
-		],
-		[
-			"speaker",
-			"is parent of",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"author of paper student "
-		],
-		[
-			"organization",
-			"is parent of",
-			"program committee member"
-		]
-	],
-	"sigkdd#Author_of_paper_student": [
-		[
-			"author of paper student",
-			"is child of",
-			"author"
-		],
-		[
-			"author",
-			"is child of",
-			"speaker"
-		],
-		[
-			"speaker",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is child of",
-			"Thing"
-		]
-	],
-	"sigkdd#Best_Student_Paper_Award": [
-		[
-			"best student paper award",
-			"is child of",
-			"award"
-		],
-		[
-			"award",
-			"is parent of",
-			"best research paper award"
-		]
-	],
-	"sigkdd#Author": [
-		[
-			"author",
-			"is parent of",
-			"author of paper "
-		],
-		[
-			"author",
-			"is parent of",
-			"author of paper student "
-		],
-		[
-			"author",
-			"is child of",
-			"speaker"
-		],
-		[
-			"speaker",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is child of",
-			"Thing"
-		]
-	],
-	"sigkdd#ACM_SIGKDD": [
-		[
-			"acm sigkdd",
-			"is child of",
-			"Thing"
-		]
-	],
-	"sigkdd#Sponzor": [
-		[
-			"sponsor",
-			"is parent of",
-			"platinum supporter "
-		],
-		[
-			"sponsor",
-			"is parent of",
-			"silver supporter "
-		],
-		[
-			"sponsor",
-			"is parent of",
-			"gold supporter "
-		],
-		[
-			"sponsor",
-			"is parent of",
-			"best student paper supporter "
-		],
-		[
-			"sponsor",
-			"is parent of",
-			"exhibitors"
-		]
-	],
-	"sigkdd#Exhibitor": [
-		[
-			"exhibitors",
-			"is child of",
-			"sponsor"
-		],
-		[
-			"sponsor",
-			"is parent of",
-			"best student paper supporter"
-		]
-	],
-	"sigkdd#Registration_SIGMOD_Member": [
-		[
-			"registration signed member",
-			"is child of",
-			"registration fee"
-		],
-		[
-			"registration fee",
-			"is parent of",
-			"registration sigkdd member"
-		]
-	],
-	"sigkdd#Registration_fee": [
-		[
-			"registration fee",
-			"is parent of",
-			"registration sigkdd member "
-		],
-		[
-			"registration fee",
-			"is child of",
-			"fee"
-		],
-		[
-			"fee",
-			"is parent of",
-			"sponsor fee "
-		],
-		[
-			"registration fee",
-			"is parent of",
-			"registration student "
-		],
-		[
-			"registration fee",
-			"is parent of",
-			"registration signed member "
-		],
-		[
-			"registration fee",
-			"is parent of",
-			"registration non member"
-		]
-	],
-	"sigkdd#Person": [
-		[
-			"person",
-			"is parent of",
-			"speaker"
-		],
-		[
-			"speaker",
-			"is parent of",
-			"invited speaker "
 		],
 		[
 			"person",
@@ -361,65 +178,233 @@
 			"listener "
 		],
 		[
-			"person",
+			"organizator",
 			"is parent of",
-			"organization"
+			"organizingcommitteemember "
 		],
 		[
-			"organization",
+			"organizator",
 			"is parent of",
-			"program committee member "
+			"programcommitteemember"
+		]
+	],
+	"sigkdd#Author_of_paper_student": [
+		[
+			"authorofpaperstudent",
+			"is child of",
+			"author"
+		],
+		[
+			"author",
+			"is child of",
+			"speaker"
+		]
+	],
+	"sigkdd#Best_Student_Paper_Award": [
+		[
+			"beststudentpaperaward",
+			"is child of",
+			"award"
+		],
+		[
+			"award",
+			"is parent of",
+			"bestresearchpaperaward"
+		]
+	],
+	"sigkdd#Author": [
+		[
+			"author",
+			"is child of",
+			"speaker"
+		],
+		[
+			"speaker",
+			"is child of",
+			"person"
 		],
 		[
 			"person",
+			"is child of",
+			"Thing "
+		],
+		[
+			"author",
+			"is parent of",
+			"authorofpaperstudent "
+		],
+		[
+			"author",
+			"is parent of",
+			"authorofpaper"
+		]
+	],
+	"sigkdd#ACM_SIGKDD": [
+		[
+			"acmsigkdd",
 			"is child of",
 			"Thing"
 		]
 	],
-	"sigkdd#Bronze_Supporter": [
+	"sigkdd#Sponzor": [
 		[
-			"bronze supporter",
-			"is child of",
-			"sponsor"
+			"sponzor",
+			"is parent of",
+			"bronzesupporter "
 		],
 		[
-			"sponsor",
+			"sponzor",
 			"is parent of",
-			"gold supporter"
+			"beststudentpapersupporter "
+		],
+		[
+			"sponzor",
+			"is parent of",
+			"silversupporter "
+		],
+		[
+			"sponzor",
+			"is parent of",
+			"exhibitor "
+		],
+		[
+			"sponzor",
+			"is parent of",
+			"platinumsupporter"
+		]
+	],
+	"sigkdd#Exhibitor": [
+		[
+			"exhibitor",
+			"is child of",
+			"sponzor"
+		],
+		[
+			"sponzor",
+			"is parent of",
+			"platinumsupporter"
+		]
+	],
+	"sigkdd#Registration_SIGMOD_Member": [
+		[
+			"registrationsigmodmember",
+			"is child of",
+			"registrationfee"
+		],
+		[
+			"registrationfee",
+			"is parent of",
+			"registrationsigkddmember"
+		]
+	],
+	"sigkdd#Registration_fee": [
+		[
+			"registrationfee",
+			"is parent of",
+			"registrationsigmodmember "
+		],
+		[
+			"registrationfee",
+			"is parent of",
+			"registrationstudent "
+		],
+		[
+			"registrationfee",
+			"is parent of",
+			"registrationsigkddmember "
+		],
+		[
+			"registrationfee",
+			"is parent of",
+			"registrationnonmember "
+		],
+		[
+			"registrationfee",
+			"is child of",
+			"fee"
+		],
+		[
+			"fee",
+			"is parent of",
+			"sponzorfee"
+		]
+	],
+	"sigkdd#Person": [
+		[
+			"person",
+			"is child of",
+			"Thing "
+		],
+		[
+			"person",
+			"is parent of",
+			"speaker"
+		],
+		[
+			"speaker",
+			"is parent of",
+			"invitedspeaker "
+		],
+		[
+			"person",
+			"is parent of",
+			"organizator"
+		],
+		[
+			"organizator",
+			"is parent of",
+			"programcommitteemember "
+		],
+		[
+			"person",
+			"is parent of",
+			"listener"
+		]
+	],
+	"sigkdd#Bronze_Supporter": [
+		[
+			"bronzesupporter",
+			"is child of",
+			"sponzor"
+		],
+		[
+			"sponzor",
+			"is parent of",
+			"silversupporter"
 		]
 	],
 	"sigkdd#Committee": [
 		[
 			"committee",
 			"is parent of",
-			"program committee "
+			"organizingcommittee "
 		],
 		[
 			"committee",
 			"is parent of",
-			"organizing committee "
+			"bestpaperawardscommittee "
 		],
 		[
 			"committee",
 			"is parent of",
-			"best paper awards committee"
+			"programcommittee"
 		]
 	],
 	"sigkdd#Platinum_Supporter": [
 		[
-			"platinum supporter",
+			"platinumsupporter",
 			"is child of",
-			"sponsor"
+			"sponzor"
 		],
 		[
-			"sponsor",
+			"sponzor",
 			"is parent of",
-			"bronze supporter"
+			"goldsupporter"
 		]
 	],
 	"sigkdd#Conference_hall": [
 		[
-			"conference hall",
+			"conferencehall",
 			"is child of",
 			"place"
 		],
@@ -431,72 +416,67 @@
 	],
 	"sigkdd#Best_Paper_Awards_Committee": [
 		[
-			"best paper awards committee",
+			"bestpaperawardscommittee",
 			"is child of",
 			"committee"
 		],
 		[
 			"committee",
 			"is parent of",
-			"program committee"
+			"organizingcommittee"
 		]
 	],
 	"sigkdd#Program_Chair": [
 		[
-			"program chair",
+			"programchair",
 			"is child of",
-			"organization"
+			"organizator"
 		],
 		[
-			"organization",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
+			"organizator",
 			"is parent of",
-			"speaker"
+			"programcommitteemember"
 		]
 	],
 	"sigkdd#Main_office": [
 		[
-			"main office",
+			"mainoffice",
 			"is child of",
 			"place"
 		],
 		[
 			"place",
 			"is parent of",
-			"conference hall"
+			"hotel"
 		]
 	],
 	"sigkdd#Registration_Non-Member": [
 		[
-			"registration non member",
+			"registrationnonmember",
 			"is child of",
-			"registration fee"
+			"registrationfee"
 		],
 		[
-			"registration fee",
+			"registrationfee",
 			"is parent of",
-			"registration sigkdd member"
+			"registrationsigmodmember"
 		]
 	],
 	"sigkdd#Fee": [
 		[
 			"fee",
 			"is parent of",
-			"registration fee"
+			"registrationfee"
 		],
 		[
-			"registration fee",
+			"registrationfee",
 			"is parent of",
-			"registration non member "
+			"registrationstudent "
 		],
 		[
 			"fee",
 			"is parent of",
-			"sponsor fee"
+			"sponzorfee"
 		]
 	],
 	"sigkdd#Review": [
@@ -508,58 +488,63 @@
 		[
 			"document",
 			"is parent of",
-			"paper"
+			"abstract"
 		]
 	],
 	"sigkdd#Sponzor_fee": [
 		[
-			"sponsor fee",
+			"sponzorfee",
 			"is child of",
 			"fee"
 		],
 		[
 			"fee",
 			"is parent of",
-			"registration fee"
+			"registrationfee"
+		],
+		[
+			"registrationfee",
+			"is parent of",
+			"registrationnonmember"
 		]
 	],
 	"sigkdd#Registration_SIGKDD_Member": [
 		[
-			"registration sigkdd member",
+			"registrationsigkddmember",
 			"is child of",
-			"registration fee"
+			"registrationfee"
 		],
 		[
-			"registration fee",
+			"registrationfee",
 			"is child of",
 			"fee"
 		],
 		[
 			"fee",
 			"is parent of",
-			"sponsor fee"
+			"sponzorfee"
 		]
 	],
 	"sigkdd#Program_Committee": [
 		[
-			"program committee",
+			"programcommittee",
 			"is child of",
 			"committee"
 		],
 		[
 			"committee",
 			"is parent of",
-			"organizing committee"
+			"organizingcommittee"
 		]
 	],
 	"sigkdd#General_Chair": [
 		[
-			"general chair",
+			"generalchair",
 			"is child of",
-			"organization"
+			"organizator"
 		],
 		[
-			"organization",
+			"organizator",
 			"is child of",
 			"person"
 		],
@@ -572,23 +557,18 @@
 	"sigkdd#Speaker": [
 		[
 			"speaker",
-			"is parent of",
-			"invited speaker "
-		],
-		[
-			"speaker",
 			"is child of",
 			"person"
 		],
 		[
 			"person",
-			"is parent of",
-			"organization"
+			"is child of",
+			"Thing "
 		],
 		[
-			"organization",
+			"speaker",
 			"is parent of",
-			"program chair "
+			"invitedspeaker "
 		],
 		[
 			"speaker",
@@ -598,48 +578,48 @@
 		[
 			"author",
 			"is parent of",
-			"author of paper"
+			"authorofpaperstudent"
 		]
 	],
 	"sigkdd#Gold_Supporter": [
 		[
-			"gold supporter",
+			"goldsupporter",
 			"is child of",
-			"sponsor"
+			"sponzor"
 		],
 		[
-			"sponsor",
+			"sponzor",
 			"is parent of",
-			"silver supporter"
+			"beststudentpapersupporter"
 		]
 	],
 	"sigkdd#Registration_Student": [
 		[
-			"registration student",
+			"registrationstudent",
 			"is child of",
-			"registration fee"
+			"registrationfee"
 		],
 		[
-			"registration fee",
+			"registrationfee",
 			"is child of",
 			"fee"
 		],
 		[
 			"fee",
 			"is parent of",
-			"sponsor fee"
+			"sponzorfee"
 		]
 	],
 	"sigkdd#Organizing_Committee": [
 		[
-			"organizing committee",
+			"organizingcommittee",
 			"is child of",
 			"committee"
 		],
 		[
 			"committee",
 			"is parent of",
-			"best paper awards committee"
+			"programcommittee"
 		]
 	],
 	"sigkdd#Listener": [
@@ -656,55 +636,55 @@
 	],
 	"sigkdd#Program_Committee_member": [
 		[
-			"program committee member",
+			"programcommitteemember",
 			"is child of",
-			"organization"
+			"organizator"
 		],
 		[
-			"organization",
-			"is parent of",
-			"general chair"
+			"organizator",
+			"is child of",
+			"person"
 		]
 	],
 	"sigkdd#Invited_Speaker": [
 		[
-			"invited speaker",
+			"invitedspeaker",
 			"is child of",
 			"speaker"
 		],
 		[
 			"speaker",
-			"is parent of",
-			"author"
+			"is child of",
+			"person"
 		],
 		[
-			"author",
-			"is parent of",
-			"author of paper student"
+			"person",
+			"is child of",
+			"Thing"
 		]
 	],
 	"sigkdd#Best_Research_Paper_Award": [
 		[
-			"best research paper award",
+			"bestresearchpaperaward",
 			"is child of",
 			"award"
 		],
 		[
 			"award",
 			"is parent of",
-			"best student paper award"
+			"beststudentpaperaward"
 		]
 	],
 	"sigkdd#Best_Student_Paper_Supporter": [
 		[
-			"best student paper supporter",
+			"beststudentpapersupporter",
 			"is child of",
-			"sponsor"
+			"sponzor"
 		],
 		[
-			"sponsor",
+			"sponzor",
 			"is parent of",
-			"platinum supporter"
+			"goldsupporter"
 		]
 	],
 	"sigkdd#Paper": [
@@ -721,36 +701,31 @@
 	],
 	"sigkdd#Silver_Supporter": [
 		[
-			"silver supporter",
+			"silversupporter",
 			"is child of",
-			"sponsor"
+			"sponzor"
 		],
 		[
-			"sponsor",
+			"sponzor",
 			"is parent of",
-			"best student paper supporter"
+			"exhibitor"
 		]
 	],
 	"sigkdd#Organizing_Committee_member": [
 		[
-			"organizing committee member",
+			"organizingcommitteemember",
 			"is child of",
-			"organization"
+			"organizator"
 		],
 		[
-			"organization",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is child of",
-			"Thing"
+			"organizator",
+			"is parent of",
+			"webmaster"
 		]
 	],
 	"sigkdd#Author_of_paper": [
 		[
-			"author of paper",
+			"authorofpaper",
 			"is child of",
 			"author"
 		],
@@ -761,8 +736,13 @@
 		],
 		[
 			"speaker",
-			"is parent of",
-			"invited speaker"
+			"is child of",
+			"person"
+		],
+		[
+			"person",
+			"is child of",
+			"Thing"
 		]
 	]
 }

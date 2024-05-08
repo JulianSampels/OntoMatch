@@ -1,15 +1,8 @@
 {
+	"cmt#ProgramCommitteeMember;confOf#Member_PC": "no",
 	"cmt#Chairman;confOf#Chair_PC": "no",
-	"cmt#Chairman;confOf#Participant": "no",
 	"cmt#Chairman;confOf#Member_PC": "no",
-	"cmt#ConferenceMember;confOf#Participant": "no",
+	"cmt#Chairman;confOf#Participant": "no",
 	"cmt#ConferenceMember;confOf#Member_PC": "no",
-	"cmt#ProgramCommitteeMember;confOf#Member_PC": "yes",
-	"cmt#Chairman;confOf#Member": "yes",
-	"cmt#ConferenceMember;confOf#Member": "no",
-	"cmt#User;confOf#Student": "no",
-	"cmt#User;confOf#Member": "no",
-	"cmt#User;confOf#Contribution": "no",
-	"cmt#ConferenceChair;confOf#Chair_PC": "no",
-	"cmt#Document;confOf#Short_paper": "no"
+	"cmt#ConferenceMember;confOf#Participant": "no"
 }

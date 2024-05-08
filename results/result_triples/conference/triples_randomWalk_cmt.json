@@ -1,52 +1,17 @@
 {
 	"cmt#Meta-Reviewer": [
 		[
-			"meta reviewer",
+			"metareviewer",
 			"is child of",
 			"reviewer"
 		],
 		[
 			"reviewer",
 			"is child of",
-			"conference member"
-		],
-		[
-			"conference member",
-			"is parent of",
-			"associated chair"
+			"user"
 		]
 	],
 	"cmt#Reviewer": [
-		[
-			"reviewer",
-			"is child of",
-			"conference member"
-		],
-		[
-			"conference member",
-			"is parent of",
-			"conference chair"
-		],
-		[
-			"conference chair",
-			"is equivalent to",
-			"chairman"
-		],
-		[
-			"chairman",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is parent of",
-			"program committee member "
-		],
-		[
-			"reviewer",
-			"is parent of",
-			"meta reviewer "
-		],
 		[
 			"reviewer",
 			"is child of",
@@ -55,12 +20,32 @@
 		[
 			"user",
 			"is parent of",
-			"author"
+			"administrator "
 		],
 		[
-			"author",
+			"reviewer",
+			"is child of",
+			"conferencemember"
+		],
+		[
+			"conferencemember",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
 			"is parent of",
-			"co author"
+			"chairman"
+		],
+		[
+			"chairman",
+			"is equivalent to",
+			"associatedchair "
+		],
+		[
+			"reviewer",
+			"is parent of",
+			"metareviewer"
 		]
 	],
 	"cmt#Decision": [
@@ -79,50 +64,40 @@
 		[
 			"person",
 			"is parent of",
-			"user"
-		],
-		[
-			"user",
-			"is parent of",
-			"administrator "
-		],
-		[
-			"person",
-			"is parent of",
 			"chairman"
 		],
 		[
 			"chairman",
 			"is equivalent to",
-			"program committee chair"
+			"associatedchair"
 		],
 		[
-			"program committee chair",
+			"associatedchair",
 			"is child of",
-			"program committee member"
+			"conferencemember"
 		],
 		[
-			"program committee member",
-			"is child of",
-			"conference member "
+			"conferencemember",
+			"is parent of",
+			"programcommitteemember "
 		],
 		[
 			"person",
 			"is parent of",
-			"external reviewer"
+			"externalreviewer "
+		],
+		[
+			"person",
+			"is parent of",
+			"user"
+		],
+		[
+			"user",
+			"is parent of",
+			"reviewer"
 		]
 	],
 	"cmt#Document": [
-		[
-			"document",
-			"is parent of",
-			"paper"
-		],
-		[
-			"paper",
-			"is parent of",
-			"paper full version "
-		],
 		[
 			"document",
 			"is parent of",
@@ -131,7 +106,17 @@
 		[
 			"review",
 			"is parent of",
-			"meta review"
+			"metareview "
+		],
+		[
+			"document",
+			"is parent of",
+			"paper"
+		],
+		[
+			"paper",
+			"is parent of",
+			"paperabstract"
 		]
 	],
 	"cmt#Conference": [
@@ -143,7 +128,7 @@
 	],
 	"cmt#ConferenceChair": [
 		[
-			"conference chair",
+			"conferencechair",
 			"is equivalent to",
 			"chairman"
 		],
@@ -155,157 +140,162 @@
 		[
 			"person",
 			"is parent of",
-			"conference member"
+			"externalreviewer "
 		],
 		[
-			"conference member",
+			"conferencechair",
+			"is child of",
+			"conferencemember"
+		],
+		[
+			"conferencemember",
+			"is parent of",
+			"programcommitteemember"
+		]
+	],
+	"cmt#ConferenceMember": [
+		[
+			"conferencemember",
+			"is parent of",
+			"associatedchair"
+		],
+		[
+			"associatedchair",
+			"is equivalent to",
+			"chairman"
+		],
+		[
+			"chairman",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
+			"is parent of",
+			"user"
+		],
+		[
+			"user",
+			"is parent of",
+			"administrator "
+		],
+		[
+			"conferencemember",
+			"is parent of",
+			"author"
+		],
+		[
+			"author",
+			"is parent of",
+			"authornotreviewer "
+		],
+		[
+			"conferencemember",
+			"is parent of",
+			"conferencechair "
+		],
+		[
+			"conferencemember",
 			"is parent of",
 			"reviewer"
 		],
 		[
 			"reviewer",
+			"is parent of",
+			"metareviewer "
+		],
+		[
+			"conferencemember",
+			"is parent of",
+			"programcommitteemember"
+		],
+		[
+			"programcommitteemember",
+			"is parent of",
+			"programcommitteechair"
+		]
+	],
+	"cmt#AssociatedChair": [
+		[
+			"associatedchair",
 			"is child of",
+			"conferencemember"
+		],
+		[
+			"conferencemember",
+			"is parent of",
+			"conferencechair"
+		],
+		[
+			"conferencechair",
+			"is equivalent to",
+			"chairman"
+		],
+		[
+			"chairman",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
+			"is parent of",
+			"user"
+		],
+		[
+			"user",
+			"is parent of",
+			"reviewer"
+		]
+	],
+	"cmt#ProgramCommitteeMember": [
+		[
+			"programcommitteemember",
+			"is parent of",
+			"programcommitteechair"
+		],
+		[
+			"programcommitteechair",
+			"is equivalent to",
+			"chairman"
+		],
+		[
+			"chairman",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
+			"is parent of",
+			"conferencemember"
+		]
+	],
+	"cmt#AuthorNotReviewer": [
+		[
+			"authornotreviewer",
+			"is child of",
+			"author"
+		],
+		[
+			"author",
+			"is parent of",
+			"coauthor"
+		]
+	],
+	"cmt#ExternalReviewer": [
+		[
+			"externalreviewer",
+			"is child of",
+			"person"
+		],
+		[
+			"person",
+			"is parent of",
 			"user"
 		],
 		[
 			"user",
 			"is parent of",
 			"administrator"
-		]
-	],
-	"cmt#ConferenceMember": [
-		[
-			"conference member",
-			"is parent of",
-			"associated chair"
-		],
-		[
-			"associated chair",
-			"is equivalent to",
-			"chairman"
-		],
-		[
-			"chairman",
-			"is equivalent to",
-			"conference chair "
-		],
-		[
-			"conference member",
-			"is parent of",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"author not reviewer "
-		],
-		[
-			"conference member",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is parent of",
-			"external reviewer "
-		],
-		[
-			"conference member",
-			"is parent of",
-			"program committee member"
-		],
-		[
-			"program committee member",
-			"is parent of",
-			"program committee chair "
-		],
-		[
-			"conference member",
-			"is parent of",
-			"reviewer"
-		],
-		[
-			"reviewer",
-			"is parent of",
-			"meta reviewer"
-		]
-	],
-	"cmt#AssociatedChair": [
-		[
-			"associated chair",
-			"is child of",
-			"conference member"
-		],
-		[
-			"conference member",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is parent of",
-			"external reviewer "
-		],
-		[
-			"associated chair",
-			"is equivalent to",
-			"chairman"
-		],
-		[
-			"chairman",
-			"is equivalent to",
-			"conference chair"
-		]
-	],
-	"cmt#ProgramCommitteeMember": [
-		[
-			"program committee member",
-			"is child of",
-			"conference member"
-		],
-		[
-			"conference member",
-			"is child of",
-			"person "
-		],
-		[
-			"program committee member",
-			"is parent of",
-			"program committee chair"
-		],
-		[
-			"program committee chair",
-			"is equivalent to",
-			"chairman"
-		],
-		[
-			"chairman",
-			"is equivalent to",
-			"associated chair"
-		]
-	],
-	"cmt#AuthorNotReviewer": [
-		[
-			"author not reviewer",
-			"is child of",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"co author"
-		]
-	],
-	"cmt#ExternalReviewer": [
-		[
-			"external reviewer",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
-			"is parent of",
-			"conference member"
 		]
 	],
 	"cmt#Chairman": [
@@ -322,59 +312,64 @@
 		[
 			"user",
 			"is parent of",
-			"administrator "
+			"reviewer"
 		],
 		[
-			"chairman",
-			"is equivalent to",
-			"program committee chair"
-		],
-		[
-			"program committee chair",
-			"is child of",
-			"program committee member"
-		],
-		[
-			"program committee member",
-			"is child of",
-			"conference member"
-		],
-		[
-			"conference member",
+			"reviewer",
 			"is parent of",
-			"associated chair "
+			"metareviewer "
 		],
 		[
 			"chairman",
 			"is equivalent to",
-			"conference chair"
+			"programcommitteechair"
+		],
+		[
+			"programcommitteechair",
+			"is child of",
+			"programcommitteemember"
+		],
+		[
+			"programcommitteemember",
+			"is child of",
+			"conferencemember"
+		],
+		[
+			"conferencemember",
+			"is parent of",
+			"conferencechair "
+		],
+		[
+			"chairman",
+			"is equivalent to",
+			"associatedchair"
 		]
 	],
 	"cmt#ProgramCommitteeChair": [
 		[
-			"program committee chair",
+			"programcommitteechair",
 			"is child of",
-			"program committee member"
+			"programcommitteemember"
 		],
 		[
-			"program committee member",
-			"is child of",
-			"conference member"
-		],
-		[
-			"conference member",
+			"programcommitteemember",
 			"is child of",
 			"person "
 		],
 		[
-			"program committee chair",
+			"programcommitteechair",
 			"is equivalent to",
 			"chairman"
 		],
 		[
 			"chairman",
 			"is equivalent to",
-			"associated chair"
+			"associatedchair"
+		],
+		[
+			"associatedchair",
+			"is child of",
+			"conferencemember"
 		]
 	],
 	"cmt#Acceptance": [
@@ -404,6 +399,11 @@
 	"cmt#Review": [
 		[
 			"review",
+			"is parent of",
+			"metareview "
+		],
+		[
+			"review",
 			"is child of",
 			"document"
 		],
@@ -415,19 +415,19 @@
 		[
 			"paper",
 			"is parent of",
-			"paper abstract "
-		],
-		[
-			"review",
-			"is parent of",
-			"meta review"
+			"paperabstract"
 		]
 	],
 	"cmt#Paper": [
 		[
 			"paper",
 			"is parent of",
-			"paper full version "
+			"paperfullversion "
+		],
+		[
+			"paper",
+			"is parent of",
+			"paperabstract "
 		],
 		[
 			"paper",
@@ -438,65 +438,65 @@
 			"document",
 			"is parent of",
 			"review"
-		],
-		[
-			"review",
-			"is parent of",
-			"meta review "
-		],
-		[
-			"paper",
-			"is parent of",
-			"paper abstract"
 		]
 	],
 	"cmt#Author": [
 		[
 			"author",
-			"is child of",
-			"conference member"
-		],
-		[
-			"conference member",
 			"is parent of",
-			"associated chair "
-		],
-		[
-			"author",
-			"is parent of",
-			"co author "
-		],
-		[
-			"author",
-			"is parent of",
-			"author not reviewer "
+			"authornotreviewer "
 		],
 		[
 			"author",
 			"is child of",
-			"user"
+			"conferencemember"
 		],
 		[
-			"user",
-			"is parent of",
-			"administrator"
-		]
-	],
-	"cmt#User": [
-		[
-			"user",
-			"is parent of",
-			"administrator "
-		],
-		[
-			"user",
+			"conferencemember",
 			"is child of",
 			"person"
 		],
 		[
 			"person",
 			"is parent of",
-			"program committee member "
+			"user"
+		],
+		[
+			"user",
+			"is parent of",
+			"administrator "
+		],
+		[
+			"author",
+			"is parent of",
+			"coauthor"
+		]
+	],
+	"cmt#User": [
+		[
+			"user",
+			"is parent of",
+			"author"
+		],
+		[
+			"author",
+			"is child of",
+			"conferencemember"
+		],
+		[
+			"conferencemember",
+			"is parent of",
+			"conferencechair"
+		],
+		[
+			"conferencechair",
+			"is equivalent to",
+			"chairman"
+		],
+		[
+			"chairman",
+			"is child of",
+			"person "
 		],
 		[
 			"user",
@@ -505,47 +505,30 @@
 		],
 		[
 			"reviewer",
-			"is child of",
-			"conference member"
+			"is parent of",
+			"metareviewer "
 		],
 		[
-			"conference member",
+			"user",
 			"is parent of",
-			"author"
-		],
-		[
-			"author",
-			"is parent of",
-			"author not reviewer"
+			"administrator"
 		]
 	],
 	"cmt#Co-author": [
 		[
-			"co author",
+			"coauthor",
 			"is child of",
 			"author"
 		],
 		[
 			"author",
 			"is parent of",
-			"author not reviewer"
+			"authornotreviewer"
 		]
 	],
 	"cmt#PaperAbstract": [
 		[
-			"paper abstract",
-			"is child of",
-			"paper"
-		],
-		[
-			"paper",
-			"is child of",
-			"document"
-		]
-	],
-	"cmt#PaperFullVersion": [
-		[
-			"paper full version",
+			"paperabstract",
 			"is child of",
 			"paper"
 		],
@@ -558,6 +541,23 @@
 			"document",
 			"is parent of",
 			"review"
+		],
+		[
+			"review",
+			"is parent of",
+			"metareview"
+		]
+	],
+	"cmt#PaperFullVersion": [
+		[
+			"paperfullversion",
+			"is child of",
+			"paper"
+		],
+		[
+			"paper",
+			"is parent of",
+			"paperabstract"
 		]
 	],
 	"cmt#Administrator": [
@@ -568,23 +568,23 @@
 		],
 		[
 			"user",
-			"is child of",
-			"person"
-		],
-		[
-			"person",
 			"is parent of",
-			"chairman"
+			"author"
 		],
 		[
-			"chairman",
-			"is equivalent to",
-			"program committee chair"
+			"author",
+			"is child of",
+			"conferencemember"
+		],
+		[
+			"conferencemember",
+			"is parent of",
+			"associatedchair"
 		]
 	],
 	"cmt#Meta-Review": [
 		[
-			"meta review",
+			"metareview",
 			"is child of",
 			"review"
 		],
@@ -592,6 +592,16 @@
 			"review",
 			"is child of",
 			"document"
+		],
+		[
+			"document",
+			"is parent of",
+			"paper"
+		],
+		[
+			"paper",
+			"is parent of",
+			"paperfullversion"
 		]
 	]
 }
