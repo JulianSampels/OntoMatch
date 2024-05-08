@@ -221,6 +221,21 @@ def main():
                 tripleFilePath = configODS.get('triplesPath') + file_path
                 tripleVerbalizedFilePath = configODS.get('triplesVerbalizedPath') + 'verbalized_' + file_path
                 tripleVerbalizer.verbaliseFile(tripleFilePath, tripleVerbalizedFilePath)
+
+    #clean available raw triples
+    if True:#configODS.get('cleanTriples'):
+        from verbalizer import tripleVerbalizer
+        for file_path in os.listdir(configODS.get('triplesPath')):
+            if file_path.endswith('.json'):
+                tripleFilePath = configODS.get('triplesPath') + file_path
+                tripleVerbalizedFilePath = configODS.get('triplesVerbalizedPath') + file_path
+                data = utilsODS.importFromJson(tripleFilePath)
+                out = {}
+                for key, value in data.items():
+                    out[key] = ''
+                    for triple in value:
+                        out[key] += ('' if len(out[key]) == 0 else ', ') + triple[0] + ' ' + triple[1] + ' ' + triple[2]
+                utilsODS.saveToJson(out, tripleVerbalizedFilePath)
     
     #generate prompt strings for all triples using the verbalized context extracted by the random algorithms
     #promptVersions: list of integers indicating which prompt versions to use
@@ -232,11 +247,11 @@ def main():
                 if file_path.endswith('.json'):
                     alignmentFilePath = configODS.get('similarityPath') + file_path
                     if configODS.get('generateWalkPrompts'):
-                        contextPaths = [configODS.get('triplesVerbalizedPath') + 'verbalized_triples_randomWalk_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
+                        contextPaths = [configODS.get('triplesVerbalizedPath') + 'triples_randomWalk_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
                         promptList = generatePromptTemplates.getPrompt(alignmentFilePath, contextPaths, promptVersion = i, promptCounter = -1, skipIfNoContext = True)
                         utilsODS.saveToJson(promptList, configODS.get('promptsPath') + f"walkPromptVersion{i}/"+ file_path, f"exported 'walkPromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
                     if configODS.get('generateTreePrompts'):
-                        contextPaths = [configODS.get('triplesVerbalizedPath') + 'verbalized_triples_randomTree_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
+                        contextPaths = [configODS.get('triplesVerbalizedPath') + 'triples_randomTree_' + ontoName + '.json' for ontoName in file_path.replace('.json', '').split('-')]
                         promptList = generatePromptTemplates.getPrompt(alignmentFilePath, contextPaths, promptVersion = i, promptCounter = -1, skipIfNoContext = True)
                         utilsODS.saveToJson(promptList, configODS.get('promptsPath') + f"treePromptVersion{i}/" + file_path, f"exported 'treePromptVersion{i}' with alignments '{alignmentFilePath} and context '{contextPaths}' to")
 
@@ -355,7 +370,7 @@ def main():
                     bipartiteMatchingPath = configODS.get('bipartiteMatchingPath') + dir_path + '/' + file_path
                     rdfPath = configODS.get('rdfPath') + dir_path + '/' + file_path.replace('.json', '') + '.rdf'
                     bipartiteMatchedClasses = utilsODS.importFromJson(bipartiteMatchingPath)
-                    t = [('http://' + key1, 'http://' + key2, '=', 1.0) for key1, key2 in bipartiteMatchedClasses]
+                    t = [('http://' + key1.split('#')[0] + '.org/ontology/' + key1.split('#')[1], 'http://' + key2, '=', 1.0) for key1, key2 in bipartiteMatchedClasses]
                     utilsODS.saveToJson('placeholder for rdf content', rdfPath, doPrint=False)
                     serialize_mapping_to_file(rdfPath, t)
                     print('exported ' + rdfPath)
