@@ -1,0 +1,34 @@
+[
+	[
+		"conference#Review",
+		"iasted#Review"
+	],
+	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"conference#Person",
+		"iasted#Person"
+	],
+	[
+		"conference#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
+	],
+	[
+		"conference#Conference_document",
+		"iasted#Document"
+	],
+	[
+		"conference#Committee_member",
+		"iasted#Delegate"
+	],
+	[
+		"conference#Conference_contribution",
+		"iasted#Conference_activity"
+	]
+]

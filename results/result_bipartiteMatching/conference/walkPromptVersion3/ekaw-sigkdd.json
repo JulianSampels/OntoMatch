@@ -1,0 +1,34 @@
+[
+	[
+		"ekaw#Abstract",
+		"sigkdd#Abstract"
+	],
+	[
+		"ekaw#Paper",
+		"sigkdd#Paper"
+	],
+	[
+		"ekaw#Review",
+		"sigkdd#Review"
+	],
+	[
+		"ekaw#Document",
+		"sigkdd#Document"
+	],
+	[
+		"ekaw#Invited_Speaker",
+		"sigkdd#Invited_Speaker"
+	],
+	[
+		"ekaw#Person",
+		"sigkdd#Person"
+	],
+	[
+		"ekaw#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"ekaw#Presenter",
+		"sigkdd#Speaker"
+	]
+]

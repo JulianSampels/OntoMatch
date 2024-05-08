@@ -1,0 +1,30 @@
+[
+	[
+		"edas#Place",
+		"sigkdd#Place"
+	],
+	[
+		"edas#Author",
+		"sigkdd#Author"
+	],
+	[
+		"edas#Conference",
+		"sigkdd#Conference"
+	],
+	[
+		"edas#Review",
+		"sigkdd#Review"
+	],
+	[
+		"edas#Document",
+		"sigkdd#Document"
+	],
+	[
+		"edas#Person",
+		"sigkdd#Person"
+	],
+	[
+		"edas#Paper",
+		"sigkdd#Paper"
+	]
+]

@@ -9,5 +9,9 @@
 	"cmt#Co-author;iasted#Author_cd_proceedings_included": "yes",
 	"cmt#Paper;iasted#Submission": "yes",
 	"cmt#Paper;iasted#Form": "no",
-	"cmt#Paper;iasted#Transparency": "no"
+	"cmt#Paper;iasted#Transparency": "no",
+	"cmt#ProgramCommitteeChair;iasted#Session_chair": "no",
+	"cmt#AssociatedChair;iasted#Session_chair": "yes",
+	"cmt#ConferenceChair;iasted#Session_chair": "yes",
+	"cmt#ConferenceChair;iasted#Conference_Hiker": "no"
 }

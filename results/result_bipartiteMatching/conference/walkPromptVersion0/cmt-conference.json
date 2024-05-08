@@ -1,0 +1,30 @@
+[
+	[
+		"cmt#Person",
+		"conference#Person"
+	],
+	[
+		"cmt#Paper",
+		"conference#Paper"
+	],
+	[
+		"cmt#Conference",
+		"conference#Conference"
+	],
+	[
+		"cmt#Review",
+		"conference#Review"
+	],
+	[
+		"cmt#ProgramCommittee",
+		"conference#Program_committee"
+	],
+	[
+		"cmt#Reviewer",
+		"conference#Reviewer"
+	],
+	[
+		"cmt#Chairman",
+		"conference#Committee_member"
+	]
+]

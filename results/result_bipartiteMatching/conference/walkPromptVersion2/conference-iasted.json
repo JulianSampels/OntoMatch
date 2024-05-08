@@ -1,0 +1,22 @@
+[
+	[
+		"conference#Review",
+		"iasted#Review"
+	],
+	[
+		"conference#Reviewer",
+		"iasted#Reviewer"
+	],
+	[
+		"conference#Person",
+		"iasted#Person"
+	],
+	[
+		"conference#Tutorial",
+		"iasted#Tutorial"
+	],
+	[
+		"conference#Presentation",
+		"iasted#Presentation"
+	]
+]

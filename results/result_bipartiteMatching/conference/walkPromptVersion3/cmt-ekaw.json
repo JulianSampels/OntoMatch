@@ -1,0 +1,34 @@
+[
+	[
+		"cmt#Person",
+		"ekaw#Person"
+	],
+	[
+		"cmt#Paper",
+		"ekaw#Paper"
+	],
+	[
+		"cmt#Document",
+		"ekaw#Document"
+	],
+	[
+		"cmt#Conference",
+		"ekaw#Conference"
+	],
+	[
+		"cmt#Review",
+		"ekaw#Review"
+	],
+	[
+		"cmt#PaperAbstract",
+		"ekaw#Poster_Paper"
+	],
+	[
+		"cmt#ConferenceMember",
+		"ekaw#Paper_Author"
+	],
+	[
+		"cmt#PaperFullVersion",
+		"ekaw#Regular_Paper"
+	]
+]

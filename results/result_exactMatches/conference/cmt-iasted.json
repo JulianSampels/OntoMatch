@@ -1,0 +1,27 @@
+[
+	[
+		"cmt#Reviewer",
+		"iasted#Reviewer",
+		1
+	],
+	[
+		"cmt#Person",
+		"iasted#Person",
+		1
+	],
+	[
+		"cmt#Document",
+		"iasted#Document",
+		1
+	],
+	[
+		"cmt#Review",
+		"iasted#Review",
+		1
+	],
+	[
+		"cmt#Author",
+		"iasted#Author",
+		1
+	]
+]

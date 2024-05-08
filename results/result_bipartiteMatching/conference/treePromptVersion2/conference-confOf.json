@@ -1,0 +1,34 @@
+[
+	[
+		"conference#Organization",
+		"confOf#Organization"
+	],
+	[
+		"conference#Paper",
+		"confOf#Paper"
+	],
+	[
+		"conference#Conference",
+		"confOf#Conference"
+	],
+	[
+		"conference#Poster",
+		"confOf#Poster"
+	],
+	[
+		"conference#Topic",
+		"confOf#Topic"
+	],
+	[
+		"conference#Person",
+		"confOf#Person"
+	],
+	[
+		"conference#Workshop",
+		"confOf#Workshop"
+	],
+	[
+		"conference#Tutorial",
+		"confOf#Tutorial"
+	]
+]
