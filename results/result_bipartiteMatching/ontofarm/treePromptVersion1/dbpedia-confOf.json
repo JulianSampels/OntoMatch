@@ -1,0 +1,34 @@
+[
+	[
+		"dbpedia#Country",
+		"confOf#Country"
+	],
+	[
+		"dbpedia#University",
+		"confOf#University"
+	],
+	[
+		"dbpedia#Company",
+		"confOf#Company"
+	],
+	[
+		"dbpedia#Person",
+		"confOf#Person"
+	],
+	[
+		"dbpedia#City",
+		"confOf#City"
+	],
+	[
+		"dbpedia#Event",
+		"confOf#Event"
+	],
+	[
+		"dbpedia#BusinessPerson",
+		"confOf#Assistant"
+	],
+	[
+		"dbpedia#Artist",
+		"confOf#Author"
+	]
+]

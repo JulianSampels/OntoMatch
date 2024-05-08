@@ -1,0 +1,27 @@
+[
+	[
+		"dbpedia#Person",
+		"sigkdd#Person",
+		1
+	],
+	[
+		"dbpedia#Place",
+		"sigkdd#Place",
+		1
+	],
+	[
+		"dbpedia#Hotel",
+		"sigkdd#Hotel",
+		1
+	],
+	[
+		"dbpedia#Document",
+		"sigkdd#Document",
+		1
+	],
+	[
+		"dbpedia#Award",
+		"sigkdd#Award",
+		1
+	]
+]

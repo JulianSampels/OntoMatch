@@ -1,0 +1,32 @@
+[
+	[
+		"dbpedia#Event",
+		"confOf#Event",
+		1
+	],
+	[
+		"dbpedia#Person",
+		"confOf#Person",
+		1
+	],
+	[
+		"dbpedia#University",
+		"confOf#University",
+		1
+	],
+	[
+		"dbpedia#Company",
+		"confOf#Company",
+		1
+	],
+	[
+		"dbpedia#City",
+		"confOf#City",
+		1
+	],
+	[
+		"dbpedia#Country",
+		"confOf#Country",
+		1
+	]
+]
