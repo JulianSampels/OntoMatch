@@ -27,7 +27,7 @@
 	"runAllPromptsOnLLM": false,
 	"runMissingPromptsOnDemandAndMatch": true,
 	"thresholdForConsideration": 0.4,
-	"neighborhoodRange": 2,
+	"neighborhoodRange": 1,
 	"exportFinalMatchingsToRDF": true,
 	"track": "ontofarm",
 	"similarityPath": "../results/result_similarities/ontofarm/",
