@@ -50,3 +50,7 @@ $ cd src
 $ python3 run_matcher.py
 
 ```
+
+## T-test
+We conducted t-test with significance level 0.1 to evaluate the significance of the prompt types and algorithms.
+The results can be seen on [t-test](https://github.com/JulianSampels/OntoMatch/blob/master/src/significance-test/Significance-Test.ipynb)folder.
