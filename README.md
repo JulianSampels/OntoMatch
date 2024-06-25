@@ -2,7 +2,7 @@
 
 Graph Search Algorithm Based Prompt Generation for Ontology Matching.
 
-Note: The repository consists of source codes of the paper "Exploring  Prompt Generation utilizing Graph Search Algorithms for Ontology Matching" submitted to Semantics 2024.
+Note: The repository consists of source codes of the paper "Exploring  Prompt Generation utilizing Graph Search Algorithms for Ontology Matching" was accepted by EU Semantics 2024.
 ## Folder Hierarchy 
 ```bash
 ├── data
