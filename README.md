@@ -34,6 +34,10 @@ use Python version >=3.10
 ```bash
 $ pip install -r requirements.txt
 ```
+on macOS please run
+```bash
+$ python3 -m nltk.downloader stopwords
+```
 ## Dataset Folder:
 update dataset paths at ```src/config.json```
 ## Configuration:
