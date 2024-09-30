@@ -36,6 +36,7 @@ $ pip install -r requirements.txt
 ```
 on macOS please run
 ```bash
+$ brew install cmake
 $ python3 -m nltk.downloader stopwords
 ```
 ## Dataset Folder:
