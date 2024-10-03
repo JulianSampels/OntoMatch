@@ -30,12 +30,12 @@
 	"neighborhoodRange": 2,
 	"exportFinalMatchingsToRDF": true,
 	"track": "anatomy",
-	"similarityPath": "../results/result_similarities/conference/",
-	"exactMatchPath": "../results/result_exactMatches/conference/",
-	"triplesPath": "../results/result_triples/conference/",
-	"triplesVerbalizedPath": "../results/result_triplesVerbalized/conference/",
-	"promptsPath": "../results/result_prompts/conference/",
-	"llmOutcomePath": "../results/result_llmOutcome/conference/",
-	"bipartiteMatchingPath": "../results/result_bipartiteMatching/conference/",
-	"rdfPath": "../results/result_RDF/conference/"
+	"similarityPath": "../results/result_similarities/anatomy/",
+	"exactMatchPath": "../results/result_exactMatches/anatomy/",
+	"triplesPath": "../results/result_triples/anatomy/",
+	"triplesVerbalizedPath": "../results/result_triplesVerbalized/anatomy/",
+	"promptsPath": "../results/result_prompts/anatomy/",
+	"llmOutcomePath": "../results/result_llmOutcome/anatomy/",
+	"bipartiteMatchingPath": "../results/result_bipartiteMatching/anatomy/",
+	"rdfPath": "../results/result_RDF/anatomy/"
 }
