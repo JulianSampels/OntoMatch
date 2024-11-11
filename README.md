@@ -2,7 +2,7 @@
 
 Graph Search Algorithm Based Prompt Generation for Ontology Matching.
 
-Note: The repository consists of source codes of the paper "Exploring  Prompt Generation utilizing Graph Search Algorithms for Ontology Matching" was accepted by EU Semantics 2024.
+Note: The repository consists of source codes of the paper "Exploring  Prompt Generation Utilizing Graph Search Algorithms for Ontology Matching" presented at [EU Semantics 2024](https://2024-eu.semantics.cc/). The paper can be accessed through the following link: [ebooks.iospress.nl/doi/10.3233/SSW240003](https://ebooks.iospress.nl/doi/10.3233/SSW240003).
 ## Folder Hierarchy 
 ```bash
 ├── data
@@ -56,6 +56,10 @@ $ python3 run_matcher.py
 
 ```
 
+## Results
+all results can be found at ```results/result_RDF```<br>
+best results on the [OAEI Conference track](https://oaei.ontologymatching.org/2024/conference/index.html) are at ```results/result_RDF/conference/treePromptVersion0```
+
 ## T-test
 We conducted t-test with significance level 0.1 to evaluate the significance of the prompt types and algorithms.
-The results can be seen on [t-test](https://github.com/JulianSampels/OntoMatch/blob/master/src/significance-test/Significance-Test.ipynb)folder.
+The results can be seen on [t-test](https://github.com/JulianSampels/OntoMatch/blob/master/src/significance-test/Significance-Test.ipynb) folder.
